@@ -1,22 +1,14 @@
-import logo from './logo.svg';
+import tea from './tea.png';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
+        <img src={tea} className="App-logo" alt="SomeTea?" />
+        <p className='first-words'>I'm honored you're willing to know more about me.<br></br>
+          Please, make yourself comfortable, and stay hydrated.
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
       </header>
     </div>
   );

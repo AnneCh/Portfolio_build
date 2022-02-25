@@ -3,7 +3,7 @@
 }
 
 .App-logo {
-  height: 40vmin;
+  height: 38vmin;
   pointer-events: none;
 }
 
@@ -14,18 +14,24 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #19141f;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  font-size: calc(10px + 3vmin);
   color: white;
 }
 
 .App-link {
   color: #61dafb;
+}
+
+.first-words {
+  color:#f3e9b2;
+  opacity: 80%;
+  font-family:Cambria;
 }
 
 @keyframes App-logo-spin {
