@@ -15,7 +15,7 @@ About the front-end development of my portfolio:
 
 - HomePage
 
-  1. One or two 'catchy' sentences that show my character and let the visitor choose between two portfolios: The Developper, or Multimedia (from start ups work to MBM)
+  1. One or two sentences that let the visitor choose between two portfolios: The Developper, or Multimedia (from start ups work to MBM)
   2. Ease of access to social media links and contact (LinkedIn, QuickEmail, GitHub, Twitter)
 
 - A. The Developper
