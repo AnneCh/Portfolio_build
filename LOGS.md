@@ -112,8 +112,8 @@ to get more familiar, watch tutos on react and learn more javascript in order to
 
 17.02.22
 I really want to try to fix this image not showing, today.
-I'm trying Paper and Container from material UI, figuring out which works best to 
-contain an image and if my image is finally going to display. 
+I'm trying Paper and Container from material UI, figuring out which works best to
+contain an image and if my image is finally going to display.
 but now I can't seem to make npm start work in a way that displays my page
 
 18.02.22
@@ -124,11 +124,10 @@ the picture still isnt showing though
 
 I'll spend this session learning more about react, seeing about tutorials
 
-
 19.02.22
 The best and most recent tutorial there seem to be is
 https://www.youtube.com/watch?v=bMknfKXIFA8
-I'm going to watch it for the next 20mn and move on to finding about the picture not showing, or how to use material ui to integrate pictures and which kinds of parameters I can add to the pictures' container -- see about the use of scrimba and how to make the best out of it 
+I'm going to watch it for the next 20mn and move on to finding about the picture not showing, or how to use material ui to integrate pictures and which kinds of parameters I can add to the pictures' container -- see about the use of scrimba and how to make the best out of it
 https://scrimba.com/learn/learnreact
 
 ==> recommended to be familiar with ES6's syntax
@@ -138,37 +137,39 @@ https://react-portfolio-sigma.vercel.app/about
 This one has very interesting visuals and features that I wouldn't mind borrowing (music, animation, social stuff bar)
 https://youtu.be/jcohAIaSy2M
 
-===== Goal is to get used to react through my project, I'll see how I can integrate tutorials into my project. I'll probably need to start it again from scratch 
+===== Goal is to get used to react through my project, I'll see how I can integrate tutorials into my project. I'll probably need to start it again from scratch
 
 25.02.22
 About React and hooks:
 
 - hooks don't work inside function, only on top of the main function
-they don't work inside nested functuons
-	
-		useState, useEffect etc
-
+  they don't work inside nested functuons
+  useState, useEffect etc
 
 Trying to unerstand basics of React ===> Need to learn more about
 
 REUSABLE UI ELEMENTS
-  => they are javascript functions that accept inputs
-  => they describe how a section a the UI should appear and function
-  => props are like parameters for functions : arguments passed into React components
-  we can access the state of an element
-  the state is like the life cycle of an element, the part of an app that can change, example: 
-    const [age, setAge] = useState(42);
-    ===== `age` is the constant that will be changed, and `setAge` is the function that will change `age`
-
+=> they are javascript functions that accept inputs
+=> they describe how a section a the UI should appear and function
+=> props are like parameters for functions : arguments passed into React components
+we can access the state of an element
+the state is like the life cycle of an element, the part of an app that can change, example:
+const [age, setAge] = useState(42);
+===== `age` is the constant that will be changed, and `setAge` is the function that will change `age`
 
 => Managed to modify my first page appearance to some extent
 
 => I'd like to find a way to create some kind of image-slider that would bring the user from
 one part of my story to another one (multimedia => entrepreneur => developer), ok, so I guess, 3 images
 
-
-
 26.02.22
 
 --- rearrange folders, create archives, clean up my note-full virtual desk.
 
+28.02.22
+
+I feel like I'm moving laterally and not forward.
+The design has changed, that's true, but it's not functionning yet.
+I still struggle to understand all the intricacies of React and the use of its libraries and addons of all kinds...
+
+I gotta learn about PROPS and why LINKS are not working
