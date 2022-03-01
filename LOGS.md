@@ -183,3 +183,48 @@ On my App.js, I have imported my `greet.js` to be displayed to greet the viewer 
 I want the user to input their name so that the `greet.js` can fetch it (aka it's being passed to `greet`). That means that through `App.js`, the greet.js must receive the users input)
 
     The way for that to happen through React is using `PROPS`
+
+Props are basically attributes which we can name however we want, the convention being to name them ‘props’
+example, with our `greet.js` component, the props would be added like this:
+
+```
+	const greet = (props) => {
+return <h1> Hello props.name </h1>
+}
+```
+
+and in our app.js:
+
+```
+class App extends Components {
+	render(){
+    return(
+      <div className=”App”>
+        <greet name=”Bruce”/>
+        <greet name=”Anna”/>
+      </div>
+    );
+	}
+```
+
+That works if we know exactly what are the props that are going to be passed.
+
+Otherwise, we can use `props.children` ====> needs more research
+
+props can also be written into a class-based component like this
+
+```
+export default class ItemDes extends Component {
+	render() {
+		const { name, description} = this.props;
+		return (
+			<div>
+				<p>{name}</p>
+				<p>
+					<i>{description</i>
+				</p>
+			</div>
+		);
+	}
+}
+```
