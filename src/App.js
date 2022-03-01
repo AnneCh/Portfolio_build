@@ -1,5 +1,5 @@
 import tea from './tea.png';
-import main from './Components/Multimedia/main.js';
+import MainMul from './Components/MainMul.js';
 import './App.css';
 import { Container, Fab, Link } from '@mui/material';
 import * as React from 'react';
@@ -60,7 +60,7 @@ function App() {
               </Link>
             </Button>
             <Button variant="outlined" size="large"> 
-            <Link to={main}>Multimedia</Link>
+            <Link to={MainMul}>Multimedia</Link>
             </Button>
           </ButtonGroup>
           <br></br> 
