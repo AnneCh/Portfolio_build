@@ -1,6 +1,7 @@
 // Overview of Mindbridge Media and me as en entrepreneur
 
 import React from "react";
+import Navbar from "./Developper/Navbar";
 import { Container } from '@mui/material';
 
 export default function About() {
