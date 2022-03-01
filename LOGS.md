@@ -173,3 +173,13 @@ The design has changed, that's true, but it's not functionning yet.
 I still struggle to understand all the intricacies of React and the use of its libraries and addons of all kinds...
 
 I gotta learn about PROPS and why LINKS are not working
+
+01.03.22
+
+Understanding `props`, how to use them.
+Props are a way to pass elements from one component to another
+Example, I have a my usual App.js, which comprises elements to be displayed
+On my App.js, I have imported my `greet.js` to be displayed to greet the viewer when the page is loading
+I want the user to input their name so that the `greet.js` can fetch it (aka it's being passed to `greet`). That means that through `App.js`, the greet.js must receive the users input)
+
+    The way for that to happen through React is using `PROPS`
