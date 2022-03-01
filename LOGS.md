@@ -1,3 +1,5 @@
+---
+
 01.03.22
 
 Understanding `props`, how to use them.
@@ -64,7 +66,7 @@ Ok, I understand enough for now, let's see how this can be to my benefit in the 
 #### TOGGLE for day/night mode: https://www.youtube.com/watch?v=hQjlM-8C4Ps
 
 If I understand the logic, instead of putting the buttons with links on the `App.js`, I could design a component that is like a mini navbar, but those couple of buttons (or the image slider if I can)
-This way, I can customize the button linking to each of my portfolios
+This way, I can customize the button linking to each of my portfolios and make the linking process easier?
 
 ---
 
