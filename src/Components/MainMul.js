@@ -1,7 +1,6 @@
 // Overview of Mindbridge Media and me as en entrepreneur
 
 import React from "react";
-import Navbar from "./Developper/Navbar";
 import { Container } from '@mui/material';
 
 export default function About() {
@@ -14,21 +13,15 @@ export default function About() {
                     <br className="hidden lg:inline-block" />
                 </h1>
                 <Container className="flex justify-center">
-                            <a
-                            href="#contact"
-                            className="inline-flex text-white bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded text-lg">
-                            Direct contact
-                            </a>
-                            <a
-                            href="#projects"
-                            className="ml-4 inline-flex text-gray-400 bg-gray-800 border-0 py-2 px-6 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg">
-                            Projects
-                            </a>
-                            <a
-                            href="#whatelse"
-                            className="ml-4 inline-flex text-gray-400 bg-gray-800 border-0 py-2 px-6 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg">
-                            Who am I
-                            </a>
+                    <a href="#contact"
+                        className="inline-flex text-white bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded text-lg">
+                            Direct contact </a>
+                    <a href="#projects"
+                        className="ml-4 inline-flex text-gray-400 bg-gray-800 border-0 py-2 px-6 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg">
+                        Projects</a>
+                    <a href="#whatelse"
+                        className="ml-4 inline-flex text-gray-400 bg-gray-800 border-0 py-2 px-6 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg">
+                            Who am I</a>
                         </Container>
                     </Container>
                 </Container>
