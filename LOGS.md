@@ -1,3 +1,11 @@
+05.03.22
+
+I've been focusing on making links work. It really shouldn't be that complicated, and yet.
+I really want to make them work through the way that has been designed to do so, but it seems nearly impossible. There's a button clickable, but even though I'm following all the steps from the import of the react-router-dom to <Switch> and creating the relevant pages.
+
+I'll keep trying out ways, as I can't believe that I would have to create a specific component (new code) just to have two links displayed.
+Or, I use this excuse to create the image slider, but I'm afraid that will take quite a lot of time, which I don't have, I need this portfolio working asap.
+
 ---
 
 01.03.22

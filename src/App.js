@@ -1,6 +1,6 @@
 import tea from './tea.png';
 import MainDev from './Components/MainDev.js';
-import MainMul from './Components/MainMul';
+import MainMul from './Components/MainMul.js';
 import './App.css';
 import { Container, Fab, Link } from '@mui/material';
 import * as React from 'react';
@@ -24,14 +24,14 @@ function App() {
             <ButtonGroup disableElevation variant="contained">
               <Button variant="outlined" size="large">
                 <Switch>
-                  <Route exact path="/MainDev.js">
+                  <Route exact path="src/Components/MainDev.js">
                     <MainDev /> 
                   </Route>
                 </Switch>
               </Button>
               <Button variant="outlined" size="large"> 
                 <Switch>
-                  <Route exact path="/MainMul.js">
+                  <Route exact path="src/Components/MainMul.js">
                     <MainMul />
                   </Route>
                 </Switch>
