@@ -39,12 +39,11 @@ function App() {
             </ButtonGroup>
             <br></br> 
 
-
-            <Fab color="primary" aria-label="edit">
-            <Link to="src/Components/components/Common/Contact.js">
+            <Button>
+            <Link to="src/Components/common/Contact.js">
               +
             </Link>
-            </Fab>
+            </Button>
           </Container>
           </header>
       </div>
