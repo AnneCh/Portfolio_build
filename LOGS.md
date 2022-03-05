@@ -6,6 +6,9 @@ I really want to make them work through the way that has been designed to do so,
 I'll keep trying out ways, as I can't believe that I would have to create a specific component (new code) just to have two links displayed.
 Or, I use this excuse to create the image slider, but I'm afraid that will take quite a lot of time, which I don't have, I need this portfolio working asap.
 
+I've tried several things, included building a new component called Enter, which takes the entire display.
+Integrated Link, BrowserRouter and Switch, but still not working, now the buttons don't even show anymore
+
 ---
 
 01.03.22
