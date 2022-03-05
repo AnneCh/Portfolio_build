@@ -10,7 +10,7 @@
 import React from "react";
 import { Container, Link } from '@mui/material';
 
-export default function About() {
+function MainDev() {
     return (
         <section id="about">
             <Container className="container mx-auto flex px-10 py-20 md:flex-row flex-col items-center">
@@ -53,3 +53,5 @@ export default function About() {
         </section>
     )
 }
+
+export default MainDev;
