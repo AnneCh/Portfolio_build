@@ -1,9 +1,9 @@
 .h1 {
-  color:#dad1a9
+  color: #dad1a9;
 }
 
 .h2 {
-  color:antiquewhite;
+  color: antiquewhite;
   size: 10vim;
 }
 
@@ -34,13 +34,13 @@
 }
 
 .App-link {
-  color: #7c44e4;
+  color: #030107;
 }
 
 .first-words {
-  color:#f3e9b2;
+  color: #f3e9b2;
   opacity: 80%;
-  font-family:Cambria;
+  font-family: Cambria;
 }
 
 @keyframes App-logo-spin {
@@ -48,6 +48,6 @@
     transform: scale(160%);
   }
   to {
-    transform:scale(30%)
+    transform: scale(30%);
   }
 }

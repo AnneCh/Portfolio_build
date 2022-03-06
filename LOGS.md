@@ -1,3 +1,11 @@
+06.03.22
+
+I tried another couple of things, and found out that I can use the <a href> with some of the material ui components, but I still can't display my Enter elements directly through App.
+
+right now nothing is displaying, as I kept App on display <Enter />
+
+---
+
 05.03.22
 
 I've been focusing on making links work. It really shouldn't be that complicated, and yet.
