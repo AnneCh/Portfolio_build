@@ -1,3 +1,9 @@
+10.03.22
+
+I don't understand why my content isn't displaying, I'm checking with other scripts to see what I'm getting wrong, haven't found out yet what's going on.
+
+---
+
 06.03.22
 
 I tried another couple of things, and found out that I can use the <a href> with some of the material ui components, even though the routin isn't working, it isn't going to the MainDev page.
