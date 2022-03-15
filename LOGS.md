@@ -1,3 +1,12 @@
+15.03.22
+
+As I started a new job, I have less time to focus on my portfolio, but fortunately I am also working with ReactJS on the work project, hopefully that will help me develop my online portofolio as well.
+
+I just found out that the theme provider seems to be the issue, something is wrong in the import.
+So, Ive tried several options, integrating the theme on Enter, on App, not integrating theme, and evey time, it fails when the theme is implemented, regardless on which document it has been encoded.
+
+My next work session will be about learning Theming and how to use it correctly.
+
 10.03.22
 
 I don't understand why my content isn't displaying, I'm checking with other scripts to see what I'm getting wrong, haven't found out yet what's going on.

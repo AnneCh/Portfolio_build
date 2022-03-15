@@ -1,14 +1,13 @@
-import { deepPurple, amber } from '@mui/material/colors'
+import { deepPurple } from '@mui/material/colors'
 import { createTheme } from '@mui/system'
 
-const theme = createTheme ({
-    palette: {
-        primary: {
-            main: deepPurple[800]
-        },
-        secondary: {
-            main: amber[500]
+const Mytheme = createTheme ({
+        palette: {
+          primary: deepPurple,
+          secondary: {
+            main: '#ffa000',
+          },
+          accent: '#42a5f5',
         }
-    }
 })
-export default theme;
+export default Mytheme;
