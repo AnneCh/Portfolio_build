@@ -1,5 +1,15 @@
+.main {
+  background-color: #9179af;
+  size: 0vmax;
+}
+
+.enter{
+  text-align: center;
+}
+
 .h1 {
-  color: #dad1a9;
+  color: #f1ebd0;
+  size: 36vim;
 }
 
 .h2 {
@@ -12,7 +22,7 @@
 }
 
 .App-logo {
-  height: 38vmin;
+  height: 24vmin;
   pointer-events: none;
 }
 
@@ -40,11 +50,12 @@
   color: #f3e9b2;
   opacity: 80%;
   font-family: Cambria;
+  font-size: 30px;
 }
 
 @keyframes App-logo-spin {
   from {
-    transform: scale(160%);
+    transform: scale(130%);
   }
   to {
     transform: scale(30%);

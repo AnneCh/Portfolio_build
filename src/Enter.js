@@ -8,7 +8,7 @@ import MainMul from './Components/MainMul'
 
 function Enter() {
   return (
-      <div className="Enter">
+    <Container className='main'>
         <header className="enter">
           <h1 className="h1">Hi, I'm Anne.</h1>
           <img src={tea} className="enter-logo" alt="SomeTea?" />
@@ -16,7 +16,6 @@ function Enter() {
               Please, make yourself comfortable, and stay hydrated.
             </p>
         </header>
-        <Container>
           <h2 className='h2'>What do you want to know about?</h2>
             <ButtonGroup disableElevation variant="contained">
             <Button variant="contained" color="primary" size="large">
@@ -38,8 +37,7 @@ function Enter() {
               </a>
             </Button>
           </ButtonGroup>
-        </Container>
-      </div>
+      </Container>
   );
 }
 
