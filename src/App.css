@@ -1,6 +1,7 @@
 .main {
   background-color: #9179af;
   size: 0vmax;
+  position: relative;
 }
 
 .enter{

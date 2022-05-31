@@ -1,3 +1,8 @@
+29.05.22
+
+Been too long since I coded, I felt I needed a refresh on what I've done so far, make sure I don't forget how to do things.
+I started reviewing my portfolio, trying to fix the issues, bringing me back to learning more about javascript => udemy class
+
 15.03.22
 
 As I started a new job, I have less time to focus on my portfolio, but fortunately I am also working with ReactJS on the work project, hopefully that will help me develop my online portofolio as well.
