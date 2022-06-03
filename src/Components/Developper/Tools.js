@@ -15,8 +15,8 @@ export default function Tools() {
               </h1>
               <p className="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto">
                 Programming is a tool box.
-                Frameworks, languages, hardware, programs.
-                Waht are your favorite ones, and why?
+                Frameworks, languages, hardware, programs. All here to help building new stuff.
+                What are your favorite ones, and why?
                 Here is those I've been getting familiar with.
               </p>
             </div>

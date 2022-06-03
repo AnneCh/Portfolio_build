@@ -11,7 +11,7 @@ export const projects = [
     title: "Crypto Bot",
     subtitle: "I'll make it become one.",
     description:
-      "On how I am building my own crypto trading bot, my first unsupervized project.",
+      "On how I am building my own crypto trading bot, my first unsupervized project. and I'm really struggling with it!",
     image: "./project-2.gif",
     link: "https://github.com/AnneCh/Project",
   },
@@ -38,7 +38,7 @@ export const whatelse = [
     topic:
       "Well-Being and Efficiency",
     image: "",
-    more: "On the goal to be specific in an understood big-picture.",
+    more: ".",
     link: "",
   },
   {

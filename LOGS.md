@@ -1,7 +1,11 @@
 03.06.2022
 
 Trying to focus on understanding properly how routes, pages, components and links all relate to one another and how I can use them all to build my portfolio
-Using mui documentation and tuto videosif needed
+Using mui documentation and tuto videos if needed
+
+Added ideas to implement the functionality of the main page, adding translation plug-ins/apis, personalized greeting by the number of visits
+
+As I compare the structure I've built so far, to other projects on github, I'm asking more questions, I know there's not one good solution and the fun lies in finding out which of all the options is the most acceptable one for me; I need to settle for one strucure and just learn on the ride.
 
 29.05.22
 

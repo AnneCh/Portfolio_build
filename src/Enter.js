@@ -10,8 +10,20 @@ import '@fontsource/roboto/400.css';
 import '@fontsource/roboto/500.css';
 import '@fontsource/roboto/700.css';
 
-// find a way to use addEventListener to pass the events (click on the button?)
 
+/**The Enter page is the main page that will be displayed to the visitor's first contact with my portfolio
+It must give the visitor a greeting message (would be cool to greet the visitor with a personnalised message 
+that tells them that they are visitor number X)
+
+The Enter page must include a translation button to let the user chose between French and English
+I'll see what are the fastest and most professional ways to include a translation tool 
+
+This page needs to give 4 choices to the visitor:
+- Explore my IT resume
+- Explore my Project Management resume
+- Core Principles
+- Contact
+*/
 
 function Enter() {
   return (

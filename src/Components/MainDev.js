@@ -30,7 +30,7 @@ function MainDev() {
                         my limited financial means, investing was out of reach.
                         Between learning trading and coding, I opted for coding, as it had been on my mind for a long time.
 
-                        So I dived into it, on October 2021.
+                        So I dived into it, in October 2021.
                         <Link src="src/Components/Developper/Why Blockchain.js">(Read more..)</Link>
 
                     </h1>
