@@ -1,3 +1,8 @@
+03.06.2022
+
+Trying to focus on understanding properly how routes, pages, components and links all relate to one another and how I can use them all to build my portfolio
+Using mui documentation and tuto videosif needed
+
 29.05.22
 
 Been too long since I coded, I felt I needed a refresh on what I've done so far, make sure I don't forget how to do things.
@@ -5,7 +10,7 @@ I started reviewing my portfolio, trying to fix the issues, bringing me back to 
 
 15.03.22
 
-As I started a new job, I have less time to focus on my portfolio, but fortunately I am also working with ReactJS on the work project, hopefully that will help me develop my online portofolio as well.
+As I started a new job/project, I have less time to focus on my portfolio, but fortunately I am also working with ReactJS on the work project, hopefully that will help me develop my online portofolio as well.
 
 I just found out that the theme provider seems to be the issue, something is wrong in the import.
 So, Ive tried several options, integrating the theme on Enter, on App, not integrating theme, and evey time, it fails when the theme is implemented, regardless on which document it has been encoded.

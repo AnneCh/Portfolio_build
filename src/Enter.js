@@ -1,5 +1,5 @@
 import './App.css';
-import { Container } from '@mui/material';
+import { Container, ThemeProvider } from '@mui/material';
 import tea from './tea.png'
 import * as React from 'react';
 import Button from '@mui/material/Button';
@@ -10,14 +10,17 @@ import '@fontsource/roboto/400.css';
 import '@fontsource/roboto/500.css';
 import '@fontsource/roboto/700.css';
 
+// find a way to use addEventListener to pass the events (click on the button?)
+
+
 function Enter() {
   return (
-    <Container className='main'>
+    <Container className='main' >
         <header className="enter">
           <h1 className="h1">Hi, I'm Anne.</h1>
           <img src={tea} className="enter-logo" alt="SomeTea?" />
             <p className='first-words'>I'm honored you're willing to know more about me.<br></br>
-              Please, make yourself comfortable, and stay hydrated.
+              Please, make yourself comfortable and stay hydrated.
             </p>
         </header>
           <h2 className='h2'>What do you want to know about?</h2>

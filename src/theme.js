@@ -1,8 +1,11 @@
 import { deepPurple } from '@mui/material/colors'
-import { createTheme } from '@mui/system'
+import { createTheme } from '@mui/material/styles';
+import { dark } from '@mui/material/styles/createPalette';
+
 
 const Mytheme = createTheme ({
         palette: {
+          mode: dark,
           primary: deepPurple,
           secondary: {
             main: '#ffa000',
