@@ -1,4 +1,13 @@
 03.06.2022
+\*\*recap of the day
+Several points I've identified to be worked on, understood through tutorials and applied to the project:
+
+- decided to move to typescript, migration needs to be done
+- crashcourse on material ui needed
+- gather a few examples of typescript, react, material ui pages, id the similarities and differences, get more inspirations
+- better understanding after today, of how components and themes work, how I can use them to create the multipage portfolio I want while learning
+- color code almost figured out, and found good ressource to help with designing the theme
+- geting more ideas on the content for each page\*\*
 
 Trying to focus on understanding properly how routes, pages, components and links all relate to one another and how I can use them all to build my portfolio
 Using mui documentation and tuto videos if needed
@@ -6,6 +15,12 @@ Using mui documentation and tuto videos if needed
 Added ideas to implement the functionality of the main page, adding translation plug-ins/apis, personalized greeting by the number of visits
 
 As I compare the structure I've built so far, to other projects on github, I'm asking more questions, I know there's not one good solution and the fun lies in finding out which of all the options is the most acceptable one for me; I need to settle for one strucure and just learn on the ride.
+
+- find way to make a translucide background text
+
+"Generate a theme base on the options received" -=> may be what they use to toggle light to dark theme. I could use that to modify the theme between the CVs
+
+(useful https://bareynol.github.io/mui-theme-creator/)
 
 29.05.22
 

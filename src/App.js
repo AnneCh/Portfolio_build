@@ -1,13 +1,13 @@
 import Enter from './Enter.js';
 import './App.css';
 import * as React from 'react';
-import { Container } from '@mui/material';
+import { Box } from '@mui/material';
 
 function App() {
   return (
-    <Container>
-    <Enter/>
-    </Container>
+    <Box component="div" sx={{ overflow: 'auto' }}>
+      <Enter />
+    </Box>
   );
 }
 

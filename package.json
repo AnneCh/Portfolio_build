@@ -47,5 +47,8 @@
   },
   "devServer": {
     "historyApiFallback": "true"
+  },
+  "devDependencies": {
+    "typescript": "^4.7.2"
   }
 }
