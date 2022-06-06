@@ -1,8 +1,12 @@
+04.06.22
+
+finally got a more detailed understanding about what's going on between routers, routes, links, etc.
+Trying to implement that today so my links can finally work
+
 03.06.2022
 \*\*recap of the day
 Several points I've identified to be worked on, understood through tutorials and applied to the project:
 
-- decided to move to typescript, migration needs to be done
 - crashcourse on material ui needed
 - gather a few examples of typescript, react, material ui pages, id the similarities and differences, get more inspirations
 - better understanding after today, of how components and themes work, how I can use them to create the multipage portfolio I want while learning

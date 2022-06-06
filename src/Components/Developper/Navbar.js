@@ -1,10 +1,12 @@
 import React from "react";
+import HomeIcon from '@material-ui/icons/HomeIcon';
 
 export default function Navbar() {
   return (
     <header className="bg-gray-800 md:sticky top-0 z-10">
       <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
         <a className="title-font font-medium text-white mb-4 md:mb-0">
+          <HomeIcon/>
           <a href="#Why Blockchain" className="ml-3 text-xl">
             Why Blockchain development
           </a>
