@@ -1,21 +1,26 @@
-My Portfolio Bisided (?)
+Double-end portfolio
 
-About the front-end development of my portfolio:
+About my portfolio
 
-# _What I want is_
+# _What I want_
 
-- A website(w.) pleasing to look at
-- A w. that is simple, user-friendly yet packed with relevant information
-  for anyone wondering if to hire me
-- A w. that can offer an insight on how I think, rather than how much work I've done
-- A proper balance of work experience, what are the values that I follow and principles that I try to apply
+- Simple, user-friendly yet packed with relevant information for anyone wondering if to hire me or not
+
+- With EN/FR versions, and the use of tools that allow blind people to listen to the code => the use of JSX seems to be the move for the latter point
+
+- Offers an insight on how I think, how I deconstruct a problem and try to find solutions, rather than how much work I've done
+
+- A proper balance of experiences, what are the values that I follow and principles that I try to apply, how do I work in a team
+
+- It being pleasing to look at and user-friendly
 
 # Structure
 
 - HomePage
 
   1. One or two sentences that let the visitor choose between two portfolios: The Developper, or Multimedia (from start ups work to MBM)
-  2. Quick Contact link
+  2. Access to a page of articles that describe my core principles
+  3. Quick Contact link
 
 - A. The Developper
 
@@ -31,23 +36,24 @@ About the front-end development of my portfolio:
 - B. Multimedia
 
   1. What have I done since my degree (short bckgd on what my studies were, include links for more information)
-      or should I include this part in a totally different part, the one that lead to the creation of MBM, 
-      for the sake of choice for the reader?
   2. Creation of Mindbridge Media => how it unfolded and where it is now
-     Page includes internal links to a page that basically sums up how the covid situation made me
-     select different options for my life.
+     Page includes internal links to a page that basically sums up how the covid situation made me select different options for my life.
      Page includes links to MindBridge Media YT and FB pages.
+
+C. A contact page
+
+The visitor can access external links and send me an email
 
 # _How_
 
-I have chosen the support of React Js to build my portfolio,
-because it's a popular framework used by defi apps developers,
-even if it may not be what I want to use on the long term, there's a high chance
-that an employer or client wants their project on React.
+I have chosen the support of React Js to build my portfolio because it's a popular framework used by defi apps developers, even if it may not be what I want to use on the long term, there's a high chance that an employer or client want their project on React.
+Use of the basic react boilerplate available thru react-create-app
 
-React is a specific language to learn that I at least want to master the basics of.
+I will use the help of external modules like Material UI for the visual aspect of the components.
 
-From react : 
+I will use the JSX syntax as it seems to be the best way for my app to be as responsive and user-friendly as possible.
+
+From react :
 
 # Getting Started with Create React App
 

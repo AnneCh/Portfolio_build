@@ -1,6 +1,9 @@
 07.06.22
 
-I'll focus on react router today
+I wanted to focus on react-router today and finding how to finally implement links that work. But I'm still hesitating way too much, I'm finally accepting the flaw of thinking that I've made, which is to not have read the entire documentation from react and material UI.
+Instead, I've focused on trying to fix each problem as they came and learning through tutorials only.
+
+Time to go back to the books.
 
 04.06.22
 
