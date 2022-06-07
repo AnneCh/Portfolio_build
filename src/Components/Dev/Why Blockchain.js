@@ -19,7 +19,7 @@ export default function whyBlockchain() {
                     It looked like the best option from all the oens I had heard so far, giving 
                     my limited financial means.
 
-                    I started taking it really seriously around October 2021, and the more I learn how to swiw, the developer
+                    I started taking it really seriously around October 2021, and the more I learn how to swiw, the deeper
                     the pool gets. 
                     It's exhilarating!
 

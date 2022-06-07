@@ -1,3 +1,7 @@
+07.06.22
+
+I'll focus on react router today
+
 04.06.22
 
 finally got a more detailed understanding about what's going on between routers, routes, links, etc.

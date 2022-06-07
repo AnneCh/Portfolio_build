@@ -4,8 +4,8 @@ import { Container, ThemeProvider } from '@mui/material';
 import tea from './tea.png'
 import * as React from 'react';
 import { Button, ButtonGroup, Box } from '@mui/material/';
-import { BrowserRouter, Switch, Route, Link} from 'react-router-dom';
-import MainDev from './MainDev.js'
+import {Switch, Route} from "react-router-dom";
+import MainDev from './Components/MainDev.js'
 import '@fontsource/roboto/300.css';
 import '@fontsource/roboto/400.css';
 import '@fontsource/roboto/500.css';
@@ -31,7 +31,6 @@ Background : remplacer le background par le titre "Hi, I'm Anne"
 
 function Enter() {
   return (
-    <BrowserRouter>
       <Switch>
         <ThemeProvider theme={DarkDefaultTheme}>
           <Container>
@@ -48,13 +47,11 @@ function Enter() {
                   display: 'flex',
                   flexDirection: 'column',
                   alignItems: 'center',
-                  '& > *': {
-                    m: 1,
-                  },
+                  '& > *': {m: 1,},
                 }}
               >
                 <ButtonGroup variant="text" aria-label="text button group">
-                  <Link to="/MainDev.js">
+                  <Link to="./Components/MainDev.js">
                     <Button>Programmer</Button>
                   </Link>
                   <Link>
@@ -70,11 +67,7 @@ function Enter() {
             </Box>
           </Container>
         </ThemeProvider>
-        <Route exact path={MainDev}>
-          Programmer
-        </Route>
       </Switch>
-    </BrowserRouter>
   );
 }
 
