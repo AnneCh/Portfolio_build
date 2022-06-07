@@ -4,6 +4,9 @@ I wanted to focus on react-router today and finding how to finally implement lin
 Instead, I've focused on trying to fix each problem as they came and learning through tutorials only.
 
 Time to go back to the books.
+=> I've re-started with the basics of react from the docs, starting with the tutorial on tic-tac-toe, which I'm halfway through.
+It's a good refresher of concepts like arrow functions, the difference between state and props, and how each of those options are being used within and betwen react components, how components can 'interact' between on another, between groups, to create a specific render.
+It helps me undertand the dynamic in my portfolio, which kinds of functions and objects I'll be able to integrate within my code so to make my site as responsive as possible.
 
 04.06.22
 
