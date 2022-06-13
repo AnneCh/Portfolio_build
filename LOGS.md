@@ -1,3 +1,9 @@
+13.06.22
+
+For the past few days, I've been focusing on the react.org/tutorial page, re-creating a tic-tac-toe game.
+It is furthering my understanding of props and state, how they differ, how they are being used, mostly it emphasizes the logic used behind the code. The code evolves as the throught of process evolves and we go modifying the code along.
+Alongside, I'll start learning Agile as I keep readign about it when it comes to structuring the way of coding like building DevOps projects.
+
 07.06.22
 
 I wanted to focus on react-router today and finding how to finally implement links that work. But I'm still hesitating way too much, I'm finally accepting the flaw of thinking that I've made, which is to not have read the entire documentation from react and material UI.
