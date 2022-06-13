@@ -6,6 +6,9 @@ import * as React from 'react';
 import { Button, ButtonGroup, Box } from '@mui/material/';
 import { BrowserRouter, Switch, Route, Link} from 'react-router-dom';
 import MainDev from './Components/MainDev';
+import MainMul from './Components/MainMul';
+import Contact from './Components/Contact';
+import About from './Components/About';
 import '@fontsource/roboto/300.css';
 import '@fontsource/roboto/400.css';
 import '@fontsource/roboto/500.css';
@@ -43,36 +46,57 @@ function Enter() {
                 </p>
             </header>
               <h2>What do you want to know about?</h2>
-              <Box
-                sx={{
-                  display: 'flex',
-                  flexDirection: 'column',
-                  alignItems: 'center',
-                  '& > *': {
-                    m: 1,
-                  },
-                }}
-              >
+              <Box>
                 <ButtonGroup variant="text" aria-label="text button group">
                   <Link to="/MainDev.js">
                     <Button>Programmer</Button>
                   </Link>
-                  <Link>
+                  <Link to="/MainMul.js">
                     <Button>Project Management</Button>
                   </Link>
-                  <Link>
+                  <Link to="/About.js">
                     <Button>Core Principles</Button>
                   </Link>
-                  <Link>
+                  <Link to="/Contact.js">
                     <Button>Contact</Button>
                   </Link>
                 </ButtonGroup>
             </Box>
           </Container>
         </ThemeProvider>
+        <Route path="./Components/MainDev">
+          <MainDev />
+        </Route>
+        <Route path="./Components/MainMul">
+          <MainMul />
+        </Route>
+        <Route path={Contact}>
+          <Contact/>
+        </Route>
+        <Route path={About}>
+          <About />
+        </Route>
       </Switch>
     </BrowserRouter>
   );
 }
+
+/* create class to welcome the visitor by their number of visitors on my portfolio so far
+
+class welcome extends React.Component{
+  render() {
+    return <h1>Hello, guest #{this.props.visitor}, welcome.</h1>
+  }
+}
+
+class visitors extends React.Component {
+  1. find how to keep track of visits
+  2. then how to display the number of the visitor who's just loaded my page
+  render() { 
+  }
+}
+
+**/
+
 
 export default Enter;
