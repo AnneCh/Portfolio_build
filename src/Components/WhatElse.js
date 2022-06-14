@@ -1,9 +1,12 @@
 import React from "react";
 import { TerminalIcon, UsersIcon } from "@heroicons/react/solid";
 import { whatelse } from "../data";
+import { Container } from '@mui/material';
 
-export default function WhatElse() {
+
+function WhatElse() {
     return (
+      <Container>
         <section id="whatelse">
           <div className="container px-5 py-10 mx-auto text-center">
             <UsersIcon className="w-10 inline-block mb-4" />
@@ -34,5 +37,8 @@ export default function WhatElse() {
             </div>
           </div>
         </section>
+      </Container>
       );
 }
+
+export default WhatElse

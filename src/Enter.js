@@ -8,7 +8,7 @@ import { BrowserRouter, Switch, Route, Link} from 'react-router-dom';
 import MainDev from './Components/MainDev';
 import MainMul from './Components/MainMul';
 import Contact from './Components/Contact';
-import About from './Components/About';
+import WhatElse from './Components/WhatElse';
 import '@fontsource/roboto/300.css';
 import '@fontsource/roboto/400.css';
 import '@fontsource/roboto/500.css';
@@ -35,7 +35,6 @@ Background : remplacer le background par le titre "Hi, I'm Anne"
 function Enter() {
   return (
     <BrowserRouter>
-      <Switch>
         <ThemeProvider theme={DarkDefaultTheme}>
           <Container>
             <header className="enter">
@@ -48,33 +47,33 @@ function Enter() {
               <h2>What do you want to know about?</h2>
               <Box>
                 <ButtonGroup variant="text" aria-label="text button group">
-                  <Link to="/MainDev.js">
+                  <Link to="/MainDev">
                     <Button>Programmer</Button>
                   </Link>
-                  <Link to="/MainMul.js">
+                  <Link to="/MainMul">
                     <Button>Project Management</Button>
                   </Link>
-                  <Link to="/About.js">
+                  <Link to="/WhatElse">
                     <Button>Core Principles</Button>
                   </Link>
-                  <Link to="/Contact.js">
+                  <Link to="/Contact">
                     <Button>Contact</Button>
                   </Link>
                 </ButtonGroup>
             </Box>
           </Container>
         </ThemeProvider>
-        <Route path="./Components/MainDev">
+      <Switch>
+        <Route path="/MainDev">
           <MainDev />
         </Route>
-        <Route path="./Components/MainMul">
+        <Route path="/MainMul">
           <MainMul />
         </Route>
-        <Route path={Contact}>
+        <Route path="/Contact">
           <Contact/>
         </Route>
-        <Route path={About}>
-          <About />
+        <Route path="/WhatElse" element={<WhatElse />}>
         </Route>
       </Switch>
     </BrowserRouter>

@@ -27,8 +27,7 @@ export default function whyBlockchain() {
                     through transparency, immunatibility and decentralization. No single entity, wether person(s) or companies will ever 
                     control markets and populations. 
                     I want to be part of a system that allows actual people like me and my peers to decide which companies
-                    should receive state help to bring us closer to remove hunger and homelessness everywhere. 
-                    A system that will 
+                    should receive state help to bring us closer all fulfiling our potential.
                 </h1>
                     <p className="mb-8 leading-relaxed">
                       
