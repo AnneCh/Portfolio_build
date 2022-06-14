@@ -6,7 +6,13 @@ Then, I'll work again on the data iteration, as I don't remember how I did that 
 
 Then, will come the styling.
 
-13.06.22
+TODO
+
+- find out how to not display <Enter/> when either of the selection has been made
+- implement all the links
+- create more components and functions inside the MainDev, MainMul and What Else
+
+  13.06.22
 
 For the past few days, I've been focusing on the react.org/tutorial page, re-creating a tic-tac-toe game.
 It is furthering my understanding of props and state, how they differ, how they are being used, mostly it emphasizes the logic used behind the code. The code evolves as the throught of process evolves and we go modifying the code along.

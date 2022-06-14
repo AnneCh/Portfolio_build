@@ -1,6 +1,6 @@
 import React from "react";
 import { TerminalIcon, UsersIcon } from "@heroicons/react/solid";
-import { whatelse } from "../data";
+import { whatelse } from "./data.js";
 import { Container } from '@mui/material';
 
 

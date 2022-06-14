@@ -1,5 +1,5 @@
 import './App.css';
-import { LightTheme, DarkDefaultTheme } from './theme';
+import { DarkDefaultTheme } from './theme';
 import { Container, ThemeProvider } from '@mui/material';
 import tea from './tea.png'
 import * as React from 'react';
@@ -25,7 +25,7 @@ I'll see what are the fastest and most professional ways to include a translatio
 This page needs to give 4 choices to the visitor:
 - Explore my IT resume
 - Explore my Project Management resume
-- Core Principles
+- Other thing I care about
 - Contact
 
 Background : remplacer le background par le titre "Hi, I'm Anne"
@@ -73,12 +73,17 @@ function Enter() {
         <Route path="/Contact">
           <Contact/>
         </Route>
-        <Route path="/WhatElse" element={<WhatElse />}>
+        <Route path="/WhatElse">
+          <WhatElse />
         </Route>
       </Switch>
     </BrowserRouter>
   );
 }
+
+/* create a function or event emitted that, when the visitor clicks on one of the links,
+the Enter page disappears
+
 
 /* create class to welcome the visitor by their number of visitors on my portfolio so far
 
