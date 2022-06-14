@@ -1,3 +1,11 @@
+14.06.22
+
+I've finally made the links work! Now that I understand how routing and links work with react, I'll be focusing on making sure everything is interconnected.
+
+Then, I'll work again on the data iteration, as I don't remember how I did that (and it's no longer displaying)
+
+Then, will come the styling.
+
 13.06.22
 
 For the past few days, I've been focusing on the react.org/tutorial page, re-creating a tic-tac-toe game.
