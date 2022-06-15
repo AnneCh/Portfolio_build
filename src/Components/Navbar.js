@@ -40,7 +40,7 @@ export function NavbarMBM() {
   )
 }
 
-export function internalNavbarDev() {
+export function internalDev() {
   return (
     <Router>
       <Container className="flex justify-center">
