@@ -1,4 +1,14 @@
-14.06.22
+15.06.22
+
+As I was creating the links, more ideas of display and interconnectivity sprung in my head, and I created several Navbar components to create a dedicated navbar per page, for better customisation. I'm getting the hang of the links/router/switch and all, and external links are also working.
+But I encountered a problem with one specific navbar that just flat out does not display. Yet no error message is thrown.
+I've copied-pasted the exact previous navbar that works well, but somehow it's not working. Each element inside of the navbar is correct, links and placeholders aren't disturbing the code. So it looks like a problem of display, container or something, that I need to explore.
+
+I'll start digging about why each component is still being displayed instead of only rendering the clicked element.
+
+- Dig into Routes, would that fix my problem?
+
+  14.06.22
 
 I've finally made the links work! Now that I understand how routing and links work with react, I'll be focusing on making sure everything is interconnected.
 
