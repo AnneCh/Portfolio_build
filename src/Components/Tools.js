@@ -2,7 +2,7 @@
 
 import { BadgeCheckIcon, ChipIcon } from "@heroicons/react/solid";
 import React from "react";
-import { tools } from "../data";
+import { tools } from "./data";
 
 export default function Tools() {
     return (
