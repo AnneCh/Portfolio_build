@@ -51,7 +51,7 @@ export function internalNavbarDev() {
           <Link to="/Tools">
             <Button>Tools</Button>
           </Link>
-          <Link>
+          <Link to={{pathname: 'https://github.com/AnneCh?tab=repositories'}} target="_blank">
             <Button>GitHub</Button>
           </Link>
           <Link>
