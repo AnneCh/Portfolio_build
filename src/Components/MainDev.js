@@ -1,7 +1,7 @@
 import React from "react";
 import { BrowserRouter as Router, Switch, Route, Link} from 'react-router-dom';
 import { Container } from '@mui/material';
-import { NavbarDev } from './Navbar'
+import { NavbarDev, internalNavbarDev } from './Navbar'
 import WhyBlockchain from "./WhyBlockchain";
 
 // Introduce quickly why blockchain developer with option to read more about it (links to an 
@@ -22,6 +22,7 @@ function MainDev() {
         <Router>
             <Container className="container mx-auto flex px-10 py-20 md:flex-row flex-col items-center">
                 <h1>BlockChain Developer</h1>
+                <br/>
                 <br className="hidden lg:inline-block" />
                 <p>You may ask, "but why <BoldText>Blockchain</BoldText>?" Different experiences lead me to look for an alternative to the system I was brought up in. I was no longer convinced
                     that what I what been used to would allow me to reach the goals that I had set for myself and my team.
@@ -39,6 +40,7 @@ function MainDev() {
                     <Link to="/WhyBlockchain">(Read more..)</Link>
                 </p>
                 <Container>
+                    <internalNavbarDev />
                     <NavbarDev />
                 </Container>
             </Container>

@@ -6,6 +6,7 @@ import Contact from "./Contact";
 import Projects from "./Projects";
 import MainDev from "./MainDev";
 import MainMul from "./MainMul";
+import Tools from "./Tools";
 
 
 export function NavbarMBM() {
@@ -42,24 +43,30 @@ export function NavbarMBM() {
 export function internalNavbarDev() {
   return (
     <Router>
-        <Container className="flex justify-center">
-          <ButtonGroup>
-            <Link to="/Projects">
-              <Button>Projects</Button>
-            </Link>
-            <Link>
+      <Container className="flex justify-center">
+        <ButtonGroup>
+          <Link to="/Projects">
+            <Button>Projects</Button>
+          </Link>
+          <Link to="/Tools">
+            <Button>Tools</Button>
+          </Link>
+          <Link>
             <Button>GitHub</Button>
-            </Link>
-            <Link>
+          </Link>
+          <Link>
             <Button>GitHub</Button>
-            </Link>
-          </ButtonGroup>
-        </Container>
-        <Switch>
-            <Route path="/Projects">
-              <Projects />
-            </Route>
-        </Switch>
+          </Link>
+        </ButtonGroup>
+      </Container>
+      <Switch>
+        <Route path="/Projects">
+          <Projects />
+        </Route>
+        <Route path="/Tools">
+          <Tools />
+        </Route>
+      </Switch>
     </Router>
   )
 }
