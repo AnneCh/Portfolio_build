@@ -4,7 +4,7 @@ import { Container, ThemeProvider } from '@mui/material';
 import tea from './tea.png'
 import * as React from 'react';
 import { Button, ButtonGroup, Box } from '@mui/material/';
-import { BrowserRouter, Switch, Route, Link} from 'react-router-dom';
+import { BrowserRouter, Routes, Route, Link} from 'react-router-dom';
 import MainDev from './Components/MainDev';
 import MainMul from './Components/MainMul';
 import Contact from './Components/Contact';
@@ -63,20 +63,12 @@ function Enter() {
             </Box>
           </Container>
         </ThemeProvider>
-      <Switch>
-        <Route path="/MainDev">
-          <MainDev />
-        </Route>
-        <Route path="/MainMul">
-          <MainMul />
-        </Route>
-        <Route path="/Contact">
-          <Contact/>
-        </Route>
-        <Route path="/WhatElse">
-          <WhatElse />
-        </Route>
-      </Switch>
+      <Routes>
+        <Route path="/MainDev" element={<MainDev />}/>
+        <Route path="/MainMul" element={<MainMul />}/>
+        <Route path="/Contact" element={<Contact />}/>
+        <Route path="/WhatElse" element={<WhatElse />}/>
+      </Routes>
     </BrowserRouter>
   );
 }

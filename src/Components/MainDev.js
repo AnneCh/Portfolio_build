@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter as Router, Switch, Route, Link} from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route, Link} from 'react-router-dom';
 import { Container } from '@mui/material';
 import { NavbarDev } from './Navbar';
 import { internalDev } from './Navbar';
@@ -42,11 +42,9 @@ function MainDev() {
                 <internalDev />
                 <NavbarDev />
             </Container>
-            <Switch>
-                <Route path="/WhyBlockchain">
-                    <WhyBlockchain />
-                </Route>
-            </Switch>
+            <Routes>
+            <Route path="/WhyBlockchain" element={<WhyBlockchain />}/>
+            </Routes>
         </Router>
     )
 }
