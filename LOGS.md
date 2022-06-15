@@ -7,8 +7,9 @@ I've copied-pasted the exact previous navbar that works well, but somehow it's n
 I'll start digging about why each component is still being displayed instead of only rendering the clicked element.
 
 - Dig into Routes, would that fix my problem?
+- To create: - Return to previous button: is there an embedded react function that allows that? - Home button to go back to the initial page
 
-  14.06.22
+14.06.22
 
 I've finally made the links work! Now that I understand how routing and links work with react, I'll be focusing on making sure everything is interconnected.
 
