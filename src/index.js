@@ -2,17 +2,17 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import { BrowserRouter as Router } from "react-router-dom";
 import './index.css';
-import App from './App.js';
+import Home from './Enter.js';
 import reportWebVitals from './reportWebVitals';
 import { render } from "react-dom";
 
 const rootElement = document.getElementById("root");
-render(<App />, rootElement);
+render(<Home />, rootElement);
 
  ReactDOM.render(
  <React.StrictMode>
     <Router>
-     <App />
+     <Home />
     </Router>
 </React.StrictMode>,
     document.getElementById('root')

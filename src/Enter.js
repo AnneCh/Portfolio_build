@@ -9,10 +9,6 @@ import MainDev from './Components/MainDev';
 import MainMul from './Components/MainMul';
 import Contact from './Components/Contact';
 import WhatElse from './Components/WhatElse';
-import '@fontsource/roboto/300.css';
-import '@fontsource/roboto/400.css';
-import '@fontsource/roboto/500.css';
-import '@fontsource/roboto/700.css';
 
 
 /**The Enter page is the main page that will be displayed to the visitor's first contact with my portfolio
@@ -32,7 +28,7 @@ Background : remplacer le background par le titre "Hi, I'm Anne"
 */
 
 
-function Enter() {
+function Home() {
   return (
     <BrowserRouter>
         <ThemeProvider theme={DarkDefaultTheme}>
@@ -95,4 +91,4 @@ class visitors extends React.Component {
 **/
 
 
-export default Enter;
+export default Home;

@@ -1,3 +1,5 @@
+//EN TRAVAUX
+
 import { createTheme } from '@mui/material/styles';
 
 /**creation of a theme esthetically basic, dark mode by default with option to switch
