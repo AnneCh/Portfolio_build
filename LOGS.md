@@ -1,3 +1,7 @@
+18.06.22
+
+Taking a day off to return to the Udemy web developper bootcamp 2022 and deepen my knowledge of javascript. Today's lessons will be about Array Callback Methods, that I clearly do not master and that will definitely be useful to build this portfolio and my trading bot (to see the equivalent with Python)
+
 15.06.22
 
 As I was creating the links, more ideas of display and interconnectivity sprung in my head, and I created several Navbar components to create a dedicated navbar per page, for better customisation. I'm getting the hang of the links/router/switch and all, and external links are also working.
@@ -9,7 +13,7 @@ I'll start digging about why each component is still being displayed instead of 
 - Dig into Routes, would that fix my problem?
 - To create: - Return to previous button: is there an embedded react function that allows that? - Home button to go back to the initial page
 
-14.06.22
+  14.06.22
 
 I've finally made the links work! Now that I understand how routing and links work with react, I'll be focusing on making sure everything is interconnected.
 
