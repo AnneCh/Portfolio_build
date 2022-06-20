@@ -2,7 +2,7 @@ import React from "react";
 import { BrowserRouter as Router, Routes, Route, Link} from 'react-router-dom';
 import { Container } from '@mui/material';
 import { NavbarDev } from './Navbar';
-import { internalDev } from './Navbar';
+//import { internalDev } from './Navbar';
 import WhyBlockchain from "./WhyBlockchain";
 
 // Introduce quickly why blockchain developer with option to read more about it (links to an 
@@ -39,7 +39,6 @@ function MainDev() {
                 </p>
             </Container>
             <Container>
-                <internalDev />
                 <NavbarDev />
             </Container>
             <Routes>

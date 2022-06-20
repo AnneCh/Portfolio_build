@@ -1,4 +1,3 @@
-import './App.css';
 import { DarkDefaultTheme } from './theme';
 import { Container, ThemeProvider } from '@mui/material';
 import tea from './tea.png'
@@ -9,6 +8,7 @@ import MainDev from './Components/MainDev';
 import MainMul from './Components/MainMul';
 import Contact from './Components/Contact';
 import WhatElse from './Components/WhatElse';
+import WhyBlockchain from './Components/WhyBlockchain';
 
 
 /**The Enter page is the main page that will be displayed to the visitor's first contact with my portfolio
@@ -91,4 +91,4 @@ class visitors extends React.Component {
 **/
 
 
-export default Home;
+export default Home

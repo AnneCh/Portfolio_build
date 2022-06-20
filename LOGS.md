@@ -1,3 +1,11 @@
+20.06.22
+
+at running `npm start`, eveyrthing compiled properly yet my page is blank.
+Found out here the problem was coming from, I had added something from a tutorial that crashed the code.
+
+Now the problem is that MainDev and MainMul aren't loading and sending me to a blank page.
+What Else and Contact load under the Home component instead of replacing it.
+
 18.06.22
 
 Taking a day off to return to the Udemy web developper bootcamp 2022 and deepen my knowledge of javascript. Today's lessons will be about Array Callback Methods, that I clearly do not master and that will definitely be useful to build this portfolio and my trading bot (to see the equivalent with Python)
