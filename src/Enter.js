@@ -9,7 +9,15 @@ import MainMul from './Components/MainMul';
 import Contact from './Components/Contact';
 import WhatElse from './Components/WhatElse';
 import WhyBlockchain from './Components/WhyBlockchain';
+import { createTheme, responsiveFontSizes } from '@mui/material/styles';
 
+let theme = createTheme({
+  palette: {
+    mode: 'dark',
+  },
+});
+
+theme = responsiveFontSizes(theme);
 
 /**The Enter page is the main page that will be displayed to the visitor's first contact with my portfolio
 It must give the visitor a greeting message (would be cool to greet the visitor with a personnalised message 
@@ -56,7 +64,7 @@ function Home() {
                     <Button>Contact</Button>
                   </Link>
                 </ButtonGroup>
-            </Box>
+              </Box>
           </Container>
         </ThemeProvider>
       <Routes>

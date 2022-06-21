@@ -76,7 +76,7 @@ const DarkDefaultTheme = createTheme ({
   },
   typography: {
     fontFamily: 'Quicksand',
-    fontSize: 16,
+    fontSize: 18,
     fontWeightLight: 200,
     fontWeightRegular: 400,
     fontWeightMedium: 500,
