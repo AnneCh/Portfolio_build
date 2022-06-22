@@ -2,7 +2,13 @@
 
 Still trtying to figure out why my MainDev and MainMul aren't displaying.
 
-Also thinking of creating a 404page
+Also thinking of creating a 404page.
+
+I drafted an error page and set it up so that it returns if the page requested is not part of the routes.
+
+I finally understood (thank you free code camp!!) why the main page kept on displaying no matter what link I clickd on, that's because I had included the component in the App.js, when all my MainPage component needs to do, is to be linked to "/".
+
+I still can't display Programmer and Project Management pages but I think I understand where the problem is coming from.
 
 20.06.22
 

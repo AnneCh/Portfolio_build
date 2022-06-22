@@ -21,7 +21,7 @@ Background : remplacer le background par le titre "Hi, I'm Anne"
 */
 
 
-export function MainPage() {
+export default function MainPage() {
   return (
           <Container>
             <header className="enter">

@@ -39,7 +39,6 @@ function MainDev() {
                 </p>
             </Container>
             <Routes>
-                <Route index element={<MainPage />} />
                 <Route path="whyBlockchain" element={<WhyBlockchain />} />
             </Routes>
         </BrowserRouter>
