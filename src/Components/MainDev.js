@@ -1,10 +1,7 @@
 import React from "react";
 import { BrowserRouter,  Routes, Route, Link} from 'react-router-dom';
 import { Container } from '@mui/material';
-import { MainPage } from './Enter';
-//import { NavbarDev } from './Navbar';
-//import { internalDev } from './Navbar';
-import WhyBlockchain from "./WhyBlockchain";
+import { NavBar } from "./Navbar";
 
 // Introduce quickly why blockchain developer with option to read more about it (links to an 
 //additional page where I'll either write or make a video of why I chose it
@@ -22,6 +19,7 @@ function BoldText({children}) {
 function MainDev() {
     return (
         <Container className="container mx-auto flex px-10 py-20 md:flex-row flex-col items-center">
+            <NavBar />
             <h1>BlockChain Developer</h1>
             <br className="hidden lg:inline-block" />
             <p>You may ask, "but why <BoldText>Blockchain</BoldText>?" Different experiences lead me to look for an alternative to the system I was brought up in. I was no longer convinced

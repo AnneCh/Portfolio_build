@@ -1,55 +1,22 @@
 import React from "react";
 import { Container, ButtonGroup, Button } from '@mui/material';
-import { BrowserRouter as Router, Routes, Route, Link} from 'react-router-dom';
-import WhatElse from "./WhatElse";
-import Contact from "./Contact";
-import Projects from "./Projects";
-import MainDev from "./MainDev";
-import MainMul from "./MainMul";
-import Tools from "./Tools";
-import MainPage from "./Enter";
+import {Link} from 'react-router-dom';
+import tree from "../imgs/TreeHead.png";
+import { Image } from "@mui/icons-material";
 
 export function btnHome() {
   return(
-    <Router>
       <Link to="/">
-        // water bottle or drink icon
+        <Button>Home</Button>
+        <Image src={tree} alt="Home Page" />
       </Link>
-      <Routes>
-        <Route path="/" element={<MainPage />}/>
-      </Routes>
-    </Router>
   )
 }
 
-export function NavbarMBM() {
-  return (
-    <Router>
-        <Container className="flex justify-center">
-          <ButtonGroup>
-            <Link to="/MainDev">
-              <Button>Programmer</Button>
-            </Link>
-            <Link to="/WhatElse">
-              <Button>Other things I do</Button>
-            </Link>
-            <Link to="/Contact">
-              <Button>Contact</Button>
-            </Link>
-          </ButtonGroup>
-        </Container>
-        <Routes>
-          <Route path="/MainDev" element={<MainDev />}/>
-          <Route path="/WhatElse" element={<WhatElse />}/>
-          <Route path="/Contact" element={<Contact />}/>
-        </Routes>
-    </Router>
-  )
-}
+
 
 export function internalNavDev() {
   return (
-    <Router>
       <Container className="flex justify-center">
         <ButtonGroup>
           <Link to="/Projects">
@@ -66,19 +33,16 @@ export function internalNavDev() {
           </Link>
         </ButtonGroup>
       </Container>
-      <Routes>
-        <Route path="/Projects" element={<Projects />}/>
-        <Route path="/Tools" element={<Tools />}/>
-      </Routes>
-    </Router>
   )
 }
 
-export function NavbarDev() {
+export function NavBar() {
   return (
-    <Router>
         <Container className="flex justify-center">
           <ButtonGroup>
+          <Link to="/MainDev">
+              <Button>Programmer</Button>
+            </Link>
             <Link to="/MainMul">
               <Button>Multimedia</Button>
             </Link>
@@ -90,12 +54,6 @@ export function NavbarDev() {
             </Link>
           </ButtonGroup>
         </Container>
-        <Routes>
-          <Route path="/MainMul" element={<MainMul />}/>
-          <Route path="/WhatElse" element={<WhatElse />}/>
-          <Route path="/Contact" element={<Contact />}/>
-        </Routes>
-    </Router>
   )
 }
 
