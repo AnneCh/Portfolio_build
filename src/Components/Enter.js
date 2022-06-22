@@ -1,23 +1,8 @@
-import { DarkDefaultTheme } from './theme';
-import { Container, ThemeProvider } from '@mui/material';
-import tea from './tea.png'
+import { Container } from '@mui/material';
+import tea from '../tea.png'
 import * as React from 'react';
 import { Button, ButtonGroup, Box } from '@mui/material/';
-import { BrowserRouter, Routes, Route, Link} from 'react-router-dom';
-import MainDev from './Components/MainDev';
-import MainMul from './Components/MainMul';
-import Contact from './Components/Contact';
-import WhatElse from './Components/WhatElse';
-import WhyBlockchain from './Components/WhyBlockchain';
-import { createTheme, responsiveFontSizes } from '@mui/material/styles';
-
-let theme = createTheme({
-  palette: {
-    mode: 'dark',
-  },
-});
-
-theme = responsiveFontSizes(theme);
+import { Link} from 'react-router-dom';
 
 /**The Enter page is the main page that will be displayed to the visitor's first contact with my portfolio
 It must give the visitor a greeting message (would be cool to greet the visitor with a personnalised message 
@@ -36,10 +21,8 @@ Background : remplacer le background par le titre "Hi, I'm Anne"
 */
 
 
-function Home() {
+export function MainPage() {
   return (
-    <BrowserRouter>
-        <ThemeProvider theme={DarkDefaultTheme}>
           <Container>
             <header className="enter">
               <h1>Hi, I'm Anne.</h1>
@@ -66,14 +49,6 @@ function Home() {
                 </ButtonGroup>
               </Box>
           </Container>
-        </ThemeProvider>
-      <Routes>
-        <Route path="/Contact" element={<Contact />}/>
-        <Route path="/WhatElse" element={<WhatElse />}/>
-        <Route path="/MainDev" element={<MainDev />}/>
-        <Route path="/MainMul" element={<MainMul />}/>
-      </Routes>
-    </BrowserRouter>
   );
 }
 
@@ -97,6 +72,3 @@ class visitors extends React.Component {
 }
 
 **/
-
-
-export default Home

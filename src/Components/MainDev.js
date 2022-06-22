@@ -1,6 +1,7 @@
 import React from "react";
 import { BrowserRouter,  Routes, Route, Link} from 'react-router-dom';
 import { Container } from '@mui/material';
+import { MainPage } from './Enter';
 //import { NavbarDev } from './Navbar';
 //import { internalDev } from './Navbar';
 import WhyBlockchain from "./WhyBlockchain";
@@ -38,6 +39,7 @@ function MainDev() {
                 </p>
             </Container>
             <Routes>
+                <Route index element={<MainPage />} />
                 <Route path="whyBlockchain" element={<WhyBlockchain />} />
             </Routes>
         </BrowserRouter>

@@ -7,16 +7,16 @@ import Projects from "./Projects";
 import MainDev from "./MainDev";
 import MainMul from "./MainMul";
 import Tools from "./Tools";
-import Enter from "../Enter";
+import MainPage from "./Enter";
 
-export function Home() {
+export function btnHome() {
   return(
     <Router>
       <Link to="/">
         // water bottle or drink icon
       </Link>
       <Routes>
-        <Route path="/" element={<Enter />}/>
+        <Route path="/" element={<MainPage />}/>
       </Routes>
     </Router>
   )
@@ -69,7 +69,6 @@ export function internalNavDev() {
       <Routes>
         <Route path="/Projects" element={<Projects />}/>
         <Route path="/Tools" element={<Tools />}/>
-
       </Routes>
     </Router>
   )
