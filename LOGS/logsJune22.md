@@ -11,6 +11,8 @@ I finally understood (thank you free code camp!!) why the main page kept on disp
 I still can't display Programmer and Project Management pages but I think I understand where the problem is coming from.
 Got it, I do not need any BrowserRouter in the components.
 
+Integration of navbar + use of nested routes
+
 20.06.22
 
 at running `npm start`, eveyrthing compiled properly yet my page is blank.

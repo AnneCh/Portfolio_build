@@ -2,8 +2,6 @@
 
 import React from "react";
 import { Container } from '@mui/material';
-import { Link} from 'react-router-dom';
-import { NavBar } from "./Navbar";
 
 
 function Background() {
@@ -31,7 +29,6 @@ function Mindbridge() {
 function MainMul() {
     return (
         <Container id="mbm">
-            <NavBar/>
             <h1>MindBridge Media, bridging experiences and strenghts.</h1><br/>
             <Background />
             <Mindbridge />
