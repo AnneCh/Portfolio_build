@@ -21,11 +21,10 @@ function BoldText({children}) {
 
 function MainDev() {
     return (
-        <BrowserRouter>
-            <Container className="container mx-auto flex px-10 py-20 md:flex-row flex-col items-center">
-                <h1>BlockChain Developer</h1>
-                <br className="hidden lg:inline-block" />
-                <p>You may ask, "but why <BoldText>Blockchain</BoldText>?" Different experiences lead me to look for an alternative to the system I was brought up in. I was no longer convinced
+        <Container className="container mx-auto flex px-10 py-20 md:flex-row flex-col items-center">
+            <h1>BlockChain Developer</h1>
+            <br className="hidden lg:inline-block" />
+            <p>You may ask, "but why <BoldText>Blockchain</BoldText>?" Different experiences lead me to look for an alternative to the system I was brought up in. I was no longer convinced
                         that what I what been used to would allow me to reach the goals that I had set for myself and my team.
                         When I got introduced to the blockchain concept and Bitcoin, like most of us, I was dubitative. <br></br>
                                 
@@ -36,12 +35,8 @@ function MainDev() {
                         Between learning trading and coding, I opted for coding, as it had been on my mind for a long time.
 
                         So I dived into it, in October 2021.<Link to="/WhyBlockchain">(Read more..)</Link>
-                </p>
-            </Container>
-            <Routes>
-                <Route path="whyBlockchain" element={<WhyBlockchain />} />
-            </Routes>
-        </BrowserRouter>
+            </p>
+         </Container>
     )
 }
 

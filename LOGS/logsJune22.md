@@ -9,6 +9,7 @@ I drafted an error page and set it up so that it returns if the page requested i
 I finally understood (thank you free code camp!!) why the main page kept on displaying no matter what link I clickd on, that's because I had included the component in the App.js, when all my MainPage component needs to do, is to be linked to "/".
 
 I still can't display Programmer and Project Management pages but I think I understand where the problem is coming from.
+Got it, I do not need any BrowserRouter in the components.
 
 20.06.22
 
