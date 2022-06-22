@@ -68,10 +68,10 @@ function Home() {
           </Container>
         </ThemeProvider>
       <Routes>
-        <Route path="/MainDev" element={<MainDev />}/>
-        <Route path="/MainMul" element={<MainMul />}/>
         <Route path="/Contact" element={<Contact />}/>
         <Route path="/WhatElse" element={<WhatElse />}/>
+        <Route path="/MainDev" element={<MainDev />}/>
+        <Route path="/MainMul" element={<MainMul />}/>
       </Routes>
     </BrowserRouter>
   );

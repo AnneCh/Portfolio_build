@@ -1,5 +1,9 @@
 22.06.22
 
+Still trtying to figure out why my MainDev and MainMul aren't displaying.
+
+Also thinking of creating a 404page
+
 20.06.22
 
 at running `npm start`, eveyrthing compiled properly yet my page is blank.
