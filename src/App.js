@@ -1,4 +1,5 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
+// import { useTranslation, Trans } from 'react-i18next';
 import MainPage from './Components/Enter';
 import MainDev from './Components/MainDev';
 import MainMul from './Components/MainMul';
@@ -10,6 +11,7 @@ import WhyBlockchain from './Components/WhyBlockchain';
 
 
 export default function App() {
+   // const { t } = useTranslation();
     return (
         <BrowserRouter>
             <Routes>
