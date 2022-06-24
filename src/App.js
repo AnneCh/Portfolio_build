@@ -4,13 +4,14 @@ import MainDev from './Components/MainDev';
 import MainMul from './Components/MainMul';
 import Contact from './Components/Contact';
 import WhatElse from './Components/WhatElse';
+import Studies from './Components/Studies';
 import SharedLayout from './Components/SharedLayout';
 import Error from './Components/Error';
 import WhyBlockchain from './Components/WhyBlockchain';
 
 
-
 export default function App() {
+ 
     return (
         <BrowserRouter>
             <Routes>
@@ -20,6 +21,7 @@ export default function App() {
                     <Route path="/MainMul" element={<MainMul />}/>
                     <Route path="/Contact" element={<Contact />}/>
                     <Route path="/WhatElse" element={<WhatElse />}/>
+                    <Route path="/Studies" element={<Studies />} />
                     <Route path="/WhyBlockchain" element={<WhyBlockchain />} />
                     <Route path="*" element={<Error />} />
                     <Route path="/" element={<MainPage />}/>

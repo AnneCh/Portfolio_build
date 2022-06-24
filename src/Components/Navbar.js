@@ -46,6 +46,9 @@ export function NavBar() {
             <Link to="/MainMul">
               <Button>Multimedia</Button>
             </Link>
+            <Link to="/Studies">
+              <Button>Education</Button>
+            </Link>
             <Link to="/WhatElse">
               <Button>Other things I do</Button>
             </Link>

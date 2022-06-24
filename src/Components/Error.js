@@ -5,7 +5,8 @@ function Error(){
     return(
         <Container>
             <div>
-                <h1>This is not a correct page</h1>
+                <h1>404</h1>
+                <h3 align="center">Wrong page, buddy!</h3>
             </div>
             <Link to="/">
                 <Button>Home</Button>

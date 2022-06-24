@@ -3,6 +3,8 @@ import tea from '../tea.png'
 import * as React from 'react';
 import { Button, ButtonGroup, Box } from '@mui/material/';
 import { Link} from 'react-router-dom';
+import { useTranslation } from 'react-i18next'
+import i18next from 'i18next'
 
 /**The Enter page is the main page that will be displayed to the visitor's first contact with my portfolio
 It must give the visitor a greeting message (would be cool to greet the visitor with a personnalised message 
@@ -20,16 +22,15 @@ This page needs to give 4 choices to the visitor:
 Background : remplacer le background par le titre "Hi, I'm Anne"
 */
 
-
 export default function MainPage() {
+  const { t } = useTranslation()
   return (
           <Container>
             <header className="enter">
               <h1>Hi, I'm Anne.</h1>
               <img src={tea} alt="SomeTea?" />
-                <p>I'm honored you're willing to know more about me.<br></br>
-                  Please, make yourself comfortable and stay hydrated.
-                </p>
+              <h2>{t('honor')}</h2>
+              <p>Please, make yourself comfortable and stay hydrated.</p>
             </header>
               <h2>What do you want to know about?</h2>
               <Box>
@@ -39,6 +40,9 @@ export default function MainPage() {
                   </Link>
                   <Link to="/MainMul">
                     <Button>Project Management</Button>
+                  </Link>
+                  <Link to="/Studies">
+                    <Button>Education</Button>
                   </Link>
                   <Link to="/WhatElse">
                     <Button>Core Principles</Button>

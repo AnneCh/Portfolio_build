@@ -29,7 +29,7 @@ function Mindbridge() {
 function MainMul() {
     return (
         <Container id="mbm">
-            <h1>MindBridge Media, bridging experiences and strenghts.</h1><br/>
+            <h1>MindBridge Media, for artists and venues</h1><br/>
             <Background />
             <Mindbridge />
         </Container>

@@ -1,3 +1,10 @@
+24.06.22
+
+Following tutorials on how to integrate i18n in my application.
+I think I understand the overall principles, how it works, although I still need to go through the official documentation.
+
+I've started including translations in the public folder and writting the imports necessary in the Enter
+
 22.06.22
 
 Still trtying to figure out why my MainDev and MainMul aren't displaying.
