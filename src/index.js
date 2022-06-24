@@ -5,6 +5,9 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { render } from "react-dom";
 
+//import './i18n';
+
+
 const rootElement = document.getElementById("root");
 render(<App />, rootElement);
 
