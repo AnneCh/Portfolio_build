@@ -1,5 +1,6 @@
 import React from "react";
 import { Link} from 'react-router-dom';
+import { useTranslation } from 'react-i18next'
 import { Container } from '@mui/material';
 
 // Introduce quickly why blockchain developer with option to read more about it (links to an 

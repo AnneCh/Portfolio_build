@@ -1,5 +1,7 @@
 import { Button, Container } from "@mui/material"
 import { Link } from "react-router-dom"
+import { useTranslation } from 'react-i18next'
+
 
 function Error(){
     return(

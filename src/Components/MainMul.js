@@ -1,5 +1,4 @@
-// Overview of Mindbridge Media and me as en entrepreneur
-
+import { useTranslation } from 'react-i18next'
 import React from "react";
 import { Container } from '@mui/material';
 

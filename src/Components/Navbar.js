@@ -1,4 +1,5 @@
 import React from "react";
+import { useTranslation } from 'react-i18next'
 import { Container, ButtonGroup, Button } from '@mui/material';
 import {Link} from 'react-router-dom';
 import tree from "../imgs/TreeHead.png";

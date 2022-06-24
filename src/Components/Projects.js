@@ -3,6 +3,7 @@
 
 import { CodeIcon } from "@heroicons/react/solid";
 import React from "react";
+import { useTranslation } from 'react-i18next'
 import { projects } from "./data"
 
 export default function Projects() {

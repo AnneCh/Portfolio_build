@@ -3,9 +3,20 @@
 Following tutorials on how to integrate i18n in my application.
 I think I understand the overall principles, how it works, although I still need to go through the official documentation.
 
-I've started including translations in the public folder and writting the imports necessary in the Enter
+I've started including translations in the public folder and writting the imports necessary in the Enter and Index files.
+Added a page about Education, which I had totally forgotten.
 
-22.06.22
+Now I can see more clearly how this CV is going to be built, a big part to do will be to build the translation files correctly and include each key in the corresponding component.
+
+Things to do:
+
+- create translation files, fill them with descriptions and titles
+  => do it as a pair, one sentence on the English version, one sentence on the French one
+  -make sure each element has the proper imports (start with that)
+- start defining the translation files with headers, corresponding to components, for clarity
+- DO NOT create translation files with placeholder, only with final text. If no final text, leave blank and don't replace on the component, keep the placeholder text until it's replaced
+
+  22.06.22
 
 Still trtying to figure out why my MainDev and MainMul aren't displaying.
 

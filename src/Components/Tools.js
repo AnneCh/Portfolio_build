@@ -2,6 +2,7 @@
 
 import { BadgeCheckIcon, ChipIcon } from "@heroicons/react/solid";
 import React from "react";
+import { useTranslation } from 'react-i18next'
 import { tools } from "./data";
 
 export default function Tools() {
