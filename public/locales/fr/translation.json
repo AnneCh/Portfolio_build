@@ -1,3 +1,31 @@
 {
-    "honor": "C'est un honneur que de savoir que mon profil vous intéresse."
+    "accents":"é à è ù â ê î ô û ç",
+    "main_page": {
+        "honor": "C'est un honneur que de savoir que mon profil vous intéresse.",
+        "hydrate": "Mettez-vous à votre aise et veillez à rester hydraté(e). ",
+        "know":"Que souhaitez-vous découvrir sur moi ?"
+    },
+    "main_dev":{
+
+    },
+    "main_mul":{
+
+    },
+    "studies":{
+
+    },
+    "what_else":{
+
+    },
+    "navbar":{
+        "dev":"",
+        "mbm":"",
+        "studies":"",
+        "else":"",
+        "contact":""
+    },
+    "why_blockchain":{
+
+    },
+    "error":"Ooups, désolée, je n'ai pas l'impression de pouvoir accéder à votre demande..."
 }

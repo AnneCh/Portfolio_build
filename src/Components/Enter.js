@@ -27,8 +27,8 @@ export default function MainPage() {
             <header className="enter">
               <h1>Hi, I'm Anne.</h1>
               <img src={tea} alt="SomeTea?" />
-              <h2>{t('honor')}</h2>
-              <p>Please, make yourself comfortable and stay hydrated.</p>
+              <h2>{t('main_page.honor')}</h2>
+              <p>{t('main_page.hydrate')}</p>
             </header>
               <h2>What do you want to know about?</h2>
               <Box>
@@ -43,7 +43,7 @@ export default function MainPage() {
                     <Button>Education</Button>
                   </Link>
                   <Link to="/WhatElse">
-                    <Button>Core Principles</Button>
+                    <Button>Other things</Button>
                   </Link>
                   <Link to="/Contact">
                     <Button>Contact</Button>

@@ -1,3 +1,32 @@
 {
-    "honor": "I'm honored you're willing to know more about me."
+    "main_page": {
+        "honor": "I'm honored you're willing to know more about me.",
+        "hydrate":"Please, make yourself comfortable and stay hydrated.",
+        "know":"What would you like to know about?"
+    },
+    "main_dev":{
+
+    },
+    "main_mul":{
+
+    },
+    "studies":{
+
+    },
+    "what_else":{
+
+    },
+    "navbar":{
+        "dev":"",
+        "mbm":"",
+        "studies":"",
+        "else":"",
+        "contact":""
+    },
+    "why_blockchain":{
+
+    },
+    "error":"Uuups, sorry buddy, can't get that for ya."
 }
+
+

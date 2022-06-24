@@ -8,10 +8,8 @@ function Error(){
 
     return(
         <Container>
-            <div>
-                <h1>404</h1>
-                <h3 align="center">Wrong page, buddy!</h3>
-            </div>
+            <h1>404</h1>
+            <h3>{t('error')}</h3>
             <Link to="/">
                 <Button>Home</Button>
             </Link>
