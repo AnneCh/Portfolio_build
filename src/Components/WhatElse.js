@@ -5,14 +5,11 @@ import { whatelse } from "./data.js";
 import { Container } from '@mui/material';
 
 function WhatElse() {
+  const { t } = useTranslation()
+
     return (
       <Container>
-        <section id="whatelse">
-          <div className="container px-5 py-10 mx-auto text-center">
-            <UsersIcon className="w-10 inline-block mb-4" />
-            <h1 className="sm:text-4xl text-3xl font-medium title-font text-white mb-12">
-              What else do I spend my time thinking about.
-            </h1>
+        <h1>  What else do I spend my time thinking about.</h1>
             <div className="flex flex-wrap m-4">
               {whatelse.map((whatelse) => (
                 <div className="p-4 md:w-1/2 w-full">
@@ -35,8 +32,6 @@ function WhatElse() {
                 </div>
               ))}
             </div>
-          </div>
-        </section>
       </Container>
       );
 }

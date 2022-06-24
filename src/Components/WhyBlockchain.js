@@ -3,6 +3,7 @@ import { useTranslation } from 'react-i18next'
 import { Container } from '@mui/material';
 
 export default function WhyBlockchain() {
+    const { t } = useTranslation()
     return (
         <section id="about">
             <Container className="container mx-auto flex px-10 py-20 md:flex-row flex-col items-center">

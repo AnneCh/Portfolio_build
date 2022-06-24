@@ -17,6 +17,8 @@ function BoldText({children}) {
   }
 
 function MainDev() {
+    const { t } = useTranslation()
+
     return (
         <Container className="container mx-auto flex px-10 py-20 md:flex-row flex-col items-center">
             <h1>BlockChain Developer</h1>

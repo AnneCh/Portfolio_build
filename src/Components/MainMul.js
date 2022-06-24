@@ -26,6 +26,8 @@ function Mindbridge() {
 }
 
 function MainMul() {
+    const { t } = useTranslation()
+
     return (
         <Container id="mbm">
             <h1>MindBridge Media, for artists and venues</h1><br/>

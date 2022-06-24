@@ -5,6 +5,7 @@ import {Link} from 'react-router-dom';
 import tree from "../imgs/TreeHead.png";
 import { Image } from "@mui/icons-material";
 
+
 export function btnHome() {
   return(
       <Link to="/">
@@ -38,6 +39,7 @@ export function internalNavDev() {
 }
 
 export function NavBar() {
+  const { t } = useTranslation()
   return (
         <Container className="flex justify-center">
           <ButtonGroup>

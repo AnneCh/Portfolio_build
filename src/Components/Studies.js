@@ -4,6 +4,7 @@ import { Link} from 'react-router-dom';
 import { Container } from '@mui/material';
 
 function Studies() {
+    const { t } = useTranslation()
     return(
         <Container>
             <h2>High School decisions</h2>

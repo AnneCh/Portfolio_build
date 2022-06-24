@@ -1,4 +1,5 @@
 import React from "react";
+import { useTranslation } from 'react-i18next'
 import { Button } from '@mui/material/';
 import { Link } from "react-router-dom";
 
@@ -7,6 +8,7 @@ export default function Contact() {
   const [name, setName] = React.useState("");
   const [email, setEmail] = React.useState("");
   const [message, setMessage] = React.useState("");
+  const { t } = useTranslation()
 
   function encode(data) {
     return Object.keys(data)
