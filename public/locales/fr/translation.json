@@ -25,7 +25,14 @@
         "contact":""
     },
     "why_blockchain":{
-
+            "why":"Vous vous demandez peut-être pourquoi avoir choisi le secteur des blockchains...",
+            "p1":"A travers mes différentes éxperiences de vie, j'ai choisi de chercher des alternatives aux systèmes dans lesquels j'ai été élevée. Je n'étais plus convaincue que les systèmes en place depuis des décennies soient les fondations d'un terrain favorable pour que je puisse m'épanouir et aider ceux qui comptent pour moi.", 
+            "p1bis":"Quand j'ai commencé à entendre parler du concept Blockchain et du Bitcoin, j'étais dubitative, comme beaucoup. Dans les média traditionnels, leur image n'était pas si positive.",
+            "p2":"Puis, plus je me suis renseignée sur ce qui se passait, plus je réalisais que les principes sur lesquels les blockchains évoluent sont alignés avec les miens. Je me suis surprise à penser que, oui, peut-être que baser les interactions digitales et transactions sur des blockchains pourrait vraiment permettre un monde un peu plus juste, quand il s'agit des échanges humains.",
+            "p3":"Plus je me renseignais, plus j'avais envie de faire partie de ce changement qui s'opérait autour de moi à échelle globale. Ne pouvant pas me permettre d'intégrer le marché des blockchains en tant qu'investisseur, j'ai décidé de me mettre en quete d'acquérir les compétences nécessaires pour participer à la création de systèmes décentralisés.",
+            "p4":"Plus j'apprends, plus je me rends compte de l'étendue des possibilités que cette nouvelle facon d'approcher les transactions digitales représente. C'est juste génial !!",
+            "p5":"Je veux faire partie de mouvements qui voient les faiblesses de nos anciens systèmes se transformer en forces, prouver que l'humanité peut apprendre de ses erreurs et s'adapter, encore une fois. Que la transparence et l'immuabilité des protocoles décentralisés puissent être utilisés à bon escient pour créer un espace digital plus cohérent face aux progrès mais aussi face aux challenges. Nous avons essayé les pouvoirs centralisés, donnons maintenant leur chance à des manières différentes de gouverner.",
+            "p6":"Je veux faire partie des communautés qui promouvront les notions de gouvernance, de réelle participation collective, de transparence complète des ressources et revenus au niveau politique. Si je ne peux pas encore investir financièrement dans les projets qui structureront les systèmes de demain, alors je souhaite y investir mon temps et mon énergie."
     },
     "error":"Ooups, désolée, je n'ai pas l'impression de pouvoir accéder à votre demande..."
 }
