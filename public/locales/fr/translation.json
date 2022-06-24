@@ -6,7 +6,8 @@
         "know":"Que souhaitez-vous découvrir sur moi ?"
     },
     "main_dev":{
-
+        "p1":"Je me suis découvert une attraction pour l’ingénieurie de systèmes à travers <Link to=”./MainDev”>mon entreprise</Link> vers 2018. J’avais envisagé aborder la programmation, coder des sites internet plus précisément,  j’avais seulement approché quelques tutoriels et certifications comme Free Code Camp et The Odin Project, mais sans assiduité.",
+        "p2":""
     },
     "main_mul":{
 
@@ -18,11 +19,11 @@
 
     },
     "navbar":{
-        "dev":"",
-        "mbm":"",
-        "studies":"",
-        "else":"",
-        "contact":""
+        "dev":"Développeur",
+        "mbm":"Entrepreuneriat",
+        "studies":"Education",
+        "else":"Autres",
+        "contact":"Contact"
     },
     "why_blockchain":{
             "title":"Développeur Blockchain",

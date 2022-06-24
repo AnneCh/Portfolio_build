@@ -5,6 +5,8 @@
         "know":"What would you like to know about?"
     },
     "main_dev":{
+        "p1":"I started discovering an attraction for systems after learning sound engineering through <Link to=”./MainDev”>my company</Link>. Coding had been on my mind for a while, I had been following tutorials and certifications through FreeCodeCamp and The Odin Project, but it was just toe-dipping and never serious.",
+        "p2":""
 
     },
     "main_mul":{
