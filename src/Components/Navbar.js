@@ -44,19 +44,19 @@ export function NavBar() {
         <Container className="flex justify-center">
           <ButtonGroup>
           <Link to="/MainDev">
-              <Button>Programmer</Button>
+              <Button>{t('navbar.dev')}</Button>
             </Link>
             <Link to="/MainMul">
-              <Button>Multimedia</Button>
+              <Button>{t('navbar.mbm')}</Button>
             </Link>
             <Link to="/Studies">
-              <Button>Education</Button>
+              <Button>{t('navbar.studies')}</Button>
             </Link>
             <Link to="/WhatElse">
-              <Button>Other things I do</Button>
+              <Button>{t('navbar.else')}</Button>
             </Link>
             <Link to="/Contact">
-              <Button>Contact</Button>
+              <Button>{t('navbar.contact')}</Button>
             </Link>
           </ButtonGroup>
         </Container>

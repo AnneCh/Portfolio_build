@@ -17,11 +17,11 @@
 
     },
     "navbar":{
-        "dev":"",
-        "mbm":"",
-        "studies":"",
-        "else":"",
-        "contact":""
+        "dev":"Developer",
+        "mbm":"Entrepreneurship",
+        "studies":"Education",
+        "else":"Other things",
+        "contact":"Contact"
     },
     "why_blockchain":{
         "title":"Blockchain Developer",
