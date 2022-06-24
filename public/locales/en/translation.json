@@ -24,7 +24,13 @@
         "contact":""
     },
     "why_blockchain":{
-
+        "why":"You may ask, but why Blockchain?",
+        "p1":"Different experiences lead me to look for an alternative to the system I was brought up in. I was no longer convinced that what I what been used to would allow me to reach the goals that I had set for myself and my team. When I got introduced to the blockchain concept and Bitcoin, like most of us, I was dubitative.",
+        "p2":"Then, the more I gathered data, the more I caught myself thinking that, maybe, this could work. Maybe this system based on decentralization could lead to a more favorable ground to bridge the gaps.",
+        "p3": "It looked like the best option from all the oens I had heard so far, giving my limited financial means. I started taking it really seriously around October 2021, and the more I learn how to swiw, the deeper the pool gets.",
+        "p4":"It's exhilarating!",
+        "p5":"I want to be part of a system that will aim at transforming the weaknesses of the previous systems into strengths,through transparency, immunatibility and decentralization. No single entity, wether person(s) or companies will ever  control markets and populations. I want to be part of a system that allows actual people like me and my peers to decide which companies should receive state help to bring us closer all fulfiling our potential.",
+        "p6":""
     },
     "error":"Uuups, sorry buddy, can't get that for ya."
 }
