@@ -21,13 +21,12 @@ function MainDev() {
 
     return (
         <Container>
-            <h1>BlockChain Developer</h1>
+            <h1><BoldText>BlockChain Developer</BoldText></h1>
             <br className="hidden lg:inline-block" />
             <p>{t('main_dev.p1')}</p>
             <p>{t('main_dev.p2')}</p>
             <p>{t('main_dev.p3')}</p>
-
-                        So I dived into it, in October 2021.<Link to="/WhyBlockchain">(Read more..)</Link>
+            <p>So I dived into it, in October 2021.<Link to="/WhyBlockchain">(Read more..)</Link></p>
         </Container>
     )
 }

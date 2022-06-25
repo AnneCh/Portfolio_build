@@ -16,7 +16,9 @@ Things to do:
 - start defining the translation files with headers, corresponding to components, for clarity
 - DO NOT create translation files with placeholder, only with final text. If no final text, leave blank and don't replace on the component, keep the placeholder text until it's replaced
 
-  22.06.22
+I've spent some time writting more texts and implementing the translation module where needed
+
+22.06.22
 
 Still trtying to figure out why my MainDev and MainMul aren't displaying.
 
