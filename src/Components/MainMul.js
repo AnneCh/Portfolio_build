@@ -3,38 +3,15 @@ import React from "react";
 import { Container } from '@mui/material';
 
 
-function Background() {
+function MainMul() {
+    const { t } = useTranslation()
     return(
         <Container>
-            <p>My background is marketing. International marketing, to be more precise.<br/> But I've never liked the 
-            impression of being a cog in a big machinery, so early on, I aimed at working in small companies.
-            So I've created opportunities so I could learn and grow alongside entrepreneurs who inspired me. </p><br/>
-            <p></p>
-        </Container>
-    )
-}
-
-function Mindbridge() {
-    return(
-        <Container>
-            <p>{t("main_mul.title")}</p>
-            <p>{t("main_mul.history")}</p>
+            <h1>{t("main_mul.title")}</h1> 
+            <h4>{t("main_mul.history")}</h4>
             <p>{t("main_mul.start")}</p>
             <p>{t("main_mul.then")}</p>
             <p>{t("main_mul.sound")}</p>
-
-        </Container>
-    )
-}
-
-function MainMul() {
-    const { t } = useTranslation()
-
-    return (
-        <Container id="mbm">
-            <h1>MindBridge Media, for artists and venues</h1><br/>
-            <Background />
-            <Mindbridge />
         </Container>
     )
 }
