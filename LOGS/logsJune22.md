@@ -1,3 +1,5 @@
+28.06.22
+
 24.06.22
 
 Following tutorials on how to integrate i18n in my application.

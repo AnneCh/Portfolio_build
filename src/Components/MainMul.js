@@ -17,10 +17,12 @@ function Background() {
 function Mindbridge() {
     return(
         <Container>
-            In february 2017, I met my husband, musician recently expatriated to Cambodia. He had come with hundreds of kilos of 
-            sound system and instruments which he had been buying over the years. <br/> I had reached the end of my contract with
-            the NGO I had to come to Cambodia to work for in June 2014, and for a couple of months, I just followed him in his concerts,
-            expanding my network and experiencing backstage.
+            <p>{t("main_mul.title")}</p>
+            <p>{t("main_mul.history")}</p>
+            <p>{t("main_mul.start")}</p>
+            <p>{t("main_mul.then")}</p>
+            <p>{t("main_mul.sound")}</p>
+
         </Container>
     )
 }
