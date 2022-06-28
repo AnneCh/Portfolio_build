@@ -1,5 +1,6 @@
 {
     "main_page": {
+        "visitor": "Hello, visitor #{{number_visits}}, and welcome",
         "honor": "I'm honored you're willing to know more about me.",
         "hydrate":"Please, make yourself comfortable and stay hydrated.",
         "know":"What would you like to know about?"

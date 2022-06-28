@@ -4,33 +4,7 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { render } from "react-dom";
-import i18next from 'i18next';
-import { initReactI18next } from 'react-i18next';
-import LanguageDetector from "i18next-browser-languagedetector"
-import HttpApi from 'i18next-http-backend';
-
-
-i18next
-    .use(LanguageDetector)
-    .use(initReactI18next) // passes i18n down to react-i18next
-    .use(HttpApi) // allows grab of translation files instead of having all translations hardcoded here
-    .init({
-        supportedLngs: ['en', 'fr'],
-        debug: true,
-        fallbackLng: 'en', 
-        react: { useSuspense: false },
-        detection: {
-            order: ['htmlTag', 'cookie', 'localStorage', 'path', 'subdomain'],
-            caches: ['cookie'],
-            // those lines determine where i18n will go get the language preference from (order)
-            // and where to store the user's preference (caches)
-            backend: {
-                loadPath: '/locales/{{lng}}/translation.json',
-            }
-        },
-    })
-
-
+import './i18n';
 
 const rootElement = document.getElementById("root");
 render(<App />, rootElement);
