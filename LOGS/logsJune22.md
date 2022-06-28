@@ -3,6 +3,8 @@
 I've added a few paragraphs to the entrepreneur part, and moved forward with trying to figure out how to implement the language switcher for user.
 I fell down the rabbit hole of tutorials and started looking into how to implement a visits' tracker, so to display the number of visits. (google analytics)
 
+After a few hours of research, I've finally successfully implemented my buttons handling translation changes correctly. (still need to be styled)
+
 24.06.22
 
 Following tutorials on how to integrate i18n in my application.

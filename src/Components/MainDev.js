@@ -1,7 +1,7 @@
 import React from "react";
 import { Link} from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
-import { Container } from '@mui/material';
+import { Container, Button } from '@mui/material';
 
 // Introduce quickly why blockchain developer with option to read more about it (links to an 
 //additional page where I'll either write or make a video of why I chose it
@@ -27,7 +27,13 @@ function MainDev() {
             <p>{t('main_dev.p2')}</p>
             <p>{t('main_dev.p3')}</p>
             <p>So I dived into it, in October 2021.<Link to="/WhyBlockchain">(Read more..)</Link></p>
+            <Container>
+                <Link to="/">
+                    <Button>Home</Button>
+                </Link>
+            </Container>
         </Container>
+        
     )
 }
 

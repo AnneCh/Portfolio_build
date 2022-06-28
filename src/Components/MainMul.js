@@ -1,6 +1,7 @@
 import { useTranslation } from 'react-i18next'
 import React from "react";
-import { Container } from '@mui/material';
+import { Link} from 'react-router-dom';
+import { Container, Button } from '@mui/material';
 
 
 function MainMul() {
@@ -12,6 +13,11 @@ function MainMul() {
             <p>{t("main_mul.start")}</p>
             <p>{t("main_mul.then")}</p>
             <p>{t("main_mul.sound")}</p>
+            <Container>
+                <Link to="/">
+                    <Button>Home</Button>
+                </Link>
+            </Container>
         </Container>
     )
 }

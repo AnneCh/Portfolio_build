@@ -1,8 +1,9 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import { useTranslation } from 'react-i18next'
 import { TerminalIcon, UsersIcon } from "@heroicons/react/solid";
 import { whatelse } from "./data.js";
-import { Container } from '@mui/material';
+import { Container, Button } from '@mui/material';
 
 function WhatElse() {
   const { t } = useTranslation()
@@ -32,6 +33,11 @@ function WhatElse() {
                 </div>
               ))}
             </div>
+            <Container>
+                <Link to="/">
+                    <Button>Home</Button>
+                </Link>
+            </Container>
       </Container>
       );
 }
