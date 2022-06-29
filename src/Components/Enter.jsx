@@ -25,14 +25,14 @@ Background : remplacer le background par le titre "Hi, I'm Anne"
 export default function MainPage() {
   const { t } = useTranslation()
 
+//  <img src={tea} alt="SomeTea?" /> find out how to put it as a background
   const number_visits = "1"
   // find how to keep track and return the visits of this page => google analytics extension
 
   return (
           <Container>
             <header className="enter">
-              <h1>{t('main_page.visitor', {number_visits})}</h1> #### CHANGE VALUE, CALCULATE IT
-              <img src={tea} alt="SomeTea?" />
+              <h1>{t('main_page.visitor', {number_visits})}</h1> // CHANGE VALUE, CALCULATE IT
               <h2>{t('main_page.honor')}</h2>
               <p>{t('main_page.hydrate')}</p>
             </header>
