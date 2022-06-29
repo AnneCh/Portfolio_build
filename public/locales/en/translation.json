@@ -3,7 +3,12 @@
         "visitor": "Hello, visitor #{{number_visits}}, and welcome",
         "honor": "I'm honored you're willing to know more about me.",
         "hydrate":"Please, make yourself comfortable and stay hydrated.",
-        "know":"What would you like to know about?"
+        "know":"What would you like to know about?",
+        "dev":"Developer",
+        "mbm":"Entrepreneurship",
+        "studies":"Education",
+        "else":"Stuff",
+        "contact":"Contact"
     },
     "main_dev":{
         "p1":"I started discovering an attraction for systems after learning sound engineering through my company. Coding had been on my mind for a while, I had been following tutorials and certifications through FreeCodeCamp and The Odin Project, but it was just toe-dipping and never serious.",
@@ -21,7 +26,7 @@
         "kevin":"Outside of the experience I gained from learning sound engineering and running my own multi-services company, I also was my husband’s agent. We also trained a DJ and sound technician, who progressively turned into our co-founder and accountant. Thanks to his own skills, we added copy-writing to the list of services we offer (English only).",
         "presence": "All my business in Cambodia was done through real-life networking, I really didn’t have to advertise much, so you won’t find a website or properly maintained social media accounts. I posted pictures and videos on our facebook page with the aim of sharing them with the musicians and venues, more than to promote our work.",
         "moving":"Moving to Serbia in the middle of covid had us wait 1 year and 2 months for our equipment to arrive. At the moment of writing these words, we still have to disinfect and test every single piece of electronic and instruments, give them some TLC. So we haven’t been working as much since we moved. I am focusing on coding while opening our network to local musicians, so that my husband progressively gets back on playing on a regular basis.",
-        "skills":""
+        "skills":"What have I learned from this experience?"
     },
     "studies":{
 
@@ -33,7 +38,7 @@
         "dev":"Developer",
         "mbm":"Entrepreneurship",
         "studies":"Education",
-        "else":"Other things",
+        "else":"Stuff",
         "contact":"Contact"
     },
     "why_blockchain":{

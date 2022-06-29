@@ -36,23 +36,23 @@ export default function MainPage() {
               <h2>{t('main_page.honor')}</h2>
               <p>{t('main_page.hydrate')}</p>
             </header>
-              <h2>What do you want to know about?</h2>
+              <h2>{t('main_page.know')}</h2>
               <Box>
                 <ButtonGroup variant="text" aria-label="text button group">
                   <Link to="/MainDev">
-                    <Button>Programmer</Button>
+                    <Button>{t("main_page.dev")}</Button>
                   </Link>
                   <Link to="/MainMul">
-                    <Button>Project Management</Button>
+                    <Button>{t("main_page.mbm")}</Button>
                   </Link>
                   <Link to="/Studies">
-                    <Button>Education</Button>
+                    <Button>{t("main_page.studies")}</Button>
                   </Link>
                   <Link to="/WhatElse">
-                    <Button>Other things</Button>
+                    <Button>{t("main_page.else")}</Button>
                   </Link>
                   <Link to="/Contact">
-                    <Button>Contact</Button>
+                    <Button>{t("main_page.contact")}</Button>
                   </Link>
                 </ButtonGroup>
               </Box>

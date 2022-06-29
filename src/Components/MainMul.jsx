@@ -14,11 +14,15 @@ function MainMul() {
             <p>{t("main_mul.sound")}</p>
             <p>{t("main_mul.invest")}</p>
             <p>{t("main_mul.DJ")}</p>
+            <p>{t("main_mul.kevin")}</p>
+            <p>{t("main_mul.moving")}</p>
+            <p>{t("main_mul.presence")}</p>
             <Container>
+            <h4>{t("main_mul.skills")}</h4>
+            </Container>
                 <Link to="/">
                     <Button>Home</Button>
                 </Link>
-            </Container>
         </Container>
     )
 }
