@@ -1,3 +1,10 @@
+29.06.22
+
+I've added a few translations and got stuck trying to insert a link in the middle of a json translation.
+I've finally opted to showcase the link differently, and will be adding, if possible, a direct mini lector that will read from Soundcloud (if too complicated, just an image reditecting ot soundcloud)
+
+I have noticed that I use typescript instead of javascript, so I have changed my documents into jsx files to see if anything would crash, and everything still works.
+
 28.06.22
 
 I've added a few paragraphs to the entrepreneur part, and moved forward with trying to figure out how to implement the language switcher for user.
