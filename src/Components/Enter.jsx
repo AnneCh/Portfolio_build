@@ -3,7 +3,13 @@ import tea from '../tea.png'
 import * as React from 'react';
 import { Button, ButtonGroup, Box } from '@mui/material/';
 import { Link} from 'react-router-dom';
-import { useTranslation } from 'react-i18next'
+import { useTranslation } from 'react-i18next';
+
+import ReactGA from 'react-ga';
+  const TRACKING_ID = "UA-109576663-1"; // mine
+  ReactGA.initialize(TRACKING_ID);
+  ReactGA.pageview(window.location.pathname + window.location.search);
+
 /**The Enter page is the main page that will be displayed to the visitor's first contact with my portfolio
 It must give the visitor a greeting message (would be cool to greet the visitor with a personnalised message 
 that tells them that they are visitor number X)
