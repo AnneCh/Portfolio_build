@@ -5,6 +5,8 @@ I've finally opted to showcase the link differently, and will be adding, if poss
 
 I have noticed that I use typescript instead of javascript, so I have changed my documents into jsx files to see if anything would crash, and everything still works.
 
+Now il will be focusing on finding out how to display visitors => react-ga
+
 28.06.22
 
 I've added a few paragraphs to the entrepreneur part, and moved forward with trying to figure out how to implement the language switcher for user.
