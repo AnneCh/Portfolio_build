@@ -6,6 +6,7 @@ I've finally opted to showcase the link differently, and will be adding, if poss
 I have noticed that I use typescript instead of javascript, so I have changed my documents into jsx files to see if anything would crash, and everything still works.
 
 Now il will be focusing on finding out how to display visitors => react-ga
+In one of the posts I read about react-ga, it was mentioned about ngrok, to create ip temporary ip addresses to a local host. I can be using that as a temporary way to use google analytics, until I have a final link
 
 28.06.22
 
