@@ -6,15 +6,6 @@ import tree from "../imgs/TreeHead.png";
 import { Image } from "@mui/icons-material";
 
 
-export function btnHome() {
-  return(
-      <Link to="/">
-        <Button>Home</Button>
-        <Image src={tree} alt="Home Page" />
-      </Link>
-  )
-}
-
 
 
 export function internalNavDev() {
