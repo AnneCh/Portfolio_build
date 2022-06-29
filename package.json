@@ -20,6 +20,7 @@
     "react-bootstrap": "^2.1.2",
     "react-compare-image": "^3.1.0",
     "react-dom": "^17.0.2",
+    "react-ga": "^3.3.1",
     "react-i18next": "^11.17.2",
     "react-router": "^6.3.0",
     "react-router-dom": "^6.3.0",
