@@ -6,22 +6,6 @@ import { Link} from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 
 
-/**The Enter page is the main page that will be displayed to the visitor's first contact with my portfolio
-It must give the visitor a greeting message (would be cool to greet the visitor with a personnalised message 
-that tells them that they are visitor number X)
-
-The Enter page must include a translation button to let the user chose between French and English
-I'll see what are the fastest and most professional ways to include a translation tool 
-
-This page needs to give 4 choices to the visitor:
-- Explore my IT resume
-- Explore my Project Management resume
-- Other thing I care about
-- Contact
-
-Background : remplacer le background par le titre "Hi, I'm Anne"
-*/
-
 export default function MainPage() {
   const { t } = useTranslation()
 
