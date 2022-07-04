@@ -9,3 +9,5 @@ Yet I can't make it to display the theme I've created
 
 This would seem to be the next step : https://mui.com/material-ui/customization/dark-mode/
 but I first need to figure out how to apply one theme and really make it work.
+
+I've tried updating MUI, deleting node_modules, deleting mui and reinstalling it, my theme still does not appear. There's just no reason for it not to, and yet...
