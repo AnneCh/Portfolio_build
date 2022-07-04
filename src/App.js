@@ -9,13 +9,12 @@ import Studies from './Components/Studies';
 import SharedLayout from './Components/SharedLayout';
 import Error from './Components/Error';
 import WhyBlockchain from './Components/WhyBlockchain';
-import DarkDefaultTheme from './theme';
-
+import darkTheme from './theme';
 
 export default function App() {
  
     return (
-        <ThemeProvider theme={DarkDefaultTheme}>
+        <ThemeProvider theme={darkTheme}>
             <BrowserRouter>
                 <Routes>
                     <Route path="/" element={<SharedLayout/>}>

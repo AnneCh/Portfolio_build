@@ -1,60 +1,52 @@
 import { createTheme } from '@mui/material/styles';
 
-/**creation of a theme esthetically basic, dark mode by default with option to switch
- dark mode will be modified if possible to get purple tones
 
- I should create several themes for each page
- - the Enter page has "Hi, I'm Anne" on the background
-*/
-
-// const LightTheme = createTheme({
-//   palette: {
-//     type: 'light',
-//     primary: {
-//       main: 'rgba(131,108,173,0.53)',
-//       light: 'rgba(176,150,220,0.53)',
-//       dark: 'rgba(72,13,123,0.67)',
-//     },
-//     secondary: {
-//       main: 'rgba(5,7,76,0.8)',
-//       contrastText: '#ffffff',
-//     },
-//     info: {
-//       main: '#4e5ee8',
-//     },
-//     background: {
-//       default: '#e3d9ee',
-//       paper: 'rgba(77,18,107,0.15)',
-//     },
-//     error: {
-//       main: '#f71a05',
-//     },
-//     text: {
-//       primary: 'rgba(0,0,0,0.95)',
-//     },
-//   },
-//   typography: {
-//     fontFamily: 'Quicksand',
-//     fontSize: 16,
-//     fontWeightLight: 200,
-//     fontWeightRegular: 400,
-//     fontWeightMedium: 500,
-//     fontWeightBold: 800,
-//     overline: {
-//       fontFamily: 'Droid Sans',
-//     },
-//     btn: {
-//       fontSize: 60,
-//       '&:hover': {
-//         backgroundColor: 'violet'
-//       },
-//     },
-//   }
-//   });
-
-export const DarkDefaultTheme = createTheme ({
+const lightTheme = createTheme ({
   palette: {
-    type: 'dark',
+    primary: {
+      main: 'rgba(131,108,173,0.53)',
+      light: 'rgba(176,150,220,0.53)',
+      dark: 'rgba(72,13,123,0.67)',
+    },
+    secondary: {
+      main: 'rgba(5,7,76,0.8)',
+      contrastText: '#ffffff',
+    },
+    info: {
+      main: '#4e5ee8',
+    },
+    background: {
+      default: '#e3d9ee',
+      paper: 'rgba(77,18,107,0.15)',
+    },
+    error: {
+      main: '#f71a05',
+    },
+    text: {
+      primary: 'rgba(0,0,0,0.95)',
+    },
+  },
+  typography: {
+    fontFamily: 'Quicksand',
+    fontSize: 16,
+    fontWeightLight: 200,
+    fontWeightRegular: 400,
+    fontWeightMedium: 500,
+    fontWeightBold: 800,
+    overline: {
+      fontFamily: 'Droid Sans',
+    },
+    btn: {
+      fontSize: 60,
+      '&:hover': {
+        backgroundColor: 'violet'
+      },
+    },
+  }
+  });
+
+const darkTheme = createTheme ({
+  palette: {
     primary: {
       main: 'rgba(128,102,168,0.91)',
       light: 'rgba(239,232,245,0.8)',
@@ -90,3 +82,5 @@ export const DarkDefaultTheme = createTheme ({
     },
   },
 });
+
+export default darkTheme;

@@ -50,12 +50,6 @@ the Enter page disappears
 
 /* create class to welcome the visitor by their number of visitors on my portfolio so far
 
-class welcome extends React.Component{
-  render() {
-    return <h1>Hello, guest #{this.props.visitor}, welcome.</h1>
-  }
-}
-
 class visitors extends React.Component {
   1. find how to keep track of visits
   2. then how to display the number of the visitor who's just loaded my page
