@@ -1,5 +1,4 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import { ThemeProvider } from '@mui/material';
 import MainPage from './Components/Enter';
 import MainDev from './Components/MainDev';
 import MainMul from './Components/MainMul';
@@ -9,12 +8,10 @@ import Studies from './Components/Studies';
 import SharedLayout from './Components/SharedLayout';
 import Error from './Components/Error';
 import WhyBlockchain from './Components/WhyBlockchain';
-import darkTheme from './theme';
 
 export default function App() {
  
     return (
-        <ThemeProvider theme={darkTheme}>
             <BrowserRouter>
                 <Routes>
                     <Route path="/" element={<SharedLayout/>}>
@@ -30,7 +27,6 @@ export default function App() {
                     </Route>
                 </Routes>
             </BrowserRouter>
-        </ThemeProvider>
     )
 }
 
