@@ -26,7 +26,7 @@ export function internalNavDev() {
   )
 }
 
-export function NavBar() {
+function NavBar() {
   const { t } = useTranslation()
   return (
         <Container className="flex justify-center">
@@ -51,3 +51,4 @@ export function NavBar() {
   )
 }
 
+export default NavBar
