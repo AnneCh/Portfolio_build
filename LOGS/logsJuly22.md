@@ -1,3 +1,7 @@
+06.07.22
+
+I need to figure out why the themes are not being displayed.
+
 04.07.22
 
 Mindmapping my project helped me figure out the weaknesses and what still needs to be done.
