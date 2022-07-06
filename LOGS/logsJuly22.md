@@ -2,6 +2,10 @@
 
 I need to figure out why the themes are not being displayed.
 
+=> found it, in the V5 version, theming needs to import CssBaseline. Now my purplish theme is applied.
+
+On to creating a toggle light/dark mode
+
 04.07.22
 
 Mindmapping my project helped me figure out the weaknesses and what still needs to be done.

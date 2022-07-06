@@ -1,7 +1,7 @@
 import { Container } from '@mui/material';
 import tea from '../tea.png'
 import * as React from 'react';
-import { Button, ButtonGroup, Box } from '@mui/material/';
+import { Button, ButtonGroup, Box, Paper } from '@mui/material/';
 import { Link} from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 
@@ -15,7 +15,7 @@ export default function MainPage() {
 
   return (
           <Container>
-            <header className="enter">
+            <header>
               <h1>{t('main_page.visitor', {number_visits})}</h1> // CHANGE VALUE, CALCULATE IT
               <h2>{t('main_page.honor')}</h2>
               <p>{t('main_page.hydrate')}</p>
