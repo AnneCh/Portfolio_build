@@ -1,4 +1,13 @@
-06.07.22
+15.07
+I kept away from building my portfolio for a few days in order to focus on building a NFT project with someone who contacted me.
+
+I'll be spending a few hours and try to move forward.
+The two tasks that I give myself are
+
+- implementing the night/day toggle
+- re-build the page on what I also spend my time doing
+
+  06.07.22
 
 I need to figure out why the themes are not being displayed.
 
