@@ -7,7 +7,24 @@ The two tasks that I give myself are
 - implementing the night/day toggle
 - re-build the page on what I also spend my time doing
 
-  06.07.22
+NOTE
+
+## interesting code to implement:
+
+<ClickAwayListener onClickAway={handleClickAway}>
+  <Box sx={{ position: 'relative' }}>
+    <button type="button" onClick={handleClick}>
+      Open menu dropdown
+    </button>
+    {open ? (
+      <Box sx={styles}>
+        Click me, I will stay visible until you click outside.
+      </Box>
+    ) : null}
+  </Box>
+</ClickAwayListener>
+
+06.07.22
 
 I need to figure out why the themes are not being displayed.
 
