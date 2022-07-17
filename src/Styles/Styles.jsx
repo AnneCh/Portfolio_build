@@ -1,6 +1,9 @@
+import { useState, useMemo } from "react";
+import ReactSwitch from "react-switch";
 
-
-const LightTheme = React.useMemo( () => createTheme ({
+const light = React.useMemo(
+  () =>
+    createTheme({
   palette: {
     mode: 'light',
     primary: {
@@ -45,7 +48,9 @@ const LightTheme = React.useMemo( () => createTheme ({
   [mode],
 )
 
-const DarkTheme = React.useMemo( () => createTheme ({
+const dark = React.useMemo(
+  () =>
+    createTheme({
   palette: {
     mode: 'dark',
     primary: {
@@ -99,9 +104,9 @@ const DarkTheme = React.useMemo( () => createTheme ({
   [mode],
 )
 
- function ToggleColorMode() {
-  const [mode, setMode] = React.useState<'light' | 'dark'>('light');
-  const colorMode = React.useMemo(
+function ToggleColorMode() {
+  const [mode, setMode] = useState<'light' | 'dark'>('light');
+  const colorMode = useMemo(
     () => ({
       toggleColorMode: () => {
         setMode((prevMode) => (prevMode === 'light' ? 'dark' : 'light'));
@@ -110,3 +115,14 @@ const DarkTheme = React.useMemo( () => createTheme ({
     [],
   );
   }
+
+export const ThemeContext = createContext(null);
+
+
+export default function NightToggle() {
+
+    return(
+        <ReactSwitch onChange={ToggleColorMode} checked={theme === "dark"}/>
+    )
+}
+
