@@ -1,6 +1,6 @@
-export default function lightTheme() { React.useMemo(
-    () =>
-      createTheme({
+import { ThemeOptions } from "@mui/material"
+
+export const lightTheme = ThemeOptions = {
     palette: {
       mode: 'light',
       primary: {
@@ -30,18 +30,15 @@ export default function lightTheme() { React.useMemo(
       },
     },
     typography: {
-      fontFamily: 'Quicksand',
-      fontSize: 16,
-      fontWeightLight: 200,
-      fontWeightRegular: 400,
-      fontWeightMedium: 500,
-      fontWeightBold: 800,
-      overline: {
-        fontFamily: 'Droid Sans',
+        fontFamily: 'Quicksand',
+        fontSize: 16,
+        fontWeightLight: 200,
+        fontWeightRegular: 400,
+        fontWeightMedium: 500,
+        fontWeightBold: 800,
+        overline: {
+          fontFamily: 'Droid Sans',
+        },
       },
-    },
-    direction: 'rtl',
-    }),
-    [mode],
-  )
+      direction: 'rtl',
 }

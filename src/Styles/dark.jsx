@@ -1,8 +1,7 @@
 
+import { ThemeOptions } from "@mui/material"
 
-export default function darkTheme() { React.useMemo(
-    () =>
-      createTheme({
+export const lightTheme = ThemeOptions = {
     palette: {
       mode: 'dark',
       primary: {
@@ -52,7 +51,4 @@ export default function darkTheme() { React.useMemo(
         color: 'secondary',
       },
     },
-  })
-    [mode],
-  )
 }

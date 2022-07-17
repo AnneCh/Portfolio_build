@@ -3,6 +3,12 @@
 Goal is to implement the night/day toggle
 => learn more about useState and useMemo
 
+=> I've created both individual themes and one theme including both dark and light themes, but it's not clear yet what is the path I should be using in order to implement my toggle + have customised dark and light themes.
+
+I'll keep digging
+
+---
+
 15.07
 I kept away from building my portfolio for a few days in order to focus on building a NFT project with someone who contacted me.
 
