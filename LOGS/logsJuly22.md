@@ -1,3 +1,8 @@
+17.06.22
+
+Goal is to implement the night/day toggle
+=> learn more about useState and useMemo
+
 15.07
 I kept away from building my portfolio for a few days in order to focus on building a NFT project with someone who contacted me.
 
