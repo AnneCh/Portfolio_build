@@ -1,3 +1,8 @@
+22.06.22
+Trying again to implement the toggle for themes
+
+---
+
 17.06.22
 
 Goal is to implement the night/day toggle

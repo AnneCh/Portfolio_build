@@ -1,33 +1,55 @@
-import { Outlet } from "react-router";
-import NavBar from "./Navbar";
-import { Container, ToggleButton } from '@mui/material';
-import { Image } from "@mui/icons-material";
+import * as React from 'react';
+import { useState, useMemo } from 'react';
 import i18n from "../i18n";
-import CssBaseline from '@mui/material/CssBaseline';
-import darkTheme from '../Styles/Styles';
-import { ThemeProvider } from '@mui/material/styles';
+import { Outlet } from "react-router";
+
+import {
+    createTheme,
+    CssBaseline,
+    ThemeProvider,
+    Container, 
+    ToggleButton,
+  } from "@mui/material"
+import { darkTheme } from './Styles/Dark.jsx';
+import { lightTheme } from './Styles/Light.jsx';
+import { ColorModeContext } from './Styles/color-context.jsx';
+
+import NavBar from "./Navbar";
+
+
 
 export default function SharedLayout() {
- const changeLanguage = (lng) => {
-    i18n.changeLanguage(lng);
- }
+    const changeLanguage = (lng) => {
+        i18n.changeLanguage(lng);
+    }
+
+    const [mode, setMode] = useState("light");
+    const toggleMode = () => {
+        // if the theme is not light, then set it to dark
+        if (mode === 'light') {
+            setMode('dark');
+        // otherwise, it should be light
+        } else {
+            setMode('light');
+        }
+      }
+
+    const theme = useMemo(
+      () => createTheme(mode === "light" ? lightTheme : darkTheme),
+      [mode]
+    );
+
+
     return(
-         <ThemeProvider theme={darkTheme}>
-            <CssBaseline />
-            <Container>
-                <Image src={ 
-                    mode === "dark"
-                    ? "public/images/light.png"
-                    : "public/images/dark.png"
-                }
-                height = {50}
-                width={50}
-                alt='night_toggle'/>
-                <ToggleButton onClick={() => changeLanguage('en')}>en</ToggleButton>
-                <ToggleButton onClick={() => changeLanguage('fr')}>fr</ToggleButton>
-                <NavBar />
-                <Outlet />
-            </Container>
-        </ThemeProvider>
+            <ThemeProvider theme={theme}>
+                <CssBaseline enableColorScheme />
+                    <Container>
+                        <ToggleButton onClick={toggleMode}>Toggle theme</ToggleButton>
+                        <ToggleButton onClick={() => changeLanguage('en')}>en</ToggleButton>
+                        <ToggleButton onClick={() => changeLanguage('fr')}>fr</ToggleButton>
+                        <NavBar />
+                        <Outlet />
+                    </Container>
+            </ThemeProvider>
     )
 }
