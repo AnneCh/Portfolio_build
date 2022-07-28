@@ -1,68 +1,68 @@
 {
-    "main_page": {
-        "visitor": "Hello, visitor #{{number_visits}}, and welcome",
-        "honor": "I'm honored you're willing to know more about me.",
-        "hydrate":"Please, make yourself comfortable and stay hydrated.",
-        "know":"What would you like to know about?",
-        "dev":"Developer",
-        "mbm":"Entrepreneurship",
-        "studies":"Education",
-        "else":"Stuff",
-        "contact":"Contact"
-    },
-    "main_dev":{
-        "p1":"I started discovering an attraction for systems after learning sound engineering through my company. Coding had been on my mind for a while, I had been following tutorials and certifications through FreeCodeCamp and The Odin Project, but it was just toe-dipping and never serious.",
-        "p2":"As I gained maturity and experience in my endeavors, the Covid Time started and I lost 95% of my income. As weeks went by and more restrictive measures went enforced, my team and I  put everything on the table and decided that it was time for a change. I went back on that old idea of coding, and started doing basic google searches about what languages to start with, what kinds of jobs I could be getting, what were the basics to cover and which kinds of specialties are there for me to choose from. ",
-        "p3":"I was in the middle of it when we had a one-time opportunity to leave Cambodia. We quickly had to make decisions about where, when, how. My husband and I left on 13th April 2021. On 14th, Phnom Penh, where we had been living since late 2016, had fully closed, nobody was allowed outside or under very strict criteria. On the 16th,  my husband had a stroke (from which he almost fully recovered). After finalizing our settling down in Serbia, I finally got the opportunity to focus full time on coding."
-    },
-    "main_mul":{
-        "title":"MindBridge Media, for artists and venues",
-        "history":"In february 2017, I met my husband, musician recently expatriated to Cambodia. He had come with hundreds of kilos of sound system and instruments which he had been buying over the years. In June 2017, I had reached the end of my contract with the NGO I had to come to Cambodia to work for, and for a couple of months, I followed him in his concerts.",
-        "start":"I started by taking pictures during shows, and got a few contracts thanks to them, which kick-started my decision to work as an independent.",
-        "then":"I was mostly focusing on photography, until one day, after a concert my husband was playing at, I was talking to a musician who was interested in using my husband’s microphones for a couple of gigs. Mu husband agreed that I’d use his equipment as long as I’d learn how to use it, which I eagerly agreed to. I decided to talk to more musicians, and quickly find out that there was a demand for music equipment in Phnom Penh. A couple of months into this small business, I decided to expand my rental offer by learning sound technique.",
-        "sound":"I followed a team of two sound technicians through different events in Phnom Penh, until they left me handle a weekly gig by myself. My husband also shared his experience with me and taught me. Through these teachings and experience, I became a much appreciated sound technician, and provided quality equipment and services, alone or as part of a team.",
-        "invest":"I reinvested most of my earnings in new equipment, most of it being shipped from Europe, and quickly increased my ability to provide sound systems, I was collaborating with other sound providers on bigger events, and kept learning on site.",
-        "DJ":"As I got more sensitive and aware of sounds and musics, I started learning how to be a Disk Jockey  and did a few shows, the most recent one being at the 2021 Exit Festival, in Novi Sad, the first European festival to resume post-madness. Now I mostly focus on other domains and keep DJing for fun. Yet I keep increasing my musical knowledge to bridge the gaps I have with professionals who have worked in the industry for years, in the hopes of being a performing musicians one day.",
-        "kevin":"Outside of the experience I gained from learning sound engineering and running my own multi-services company, I also was my husband’s agent. We also trained a DJ and sound technician, who progressively turned into our co-founder and accountant. Thanks to his own skills, we added copy-writing to the list of services we offer (English only).",
-        "presence": "All my business in Cambodia was done through real-life networking, I really didn’t have to advertise much, so you won’t find a website or properly maintained social media accounts. I posted pictures and videos on our facebook page with the aim of sharing them with the musicians and venues, more than to promote our work.",
-        "moving":"Moving to Serbia in the middle of covid had us wait 1 year and 2 months for our equipment to arrive. At the moment of writing these words, we still have to disinfect and test every single piece of electronic and instruments, give them some TLC. So we haven’t been working as much since we moved. I am focusing on coding while opening our network to local musicians, so that my husband progressively gets back on playing on a regular basis.",
-        "skills":"What have I learned from this experience?"
-    },
-    "studies":{
-        "studies":"studies",
-        "highschool":"High School",
-        "university":"University",
-        "license":"License",
-        "master":"Master",
-        "intro": ""
-    },
-    "what_else":{
-        "intro":"Here are a few nore things that I spend my time into.",
-        "health":"Health",
-        "health1":"After a few years of going in and out of doctors' offices with little to no results regarding a few health issues I had, I got tired and decided to start doing my own research.",
-        "health2":"I",
-        "health3":""
-
-    },
-    "navbar":{
-        "dev":"Developer",
-        "mbm":"Entrepreneurship",
-        "studies":"Education",
-        "else":"Stuff",
-        "contact":"Contact"
-    },
-    "why_blockchain":{
-        "title":"Blockchain Developer",
-        "why":"You may wonder why I chose to evolve into the 'Blockchain World'?",
-        "p1":"Different experiences lead me to look for alternatives to the systems I was brought up in. I was no longer convinced that the current system in place harbored favorable grounds for me to thrive and help the people I care for.",
-        "p1bis":"When I got introduced to the blockchain concept and Bitcoin, like most of us, I was dubitative. Sounded like another big wave that would soon crash and leave a lot of people barebone.",
-        "p2":"Then, as I was gathering data and getting to understand the lay of the land, I caught myself thinking that there may be hopes that this could be an alternative I was looking for. If we were to build proper decentralized systems, we may get closer to a globally fairer place when it comes to human interactions.",
-        "p3":"It sounded like the best option from all the ones I had heard so far, despite my limited knowledge of the industry.",
-        "p4":"The more I learn about this new way of dealing with digital transactions, the bigger the realm of possibilities gets. It's exhilarating!",
-        "p5":"I want to be part of systems that will transform the weaknesses of the previous systems into strengths. Systems that wisely use the transparency and immunatibility of decentralized protocols and foster environments that bring us closer to fulfiling our potentials as human beings.",
-        "p6":"I want to be part of communities promoting governance, real collective participation and real political ressource allocation and revenues transparency. If I can't invest my money into those systems to help them flourish, then I want to give my time and energy into growing them."
-    }, 
-    "error":"Uuups, sorry buddy, can't get that for ya."
+  "main_page": {
+    "visitor": "Hello, visitor #{{number_visits}}, and welcome",
+    "honor": "I'm honored you're willing to know more about me.",
+    "hydrate": "Please, make yourself comfortable and stay hydrated.",
+    "know": "What would you like to know about?",
+    "dev": "Developer",
+    "mbm": "Entrepreneurship",
+    "studies": "Education",
+    "else": "Stuff",
+    "contact": "Contact"
+  },
+  "main_dev": {
+    "p1": "I started discovering an attraction for systems after learning sound engineering through my company. Coding had been on my mind for a while, I had been following tutorials and certifications through FreeCodeCamp and The Odin Project, but it was just toe-dipping and never serious.",
+    "p2": "As I gained maturity and experience in my endeavors, the Covid Time started and I lost 95% of my income. As weeks went by and more restrictive measures went enforced, my team and I  put everything on the table and decided that it was time for a change. I went back on that old idea of coding, and started doing basic google searches about what languages to start with, what kinds of jobs I could be getting, what were the basics to cover and which kinds of specialties are there for me to choose from. ",
+    "p3": "I was in the middle of it when we had a one-time opportunity to leave Cambodia. We quickly had to make decisions about where, when, how. My husband and I left on 13th April 2021. On 14th, Phnom Penh, where we had been living since late 2016, had fully closed, nobody was allowed outside or under very strict criteria. On the 16th,  my husband had a stroke (from which he almost fully recovered). After finalizing our settling down in Serbia, I finally got the opportunity to focus full time on coding."
+  },
+  "main_mul": {
+    "title": "MindBridge Media, for artists and venues",
+    "history": "In february 2017, I met my husband, musician recently expatriated to Cambodia. He had come with hundreds of kilos of sound system and instruments which he had been buying over the years. In June 2017, I had reached the end of my contract with the NGO I had to come to Cambodia to work for, and for a couple of months, I followed him in his concerts.",
+    "start": "I started by taking pictures during shows, and got a few contracts thanks to them, which kick-started my decision to work as an independent.",
+    "then": "I was mostly focusing on photography, until one day, after a concert my husband was playing at, I was talking to a musician who was interested in using my husband’s microphones for a couple of gigs. Mu husband agreed that I’d use his equipment as long as I’d learn how to use it, which I eagerly agreed to. I decided to talk to more musicians, and quickly find out that there was a demand for music equipment in Phnom Penh. A couple of months into this small business, I decided to expand my rental offer by learning sound technique.",
+    "sound": "I followed a team of two sound technicians through different events in Phnom Penh, until they left me handle a weekly gig by myself. My husband also shared his experience with me and taught me. Through these teachings and experience, I became a much appreciated sound technician, and provided quality equipment and services, alone or as part of a team.",
+    "invest": "I reinvested most of my earnings in new equipment, most of it being shipped from Europe, and quickly increased my ability to provide sound systems, I was collaborating with other sound providers on bigger events, and kept learning on site.",
+    "DJ": "As I got more sensitive and aware of sounds and musics, I started learning how to be a Disk Jockey  and did a few shows, the most recent one being at the 2021 Exit Festival, in Novi Sad, the first European festival to resume post-madness. Now I mostly focus on other domains and keep DJing for fun. Yet I keep increasing my musical knowledge to bridge the gaps I have with professionals who have worked in the industry for years, in the hopes of being a performing musicians one day.",
+    "kevin": "Outside of the experience I gained from learning sound engineering and running my own multi-services company, I also was my husband’s agent. We also trained a DJ and sound technician, who progressively turned into our co-founder and accountant. Thanks to his own skills, we added copy-writing to the list of services we offer (English only).",
+    "presence": "All my business in Cambodia was done through real-life networking, I really didn’t have to advertise much, so you won’t find a website or properly maintained social media accounts. I posted pictures and videos on our facebook page with the aim of sharing them with the musicians and venues, more than to promote our work.",
+    "moving": "Moving to Serbia in the middle of covid had us wait 1 year and 2 months for our equipment to arrive. At the moment of writing these words, we still have to disinfect and test every single piece of electronic and instruments, give them some TLC. So we haven’t been working as much since we moved. I am focusing on coding while opening our network to local musicians, so that my husband progressively gets back on playing on a regular basis.",
+    "skills": "What have I learned from this experience?",
+    "skill1": "Renting sound equipment, I owed it to myself, at some point, to start learning about electricity, how to control those electrical signals to produce the best sound, what affects quality of sounds etc.",
+    "skill2": "I also had to understand my surroundings better, for example, how are those two glass walls around the stage going to affect the speakers’ sound reflection?",
+    "skill3": "I developed a better reading of people’s facial expressions and analysis of their potential needs; not being able to always hear an artist’s request on stage, I had to both be able to understand his gestures/facial expressions, and quickly try to identify the potential request, according to what I could hear, but also what he, as the <insert here type of musician> of the band, could be requesting. A drummer may need more bass and lead voice/guitar, a singer usually request more of their own voice, etc. I got much better at anticipating requests and learned to be a proper filter/interface between the expectations of the venue, the artists’ needs and the crowd’s rightful right for quality."
+  },
+  "studies": {
+    "studies": "studies",
+    "highschool": "High School",
+    "university": "University",
+    "license": "License",
+    "master": "Master",
+    "intro": ""
+  },
+  "what_else": {
+    "intro": "Here are a few nore things that I spend my time into.",
+    "health": "Health",
+    "health1": "After a few years of going in and out of doctors' offices with little to no results regarding a few health issues I had, I got tired and decided to start doing my own research.",
+    "health2": "I",
+    "health3": ""
+  },
+  "navbar": {
+    "dev": "Developer",
+    "mbm": "Entrepreneurship",
+    "studies": "Education",
+    "else": "Stuff",
+    "contact": "Contact"
+  },
+  "why_blockchain": {
+    "title": "Blockchain Developer",
+    "why": "You may wonder why I chose to evolve into the 'Blockchain World'?",
+    "p1": "Different experiences lead me to look for alternatives to the systems I was brought up in. I was no longer convinced that the current system in place harbored favorable grounds for me to thrive and help the people I care for.",
+    "p1bis": "When I got introduced to the blockchain concept and Bitcoin, like most of us, I was dubitative. Sounded like another big wave that would soon crash and leave a lot of people barebone.",
+    "p2": "Then, as I was gathering data and getting to understand the lay of the land, I caught myself thinking that there may be hopes that this could be an alternative I was looking for. If we were to build proper decentralized systems, we may get closer to a globally fairer place when it comes to human interactions.",
+    "p3": "It sounded like the best option from all the ones I had heard so far, despite my limited knowledge of the industry.",
+    "p4": "The more I learn about this new way of dealing with digital transactions, the bigger the realm of possibilities gets. It's exhilarating!",
+    "p5": "I want to be part of systems that will transform the weaknesses of the previous systems into strengths. Systems that wisely use the transparency and immunatibility of decentralized protocols and foster environments that bring us closer to fulfiling our potentials as human beings.",
+    "p6": "I want to be part of communities promoting governance, real collective participation and real political ressource allocation and revenues transparency. If I can't invest my money into those systems to help them flourish, then I want to give my time and energy into growing them."
+  },
+  "error": "Uuups, sorry buddy, can't get that for ya."
 }
-
-

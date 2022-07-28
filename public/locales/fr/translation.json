@@ -1,65 +1,68 @@
 {
-    "accents":"é à è ù â ê î ô û ç",
-    "main_page": {
-        "visitor":"Bonjour, invité(e) #{{number_visits}}, et bienvenue.",
-        "honor": "C'est un honneur que de savoir que mon profil vous intéresse.",
-        "hydrate": "Mettez-vous à votre aise et veillez à rester hydraté(e). ",
-        "know":"Que souhaitez-vous découvrir sur moi ?",
-        "dev":"Développeur",
-        "mbm":"Entrepreuneriat",
-        "studies":"Education",
-        "else":"Autres",
-        "contact":"Contact"
-    },
-    "main_dev":{
-        "p1":"Je me suis découvert une attraction pour l’ingénieurie de systèmes à travers mon entreprise vers 2018. J’avais envisagé aborder la programmation, coder des sites internet plus précisément,  j’avais seulement approché quelques tutoriels et certifications comme Free Code Camp et The Odin Project, mais sans assiduité.",
-        "p2":"Alors que je gagnais en maturité et en expérience dans mes projets, l’Epoque Covid a commencé et j’ai rapidement perdu 95% de mes revenus. Les mesures se renforcaient au fil des semaines, mon équipe et moi-même décidâmes de mettre cartes sur table et voir si nos actions nous permettraient de nous adapter à la crise en cours, ou si nous devions changer de tactique. Changement de tactique fut le  vote final, nous devions accroitre notre capacité à générer des revenus en ligne. Je suis revenue sur l’idée de coder, et commencai par des recherches basique sur les différents types de languages, sur quoi me focaliser, quels types de débouchés, quelles sont les bases que je devrai couvrir et quels types de spécialisations y a-t-il à partir de ces bases.",
-        "p3":"J’étais en plein milieu de ces recherches, quand nous avons eu l’opportunité de partir du Cambodge. Nous avons du prendre une série de décisions rapidement, ou, comment, quand. Mon conjoint et moi-meme sommes partis de Phnom Penh le 13 avril 2021. Le 14, nous apprenions via les réseaux sociaux, que la capitale était maintenant en lockdown complet, avec des restrictions sévères. Le 16, mon conjoint a fait un AVC (duquel il s’est presque totalement remis). Après avoir finalisé notre installation, j’ai pu avoir l’opportunité de me focaliser sérieusement sur le code."
-    },
-    "main_mul":{
-        "title":"Mindbridge Media, pour artistes et venues.",
-        "history":"En février 2017, j’ai rencontré mon conjoint, un musicien récemment expatrié au Cambodge. Il avait déménagé avec ses centaines de kilos d’instruments et sono qu’il avait accumulé au fil des années. En juin, je finissais mon contrat avec l’ONG Action Cambodge Handicap et, pendant deux mois, j’ai suivi mon conjoint dans ses concerts.",
-        "start":"J’ai commencé à prendre des photos lors des concerts et cela m’a fait décrocher quelques contrats; couplé a une situation économique favorable, j’ai décidé de me lancer en indépendante.",
-        "then":"Je me suis focalisée sur la photographie pendant quelques mois, jusqu’à ce qu’un jour, lors d’un concert de mon conjoint, j’ai rencontré un musicien intéressé d’utiliser deux de nos microphones pour quelques gigs. J’ai alors décidé de creuser cette opportunité en parlant avec les autres musiciens que j’avais rencontré jusque la. J’ai vite réalisé qu’il y avait une demande pour la location d’équipement de sonorisation mais aussi d’instruments. Environ deux mois après avoir commencé à louer notre équipement, j’ai décidé d’apprendre les bases de la technique du son.",
-        "sound":"J’ai suivi une équipe de deux techniciens sonores à travers différents événements à Phnom Penh, jusqu’à ce qu’ils me laissent gérer un événement hebdomadaire de moi-même. Mon compagnon m’a également apporté son support en partageant son expérience de technicien du son. Forte de ces expériences et enseignements, j’ai vite construit un réseau de partenaires réguliers, en offrant des services et matériel de qualité, seule ou en équipe.",
-        "invest":"J’ai réinvesti la plupart de mes profits dans du nouveau matériel, la plupart venant d’Europe. J’ai rapidement augmenté ma visibilité sur le marché local et ai commencé à collaborer avec des partenaires locaux sur des événements de plus grande ampleur, tout en continuant à me former. ",
-        "DJ":"Au fil de mon travail, je suis également devenue plus sensible aux sons et à la musique. J’ai commencé à apprendre les rudiments du métier de DJ, j’ai fais quelques shows, le plus récent au Festival Exit en juillet 2021, premier festival européen à reprendre post-pandémie. Depuis, je garde ma casquette de DJ pour le plaisir seulement et ne cherche pas à en faire carriere. J’ai également commence à apprendre  à jouer de la batterie et du piano, principalement pour m’aider à comprendre les artistes avec qui je travaille, mais également dans l’espoir de pouvoir jouer avec eux un jour.",
-        "kevin":"Outre ma propre expérience d’ingénieur du son et d’entrepreneur, j’ai également servi d’agent à mon compagnon, et nous avons formé un autre ingénieur et DJ qui s’est progressivement transformé en notre co-fondateur et comptable. Grâce à ses propres expériences et compétences, nous offrons désormais également des services de relecture et écriture (copy-writing) en anglais.",
-        "presence":"J’ai grandi mon business au Cambodge à travers le bouche à oreilles, vous ne trouverez donc pas de site internet ni de réseau social bien maintenu sur Mindbridge Media. Quelques photos, ici et là, surtout pour entretenir le réseau existant qu’autre chose.",
-        "moving":"Notre déménagement en Serbie a entrainé une attente d’un an et 2 mois avant de retrouver nos instruments et sonos. Au moment d’écrire ces lignes, nous devons encore désinfecter et tester plus de 75% de notre matériel. Notre reprise d’activité a donc été freinée et je me concentre maintenant principalement sur la programmation. J’essaie tout de même d’agrandir notre réseau de musiciens en Serbie pour progressivement trouver des opportunités pour que mon compagnon reprenne son activité.",
-        "skills":"Qu'ai tiré de cette expérience ?"
-    },
-    "studies":{
-        "studies":"Etudes",
-        "highschool": "Lycée",
-        "university":"Université",
-        "license":"License",
-        "master":"Master",
-        "intro":""
-    },
-    "what_else":{
-        "intro":"En dehors du web3 et de la musique, voici quelques autres sujets qui m'intéressent.",
-        "health":"Santé",
-        "health1":"Après plusieurs années à aller voir tel ou tel docteur sans ",
-        "health2":""
-    },
-    "navbar":{
-        "dev":"Développeur",
-        "mbm":"Entrepreuneriat",
-        "studies":"Education",
-        "else":"Autres",
-        "contact":"Contact"
-    },
-    "why_blockchain":{
-            "title":"Développeur Blockchain",
-            "why":"Vous vous demandez peut-être pourquoi avoir choisi le secteur des blockchains...",
-            "p1":"A travers mes différentes éxperiences de vie, j'ai choisi de chercher des alternatives aux systèmes dans lesquels j'ai été élevée. Je n'étais plus convaincue que les systèmes en place depuis des décennies soient les fondations d'un terrain favorable pour que je puisse m'épanouir et aider ceux qui comptent pour moi.", 
-            "p1bis":"Quand j'ai commencé à entendre parler du concept Blockchain et du Bitcoin, j'étais dubitative, comme beaucoup. Dans les média traditionnels, leur image n'était pas si positive.",
-            "p2":"Puis, plus je me suis renseignée sur ce qui se passait, plus je réalisais que les principes sur lesquels les blockchains évoluent sont alignés avec les miens. Je me suis surprise à penser que, oui, peut-être que baser les interactions digitales et transactions sur des blockchains pourrait vraiment permettre un monde un peu plus juste, quand il s'agit des échanges humains.",
-            "p3":"Plus je me renseignais, plus j'avais envie de faire partie de ce changement qui s'opérait autour de moi à échelle globale. Ne pouvant pas me permettre d'intégrer le marché des blockchains en tant qu'investisseur, j'ai décidé de me mettre en quete d'acquérir les compétences nécessaires pour participer à la création de systèmes décentralisés.",
-            "p4":"Plus j'apprends, plus je me rends compte de l'étendue des possibilités que cette nouvelle facon d'approcher les transactions digitales représente. C'est juste génial !!",
-            "p5":"Je veux faire partie de mouvements qui voient les faiblesses de nos anciens systèmes se transformer en forces, prouver que l'humanité peut apprendre de ses erreurs et s'adapter, encore une fois. Que la transparence et l'immuabilité des protocoles décentralisés puissent être utilisés à bon escient pour créer un espace digital plus cohérent face aux progrès mais aussi face aux challenges. Nous avons essayé les pouvoirs centralisés, donnons maintenant leur chance à des manières différentes de gouverner.",
-            "p6":"Je veux faire partie des communautés qui promouvront les notions de gouvernance, de réelle participation collective, de transparence complète des ressources et revenus au niveau politique. Si je ne peux pas encore investir financièrement dans les projets qui structureront les systèmes de demain, alors je souhaite y investir mon temps et mon énergie."
-    },
-    "error":"Ooups, désolée, je n'ai pas l'impression de pouvoir accéder à votre demande..."
+  "accents": "é à è ù â ê î ô û ç",
+  "main_page": {
+    "visitor": "Bonjour, invité(e) #{{number_visits}}, et bienvenue.",
+    "honor": "C'est un honneur que de savoir que mon profil vous intéresse.",
+    "hydrate": "Mettez-vous à votre aise et veillez à rester hydraté(e). ",
+    "know": "Que souhaitez-vous découvrir sur moi ?",
+    "dev": "Développeur",
+    "mbm": "Entrepreuneriat",
+    "studies": "Education",
+    "else": "Autres",
+    "contact": "Contact"
+  },
+  "main_dev": {
+    "p1": "Je me suis découvert une attraction pour l’ingénieurie de systèmes à travers mon entreprise vers 2018. J’avais envisagé aborder la programmation, coder des sites internet plus précisément,  j’avais seulement approché quelques tutoriels et certifications comme Free Code Camp et The Odin Project, mais sans assiduité.",
+    "p2": "Alors que je gagnais en maturité et en expérience dans mes projets, l’Epoque Covid a commencé et j’ai rapidement perdu 95% de mes revenus. Les mesures se renforcaient au fil des semaines, mon équipe et moi-même décidâmes de mettre cartes sur table et voir si nos actions nous permettraient de nous adapter à la crise en cours, ou si nous devions changer de tactique. Changement de tactique fut le  vote final, nous devions accroitre notre capacité à générer des revenus en ligne. Je suis revenue sur l’idée de coder, et commencai par des recherches basique sur les différents types de languages, sur quoi me focaliser, quels types de débouchés, quelles sont les bases que je devrai couvrir et quels types de spécialisations y a-t-il à partir de ces bases.",
+    "p3": "J’étais en plein milieu de ces recherches, quand nous avons eu l’opportunité de partir du Cambodge. Nous avons du prendre une série de décisions rapidement, ou, comment, quand. Mon conjoint et moi-meme sommes partis de Phnom Penh le 13 avril 2021. Le 14, nous apprenions via les réseaux sociaux, que la capitale était maintenant en lockdown complet, avec des restrictions sévères. Le 16, mon conjoint a fait un AVC (duquel il s’est presque totalement remis). Après avoir finalisé notre installation, j’ai pu avoir l’opportunité de me focaliser sérieusement sur le code."
+  },
+  "main_mul": {
+    "title": "Mindbridge Media, pour artistes et venues.",
+    "history": "En février 2017, j’ai rencontré mon conjoint, un musicien récemment expatrié au Cambodge. Il avait déménagé avec ses centaines de kilos d’instruments et sono qu’il avait accumulé au fil des années. En juin, je finissais mon contrat avec l’ONG Action Cambodge Handicap et, pendant deux mois, j’ai suivi mon conjoint dans ses concerts.",
+    "start": "J’ai commencé à prendre des photos lors des concerts et cela m’a fait décrocher quelques contrats; couplé a une situation économique favorable, j’ai décidé de me lancer en indépendante.",
+    "then": "Je me suis focalisée sur la photographie pendant quelques mois, jusqu’à ce qu’un jour, lors d’un concert de mon conjoint, j’ai rencontré un musicien intéressé d’utiliser deux de nos microphones pour quelques gigs. J’ai alors décidé de creuser cette opportunité en parlant avec les autres musiciens que j’avais rencontré jusque la. J’ai vite réalisé qu’il y avait une demande pour la location d’équipement de sonorisation mais aussi d’instruments. Environ deux mois après avoir commencé à louer notre équipement, j’ai décidé d’apprendre les bases de la technique du son.",
+    "sound": "J’ai suivi une équipe de deux techniciens sonores à travers différents événements à Phnom Penh, jusqu’à ce qu’ils me laissent gérer un événement hebdomadaire de moi-même. Mon compagnon m’a également apporté son support en partageant son expérience de technicien du son. Forte de ces expériences et enseignements, j’ai vite construit un réseau de partenaires réguliers, en offrant des services et matériel de qualité, seule ou en équipe.",
+    "invest": "J’ai réinvesti la plupart de mes profits dans du nouveau matériel, la plupart venant d’Europe. J’ai rapidement augmenté ma visibilité sur le marché local et ai commencé à collaborer avec des partenaires locaux sur des événements de plus grande ampleur, tout en continuant à me former. ",
+    "DJ": "Au fil de mon travail, je suis également devenue plus sensible aux sons et à la musique. J’ai commencé à apprendre les rudiments du métier de DJ, j’ai fais quelques shows, le plus récent au Festival Exit en juillet 2021, premier festival européen à reprendre post-pandémie. Depuis, je garde ma casquette de DJ pour le plaisir seulement et ne cherche pas à en faire carriere. J’ai également commence à apprendre  à jouer de la batterie et du piano, principalement pour m’aider à comprendre les artistes avec qui je travaille, mais également dans l’espoir de pouvoir jouer avec eux un jour.",
+    "kevin": "Outre ma propre expérience d’ingénieur du son et d’entrepreneur, j’ai également servi d’agent à mon compagnon, et nous avons formé un autre ingénieur et DJ qui s’est progressivement transformé en notre co-fondateur et comptable. Grâce à ses propres expériences et compétences, nous offrons désormais également des services de relecture et écriture (copy-writing) en anglais.",
+    "presence": "J’ai grandi mon business au Cambodge à travers le bouche à oreilles, vous ne trouverez donc pas de site internet ni de réseau social bien maintenu sur Mindbridge Media. Quelques photos, ici et là, surtout pour entretenir le réseau existant qu’autre chose.",
+    "moving": "Notre déménagement en Serbie a entrainé une attente d’un an et 2 mois avant de retrouver nos instruments et sonos. Au moment d’écrire ces lignes, nous devons encore désinfecter et tester plus de 75% de notre matériel. Notre reprise d’activité a donc été freinée et je me concentre maintenant principalement sur la programmation. J’essaie tout de même d’agrandir notre réseau de musiciens en Serbie pour progressivement trouver des opportunités pour que mon compagnon reprenne son activité.",
+    "skills": "Qu'ai tiré de cette expérience ?",
+    "skill1": "Louant du matériel audio, je me devais à moi-meme, à un certain moment, de revoir mes bases en électricité et d’apprendre à controler ces signaux électriques producteurs de son, quels sont les éléments qui affectent la qualité sonore, etc.",
+    "skill2": "J’ai aussi appris à analyser et comprendre mon environnement rapidement ; par exemple, comment est-ce que ces murs en verre vont affecter la reflexion du son ?",
+    "skill3": "J’ai développé ma capacité à lire les expressions faciales et anticiper les besoins des musiciens. N’étant pas toujours en mesure d’entendre les requetes des artistes sur scene, j’ai du apprendre à déchiffrer leurs gestes, en identifiant rapidement la demande selon ce que je déchiffrais et ce que je savais du musicien. Par exemple, la requete d’un batteur va probablement etre par rapport à la (contre)basse ou au chanteur/guitare lead. Je me suis rapidement améliorée et ai réussi à devenir un lien efficace entre les attentes des gérants de l’événement, les besoins des artistes et le droit au public à une performance de bonne qualité sonore."
+  },
+  "studies": {
+    "studies": "Etudes",
+    "highschool": "Lycée",
+    "university": "Université",
+    "license": "License",
+    "master": "Master",
+    "intro": ""
+  },
+  "what_else": {
+    "intro": "En dehors du web3 et de la musique, voici quelques autres sujets qui m'intéressent.",
+    "health": "Santé",
+    "health1": "Après plusieurs années à aller voir tel ou tel docteur sans ",
+    "health2": ""
+  },
+  "navbar": {
+    "dev": "Développeur",
+    "mbm": "Entrepreuneriat",
+    "studies": "Education",
+    "else": "Autres",
+    "contact": "Contact"
+  },
+  "why_blockchain": {
+    "title": "Développeur Blockchain",
+    "why": "Vous vous demandez peut-être pourquoi avoir choisi le secteur des blockchains...",
+    "p1": "A travers mes différentes éxperiences de vie, j'ai choisi de chercher des alternatives aux systèmes dans lesquels j'ai été élevée. Je n'étais plus convaincue que les systèmes en place depuis des décennies soient les fondations d'un terrain favorable pour que je puisse m'épanouir et aider ceux qui comptent pour moi.",
+    "p1bis": "Quand j'ai commencé à entendre parler du concept Blockchain et du Bitcoin, j'étais dubitative, comme beaucoup. Dans les média traditionnels, leur image n'était pas si positive.",
+    "p2": "Puis, plus je me suis renseignée sur ce qui se passait, plus je réalisais que les principes sur lesquels les blockchains évoluent sont alignés avec les miens. Je me suis surprise à penser que, oui, peut-être que baser les interactions digitales et transactions sur des blockchains pourrait vraiment permettre un monde un peu plus juste, quand il s'agit des échanges humains.",
+    "p3": "Plus je me renseignais, plus j'avais envie de faire partie de ce changement qui s'opérait autour de moi à échelle globale. Ne pouvant pas me permettre d'intégrer le marché des blockchains en tant qu'investisseur, j'ai décidé de me mettre en quete d'acquérir les compétences nécessaires pour participer à la création de systèmes décentralisés.",
+    "p4": "Plus j'apprends, plus je me rends compte de l'étendue des possibilités que cette nouvelle facon d'approcher les transactions digitales représente. C'est juste génial !!",
+    "p5": "Je veux faire partie de mouvements qui voient les faiblesses de nos anciens systèmes se transformer en forces, prouver que l'humanité peut apprendre de ses erreurs et s'adapter, encore une fois. Que la transparence et l'immuabilité des protocoles décentralisés puissent être utilisés à bon escient pour créer un espace digital plus cohérent face aux progrès mais aussi face aux challenges. Nous avons essayé les pouvoirs centralisés, donnons maintenant leur chance à des manières différentes de gouverner.",
+    "p6": "Je veux faire partie des communautés qui promouvront les notions de gouvernance, de réelle participation collective, de transparence complète des ressources et revenus au niveau politique. Si je ne peux pas encore investir financièrement dans les projets qui structureront les systèmes de demain, alors je souhaite y investir mon temps et mon énergie."
+  },
+  "error": "Ooups, désolée, je n'ai pas l'impression de pouvoir accéder à votre demande..."
 }
