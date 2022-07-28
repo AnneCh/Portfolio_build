@@ -16,7 +16,7 @@ export const lightTheme = {
         main: '#5e6db9',
       },
       background: {
-        default: 'rgba(224,203,245,0.95)',
+        default: 'rgba(252, 247, 251,0.95)',
         paper: 'rgba(120,144,156,0.56)',
       },
       error: {
