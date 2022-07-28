@@ -1,8 +1,5 @@
 import { Container } from '@mui/material';
-import tea from '../tea.png'
 import * as React from 'react';
-import { Button, ButtonGroup, Box, Paper } from '@mui/material/';
-import { Link} from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 
 
@@ -21,25 +18,6 @@ export default function MainPage() {
               <p>{t('main_page.hydrate')}</p>
             </header>
               <h2>{t('main_page.know')}</h2>
-              <Box>
-                <ButtonGroup variant="text" aria-label="text button group">
-                  <Link to="/MainDev">
-                    <Button>{t("main_page.dev")}</Button>
-                  </Link>
-                  <Link to="/MainMul">
-                    <Button>{t("main_page.mbm")}</Button>
-                  </Link>
-                  <Link to="/Studies">
-                    <Button>{t("main_page.studies")}</Button>
-                  </Link>
-                  <Link to="/WhatElse">
-                    <Button>{t("main_page.else")}</Button>
-                  </Link>
-                  <Link to="/Contact">
-                    <Button>{t("main_page.contact")}</Button>
-                  </Link>
-                </ButtonGroup>
-              </Box>
           </Container>
   );
 }
