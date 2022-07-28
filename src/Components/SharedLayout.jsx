@@ -10,20 +10,19 @@ import {
     ThemeProvider,
     Container, 
     ToggleButton,
-    useTheme, 
+    ToggleButtonGroup
   } from "@mui/material"
 
 import { darkTheme } from './Styles/Dark.jsx';
 import { lightTheme } from './Styles/Light.jsx';
 
-import Box from '@mui/material/Box';
+//import Box from '@mui/material/Box';
 import DarkIcon from './imgs/dark.png';
 import BrightIcon from './imgs/light.png';
 
+//import { ThemeButton } from './Styles/ThemeToggle';
 import NavBar from "./Navbar";
-
 import { Image } from '@mui/icons-material';
-
 
 
 export default function SharedLayout() {
@@ -49,22 +48,24 @@ export default function SharedLayout() {
     // const themeButton = useTheme();
     // const colorMode = React.useContext(ColorModeContext);
 
+    const icon = () => { theme === "light" ? <DarkIcon /> : <BrightIcon />; }
+
 
     return(
         <ThemeProvider theme={theme}>
         <CssBaseline enableColorScheme />
 
-            <Box>
+        <ToggleButtonGroup orientation="vertical">
             <Container  display='flex'>
                 <ToggleButton onClick={toggleMode} align="center">
-                <Image src={'./imgs/dark.png'}></Image>
+                {theme.palette.mode === "dark" ? <BrightIcon /> : <DarkIcon />}
                 </ToggleButton>
             </Container>
             <Container display='flex'>
                 <ToggleButton onClick={() => changeLanguage('en')}>en</ToggleButton>
                 <ToggleButton onClick={() => changeLanguage('fr')}>fr</ToggleButton>
             </Container>
-            </Box>
+            </ToggleButtonGroup>
             <Container>
                 <NavBar />
                 <Outlet />
