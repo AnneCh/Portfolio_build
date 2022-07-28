@@ -1,5 +1,9 @@
+28.07.22
+=> now that the toggling mode works, I need to start styling my page, and keep writing content
+
 22.06.22
 Trying again to implement the toggle for themes
+=> made it work, now needs to be stylized
 
 ---
 
