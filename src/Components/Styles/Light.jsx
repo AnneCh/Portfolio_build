@@ -17,7 +17,7 @@ export const lightTheme = {
       },
       background: {
         default: 'rgba(252, 247, 251,0.95)',
-        paper: 'rgba(120,144,156,0.56)',
+        paper: 'rgba(39, 144, 245, 0.11)',
       },
       error: {
         main: '#f71a05',
@@ -38,5 +38,5 @@ export const lightTheme = {
           fontFamily: 'Droid Sans',
         },
       },
-      direction: 'rtl',
+    direction: 'rtl',
 }
