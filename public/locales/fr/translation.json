@@ -30,10 +30,18 @@
         "skills":"Qu'ai tiré de cette expérience ?"
     },
     "studies":{
-
+        "studies":"Etudes",
+        "highschool": "Lycée",
+        "university":"Université",
+        "license":"License",
+        "master":"Master",
+        "intro":""
     },
     "what_else":{
-
+        "intro":"En dehors du web3 et de la musique, voici quelques autres sujets qui m'intéressent.",
+        "health":"Santé",
+        "health1":"Après plusieurs années à aller voir tel ou tel docteur sans ",
+        "health2":""
     },
     "navbar":{
         "dev":"Développeur",
