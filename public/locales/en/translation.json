@@ -34,9 +34,17 @@
   "studies": {
     "studies": "studies",
     "highschool": "High School",
+    "hs1": "I was fairly good in high-school, above average grades without putting too much effort into it. I excelled in foreign languages, and wanted to pursue in this direction without really knowing whether to become a teacher, or a get into translation/interpretation, or something to do with international commerce. After I got my high-school diploma, I got into the Université Catholique de l’Ouest for a 5 years diploma.",
+    "hs2": "Most of the public universities around my hometown offered traditional Language licenses, with one leading language, a second language with much less hours spent on, and sometimes a third language.",
+    "hs3": "When I found that in Angers, about 2h30 drive from where my family lives, I could get a License with two languages with almost equal time of study, and a mandatory 3rd language, I was quick to make the calculations and figure out how to afford for this private university.",
+    "hs4": "Thankfully, my mother had kept my inheritance money (my father committed suicide when I was 2.5years old) aside, and I was able to afford my classes and costs of living in Angers without having to contract a loan.",
     "university": "University",
     "license": "License",
-    "master": "Master",
+    "lic1": "I’ve enjoyed the classes taken during those three years, learning a third language (even if, in all honesty, I didn’t give enough of myself to retain as much information as I could have) was very interesting linguistically as Arabic differs so much from roman and latin languages.",
+    "lic2": "Most of the classes we had aimed at furthering our understanding of linguistic structures in specific domains (classical literature, technical translations, English/Spanish-speaking media studies) in both Spanish and English. But the cherry on top the cake was that I would be able to spend 6 months in a foreign country for a semester during our last year.",
+    "lic3": "I managed to go exactly where I wanted to go, to Buenos Aires, Argentina. I was there between 2010 and 2011; my time was cut between going to la Pontificia Universidad Catolica to attend classes (Argentinian history, marketing, in depth languages classes) that I validated at the end of the semester, and exploring the country, getting to know how Argentinian do things different than us Frenchies.",
+    "lic4": "I really enjoyed this first total immersion and regretted not spending more time in South America. Maybe one day…!",
+    "master": "Master's degree",
     "intro": ""
   },
   "what_else": {

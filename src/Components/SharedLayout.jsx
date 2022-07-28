@@ -58,7 +58,6 @@ export default function SharedLayout() {
         <ToggleButtonGroup orientation="vertical">
             <Container  display='flex'>
                 <ToggleButton onClick={toggleMode} align="center">
-                {theme.palette.mode === "dark" ? <BrightIcon /> : <DarkIcon />}
                 </ToggleButton>
             </Container>
             <Container display='flex'>
