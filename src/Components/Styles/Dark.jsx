@@ -24,7 +24,7 @@ export const darkTheme = {
         main: '#f71a05',
       },
       text: {
-        primary: '#e6e6e6',
+        primary: 'rgba(246,202,250,0.53)',
         secondary: 'rgba(206,123,184,0.53)',
         disabled: 'rgba(88,75,75,0.5)',
       },

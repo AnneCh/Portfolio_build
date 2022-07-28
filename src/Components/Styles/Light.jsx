@@ -23,7 +23,7 @@ export const lightTheme = {
         main: '#f71a05',
       },
       text: {
-        primary: '#e7f8fd',
+        primary: 'rgba(60,22,94,0.79)',
         secondary: 'rgba(72,13,94,0.79)',
       },
     },

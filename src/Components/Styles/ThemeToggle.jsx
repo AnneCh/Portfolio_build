@@ -11,7 +11,6 @@ import useTheme from '@mui/material';
 export const ThemeButton = () => {
     const theme = useTheme();
     const colorMode = React.useContext(ColorModeContext);
-  
         return (
           <Box
             sx={{
@@ -34,7 +33,7 @@ export const ThemeButton = () => {
               {theme.palette.mode === "dark" ? <BrightIcon /> : <DarkIcon />}
               </ToggleButton>
           </Box>
-  );
+        );
 }
 
 
