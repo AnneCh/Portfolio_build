@@ -17,6 +17,12 @@ import { darkTheme } from './Styles/Dark.jsx';
 import { lightTheme } from './Styles/Light.jsx';
 import NavBar from "./Navbar";
 
+
+// ////!\\\\   work on styling the buttons 
+// \\\   ///   so they are discreet but visible everywhere
+//   \  /      also add the home button
+
+
 export default function SharedLayout() {
     const changeLanguage = (lng) => {
         i18n.changeLanguage(lng);
