@@ -39,4 +39,5 @@ export const lightTheme = {
         },
       },
     direction: 'rtl',
+
 }
