@@ -1,3 +1,9 @@
+30.07
+
+=> changed the toggle night button to be a switch, from a template, it does the job for now but I'll want something nicer looking later
+
+=> I want to work on the display of the containers having the toggles
+
 28.07.22
 => now that the toggling mode works, I need to start styling my page, and keep writing content
 
