@@ -2,14 +2,31 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { useTranslation } from 'react-i18next'
 import { whatelse } from "./data.js";
-import { Container, Button } from '@mui/material';
+import { Grid, Box, Button } from '@mui/material';
 import Health from "./Cards/HealthCard";
+import MartialArts from "./Cards/MartialCard.jsx";
+
+
+const gridStyle = {
+  marginTop: 5,
+  marginLeft: "auto",
+  marginRight: "auto",
+  maxWidth:"auto"
+}
+
 
 function WhatElse() {
   const { t } = useTranslation()
 
      return (
-      <Health/>
+      <Box sx={{ flexGrow: 1 }}>
+      <Grid container sx={gridStyle} spacing={1} columns={{ xs: 4, sm: 8, md: 12 }}>
+          <Grid item xs={2} sm={4} md={4}>
+            <Health/>
+            <MartialArts/>
+          </Grid>
+      </Grid>
+    </Box>
 
 
 
