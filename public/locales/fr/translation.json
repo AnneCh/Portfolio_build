@@ -69,10 +69,15 @@
     "martial": {
       "h1": "Arts Martiaux",
       "description": "Ou l'art d'apprendre à utiliser mon corps et découvrir ses capacités...",
-      "more": "Continuer...",
       "inside1": "Mais d'où m'est venu le désir d'apprendre les arts martiaux, vous demandez-vous peut-être ?",
       "inside2": "Je dirais qu'ils ouvrent ma conscience à un jeu de logique et d'appréciation de situations spécifiques qui me sont inconnus...",
       "inside3": "Je trouve le concept global très motivant et intéressant."
-    }
+    },
+    "health": {
+      "h1": "Santé",
+      "description": "Recherches sur le système hormonal, la nourriture, l'environnement et comment renforcer mon système immunitaire.",
+      "": ""
+    },
+    "more": "Continuer..."
   }
 }

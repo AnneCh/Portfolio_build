@@ -77,10 +77,15 @@
     "martial": {
       "h1": "Martial Arts",
       "description": "Learning how to use my body to the best of its ability...",
-      "more": "Read more",
       "inside1": "Why the desire to learn martial arts, you may ask?",
       "inside2": "Because it's an amazing game of logic and appreciation of a specific situation.",
       "inside3": "And I find the whole concept very challenging and interesting."
-    }
+    },
+    "health": {
+      "h1": "Health",
+      "description": "Ongoing research on hormonal system, foods, environments and how to strengthen my immune system",
+      "": ""
+    },
+    "more": "Continuer..."
   }
 }

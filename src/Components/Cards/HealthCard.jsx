@@ -23,16 +23,13 @@ export default function Health() {
         alt="/"
       />
       <CardContent className={classes.content}>
-        <Typography className={classes.heading} gutterBottom>
-  health        </Typography>
-        <Typography variant="body2" color="text.secondary">
-          Research on endocrinology, foods, tactics to strengthen the immune system.
-        </Typography>
+        <Typography className={classes.heading} gutterBottom>{t('cards.health.h1')}</Typography>
+        <Typography variant="body2" color="text.secondary">{t('cards.health.description')}</Typography>
       </CardContent>
       <Divider className={classes.divider} light />
       <CardActions>
         <Link to="/HealthCard_inside">
-          <Button size="small">Learn More</Button>
+          <Button size="small">{t('cards.more')}</Button>
         </Link>
       </CardActions>
     </Card>

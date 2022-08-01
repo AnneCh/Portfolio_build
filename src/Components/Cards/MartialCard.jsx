@@ -22,13 +22,13 @@ export default function MartialArts() {
           {t('cards.martial.h1')}
         </Typography>
         <Typography variant="body2" color="text.secondary">
-          Learning how to use my body to the best of its abilities
+        {t('cards.martial.description')}
         </Typography>
       </CardContent>
       <Divider className={classes.divider} light />
       <CardActions>
         <Link to="/HealthCard_inside">
-          <Button size="small">Learn More</Button>
+          <Button size="small">{t('cards.more')}</Button>
         </Link>
       </CardActions>
     </Card>
