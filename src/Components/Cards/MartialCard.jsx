@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { Card, CardActions, CardContent, CardMedia, Button, Typography, Divider} from '@mui/material';
-import yinyang from './yinyang.png'
+import yinyang from './yinyang.png';
 import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 
@@ -27,7 +27,7 @@ export default function MartialArts() {
       </CardContent>
       <Divider className={classes.divider} light />
       <CardActions>
-        <Link to="/HealthCard_inside">
+        <Link to="/Martial_inside">
           <Button size="small">{t('cards.more')}</Button>
         </Link>
       </CardActions>

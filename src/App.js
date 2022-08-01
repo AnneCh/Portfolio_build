@@ -9,6 +9,7 @@ import SharedLayout from './Components/SharedLayout'
 import Error from './Components/Error'
 import WhyBlockchain from './Components/WhyBlockchain'
 import HealthInside from './Components/Cards/Insides/HealthCard_inside'
+import MartialInside from './Components/Cards/Insides/Martial_inside'
 
 export default function App() {
   return (
@@ -21,6 +22,7 @@ export default function App() {
           <Route path="/Contact" element={<Contact />} />
           <Route path="/WhatElse" element={<WhatElse />} />
           <Route path="/HealthCard_inside" element={<HealthInside />} />
+          <Route path="/Martial_inside" element={<MartialInside />} />
           <Route path="/Studies" element={<Studies />} />
           <Route path="/WhyBlockchain" element={<WhyBlockchain />} />
           <Route path="*" element={<Error />} />

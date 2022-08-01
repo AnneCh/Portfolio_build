@@ -9,8 +9,6 @@ export default function HealthInside() {
 
 
     return (
-        <Paper>
            <img src={health}/>
-        </Paper>
     )
 }
