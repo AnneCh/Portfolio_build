@@ -16,8 +16,6 @@ export default function Health() {
     <Card className={classes.card}>
       <CardMedia className={classes.media}
         component="img"
-        height="140"
-        width
         src={health}
         alt="/"
       />

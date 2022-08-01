@@ -1,6 +1,6 @@
 export const CardStyle = muiBaseTheme => ({
     card: {
-      maxWidth: 200,
+      maxWidth: "auto",
       display: "flex",
       margin: "auto",
       transition: "0.3s",
@@ -10,7 +10,10 @@ export const CardStyle = muiBaseTheme => ({
       }
     },
     media: {
-      paddingTop: "56.25%"
+      height:"150px",
+      width: "150px",
+      paddingTop: "56.25%",
+      padding:"80%"
     },
     content: {
       textAlign: "left",
