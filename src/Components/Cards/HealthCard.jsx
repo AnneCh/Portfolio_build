@@ -8,10 +8,13 @@ import * as React from 'react';
 import { Card, CardActions, CardContent, CardMedia, Button, Typography, Divider} from '@mui/material';
 import health from './health.png'
 import { Link } from 'react-router-dom';
+import { useTranslation } from 'react-i18next';
 
 import { CardStyle as classes} from '../Styles/Card';
 
 export default function Health() {
+  const { t } = useTranslation()
+
   return (
     <Card className={classes.card}>
       <CardMedia className={classes.media}
@@ -21,8 +24,7 @@ export default function Health() {
       />
       <CardContent className={classes.content}>
         <Typography className={classes.heading} gutterBottom>
-          Health
-        </Typography>
+  health        </Typography>
         <Typography variant="body2" color="text.secondary">
           Research on endocrinology, foods, tactics to strengthen the immune system.
         </Typography>

@@ -72,5 +72,15 @@
     "p5": "I want to be part of systems that will transform the weaknesses of the previous systems into strengths. Systems that wisely use the transparency and immunatibility of decentralized protocols and foster environments that bring us closer to fulfiling our potentials as human beings.",
     "p6": "I want to be part of communities promoting governance, real collective participation and real political ressource allocation and revenues transparency. If I can't invest my money into those systems to help them flourish, then I want to give my time and energy into growing them."
   },
-  "error": "Uuups, sorry buddy, can't get that for ya."
+  "error": "Uuups, sorry buddy, can't get that for ya.",
+  "cards": {
+    "martial": {
+      "h1": "Martial Arts",
+      "description": "Learning how to use my body to the best of its ability...",
+      "more": "Read more",
+      "inside1": "Why the desire to learn martial arts, you may ask?",
+      "inside2": "Because it's an amazing game of logic and appreciation of a specific situation.",
+      "inside3": "And I find the whole concept very challenging and interesting."
+    }
+  }
 }

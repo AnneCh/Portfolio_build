@@ -2,10 +2,14 @@ import * as React from 'react';
 import { Card, CardActions, CardContent, CardMedia, Button, Typography, Divider} from '@mui/material';
 import yinyang from './yinyang.png'
 import { Link } from 'react-router-dom';
+import { useTranslation } from 'react-i18next';
 
 import { CardStyle as classes} from '../Styles/Card';
 
+
 export default function MartialArts() {
+    const { t } = useTranslation()
+
   return (
     <Card className={classes.card}>
       <CardMedia className={classes.media}
@@ -15,7 +19,7 @@ export default function MartialArts() {
       />
       <CardContent className={classes.content}>
         <Typography className={classes.heading} gutterBottom>
-          Martial Arts
+          {t('cards.martial.h1')}
         </Typography>
         <Typography variant="body2" color="text.secondary">
           Learning how to use my body to the best of its abilities
