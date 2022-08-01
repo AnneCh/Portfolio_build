@@ -3,13 +3,13 @@ import { Link } from "react-router-dom";
 import { useTranslation } from 'react-i18next'
 import { whatelse } from "./data.js";
 import { Container, Button } from '@mui/material';
-import MediaCard from './Cards/CardTemplate';
+import Health from "./Cards/HealthCard";
 
 function WhatElse() {
   const { t } = useTranslation()
 
      return (
-      <MediaCard/>
+      <Health/>
 
 
 
