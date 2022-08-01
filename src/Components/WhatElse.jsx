@@ -4,8 +4,8 @@ import { useTranslation } from 'react-i18next'
 import { whatelse } from "./data.js";
 import { Grid, Box, Button } from '@mui/material';
 import Health from "./Cards/HealthCard";
-import MartialArts from "./Cards/MartialCard.jsx";
-
+import MartialArts from "./Cards/MartialCard";
+import MusicCard from "./Cards/MusicCard";
 
 const gridStyle = {
   marginTop: 5,
@@ -24,6 +24,7 @@ function WhatElse() {
           <Grid item xs={2} sm={4} md={4}>
             <Health/>
             <MartialArts/>
+            <MusicCard/>
           </Grid>
       </Grid>
     </Box>

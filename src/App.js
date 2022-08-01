@@ -10,6 +10,7 @@ import Error from './Components/Error'
 import WhyBlockchain from './Components/WhyBlockchain'
 import HealthInside from './Components/Cards/Insides/HealthCard_inside'
 import MartialInside from './Components/Cards/Insides/Martial_inside'
+import MusicInside from './Components/Cards/Insides/Music_inside'
 
 export default function App() {
   return (
@@ -23,6 +24,7 @@ export default function App() {
           <Route path="/WhatElse" element={<WhatElse />} />
           <Route path="/HealthCard_inside" element={<HealthInside />} />
           <Route path="/Martial_inside" element={<MartialInside />} />
+          <Route path="/Music_inside" element={<MusicInside />} />
           <Route path="/Studies" element={<Studies />} />
           <Route path="/WhyBlockchain" element={<WhyBlockchain />} />
           <Route path="*" element={<Error />} />

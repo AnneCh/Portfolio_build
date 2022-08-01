@@ -78,6 +78,11 @@
       "description": "Recherches sur le système hormonal, la nourriture, l'environnement et comment renforcer mon système immunitaire.",
       "": ""
     },
+    "music": {
+      "h1": "Musique",
+      "description": "Du solfège à la batterie, au métier de DJ, en passant par le piano... et pas forcément dans cet ordre.",
+      "": ""
+    },
     "more": "Continuer..."
   }
 }
