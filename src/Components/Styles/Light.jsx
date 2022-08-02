@@ -1,3 +1,5 @@
+import theme from "react"
+
 export const lightTheme = {
     palette: {
       mode: 'light',
@@ -39,5 +41,13 @@ export const lightTheme = {
         },
       },
     direction: 'rtl',
-
+    navlinks: {
+      marginLeft: theme.spacing(10),
+      display: "flex",
+    },
+    props: {
+      MuiAppBar: {
+        color: 'secondary',
+      },
+    }
 }

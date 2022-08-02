@@ -1,3 +1,4 @@
+import theme from "react"
 
 export const darkTheme = {
     palette: {
@@ -48,6 +49,10 @@ export const darkTheme = {
       MuiAppBar: {
         color: 'secondary',
       },
+    },
+    navlinks: {
+      marginLeft: theme.spacing(10),
+      display: "flex",
     },
     
 }
