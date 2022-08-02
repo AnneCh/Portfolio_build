@@ -49,8 +49,8 @@ export function NavBar() {
 
     <ThemeProvider theme={theme}>
     <CssBaseline enableColorScheme />
-      <AppBar position='fixed'>
-          <Toolbar position="static" disableGutters>
+      <AppBar position='static'>
+          <Toolbar position="relative" disableGutters>
               <Grid container >
                   <Grid item xs={1}>
                       <HomeButton/>

@@ -54,5 +54,4 @@ export const darkTheme = {
       marginLeft: theme.spacing(10),
       display: "flex",
     },
-    
 }
