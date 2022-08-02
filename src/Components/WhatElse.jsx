@@ -20,10 +20,14 @@ function WhatElse() {
 
      return (
       <Box sx={{ flexGrow: 1 }}>
-      <Grid container sx={gridStyle} spacing={1} columns={{ xs: 4, sm: 8, md: 12 }}>
+      <Grid container sx={gridStyle} spacing={3}>
           <Grid item xs={2} sm={4} md={4}>
             <Health/>
+          </Grid>
+          <Grid item xs={2} sm={4} md={4}>
             <MartialArts/>
+          </Grid>
+          <Grid item xs={2} sm={4} md={4}>
             <MusicCard/>
           </Grid>
       </Grid>
