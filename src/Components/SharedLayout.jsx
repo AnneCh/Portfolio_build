@@ -10,14 +10,10 @@ import { NavBar } from "./Navbar";
 
 
 export default function SharedLayout() {
-    
-
-
     return(
-
-            <Container>
-                <NavBar />
-                <Outlet />
-            </Container>
+        <Container>
+            <NavBar />
+            <Outlet />
+        </Container>
     )
 }

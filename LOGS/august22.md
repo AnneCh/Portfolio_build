@@ -1,5 +1,8 @@
 02 august
 
+Working on Navbar grouping and styling
+=> need to create a home button first
+
 ===================
 01 August 2022
 
