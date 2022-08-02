@@ -6,7 +6,7 @@ export const HomeButton = () => {
     return(
         <Button>
             <Link to="/">
-                Home
+               |*-*|
             </Link>
         </Button>
     )

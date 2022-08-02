@@ -43,52 +43,38 @@ export function NavBar() {
   [mode]
   )
 
+  const [value, setValue] = useState();
+
   return(
 
     <ThemeProvider theme={theme}>
     <CssBaseline enableColorScheme />
-      <AppBar position="sticky">
-          <Toolbar disableGutters>
+      <AppBar position='fixed'>
+          <Toolbar position="static" disableGutters>
               <Grid container >
-                  <Grid item xs={2}>
+                  <Grid item xs={1}>
                       <HomeButton/>
                   </Grid>
 
-                  <Grid item xs={8}>
-                    <Tabs textColor="inherit" value={0}>
+                  <Grid item xs={1}>
+                    <NightToggle onChange={toggleMode} align="center"/>
+                  </Grid>
 
-                      <Tab label={t('navbar.dev')} to="/MainDev"/>
-
-                        <Link to="/MainDev">
-                          <Button>{t('navbar.dev')}</Button>
-                        </Link>
-
-
-                      <Link to="/MainMul">
-                          <Button>{t('navbar.mbm')}</Button>
-                      </Link>
-                      
-                      <Link to="/Studies">
-                          <Button>{t('navbar.studies')}</Button>
-                      </Link>
-
-                      <Link to="/WhatElse">
-                          <Button>{t('navbar.else')}</Button>
-                      </Link>
-                    
-                  <Link to="/Contact">
-                    <Button>{t('navbar.contact')}</Button>
-                  </Link>
-                  </Tabs>    
+                  <Grid item xs={5}>
+                    <Tabs textColor="inherit" value={value} onChange={(e,val)=> setValue(val)}>
+                      <Tab label={t('navbar.dev')} component={Link} to="/MainDev" />
+                      <Tab label={t('navbar.mbm')} component={Link} to="/MainMul" />
+                      <Tab label={t('navbar.studies')} component={Link} to="/Studies" />
+                      <Tab label={t('navbar.else')} component={Link} to="/WhatElse" />
+                      <Tab label={t('navbar.contact')} component={Link} to="/Contact" />
+                    </Tabs>    
+                  <Grid item xs={2}/>
                   <Grid item xs={2}>
                     <ToggleButton onClick={() => changeLanguage('en')}>en</ToggleButton>
                     <ToggleButton onClick={() => changeLanguage('fr')}>fr</ToggleButton>
                   </Grid>
-              <Grid item xs={2}>
-                <NightToggle onChange={toggleMode} align="center"/>
-              </Grid>
-            </Grid>    
-            </Grid>                        
+                </Grid>    
+              </Grid>                        
           </Toolbar>
       </AppBar>
     </ThemeProvider>

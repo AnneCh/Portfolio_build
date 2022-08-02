@@ -1,7 +1,6 @@
 import { useTranslation } from 'react-i18next'
 import React from "react";
-import { Link} from 'react-router-dom';
-import { Container, Button } from '@mui/material';
+import { Container } from '@mui/material';
 
 function MainMul() {
     const { t } = useTranslation()
@@ -20,9 +19,6 @@ function MainMul() {
             <Container>
             <h4>{t("main_mul.skills")}</h4>
             </Container>
-                <Link to="/">
-                    <Button>Home</Button>
-                </Link>
         </Container>
     )
 }

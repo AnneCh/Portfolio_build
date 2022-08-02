@@ -6,7 +6,6 @@ import { NavBar } from "./Navbar";
 
 // ////!\\\\   work on styling the buttons 
 // \\\   ///   so they are discreet but visible everywhere
-//   \  /      also add the home button
 
 
 export default function SharedLayout() {
