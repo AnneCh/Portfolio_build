@@ -1,7 +1,6 @@
 import React from "react";
 import { useTranslation } from 'react-i18next'
 import { Container, Button } from '@mui/material';
-import { Link } from "react-router-dom";
 
 export default function WhyBlockchain() {
     const { t } = useTranslation()
@@ -19,11 +18,6 @@ export default function WhyBlockchain() {
                 <p>{t('why_blockchain.p4')}</p>
                 <p>{t('why_blockchain.p5')}</p>
                 <p>{t('why_blockchain.p6')}</p>\
-                <Container>
-                    <Link to="/">
-                        <Button>Home</Button>
-                    </Link>
-                </Container>
                 </Container>
             </Container>
         </section>
