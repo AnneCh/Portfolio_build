@@ -42,7 +42,6 @@ export const lightTheme = {
       },
     direction: 'rtl',
     navlinks: {
-      marginLeft: theme.spacing(10),
       display: "flex",
     },
     props: {

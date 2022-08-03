@@ -51,7 +51,6 @@ export const darkTheme = {
       },
     },
     navlinks: {
-      marginLeft: theme.spacing(10),
       display: "flex",
     },
 }
