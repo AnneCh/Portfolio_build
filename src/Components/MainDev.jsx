@@ -21,7 +21,7 @@ function MainDev() {
     const { t } = useTranslation()
 
     return (
-        <Container>
+        <Container posirion="flex">
             <h1><BoldText>BlockChain Developer</BoldText></h1>
             <p>{t('main_dev.p1')}</p>
             <p>{t('main_dev.p2')}</p>
@@ -29,9 +29,6 @@ function MainDev() {
             <p>So I dived into it, in October 2021.<Link to="/WhyBlockchain">(Read more..)</Link></p>
             <Container>
             <internalNavDev />
-                <Link to="/">
-                    <Button>Home</Button>
-                </Link>
             </Container>
         </Container>
         
