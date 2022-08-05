@@ -10,7 +10,7 @@ import { NavBar } from "./Navbar";
 
 export default function SharedLayout() {
     return(
-        <Container>
+        <Container maxWidth={false}>
             <NavBar />
             <Outlet />
         </Container>

@@ -49,17 +49,15 @@ export function NavBar() {
 
     <ThemeProvider theme={theme}>
     <CssBaseline enableColorScheme />
-      <AppBar position='static' width='100%'>
-          <Toolbar position="relative" disableGutters>
+      <AppBar position='static' maxWidth={false}>
+          <Toolbar disableGutters>
               <Grid container >
                   <Grid item xs={1}>
                       <HomeButton/>
                   </Grid>
-
                   <Grid item xs={1}>
                     <NightToggle onChange={toggleMode} align="center"/>
                   </Grid>
-
                   <Grid item xs={5}>
                     <Tabs textColor="inherit" value={value} onChange={(e,val)=> setValue(val)}>
                       <Tab label={t('navbar.dev')} component={Link} to="/MainDev" />
@@ -68,7 +66,6 @@ export function NavBar() {
                       <Tab label={t('navbar.else')} component={Link} to="/WhatElse" />
                       <Tab label={t('navbar.contact')} component={Link} to="/Contact" />
                     </Tabs>    
-                  <Grid item xs={2}/>
                   <Grid item xs={2}>
                     <ToggleButton onClick={() => changeLanguage('en')}>en</ToggleButton>
                     <ToggleButton onClick={() => changeLanguage('fr')}>fr</ToggleButton>
