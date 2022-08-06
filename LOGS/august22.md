@@ -4,7 +4,7 @@ Today I'll focus on learning about the sx property and refresh the list of param
 => goal still to stylize the navbar, especially the buttons inside
 
 => I understant what sx{{}} does, it allows to get the theme's parameters and select them.
-I've tried doing it by passing in the theme's parameters, I can't get the backgorund of the cards to change color... I must be missing some knowledge that I will look into next time.
+I've tried doing it by passing in the theme's parameters, I can't get the backgorund of the cards to change color, same for changing the size of the navbar... I must be missing some knowledge that I will look into next time.
 ===================
 
 02 august
