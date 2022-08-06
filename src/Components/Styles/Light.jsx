@@ -48,6 +48,10 @@ export const lightTheme = {
       },
       MuiCard:{
         card: {
+          background:red,
+          color: red,
+          bgColor: red,
+          backgroundColor: red,
           maxWidth: "auto",
           display: "flex",
           margin: "auto",
@@ -58,8 +62,8 @@ export const lightTheme = {
           }
         },
         media: {
-          height:"100px",
-          width: "100px",
+          height:"150px",
+          width: "150px",
           paddingTop: "56.25%",
           padding:"80%"
         },

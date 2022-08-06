@@ -11,21 +11,20 @@ export default function MartialArts() {
     const { t } = useTranslation()
 
   return (
-    <Card className={classes.card}>
-      <CardMedia className={classes.media}
-        component="img"
+    <Card>
+      <CardMedia component="img"
         src={music}
         alt="/"
       />
-      <CardContent className={classes.content}>
-        <Typography className={classes.heading} gutterBottom>
+      <CardContent >
+        <Typography gutterBottom>
           {t('cards.music.h1')}
         </Typography>
         <Typography variant="body2" color="text.secondary">
         {t('cards.music.description')}
         </Typography>
       </CardContent>
-      <Divider className={classes.divider} light />
+      <Divider light />
       <CardActions>
         <Link to="/Music_inside">
           <Button size="small">{t('cards.more')}</Button>

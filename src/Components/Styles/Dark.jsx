@@ -48,7 +48,8 @@ export const darkTheme = {
     props: {
       MuiAppBar: {
         bgColor: 'rgba(4,4,41,0.44)',
-        display: 'flex'
+        display: 'flex',
+        
       },
     },
     spacing:2,
