@@ -47,10 +47,9 @@ export const darkTheme = {
     direction: 'rtl',
     props: {
       MuiAppBar: {
-        color: 'secondary',
+        bgColor: 'rgba(4,4,41,0.44)',
+        display: 'flex'
       },
     },
-    navlinks: {
-      display: "flex",
-    },
+    spacing:2,
 }

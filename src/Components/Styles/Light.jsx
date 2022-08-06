@@ -1,4 +1,5 @@
 import theme from "react"
+import { red } from "@mui/material/colors"
 
 export const lightTheme = {
     palette: {
@@ -19,7 +20,7 @@ export const lightTheme = {
       },
       background: {
         default: 'rgba(252, 247, 251,0.95)',
-        paper: 'rgba(39, 144, 245, 0.11)',
+        paper: red,
       },
       error: {
         main: '#f71a05',
@@ -41,12 +42,42 @@ export const lightTheme = {
         },
       },
     direction: 'rtl',
-    navlinks: {
-      display: "flex",
-    },
     props: {
       MuiAppBar: {
         color: 'secondary',
       },
-    }
+      MuiCard:{
+        card: {
+          maxWidth: "auto",
+          display: "flex",
+          margin: "auto",
+          transition: "0.3s",
+          boxShadow: "0 8px 40px -12px rgba(0,0,0,0.3)",
+          "&:hover": {
+            boxShadow: "0 16px 70px -12.125px rgba(0,0,0,0.3)"
+          }
+        },
+        media: {
+          height:"100px",
+          width: "100px",
+          paddingTop: "56.25%",
+          padding:"80%"
+        },
+        content: {
+          textAlign: "left",
+          padding: 3
+        },
+        divider: {
+          margin: `${3}px 0`
+        },
+        heading: {
+          fontWeight: "bold",
+          fontFamily: "Tangerine",
+        },
+        subheading: {
+          lineHeight: 1.8
+        },
+      }
+    },
+    spacing: 2,
 }

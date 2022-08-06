@@ -1,3 +1,9 @@
+06 august
+
+Today I'll focus on learning about the sx property and refresh the list of parameters that can be passed into the sx{}
+=> goal still to stylize the navbar, especially the buttons inside
+===================
+
 02 august
 
 Working on Navbar grouping and styling

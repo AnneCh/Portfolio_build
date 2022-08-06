@@ -1,6 +1,9 @@
+import { red } from "@mui/material/colors";
+
 export const CardStyle = muiBaseTheme => ({
     card: {
       maxWidth: "auto",
+      color: red,
       display: "flex",
       margin: "auto",
       transition: "0.3s",
@@ -10,8 +13,8 @@ export const CardStyle = muiBaseTheme => ({
       }
     },
     media: {
-      height:"150px",
-      width: "150px",
+      height:"100px",
+      width: "100px",
       paddingTop: "56.25%",
       padding:"80%"
     },
