@@ -1,3 +1,11 @@
+10 august
+
+adding a few texts/translations in the studies part
+
+=> I would love to be able to create a chronological arrow with dates and a short sum-up so people who don't want to take the time to read can just read the headlines...
+
+==================
+
 06 august
 
 Today I'll focus on learning about the sx property and refresh the list of parameters that can be passed into the sx{}

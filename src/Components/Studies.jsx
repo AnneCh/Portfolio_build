@@ -16,7 +16,10 @@ function Studies() {
             </Paper>
             <Paper>
                 <h2>{t('studies.license')}</h2>
-
+                <p>{t('studies.lic1')}</p>
+                <p>{t('studies.lic2')}</p>
+                <p>{t('studies.lic3')}</p>
+                <p>{t('studies.lic4')}</p>
             </Paper>
             <Paper>
                 <h2>{t('studies.master')}</h2>
