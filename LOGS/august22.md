@@ -1,3 +1,9 @@
+11 august
+
+still working on styling, focusing on the navbar.
+trying to understand how to pass an array of links that have translations into the navbar with the map. function
+================
+
 10 august
 
 adding a few texts/translations in the studies part

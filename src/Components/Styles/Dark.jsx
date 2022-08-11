@@ -45,11 +45,33 @@ export const darkTheme = {
       },
     },
     direction: 'rtl',
-    props: {
-      MuiAppBar: {
-        bgColor: 'rgba(4,4,41,0.44)',
-        display: 'flex',
-        
+
+    components: {
+      MuiToolbar: {
+        styleOverrides: {
+          root: {
+            width:"100%",
+            background: 'rgba(128,102,168,0.91)',
+            position: 'static',
+            minHeight: '86px',
+            padding: '0px 10px',
+          }
+        }
+      },
+      MuiCard: {
+        styleOverrides: {
+            root:{
+              maxWidth: "auto",
+              color: 'rgba(202,163,228,0.8)',
+              display: "flex",
+              margin: "auto",
+              transition: "0.3s",
+              boxShadow: "0 8px 40px -12px rgba(0,0,0,0.3)",
+              "&:hover": {
+                boxShadow: "0 16px 70px -12.125px rgba(0,0,0,0.3)"
+              }
+            }
+        }
       },
     },
     spacing:2,

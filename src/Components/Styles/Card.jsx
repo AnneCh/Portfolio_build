@@ -16,20 +16,20 @@ export const CardStyle = muiBaseTheme => ({
       height:"100px",
       width: "100px",
       paddingTop: "56.25%",
-      padding:"80%"
+      padding:"20%"
     },
     content: {
       textAlign: "left",
       padding: muiBaseTheme.spacing.unit * 3
     },
     divider: {
-      margin: `${muiBaseTheme.spacing.unit * 3}px 0`
+      margin: `${muiBaseTheme.spacing.unit * 5}px 0`
     },
     heading: {
       fontWeight: "bold",
       fontFamily: "Tangerine",
     },
     subheading: {
-      lineHeight: 1.8
+      lineHeight: 1.2
     },
   });

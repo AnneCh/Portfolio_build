@@ -1,8 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
-import { useTranslation } from 'react-i18next'
-import { whatelse } from "./data.js";
-import { Grid, Box, Button } from '@mui/material';
+import { Grid, Box } from '@mui/material';
 import Health from "./Cards/HealthCard";
 import MartialArts from "./Cards/MartialCard";
 import MusicCard from "./Cards/MusicCard";
@@ -16,18 +13,17 @@ const gridStyle = {
 
 
 function WhatElse() {
-  const { t } = useTranslation()
 
      return (
       <Box sx={{ flexGrow: 1 }}>
-      <Grid container sx={gridStyle} spacing={3}>
-          <Grid item xs={2} sm={4} md={4}>
+      <Grid container sx={gridStyle} spacing={4}>
+          <Grid item xs={3} >
             <Health/>
           </Grid>
-          <Grid item xs={2} sm={4} md={4}>
+          <Grid item xs={3}>
             <MartialArts/>
           </Grid>
-          <Grid item xs={2} sm={4} md={4}>
+          <Grid item xs={3}>
             <MusicCard/>
           </Grid>
       </Grid>
