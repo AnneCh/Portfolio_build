@@ -1,6 +1,6 @@
 import { red } from "@mui/material/colors";
 
-export const CardStyle = muiBaseTheme => ({
+export const CardStyle = () => ({
     card: {
       maxWidth: "auto",
       color: red,
@@ -20,11 +20,11 @@ export const CardStyle = muiBaseTheme => ({
     },
     content: {
       textAlign: "left",
-      padding: muiBaseTheme.spacing.unit * 3
+      padding: '10px'
     },
     divider: {
-      margin: `${muiBaseTheme.spacing.unit * 5}px 0`
-    },
+      margin: '10px'
+        },
     heading: {
       fontWeight: "bold",
       fontFamily: "Tangerine",

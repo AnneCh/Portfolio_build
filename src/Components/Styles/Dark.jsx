@@ -47,11 +47,18 @@ export const darkTheme = {
     direction: 'rtl',
 
     components: {
+      MuiAppBar:{
+        styleOverrides: {
+          root: {
+            width:"100%",
+          }
+      }
+      },
       MuiToolbar: {
         styleOverrides: {
           root: {
             width:"100%",
-            background: 'rgba(128,102,168,0.91)',
+            background: 'rgba(26,4,47,0.67)',
             position: 'static',
             minHeight: '86px',
             padding: '0px 10px',
@@ -61,10 +68,8 @@ export const darkTheme = {
       MuiCard: {
         styleOverrides: {
             root:{
-              maxWidth: "auto",
               color: 'rgba(202,163,228,0.8)',
               display: "flex",
-              margin: "auto",
               transition: "0.3s",
               boxShadow: "0 8px 40px -12px rgba(0,0,0,0.3)",
               "&:hover": {

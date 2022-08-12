@@ -43,45 +43,17 @@ export const lightTheme = {
       },
     direction: 'rtl',
     props: {
-      MuiAppBar: {
-        color: 'secondary',
-      },
-      MuiCard:{
-        card: {
-          background:red,
-          color: red,
-          bgColor: red,
-          backgroundColor: red,
-          maxWidth: "auto",
-          display: "flex",
-          margin: "auto",
-          transition: "0.3s",
-          boxShadow: "0 8px 40px -12px rgba(0,0,0,0.3)",
-          "&:hover": {
-            boxShadow: "0 16px 70px -12.125px rgba(0,0,0,0.3)"
+      MuiToolbar: {
+        styleOverrides: {
+          root: {
+            width:"100%",
+            background: red,
+            position: 'static',
+            minHeight: '86px',
+            padding: '0px 10px',
           }
-        },
-        media: {
-          height:"150px",
-          width: "150px",
-          paddingTop: "56.25%",
-          padding:"80%"
-        },
-        content: {
-          textAlign: "left",
-          padding: 3
-        },
-        divider: {
-          margin: `${3}px 0`
-        },
-        heading: {
-          fontWeight: "bold",
-          fontFamily: "Tangerine",
-        },
-        subheading: {
-          lineHeight: 1.8
-        },
-      }
+        }
+      },
     },
     spacing: 2,
 }
