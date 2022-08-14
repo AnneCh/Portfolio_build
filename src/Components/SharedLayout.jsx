@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { Outlet } from "react-router";
-import {Container} from "@mui/material"
+import {Box} from "@mui/material"
 import { NavBar } from "./Navbar";
 
 
@@ -10,9 +10,9 @@ import { NavBar } from "./Navbar";
 
 export default function SharedLayout() {
     return(
-        <Container maxWidth={false}>
+        <Box >
             <NavBar/>
             <Outlet />
-        </Container>
+        </Box>
     )
 }

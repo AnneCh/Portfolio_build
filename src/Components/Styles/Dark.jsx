@@ -46,7 +46,7 @@ export const darkTheme = {
     },
     direction: 'rtl',
 
-    components: {
+    components:{
       MuiAppBar:{
         styleOverrides: {
           root: {
