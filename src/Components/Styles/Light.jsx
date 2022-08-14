@@ -1,5 +1,6 @@
 import theme from "react"
 import { red } from "@mui/material/colors"
+import { Redeem } from "@mui/icons-material"
 
 export const lightTheme = {
     palette: {
@@ -19,8 +20,7 @@ export const lightTheme = {
         main: '#5e6db9',
       },
       background: {
-        default: 'rgba(252, 247, 251,0.95)',
-        paper: red,
+        default: 'rgba(204, 174, 210, 0.23)',
       },
       error: {
         main: '#f71a05',
@@ -42,18 +42,53 @@ export const lightTheme = {
         },
       },
     direction: 'rtl',
-    props: {
+    components:{
+      MuiGrid:{
+        styleOverrides: {
+            root:{
+            container: true,
+            background: red,
+            marginTop: 5,
+            marginLeft: "auto",
+            marginRight: "auto",
+            maxWidth:"auto",
+            columns:4,
+            columnSpacing: 2,
+          }}
+          
+        }
+      },
+      MuiPaper:{
+        styleOverrides: {
+          root:{
+            background: red,
+          }
+        }
+      },
       MuiToolbar: {
         styleOverrides: {
           root: {
             width:"100%",
-            background: red,
+            background:'rgba(204, 174, 210, 0.23)',
             position: 'static',
             minHeight: '86px',
             padding: '0px 10px',
           }
         }
       },
+      MuiCardContent: {
+        styleOverrides: {
+            root:{
+              color: 'rgba(204, 174, 210, 0.23)',
+              display: "flex",
+              transition: "0.3s",
+              boxShadow: "0 8px 40px -12px rgba(0,0,0,0.3)",
+              "&:hover": {
+                boxShadow: "0 16px 70px -12.125px rgba(0,0,0,0.3)"
+              }
+            }
     },
     spacing: 2,
+      }
+    
 }

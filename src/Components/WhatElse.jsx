@@ -4,31 +4,24 @@ import Health from "./Cards/HealthCard";
 import MartialArts from "./Cards/MartialCard";
 import MusicCard from "./Cards/MusicCard";
 
-const gridStyle = {
-  marginTop: 5,
-  marginLeft: "auto",
-  marginRight: "auto",
-  maxWidth:"auto",
-  
-}
 
 
 function WhatElse() {
 
      return (
-      <Box sx={{ flexGrow: 3}}>
-      <Grid container sx={gridStyle} spacing={4}>
-          <Grid item >
+      
+        <Grid container>
+          <Grid item xs={12} md={8} xl={3}>
             <Health/>
           </Grid>
-          <Grid item >
+          <Grid item xs={12} md={8} xl={3}>
             <MartialArts/>
           </Grid>
-          <Grid item >
+          <Grid item xs={12} md={8} xl={3}>
             <MusicCard/>
           </Grid>
-      </Grid>
-    </Box>
+        </Grid>
+   
     );
 }
 
