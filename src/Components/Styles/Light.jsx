@@ -69,6 +69,7 @@ export const lightTheme = {
         styleOverrides: {
           root: {
             width:"100%",
+            display:"flex",
             background:'rgba(204, 174, 210, 0.23)',
             position: 'static',
             minHeight: '86px',

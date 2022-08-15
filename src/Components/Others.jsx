@@ -6,7 +6,7 @@ import MusicCard from "./Cards/MusicCard";
 
 
 
-function WhatElse() {
+function Others() {
 
      return (
       
@@ -25,4 +25,4 @@ function WhatElse() {
     );
 }
 
-export default WhatElse
+export default Others

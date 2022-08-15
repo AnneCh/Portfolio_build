@@ -57,7 +57,7 @@
     "dev": "Developer",
     "mbm": "Entrepreneurship",
     "studies": "Education",
-    "else": "Stuff",
+    "else": "Others",
     "contact": "Contact"
   },
   "why_blockchain": {

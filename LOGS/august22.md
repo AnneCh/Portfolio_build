@@ -1,3 +1,10 @@
+15 august
+
+I've tried following several examples for the navbar;
+I've removed the grid and currently trying to figure out how to have a responsive navbar (with burger for xs displays) that correctly sends the viewer to the page correctly translated
+
+- right now I'm having an issue mapping through the list of pages with correct link, and displaying them in the bar.
+
 11 august
 
 still working on styling, focusing on the navbar.
