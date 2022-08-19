@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 export const HomeButton = () => {
     return(
-        <Button sx={{textDecoration:"none", paddingBlock:2, textShadow:'2px'}}>
+        <Button>
             <Link to="/">
                 Ξ
             </Link>

@@ -51,8 +51,16 @@ export const darkTheme = {
         styleOverrides: {
           root: {
             width:"100%",
-          }
-      }
+          },
+        },
+      },
+      MuiButton:{
+        styleOverrides: {
+          root: {
+            width:"50%",
+            textDecoration:'none',
+          },
+        }
       },
       MuiToolbar: {
         styleOverrides: {
@@ -63,7 +71,7 @@ export const darkTheme = {
             minHeight: '86px',
             padding: '0px 10px',
           }
-        }
+        },
       },
       MuiCard: {
         styleOverrides: {

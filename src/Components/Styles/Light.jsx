@@ -55,9 +55,7 @@ export const lightTheme = {
             columns:4,
             columnSpacing: 2,
           }}
-          
-        }
-      },
+        },
       MuiPaper:{
         styleOverrides: {
           root:{
@@ -65,10 +63,12 @@ export const lightTheme = {
           }
         }
       },
-      MuitButton:{
-        styleOverrides:{
-          textDecoration:'none'
-        }
+      MuiButton:{
+        styleOverrides: {
+          root: {
+            width:"50%",
+            textDecoration:'none',
+          },
       },
       MuiToolbar: {
         styleOverrides: {
@@ -94,8 +94,9 @@ export const lightTheme = {
                 boxShadow: "0 16px 70px -12.125px rgba(0,0,0,0.3)"
               }
             }
-    },
-    spacing: 2,
+          },
+          spacing: 2,
       }
-    
+    }
+  }
 }
