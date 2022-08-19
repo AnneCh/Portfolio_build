@@ -11,18 +11,14 @@ import {
   Button,
   MenuItem,
   IconButton, 
-  SwipeableDrawer,
-  Divider,
   createTheme,
   CssBaseline,
   ThemeProvider,
   ToggleButton,
-  Hidden, 
   Typography,
   List,
   ListItem} from '@mui/material';
 import MenuIcon from "@mui/icons-material/Menu";
-import { ChevronRightTwoTone as Chevron } from "@mui/icons-material";
 
 import { MaterialUISwitch as NightToggle} from "./Styles/Switch.jsx";
 import { HomeButton } from "./Buttons";
@@ -110,6 +106,7 @@ export function NavBar() {
                 onClose={handleCloseNavMenu}
                 sx={{display:{xs:'block', md:'none'},}}
                 >
+                  <HomeButton/>
                   <ToggleButton onClick={() => changeLanguage('en')}>en</ToggleButton>
                   <ToggleButton onClick={() => changeLanguage('fr')}>fr</ToggleButton>
                   {pages.map((page) => (
@@ -122,6 +119,7 @@ export function NavBar() {
                 </Menu>
               </Box>
                <Box sx={{ flexGrow: 1, display: {xs: 'none', md:'flex'}}}>
+                <HomeButton/>
                 <ToggleButton onClick={() => changeLanguage('en')}>en</ToggleButton>
                 <ToggleButton onClick={() => changeLanguage('fr')}>fr</ToggleButton>
                 {pages.map((page) => (

@@ -65,6 +65,11 @@ export const lightTheme = {
           }
         }
       },
+      MuitButton:{
+        styleOverrides:{
+          textDecoration:'none'
+        }
+      },
       MuiToolbar: {
         styleOverrides: {
           root: {
@@ -73,6 +78,7 @@ export const lightTheme = {
             background:'rgba(204, 174, 210, 0.23)',
             position: 'static',
             minHeight: '86px',
+            alignItems: 'space-between',
             padding: '0px 10px',
           }
         }
