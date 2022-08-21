@@ -2,7 +2,6 @@ import React from "react";
 import { Link} from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import { Container, Button } from '@mui/material';
-import { internalNavDev } from './Navbar' ;
 
 // Introduce quickly why blockchain developer with option to read more about it (links to an 
 //additional page where I'll either write or make a video of why I chose it
@@ -22,13 +21,19 @@ function MainDev() {
 
     return (
         <Container posirion="flex">
+            <Container>
             <h1><BoldText>BlockChain Developer</BoldText></h1>
             <p>{t('main_dev.p1')}</p>
             <p>{t('main_dev.p2')}</p>
             <p>{t('main_dev.p3')}</p>
-            <p>So I dived into it, in October 2021.<Link to="/WhyBlockchain">(Read more..)</Link></p>
+            <Link to="/WhyBlockchain"><Button>(Read more..)</Button></Link>
+            </Container>
             <Container>
-            <internalNavDev />
+            <h2>{t('main_dev.goals_title')}</h2>
+            <p>{t('main_dev.goals')}</p>
+            <p>{t('main_dev.goal1')}</p>
+            <p>{t('main_dev.goal2')}</p>
+
             </Container>
         </Container>
         
