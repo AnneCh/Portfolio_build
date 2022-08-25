@@ -1,6 +1,6 @@
 25 August
 
-=> I will work on another navbar to try to figure things out while keeping a relatively clean first shot.
+=> I will work on another navbar to try to figure things out while keeping a relatively clean first shot. =>created a clunky version that works for now, will make it better later
 
 - find a way to turn pages into links with corresponding translations
 

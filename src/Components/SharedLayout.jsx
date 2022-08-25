@@ -12,7 +12,6 @@ import { NavBar2 } from './Navbar2';
 export default function SharedLayout() {
     return(
         <Box >
-            <NavBar/>
             <NavBar2/>
             <Outlet />
         </Box>

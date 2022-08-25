@@ -58,13 +58,13 @@ export function NavBar2() {
   ]
 
   const pages3 = [
-    <Tabs>
+    <>
       <Tab label={t('navbar.dev')} component={Link} to="/MainDev" />
       <Tab label={t('navbar.mbm')} component={Link} to="/MainMul" />
       <Tab label={t('navbar.studies')} component={Link} to="/Studies" />
       <Tab label={t('navbar.else')} component={Link} to="/WhatElse" />
       <Tab label={t('navbar.contact')} component={Link} to="/Contact" />
-    </Tabs>
+    </>
   ]
 
   // {pages.map((name, path) => (
@@ -140,9 +140,9 @@ export function NavBar2() {
                   <HomeButton/>
                   <ToggleButton onClick={() => changeLanguage('en')}>en</ToggleButton>
                   <ToggleButton onClick={() => changeLanguage('fr')}>fr</ToggleButton>
-                  {pages.map((name, path) => (
-                    <MenuItem key={name} to={path} onClick={handleCloseNavMenu}>
-                      <Typography textAlign='center'>{name}</Typography>
+                  {pages3.map((label, to) => (
+                    <MenuItem key={label} to={to} onClick={handleCloseNavMenu}>
+                      <Typography textAlign='center'>{label}</Typography>
                     </MenuItem>
                   ))}
                   <NightToggle onChange={toggleMode} align="center"/>
@@ -153,9 +153,9 @@ export function NavBar2() {
                 <HomeButton/>
                 <ToggleButton onClick={() => changeLanguage('en')}>en</ToggleButton>
                 <ToggleButton onClick={() => changeLanguage('fr')}>fr</ToggleButton>
-                {pages.map((name, path) => (
-                  <Button key={name} to={path} onClick={handleCloseNavMenu} sx={{color:'white', display:'block'}}>
-                    {name}
+                {pages3.map((label, to) => (
+                  <Button key={label} to={to} onClick={handleCloseNavMenu} sx={{color:'white', display:'block'}}>
+                    {label}
                   </Button>
                 ))}
                 <NightToggle onChange={toggleMode} align="center"/>
