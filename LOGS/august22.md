@@ -1,3 +1,12 @@
+25 August
+
+=> I will work on another navbar to try to figure things out while keeping a relatively clean first shot.
+
+- find a way to turn pages into links with corresponding translations
+
+Note for later = turn some texts into images or schematics
+
+===============
 19th august
 
 I've spent a few hours with my hands on a React tutorial from Jan 2022, Free Code Camp edition, to get the basics that I have not covered by only following quick front-end tutorials.
