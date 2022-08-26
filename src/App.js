@@ -21,7 +21,7 @@ export default function App() {
           <Route path="/MainDev" element={<MainDev />} />
           <Route path="/MainMul" element={<MainMul />} />
           <Route path="/Contact" element={<Contact />} />
-          <Route path="/Others" element={<Others />} />
+          <Route path="/WhatElse" element={<Others />} />
           <Route path="/HealthCard_inside" element={<HealthInside />} />
           <Route path="/Martial_inside" element={<MartialInside />} />
           <Route path="/Music_inside" element={<MusicInside />} />
