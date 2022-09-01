@@ -51,8 +51,6 @@ function MainDev() {
             <p>{t('main_dev.list16')}</p>
             <h2>{t('main_dev.update')}</h2>
             <p>{t('main_dev.list17')}</p>
-
-
             </Container>
         </Container>
         
