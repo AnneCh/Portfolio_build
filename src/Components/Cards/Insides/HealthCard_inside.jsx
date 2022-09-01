@@ -10,18 +10,17 @@ export default function HealthInside() {
 
     return (
         <Container>
-           <img sx={{maxHeight:'50px', maxWdith:'50px'}} src={health}/>
-           <p>{t('health.h1')}</p>
-           <Typography>{t('health.description')}</Typography>
-           <Typography>{t('health.health1')}</Typography>
-           <Typography>{t('health.health2')}</Typography>
-           <Typography>{t('health.health3')}</Typography>
-           <Typography>{t('health.health4')}</Typography>
-           <Typography>{t('health.health5')}</Typography>
-           <Typography>{t('health.health6')}</Typography>
-           <Typography>{t('health.health7')}</Typography>
-           <Typography>{t('health.health8')}</Typography>
-           <Typography>{t('health.health9')}</Typography>
+           <h1>{t('cards.health.h1')}</h1>
+           <h2>{t('cards.health.description')}</h2>
+           <p>{t('cards.health.health1')}</p>
+           <p>{t('cards.health.health2')}</p>
+           <p>{t('cards.health.health3')}</p>
+           <p>{t('cards.health.health4')}</p>
+           <p>{t('cards.health.health5')}</p>
+           <p>{t('cards.health.health6')}</p>
+           <p>{t('cards.health.health7')}</p>
+           <p>{t('cards.health.health8')}</p>
+           <p>{t('cards.health.health9')}</p>
 
         </Container>
     )
