@@ -22,16 +22,16 @@ export default function MainPage() {
       </Container>
       <Box sx={{alignItems:"center"}}>
         <Link to="/MainDev">
-          <Button>Web3 Programmer</Button>
+          <Button size="large">Web3 Programmer</Button>
         </Link>
         <Link to="/MainMul">
-          <Button>Entrepreneur</Button>
+          <Button size="large">Entrepreneur</Button>
         </Link>
         <Link to="/Studies">
-          <Button>Studies</Button>
+          <Button size="large">Studies</Button>
         </Link>
-        <Link to="/Others">
-          <Button>Other interests</Button>
+        <Link to="/WhatElse">
+          <Button size="large">Other interests</Button>
         </Link>
       </Box>
       </>
