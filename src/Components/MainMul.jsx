@@ -18,10 +18,10 @@ function MainMul() {
             <p>{t("main_mul.moving")}</p>
             <p>{t("main_mul.presence")}</p>
             <Container>
-            <h4>{t("main_mul.skills")}</h4>
-            <p>{t("main_mul.skills1")}</p>
-            <p>{t("main_mul.skills2")}</p>
-            <p>{t("main_mul.skills3")}</p>
+                <h4>{t("main_mul.skills")}</h4>
+                <p>{t("main_mul.skills1")}</p>
+                <p>{t("main_mul.skills2")}</p>
+                <p>{t("main_mul.skills3")}</p>
             </Container>
         </Container>
     )

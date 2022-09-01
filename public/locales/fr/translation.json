@@ -102,12 +102,21 @@
     "health": {
       "h1": "Santé",
       "description": "Recherches sur le système hormonal, la nourriture, l'environnement et comment renforcer mon système immunitaire.",
-      "": ""
+      "health1": "Je partage, avec mon épou, le souhait de me rapprocher le plus possible de mon potentiel humain. Il nous fût très vite apparent que nos santés respectives ne nous permettaient d’en atteindre qu’une partie assez faible.",
+      "health2": "Une santé en péril garantissant un cerveau moins productif, je me suis naturellement vue poussée, au fil des années, à m’instruire en cherchant plusieurs solutions à ses cotés pour maximiser nos santés.",
+      "health3": "",
+      "health4": "",
+      "health5": "",
+      "health6": "",
+      "health7": "",
+      "health8": "",
+      "health9": "",
+      "health10": ""
     },
     "music": {
       "h1": "Musique",
       "description": "Du solfège à la batterie, au métier de DJ, en passant par le piano... et pas forcément dans cet ordre.",
-      "": ""
+      "music1": ""
     },
     "more": "Continuer..."
   }
