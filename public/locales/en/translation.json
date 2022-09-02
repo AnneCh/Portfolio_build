@@ -13,7 +13,29 @@
   "main_dev": {
     "p1": "I started discovering an attraction for systems after learning sound engineering through my company. Coding had been on my mind for a while, I had been following tutorials and certifications through FreeCodeCamp and The Odin Project, but it was just toe-dipping and never serious.",
     "p2": "As I gained maturity and experience in my endeavors, the Covid Time started and I lost 95% of my income. As weeks went by and more restrictive measures went enforced, my team and I  put everything on the table and decided that it was time for a change. I went back on that old idea of coding, and started doing basic google searches about what languages to start with, what kinds of jobs I could be getting, what were the basics to cover and which kinds of specialties are there for me to choose from. ",
-    "p3": "I was in the middle of it when we had a one-time opportunity to leave Cambodia. We quickly had to make decisions about where, when, how. My husband and I left on 13th April 2021. On 14th, Phnom Penh, where we had been living since late 2016, had fully closed, nobody was allowed outside or under very strict criteria. On the 16th,  my husband had a stroke (from which he almost fully recovered). After finalizing our settling down in Serbia, I finally got the opportunity to focus full time on coding."
+    "p3": "I was in the middle of it when we had a one-time opportunity to leave Cambodia. We quickly had to make decisions about where, when, how. My husband and I left on 13th April 2021. On 14th, Phnom Penh, where we had been living since late 2016, had fully closed, nobody was allowed outside or under very strict criteria. On the 16th,  my husband had a stroke (from which he almost fully recovered). After finalizing our settling down in Serbia, I finally got the opportunity to focus full time on coding.",
+    "goals_title": "Tools for Goals",
+    "goals": "Over the years, I’ve noticed that the best way for me to ever become excellent at something, is for me first to get a good understanding of the pool of things that both are related to the thing studied. This teaches me about its environments, behaviors, it may also allow me to start detecting recurring patterns and weaknesses, maybe also identify guiding principles, if they are not known already.",
+    "goal1": "I found that to be the best way to maximize my understanding of the specificity to be learned and experimented with the thing to be mastered. ",
+    "goal2": "So I decided to apply a similar approach to blockchain technologies.",
+    "list1": "I started by making a list of things that seemed necessary to get an understanding of. This list would obviously evolve as learned.",
+    "list2": "=> Is there a specific lexicon? => Understand it",
+    "list3": "=> What types of interactions can happen on blockchains, and how the later work.",
+    "list4": "=> Exchanges happen through smart contracts => I decided to learn Solidity, which is also what I want to aim at mastering",
+    "list5": "=> Actions between the blockchain and its users happen through scripts => I went for JavaScript, with in mind to learn Python as well in the future",
+    "list6": "=> Interfaces are rendered through HTML and CSS, or a framework inspired by them and seem to be staples to have in one’s arsenal, so I added those languages to my list.",
+    "list7": "=> This choice then mutated into learning ReactJS, for which the basics I have acquired in HTML, CSS and JavaScript are essential.",
+    "list8": "=> But all those programs can’t operate without machines. Getting a basic understanding of out tools and how they evolve, as well as networks in general seem to me to be essential too.",
+    "list9": "Through the continuous study of those first languages and first delve into a totally new environment, my original list evolved. As I gained a deeper understanding of the systems, I started understanding the guiding principles behind reliable systems, as well as how engineers think and create programming languages.",
+    "list10": "=> I wanted to know more on security and systems’ vulnerabilities, and started a learning path on Try Hack Me.",
+    "list11": "=> I thought it would also be a good thing to know how to participate to the decentralization of Ethereum’s network by running my own node. I chose to go with Nethermind and deepen my understanding of Ethereum.",
+    "list12": "After completing several tutorials {{{include list}}}, I finally arrived at the place where I needed to start coding my own dApp.",
+    "list13": "I chose to go for Decentralized Finance, as I am, as many other human beings, aiming at financial freedom for my family, and firmly believe that passive incomes are one of the best ways to obtain it.",
+    "list14": "I started coding to build a trading robot based on flashloan and arbitrage principles; but I quickly understood that I had bitten on more that I could chew.",
+    "list15": "At the end of June 2022, another newbie like me contacted me, wanting to build a project with me as he thought my flashloan/arbitrage project was interesting and wanted to expand his portfolio, and mine with it. After talking about it, we decided to build a platform (testnet only) that would sell a few NFTs, inspired by a tutorial from Patrick Collins for FreeCodeCamp.",
+    "list16": "At the same time, I am working on this digitial Curriculum Vitae to put in the reps in ReactJS.",
+    "update": "August2022",
+    "list17": "I share my time learning while working on the partnered NFT project, this CV’s creation, JavaScript classes on Udemy, reading through the docs of the tool and dependencies used, Try Hack Me, as well as brain workouts to develop my ability to solve problems and think outside the box."
   },
   "main_mul": {
     "title": "MindBridge Media, for artists and venues",
@@ -47,17 +69,13 @@
     "intro": ""
   },
   "what_else": {
-    "intro": "Here are a few nore things that I spend my time into.",
-    "health": "Health",
-    "health1": "After a few years of going in and out of doctors' offices with little to no results regarding a few health issues I had, I got tired and decided to start doing my own research.",
-    "health2": "I",
-    "health3": ""
+    "intro": "Here are a few nore things that I spend my time learning about."
   },
   "navbar": {
     "dev": "Developer",
     "mbm": "Entrepreneurship",
     "studies": "Education",
-    "else": "Stuff",
+    "else": "Others",
     "contact": "Contact"
   },
   "why_blockchain": {
@@ -83,15 +101,16 @@
     "health": {
       "h1": "Health",
       "description": "Ongoing research on hormonal system, foods, environments and how to strengthen my immune system",
-      "health1": "For different personal reasons, I was brought to look for solutions to different health problems.",
-      "health2": "On one side, I had to learn about endocrinology, hormones, the immune system. On the other, I needed to learn about body mechanics, posture, positioning. I went on and tried different extreme diets in the search for what would be an acceptable, if not ideal, balance.",
-      "health3": "My growing understanding of both the female and male hormonal systems lead me to correlating hormonal imbalances and diets, preventive medicines and life-long immune disorders, physical exercise and overall health.",
-      "health4": "I quickly saw that everything is connected, and progressively grew frustrated at my own belief that I could still find ‘experts’ who would fix me, or fix my spouse’s health. It was time I stopped thinking that experimenting on my own health in the pursuit of improving it, was a bad thing to do, and that only doctors had the ‘right’ to do it.",
-      "health5": "With my spouse’s help, I started several health projects, all based on a series of questions : what hurts / what are the possible causes / how can each pain be related to other things / what are the environmental things that can have an impact (pos or neg) on the problem / what can be done to fix it / what can I do on my own, what do I need help with / …",
-      "health6": "Then, research, analyse, decide, and act.",
-      "health7": "That way, I went through several experiments, from eating vegan to carnivore, including vegetarian, paleo and keto diets. Over time, I assessed how I felt, how I slept, how my mood was, took a few blood tests, and I still run those experiments to this day, which allows me to predict more or less accurately my body’s behaviors according to the food I put in it. ",
-      "health8": "Following the same principles, I am helping my husband recover from a medical mistake that happened 12 years ago which brought him 3 herniations in his neck, two strokes, and a hormonal system that does not do its job.",
-      "health9": "I’m also actively working on fixing my posture, correcting a long-time scoliosis and hips imbalance, and started learning about martial arts, and building a roadmap on how and what to train once the pains related to my postural issues allow me to train on a regular basis."
+      "health1": "Personal health concerns that both affect my husband and myself in different ways lead me to look for solutions to improve our health.",
+      "health2": "We both want to get closer to our human potential, and thus share the fundamental reasoning that, if our health are not at their best or close to it, then we should strive to bridge the gap, because a malfunctioning body relentlessly leads to a less productive brain. That’s what motivated me to stop smoking and start looking for solutions that we could afford, in order maximize our health situation.",
+      "health3": "To understand the lay of the land, I had to first understand which ones, from the different systems operating in the human body, I should focus on.",
+      "health4": "Well, the answer was, almost everything! From the digestive to the hormonal and to the immune systems and beyond, all are connected. From understanding allergies, chronic muscle or joint inflammations, gallstones and nervous system disorders, one change in one system will affect the others.",
+      "health5": " On the other hand, with my enterprise came the responsibility to lift speakers that could reach half my weight, be on my feet for long hours without pause. I was already suffering from back pains due to a long-time scoliosis; I needed to learn about body mechanics, posture, positioning within one’s environment. Part of this pursuit lead me to try different extreme diets in the search for what would be an acceptable, if not ideal, balanced diet for my bodily and environmental requirements.",
+      "health6": "My growing understanding of both the female and male hormonal systems lead me to correlate hormonal imbalances and diets, preventive medicines and life-long immune disorders, physical exercise and overall health.",
+      "health7": "",
+      "health8": "",
+      "health9": "",
+      "health10": ""
     },
     "music": {
       "h1": "Music",

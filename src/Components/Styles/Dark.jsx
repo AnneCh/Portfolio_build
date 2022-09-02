@@ -51,8 +51,16 @@ export const darkTheme = {
         styleOverrides: {
           root: {
             width:"100%",
-          }
-      }
+          },
+        },
+      },
+      MuiButton:{
+        styleOverrides: {
+          root: {
+            width:"50%",
+            textDecoration:'none',
+          },
+        }
       },
       MuiToolbar: {
         styleOverrides: {
@@ -63,15 +71,15 @@ export const darkTheme = {
             minHeight: '86px',
             padding: '0px 10px',
           }
-        }
+        },
       },
       MuiCard: {
         styleOverrides: {
-            root:{
-              color: 'rgba(202,163,228,0.8)',
-              display: "flex",
-              transition: "0.3s",
-              boxShadow: "0 8px 40px -12px rgba(0,0,0,0.3)",
+          root:{
+            color: 'rgba(202,163,228,0.8)',
+            display: "flex",
+            transition: "0.3s",
+            boxShadow: "0 8px 40px -12px rgba(0,0,0,0.3)",
               "&:hover": {
                 boxShadow: "0 16px 70px -12.125px rgba(0,0,0,0.3)"
               }

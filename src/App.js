@@ -3,7 +3,7 @@ import MainPage from './Components/Enter'
 import MainDev from './Components/MainDev'
 import MainMul from './Components/MainMul'
 import Contact from './Components/Contact'
-import WhatElse from './Components/WhatElse'
+import Others from './Components/Others'
 import Studies from './Components/Studies'
 import SharedLayout from './Components/SharedLayout'
 import Error from './Components/Error'
@@ -21,7 +21,7 @@ export default function App() {
           <Route path="/MainDev" element={<MainDev />} />
           <Route path="/MainMul" element={<MainMul />} />
           <Route path="/Contact" element={<Contact />} />
-          <Route path="/WhatElse" element={<WhatElse />} />
+          <Route path="/WhatElse" element={<Others />} />
           <Route path="/HealthCard_inside" element={<HealthInside />} />
           <Route path="/Martial_inside" element={<MartialInside />} />
           <Route path="/Music_inside" element={<MusicInside />} />

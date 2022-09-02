@@ -1,6 +1,8 @@
-import { Container } from '@mui/material';
+import { Button, Container } from '@mui/material';
+import { Box } from '@mui/system';
 import * as React from 'react';
 import { useTranslation } from 'react-i18next';
+import { Link } from 'react-router-dom';
 
 
 export default function MainPage() {
@@ -11,14 +13,28 @@ export default function MainPage() {
   // find how to keep track and return the visits of this page => google analytics extension
 
   return (
-          <Container>
-            <header>
-              <h1>{t('main_page.visitor', {number_visits})}</h1> // CHANGE VALUE, CALCULATE IT
-              <h2>{t('main_page.honor')}</h2>
-              <p>{t('main_page.hydrate')}</p>
-            </header>
-              <h2>{t('main_page.know')}</h2>
-          </Container>
+    <>
+      <Container sx={{alignItems:"center"}}>
+        <h1>{t('main_page.visitor', {number_visits})}</h1>
+        <h2>{t('main_page.honor')}</h2>
+        <p>{t('main_page.hydrate')}</p>
+        <h2>{t('main_page.know')}</h2>
+      </Container>
+      <Box sx={{alignItems:"center"}}>
+        <Link to="/MainDev">
+          <Button size="large">Web3 Programmer</Button>
+        </Link>
+        <Link to="/MainMul">
+          <Button size="large">Entrepreneur</Button>
+        </Link>
+        <Link to="/Studies">
+          <Button size="large">Studies</Button>
+        </Link>
+        <Link to="/WhatElse">
+          <Button size="large">Other interests</Button>
+        </Link>
+      </Box>
+      </>
   );
 }
 

@@ -55,9 +55,7 @@ export const lightTheme = {
             columns:4,
             columnSpacing: 2,
           }}
-          
-        }
-      },
+        },
       MuiPaper:{
         styleOverrides: {
           root:{
@@ -65,13 +63,22 @@ export const lightTheme = {
           }
         }
       },
+      MuiButton:{
+        styleOverrides: {
+          root: {
+            width:"50%",
+            textDecoration:'none',
+          },
+      },
       MuiToolbar: {
         styleOverrides: {
           root: {
             width:"100%",
+            display:"flex",
             background:'rgba(204, 174, 210, 0.23)',
             position: 'static',
             minHeight: '86px',
+            alignItems: 'space-between',
             padding: '0px 10px',
           }
         }
@@ -87,8 +94,9 @@ export const lightTheme = {
                 boxShadow: "0 16px 70px -12.125px rgba(0,0,0,0.3)"
               }
             }
-    },
-    spacing: 2,
+          },
+          spacing: 2,
       }
-    
+    }
+  }
 }

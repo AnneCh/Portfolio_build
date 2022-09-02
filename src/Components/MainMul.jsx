@@ -1,11 +1,12 @@
 import { useTranslation } from 'react-i18next'
 import React from "react";
-import { Container } from '@mui/material';
+import { Container, Box } from '@mui/material';
+import exit  from "./exit.jpg"
 
 function MainMul() {
     const { t } = useTranslation()
     return(
-        <Container>
+        <Container sx={{backgroundImage:({exit})}}>
             <h1>{t("main_mul.title")}</h1> 
             <h4>{t("main_mul.history")}</h4>
             <p>{t("main_mul.start")}</p>
@@ -16,9 +17,12 @@ function MainMul() {
             <p>{t("main_mul.kevin")}</p>
             <p>{t("main_mul.moving")}</p>
             <p>{t("main_mul.presence")}</p>
-            <Container>
-            <h4>{t("main_mul.skills")}</h4>
-            </Container>
+            <Box>
+                <h4>{t("main_mul.skills")}</h4>
+                <p>{t("main_mul.skill1")}</p>
+                <p>{t("main_mul.skill2")}</p>
+                <p>{t("main_mul.skill3")}</p>
+            </Box>
         </Container>
     )
 }
