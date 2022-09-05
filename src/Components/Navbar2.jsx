@@ -115,7 +115,7 @@ export function NavBar2() {
             </Box>
             <Box sx={{ flexGrow: 2, display: {xs: 'none', md:'flex'}}}>
               <HomeButton/>
-            <ToggleButton onClick={() => changeLanguage('en')}>en</ToggleButton>
+            <ToggleButton className="toggle" onClick={() => changeLanguage('en')}>en</ToggleButton>
             <ToggleButton onClick={() => changeLanguage('fr')}>fr</ToggleButton>
               {pages3.map((label, to) => (
                 <Button key={label} to={to} onClick={handleCloseNavMenu} sx={{color:'white', display:'block'}}>

@@ -71,17 +71,14 @@ export const lightTheme = {
             color:'red', //WORKING
           },
       },
-      MuiToggleButton:{
+      MuiButtonBase:{
         styleOverrides: {
-          "&.MuiSelect-root": {
+          toggle: {
             width:"50%",
             textDecoration:'overline',
             color:red, //not working
             backgroundColor:red,
-          }
-          // root: {
-           
-          // },
+          },
         },
       },
       MuiSwitch:{
