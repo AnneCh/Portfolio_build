@@ -79,7 +79,7 @@ export const lightTheme = {
             position: 'static',
             minHeight: '86px',
             alignItems: 'space-between',
-            padding: '0px 10px',
+            padding: '50px 10px',
           }
         }
       },
