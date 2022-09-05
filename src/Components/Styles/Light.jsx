@@ -1,6 +1,4 @@
-import theme from "react"
 import { red } from "@mui/material/colors"
-import { Redeem } from "@mui/icons-material"
 
 export const lightTheme = {
     palette: {

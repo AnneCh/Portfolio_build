@@ -1,4 +1,3 @@
-import theme from "react"
 
 export const darkTheme = {
     palette: {
@@ -51,6 +50,8 @@ export const darkTheme = {
         styleOverrides: {
           root: {
             width:"100%",
+            display:"flex",
+            alignItems:'space-between'
           },
         },
       },
@@ -74,7 +75,7 @@ export const darkTheme = {
         },
       },
       MuiCard: {
-        styleOverrides: {
+        styleOverrides: { //not working
           root:{
             color: 'rgba(202,163,228,0.8)',
             display: "flex",
