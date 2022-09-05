@@ -37,26 +37,6 @@ export function NavBar2() {
     i18n.changeLanguage(lng);
   }
 
-  //pages to be displayed
-  // my issue comes when rendering the page in French, how do I map through the array of pages 
-  //while rendering the correct link/translation
-
-  const pages=[
-    (t('navbar.dev')),
-    (t('navbar.mbm')),
-    (t('navbar.studies')),
-    (t('navbar.else')),
-    (t('navbar.contact')),
-  ]
-
-  const pages2=[
-    {name:(t('navbar.dev')), path:"/MainDev"},
-    {name:(t('navbar.mbm')), path:"/MainMul"},
-    {name:(t('navbar.studies')), path:"/Studies"},
-    {name:(t('navbar.else')), path:"/Others"},
-    {name:(t('navbar.contact')), path:"/Contact"},
-  ]
-
   const pages3 = [
     <>
       <Tab label={t('navbar.dev')} component={Link} to="/MainDev" />
@@ -66,16 +46,6 @@ export function NavBar2() {
       <Tab label={t('navbar.contact')} component={Link} to="/Contact" />
     </>
   ]
-
-  // {pages.map((name, path) => (
-  //   <Button key={name} to={path} onClick={handleCloseNavMenu} sx={{color:'white', display:'block'}}>
-  //     {name}
-  //   </Button>
-  // ))}
-
-  // {pages.map(({name, path})=>(
-  //   <Link key={name} to={path}> <Typography textAlign='center'>{name}</Typography></Link>
-  // ))
 
 
   //dark or light mode
@@ -105,9 +75,6 @@ export function NavBar2() {
     setAnchorElNav(null)
   }
 
-  // open or close the swipeable drawer
-  const [open, setOpen] = useState(false)
-
   return(
 
     <ThemeProvider theme={theme}>
@@ -115,7 +82,7 @@ export function NavBar2() {
       <Box sx={{flexGrow:1, marginBotton: 3}}>
         <AppBar position="sticky">
           <Toolbar>
-          <Box sx={{flexGrow: 1, display: {xs:"flex", md:"none"}}}>
+          <Box sx={{flexGrow: 2, display: {xs:"flex", md:"none"}}}>
                 <IconButton
                 size="large"
                 aria-label="menu"
@@ -149,7 +116,7 @@ export function NavBar2() {
 
                 </Menu>
               </Box>
-               <Box sx={{ flexGrow: 1, display: {xs: 'none', md:'flex'}}}>
+               <Box sx={{ flexGrow: 2, display: {xs: 'none', md:'flex'}}}>
                 <HomeButton/>
                 <ToggleButton onClick={() => changeLanguage('en')}>en</ToggleButton>
                 <ToggleButton onClick={() => changeLanguage('fr')}>fr</ToggleButton>
@@ -166,116 +133,3 @@ export function NavBar2() {
     </ThemeProvider>
   )
 }
-
-
-
-
-/* 
-
-<Hidden xsDown>
-              <HomeButton/>
-              <NightToggle onChange={toggleMode} align="center"/>
-              {pages.map((item) => (
-                <Link to={item.to}>{item.name}</Link>
-              ))}
-              <ToggleButton onClick={() => changeLanguage('en')}>en</ToggleButton>
-              <ToggleButton onClick={() => changeLanguage('fr')}>fr</ToggleButton>
-            </Hidden>
-            <Hidden smUp>
-                <IconButton>
-                  <MenuIcon onClick={()=> setOpen(true)}/>
-                </IconButton>
-            </Hidden>
-          </Toolbar>
-          <SwipeableDrawer anchor='right' open={open} onOpen={() => setOpen(true)} onClose={() => setOpen(false)}>
-            <div>
-              <IconButton> <Chevron onClick={()=> setOpen(false)}/> </IconButton>
-            </div>
-            <Divider/>
-            <List>
-              <HomeButton/>
-              <NightToggle onChange={toggleMode} align="center"/>
-              {pages.map((item) => (
-                <ListItem>
-                  <Link to={item.to}>{item.name}</Link>
-                </ListItem>
-              ))}
-              <ToggleButton onClick={() => changeLanguage('en')}>en</ToggleButton>
-              <ToggleButton onClick={() => changeLanguage('fr')}>fr</ToggleButton>
-            </List>
-          </SwipeableDrawer>
-
-  // const [value, setValue] = useState();
-
-  //to change the navbar list into a burger icon
-  // const [anchorElNav, setAnchorElNav] = useState(null)
-  // const handleOpenNavMenu = (event) => {
-  //   setAnchorElNav(event.currentTarget);
-  // }
-  // const handleCloseNavMenu = () => {
-  //   setAnchorElNav(null)
-  // }
-<AppBar position='static'>
-            <Toolbar disableGutters>
-              <Box sx={{flexGrow: 1, display: {xs:"flex", md:"none"}}}>
-                <IconButton
-                size="large"
-                aria-label="menu"
-                aria-controls="menu-appbar"
-                aria-haspopup="true"
-                onClick={handleOpenNavMenu}
-                color="inherit"
-                >
-                  <MenuIcon/>
-                </IconButton>
-                <Menu id="menu-appbar"
-                anchorEl={anchorElNav}
-                anchorOrigin={{
-                  vertical:"bottom",
-                  horizontal:"left"
-                }}
-                keepMounted transformOrigin={{vertical:"top", horizontal:"left",}}
-                open={Boolean(anchorElNav)}
-                onClose={handleCloseNavMenu}
-                sx={{display:{xs:'block', md:'none'},}}
-                >
-                  {pages.map((page) => (
-                    <MenuItem key={page} onClick={handleCloseNavMenu}>
-                      <Typography textAlign='center'>{page}</Typography>
-                    </MenuItem>
-                  ))}
-                </Menu>
-              </Box>
-               <Box sx={{ flexGrow: 1, display: {xs: 'none', md:'flex'}}}>
-                {pages.map((page) => (
-                  <Button key={page} onClick={handleCloseNavMenu} sx={{color:'white', display:'block'}}>
-                    {page}
-                  </Button>
-                ))}
-              </Box> 
-  
- 
-
-                <Grid container >
-                    <Grid item xs={1}>
-                        <HomeButton/>
-                    </Grid>
-                    <Grid item xs={1}>
-                      <NightToggle onChange={toggleMode} align="center"/>
-                    </Grid>
-                    <Grid item xs={5}>
-                      <Tabs textColor="inherit" value={value} onChange={(e,val)=> setValue(val)}>
-                        <Tab label={t('navbar.dev')} component={Link} to="/MainDev" />
-                        <Tab label={t('navbar.mbm')} component={Link} to="/MainMul" />
-                        <Tab label={t('navbar.studies')} component={Link} to="/Studies" />
-                        <Tab label={t('navbar.else')} component={Link} to="/WhatElse" />
-                        <Tab label={t('navbar.contact')} component={Link} to="/Contact" />
-                      </Tabs>    
-                    <Grid item xs={2}>
-                      <ToggleButton onClick={() => changeLanguage('en')}>en</ToggleButton>
-                      <ToggleButton onClick={() => changeLanguage('fr')}>fr</ToggleButton>
-                    </Grid>
-                  </Grid>    
-                </Grid>                         
-            </Toolbar>
-        </AppBar>*/
