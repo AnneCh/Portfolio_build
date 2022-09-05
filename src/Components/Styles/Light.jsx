@@ -44,7 +44,7 @@ export const lightTheme = {
     direction: 'rtl',
     components:{
       MuiGrid:{
-        styleOverrides: {
+        styleOverrides: { // not working
             root:{
             container: true,
             background: red,
@@ -59,23 +59,41 @@ export const lightTheme = {
       MuiPaper:{
         styleOverrides: {
           root:{
-            background: red,
+            background: red, //not working
           }
         }
       },
       MuiButton:{
         styleOverrides: {
           root: {
-            width:"50%",
-            textDecoration:'none',
+            width:"100%",
+            textDecoration:'none', // kinda working, still underlined!
+            color:'red', //WORKING
           },
       },
-      MuiToolbar: {
+      MuiToggleButton:{
         styleOverrides: {
+          root: {
+            width:"50%",
+            textDecoration:'overline',
+            color:'red', //not working
+          },
+        },
+      },
+      MuiSwitch:{
+        styleOverrides: {
+          root: {
+            padding:"20px",
+            marginTop:"30px"
+          },
+        },
+      },
+      MuiToolbar: {
+        styleOverrides: { // NOW WORKING
           root: {
             width:"100%",
             display:"flex",
-            background:'rgba(204, 174, 210, 0.23)',
+            background:red, //'rgba(204, 174, 210, 0.23)'
             position: 'static',
             minHeight: '86px',
             alignItems: 'space-between',
@@ -86,7 +104,7 @@ export const lightTheme = {
       MuiCardContent: {
         styleOverrides: {
             root:{
-              color: 'rgba(204, 174, 210, 0.23)',
+              backgroundColor: red, //NOT WORKING
               display: "flex",
               transition: "0.3s",
               boxShadow: "0 8px 40px -12px rgba(0,0,0,0.3)",
