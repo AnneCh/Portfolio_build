@@ -66,7 +66,7 @@ export const lightTheme = {
           root: {
             width:"100%",
             textDecoration:'none', // kinda working, still underlined!
-            color:'red', //WORKING
+            color:'rgba(204, 174, 210, 0.23)', //WORKING
           },
       },
       MuiButtonBase:{

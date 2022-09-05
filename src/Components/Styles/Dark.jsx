@@ -63,6 +63,13 @@ export const darkTheme = {
           },
         }
       },
+      MuiList:{
+        styleOverrides: {
+          root: {
+            background:'secondary'
+          },
+        }
+      },
       MuiToolbar: {
         styleOverrides: {
           root: {
