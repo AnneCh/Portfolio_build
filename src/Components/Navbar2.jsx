@@ -64,8 +64,6 @@ export function NavBar2() {
   [mode]
   )
 
-  const [value, setValue] = useState();
-
   //to change the navbar list into a burger icon
   const [anchorElNav, setAnchorElNav] = useState(null)
   const handleOpenNavMenu = (event) => {
@@ -83,51 +81,50 @@ export function NavBar2() {
         <AppBar position="sticky">
           <Toolbar>
           <Box sx={{flexGrow: 2, display: {xs:"flex", md:"none"}}}>
-                <IconButton
-                size="large"
-                aria-label="menu"
-                aria-controls="menu-appbar"
-                aria-haspopup="true"
-                onClick={handleOpenNavMenu}
-                color="inherit"
-                >
-                  <MenuIcon/>
-                </IconButton>
-                <Menu id="menu-appbar"
-                anchorEl={anchorElNav}
-                anchorOrigin={{
-                  vertical:"bottom",
-                  horizontal:"left"
-                }}
-                keepMounted transformOrigin={{vertical:"top", horizontal:"left",}}
-                open={Boolean(anchorElNav)}
-                onClose={handleCloseNavMenu}
-                sx={{display:{xs:'block', md:'none'},}}
-                >
-                  <HomeButton/>
-                  <ToggleButton onClick={() => changeLanguage('en')}>en</ToggleButton>
-                  <ToggleButton onClick={() => changeLanguage('fr')}>fr</ToggleButton>
-                  {pages3.map((label, to) => (
-                    <MenuItem key={label} to={to} onClick={handleCloseNavMenu}>
-                      <Typography textAlign='center'>{label}</Typography>
-                    </MenuItem>
+            <IconButton
+            size="large"
+            aria-label="menu"
+            aria-controls="menu-appbar"
+            aria-haspopup="true"
+            onClick={handleOpenNavMenu}
+            color="inherit"
+            >
+              <MenuIcon/>
+            </IconButton>
+            <Menu id="menu-appbar"
+            anchorEl={anchorElNav}
+            anchorOrigin={{
+              vertical:"bottom",
+              horizontal:"left"
+            }}
+            keepMounted transformOrigin={{vertical:"top", horizontal:"left",}}
+            open={Boolean(anchorElNav)}
+            onClose={handleCloseNavMenu}
+            sx={{display:{xs:'block', md:'none'},}}
+            >
+              <HomeButton/>
+              <ToggleButton onClick={() => changeLanguage('en')}>en</ToggleButton>
+              <ToggleButton onClick={() => changeLanguage('fr')}>fr</ToggleButton>
+                {pages3.map((label, to) => (
+                  <MenuItem key={label} to={to} onClick={handleCloseNavMenu}>
+                    <Typography textAlign='center'>{label}</Typography>
+                  </MenuItem>
                   ))}
                   <NightToggle onChange={toggleMode} align="center"/>
-
-                </Menu>
-              </Box>
-               <Box sx={{ flexGrow: 2, display: {xs: 'none', md:'flex'}}}>
-                <HomeButton/>
-                <ToggleButton onClick={() => changeLanguage('en')}>en</ToggleButton>
-                <ToggleButton onClick={() => changeLanguage('fr')}>fr</ToggleButton>
-                {pages3.map((label, to) => (
-                  <Button key={label} to={to} onClick={handleCloseNavMenu} sx={{color:'white', display:'block'}}>
-                    {label}
-                  </Button>
-                ))}
-                <NightToggle onChange={toggleMode} align="center"/>
-              </Box> 
-            </Toolbar>
+              </Menu>
+            </Box>
+            <Box sx={{ flexGrow: 2, display: {xs: 'none', md:'flex'}}}>
+              <HomeButton/>
+            <ToggleButton onClick={() => changeLanguage('en')}>en</ToggleButton>
+            <ToggleButton onClick={() => changeLanguage('fr')}>fr</ToggleButton>
+              {pages3.map((label, to) => (
+                <Button key={label} to={to} onClick={handleCloseNavMenu} sx={{color:'white', display:'block'}}>
+                  {label}
+                </Button>
+              ))}
+              <NightToggle onChange={toggleMode} align="center"/>
+            </Box> 
+          </Toolbar>
         </AppBar>
       </Box>
     </ThemeProvider>
