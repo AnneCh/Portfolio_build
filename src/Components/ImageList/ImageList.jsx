@@ -1,11 +1,11 @@
 import * as React from 'react';
 import ImageList from '@mui/material/ImageList';
 import ImageListItem from '@mui/material/ImageListItem';
-
+import Music from "./music0.jpg"
 
 export default function ListImg() {
   return (
-    <ImageList sx={{ width: 500, height: 450 }} variant="woven" cols={3} gap={8}>
+    <ImageList sx={{ width: 1000, height: 750 }} variant="woven" cols={3} gap={8}>
       {itemData.map((item) => (
         <ImageListItem key={item.img}>
           <img
@@ -21,11 +21,11 @@ export default function ListImg() {
 }
 const itemData = [
   {
-    img: './images/music0.jpg',
+    img: {Music},
     title: 'festival',
   },
   {
-    img: './images/music1.jpg',
+    img: './music1.jpg',
     title: 'Drummer',
   },
   {

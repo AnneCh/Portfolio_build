@@ -5,6 +5,8 @@ import { CodeIcon } from "@heroicons/react/solid";
 import React from "react";
 import { useTranslation } from 'react-i18next'
 import { projects } from "./data"
+import { Container, Button } from "@mui/material";
+import { Link } from "react-router-dom";
 
 export default function Projects() {
   const { t } = useTranslation()

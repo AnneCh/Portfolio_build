@@ -1,7 +1,7 @@
 import { useTranslation } from 'react-i18next'
 import React from "react";
 import { Container, Box } from '@mui/material';
-import ImageList from './ImageList';
+import ImageList from './ImageList/ImageList';
 
 function MainMul() {
     const { t } = useTranslation()
