@@ -12,25 +12,32 @@ import HealthInside from './Components/Cards/Insides/HealthCard_inside'
 import MartialInside from './Components/Cards/Insides/Martial_inside'
 import MusicInside from './Components/Cards/Insides/Music_inside'
 
+import PopUp from './Components/PopUp'
+
 export default function App() {
   return (
-    <BrowserRouter>
-      <Routes>
-        <Route path="/" element={<SharedLayout />}>
-          <Route index element={<MainPage />} />
-          <Route path="/MainDev" element={<MainDev />} />
-          <Route path="/MainMul" element={<MainMul />} />
-          <Route path="/Contact" element={<Contact />} />
-          <Route path="/WhatElse" element={<Others />} />
-          <Route path="/HealthCard_inside" element={<HealthInside />} />
-          <Route path="/Martial_inside" element={<MartialInside />} />
-          <Route path="/Music_inside" element={<MusicInside />} />
-          <Route path="/Studies" element={<Studies />} />
-          <Route path="/WhyBlockchain" element={<WhyBlockchain />} />
-          <Route path="*" element={<Error />} />
-          <Route path="/" element={<MainPage />} />
-        </Route>
-      </Routes>
-    </BrowserRouter>
+    <>
+      <PopUp trigger={true}>
+        <h2>This website is under construction!</h2>
+      </PopUp>
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<SharedLayout />}>
+            <Route index element={<MainPage />} />
+            <Route path="/MainDev" element={<MainDev />} />
+            <Route path="/MainMul" element={<MainMul />} />
+            <Route path="/Contact" element={<Contact />} />
+            <Route path="/WhatElse" element={<Others />} />
+            <Route path="/HealthCard_inside" element={<HealthInside />} />
+            <Route path="/Martial_inside" element={<MartialInside />} />
+            <Route path="/Music_inside" element={<MusicInside />} />
+            <Route path="/Studies" element={<Studies />} />
+            <Route path="/WhyBlockchain" element={<WhyBlockchain />} />
+            <Route path="*" element={<Error />} />
+            <Route path="/" element={<MainPage />} />
+          </Route>
+        </Routes>
+      </BrowserRouter>
+    </>
   )
 }
