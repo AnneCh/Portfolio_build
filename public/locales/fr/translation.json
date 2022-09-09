@@ -1,4 +1,8 @@
 {
+  "warning": {
+    "construction": "Ce site est en construction !",
+    "thanks": "Merci pour votre bienveillance quant au manque de fonctionnalités et design."
+  },
   "accents": "é à è ù â ê î ô û ç",
   "main_page": {
     "visitor": "Bonjour, invité(e) #{{number_visits}}, et bienvenue.",

@@ -1,11 +1,15 @@
 import { Button, Box } from '@mui/material'
 import React from 'react'
+import construction from './construction.jpg'
 
 function PopUp(props) {
+
   return (props.trigger) ? (
-    <Box sx={{backgroundColor:"red", width:'100vh', height:'70px', marginTop:'0', margin:'0'}}>
-        <Button sx={{position:"absolute", right:'50px'}}>X</Button>
-        {props.children}
+    <Box sx={{position:'fixed', display:'flex', justifyContent:'center', alignItems:'center', backgroundImage:`url(${construction})`, width:'100%', height:'100vh'}}>
+        <Box sx={{display:'flex', justifyContent:'center', alignItems:'center', backgroundColor:'rgba(0,0,0, 0.4)', width:'100%'}}>
+          <Button sx={{margin:'40px', backgroundColor:'rgba(255,255,255, 0.4)', width:'70px', height:'70px'}} onClick={() => props.setTrigger(false)}>X</Button>
+          <Box sx={{color:'white'}}>{props.children}</Box>
+        </Box>
     </Box>
   ) : "";
 }

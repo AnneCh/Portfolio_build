@@ -20,20 +20,6 @@ export default function MainPage() {
         <p>{t('main_page.hydrate')}</p>
         <h2>{t('main_page.know')}</h2>
       </Container>
-      <Box sx={{alignItems:"center"}}>
-        <Link to="/MainDev">
-          <Button size="large">Web3 Programmer</Button>
-        </Link>
-        <Link to="/MainMul">
-          <Button size="large">Entrepreneur</Button>
-        </Link>
-        <Link to="/Studies">
-          <Button size="large">Studies</Button>
-        </Link>
-        <Link to="/WhatElse">
-          <Button size="large">Other interests</Button>
-        </Link>
-      </Box>
       </>
   );
 }
@@ -50,5 +36,22 @@ class visitors extends React.Component {
   render() { 
   }
 }
+
+
+
+      <Box sx={{alignItems:"center"}}>
+        <Link to="/MainDev">
+          <Button size="large">Web3 Programmer</Button>
+        </Link>
+        <Link to="/MainMul">
+          <Button size="large">Entrepreneur</Button>
+        </Link>
+        <Link to="/Studies">
+          <Button size="large">Studies</Button>
+        </Link>
+        <Link to="/WhatElse">
+          <Button size="large">Other interests</Button>
+        </Link>
+      </Box>
 
 **/
