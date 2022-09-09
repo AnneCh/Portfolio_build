@@ -1,7 +1,7 @@
 {
   "warning": {
     "construction": "This website is under construction!",
-    "thanks": "Thanks for understanding the consequent lack of presentation."
+    "thanks": "Thanks for understanding the consequent lack of proper presentation."
   },
   "main_page": {
     "visitor": "Hello, visitor #{{number_visits}}, and welcome",
