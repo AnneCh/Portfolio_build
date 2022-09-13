@@ -18,7 +18,7 @@ function Others() {
     )
   })
   return (
-    <Box sx={{textAlign:'center', margin:10, fontSize:30}}>
+    <Box sx={{textAlign:'center', margin:8, fontSize:30}}>
       <h3>{t('what_else.intro')}</h3>
         {others}
     </Box>

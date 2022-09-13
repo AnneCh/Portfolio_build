@@ -6,7 +6,7 @@ import ImageList from './ImageList/ImageList';
 function MainMul() {
     const { t } = useTranslation()
     return(
-        <Container>
+        <Container sx={{width:'100%'}}>
             <h1>{t("main_mul.title")}</h1> 
             <h4>{t("main_mul.history")}</h4>
             <p>{t("main_mul.start")}</p>
