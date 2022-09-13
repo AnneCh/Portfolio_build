@@ -36,19 +36,19 @@ export const projects = [
 
 export const topics = [
   {
-    image: { health },
-    title: '',
-    description: '',
+    image: '/health.png',
+    title: '.',
+    description: '.',
     link: '/HealthCard_inside',
   },
   {
-    image: '',
+    image: '/yinyang.png',
     title: '.',
     description: '.',
     link: '/Martial_Inside',
   },
   {
-    image: '',
+    image: '/music_notes.png',
     title: '.',
     description: '.',
     link: '/Music_Inside',

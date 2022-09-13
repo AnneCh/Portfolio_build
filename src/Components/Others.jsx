@@ -1,8 +1,5 @@
+import { Box } from "@mui/material";
 import React from "react";
-// import { Grid } from '@mui/material';
-// import Health from "./Cards/HealthCard";
-// import MartialArts from "./Cards/MartialCard";
-// import MusicCard from "./Cards/MusicCard";
 import { useTranslation } from 'react-i18next';
 import Card from './Cards/CardTemplate';
 import {topics} from './data'
@@ -21,10 +18,10 @@ function Others() {
     )
   })
   return (
-    <div>
+    <Box sx={{textAlign:'center', margin:10, fontSize:30}}>
       <h3>{t('what_else.intro')}</h3>
         {others}
-    </div>
+    </Box>
   );
 }
 
