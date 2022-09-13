@@ -1,3 +1,6 @@
+import { useTranslation } from 'react-i18next'
+import health from './Cards/health.png'
+
 export const projects = [
   {
     title: 'Well, Here you are!',
@@ -31,25 +34,31 @@ export const projects = [
   },
 ]
 
-export const whatelse = [
+export const topics = [
   {
-    topic: 'Well-Being and Efficiency',
+    image: { health },
+    title: '',
+    description: '',
+    link: '/HealthCard_inside',
+  },
+  {
     image: '',
-    more: '.',
-    link: '',
+    title: '.',
+    description: '.',
+    link: '/Martial_Inside',
   },
   {
-    topic: 'Systems and why they Matter',
     image: '',
-    more: 'Engineering and coding principles to everyday life.',
-    link: '',
+    title: '.',
+    description: '.',
+    link: '/Music_Inside',
   },
-  {
-    topic: 'Trials and Errors',
-    image: './imgs/connected_brains.png',
-    more: 'Reshapping my approach to problems',
-    link: '',
-  },
+  // {
+  //   image: '',
+  //   title: '.',
+  //   description: '.',
+  //   link: '',
+  // },
 ]
 
 export const tools = [

@@ -18,7 +18,7 @@ export const darkTheme = {
       },
       background: {
         default: 'rgba(33,5,55,0.51)',
-        paper: 'rgba(4,4,41,0.44)',
+        paper: 'rgba(4,4,41,0.98)',
       },
       error: {
         main: '#f71a05',
@@ -66,7 +66,7 @@ export const darkTheme = {
       MuiList:{
         styleOverrides: {
           root: {
-            background:'secondary'
+            background:'secondary',
           },
         }
       },

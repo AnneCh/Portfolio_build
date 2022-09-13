@@ -106,9 +106,9 @@ export function NavBar2() {
               <ToggleButton onClick={() => changeLanguage('en')}>en</ToggleButton>
               <ToggleButton onClick={() => changeLanguage('fr')}>fr</ToggleButton>
                 {pages3.map((label, to) => (
-                  <MenuItem key={label} to={to} onClick={handleCloseNavMenu}>
-                    <Typography textAlign='center'>{label}</Typography>
-                  </MenuItem>
+                  <Button key={label} to={to} onClick={handleCloseNavMenu}>
+                    {label}
+                  </Button>
                   ))}
                   <NightToggle onChange={toggleMode} align="center"/>
               </Menu>

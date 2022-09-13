@@ -1,7 +1,6 @@
 import * as React from 'react';
 import ImageList from '@mui/material/ImageList';
 import ImageListItem from '@mui/material/ImageListItem';
-import Music from "./music.jpg"
 
 export default function ListImg() {
   return (
@@ -21,123 +20,123 @@ export default function ListImg() {
 }
 const itemData = [
   {
-    img: {Music},
+    img:'/music.jpg',
     title: 'festival',
   },
   {
-    img: './music1.jpg',
+    img:'/music1.jpg',
     title: 'Drummer',
   },
   {
-    img: './images/music2',
+    img: '/music2.jpg',
     title: 'concert',
   },
   {
-    img: './images/music3',
+    img: '/music3.jpg',
     title: 'crowd',
   },
   {
-    img: './images/music4',
+    img: '/music4.jpg',
     title: 'jamsession',
   },
   {
-    img: './images/music5',
+    img: '/music5.jpg',
     title: 'portrait',
   },
   {
-    img: './images/music6',
+    img: '/music6.jpg',
     title: 'JamSessions',
   },
   {
-    img: './images/music7',
+    img: './music7.jpg',
     title: 'DJ',
   },
   {
-    img: './images/music8',
+    img: '/music8.jpg',
     title: 'gala',
   },
   {
-    img: './images/music9',
+    img: '/music9.jpg',
     title: 'TVshow',
   },
   {
-    img: './images/music10',
+    img: '/music10.jpg',
     title: 'Concert',
   },
   {
-    img: './images/music11',
+    img: '/music11.jpg',
     title: 'SetUp concert',
   },
   {
-    img: './images/music12',
+    img: '/music12.jpg',
     title: 'crowd concert',
   },  
   {
-    img: './images/music13',
+    img: '/music13.jpg',
     title: 'tv set up',
   },  
   {
-    img: './images/music14',
+    img: '/music14.jpg',
     title: 'HomeDJ',
   },  
   {
-    img: './images/music15',
+    img: '/music15.jpg',
     title: 'Wedding setup',
   },  
   {
-    img: './images/music16',
+    img: '/music16.jpg',
     title: 'pool gig',
   },  
   {
-    img: './images/music17',
+    img: '/music17.jpg',
     title: 'Itacate set up',
   },  
   {
-    img: './images/music18',
+    img: '/music18.jpg',
     title: 'DJ gear',
   },  
   {
-    img: './images/music19',
+    img: '/music19.jpg',
     title: 'Mic check',
   },  
   {
-    img: './images/music20',
+    img: '/music20.jpg',
     title: 'SlimKid',
   },  
   {
-    img: './images/music21',
+    img: '/music21.jpg',
     title: 'MCees',
   },
   {
-    img: './images/music22',
+    img: '/music22.jpg',
     title: 'MCees laugh',
   },  
   {
-    img: './images/music23',
+    img: '/music23.jpg',
     title: 'Exit gig',
   },  
   {
-    img: './images/music24',
+    img: '/music24.jpg',
     title: 'Home Drumkit',
   },  
   {
-    img: './images/photo1',
+    img: '/photo1.jpg',
     title: 'Retouche pictures',
   },  
   {
-    img: './images/photo2',
+    img: '/photo2.jpg',
     title: 'retouche landscape',
   },
   {
-    img: './images/photo3.jpg',
+    img: '/photo3.jpg',
     title: 'retouche portrait B&W',
   },
   {
-    img: './images/gear1.jpg',
+    img: '/gear1.jpg',
     title: 'mixing board for rent',
   },
   {
-    img: './images/gear2',
+    img: '/gear2',
     title: 'speaker for rent',
   },
 
