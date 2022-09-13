@@ -14,7 +14,7 @@ export default function MainPage() {
 
   return (
     <>
-      <Container sx={{alignItems:"center"}}>
+      <Container sx={{width:'100%',alignItems:"cente\r"}}>
         <h1>{t('main_page.visitor', {number_visits})}</h1>
         <h2>{t('main_page.honor')}</h2>
         <p>{t('main_page.hydrate')}</p>

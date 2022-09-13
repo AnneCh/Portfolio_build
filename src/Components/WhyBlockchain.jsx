@@ -17,7 +17,7 @@ export default function WhyBlockchain() {
                 <p>{t('why_blockchain.p3')}</p>
                 <p>{t('why_blockchain.p4')}</p>
                 <p>{t('why_blockchain.p5')}</p>
-                <p>{t('why_blockchain.p6')}</p>\
+                <p>{t('why_blockchain.p6')}</p>
                 </Container>
             </Container>
         </section>
