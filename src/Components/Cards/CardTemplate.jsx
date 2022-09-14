@@ -12,7 +12,7 @@ const { t } = useTranslation()
 
 
   return (
-    <Card sx={{display:'inline-block'}}>
+    <Card sx={{display:'inline-block', alignContent:'space-between'}}>
       <CardMedia
         component="img"
         src={props.img}

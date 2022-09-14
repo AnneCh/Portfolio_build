@@ -18,7 +18,7 @@ export const lightTheme = {
         main: '#5e6db9',
       },
       background: {
-        default: 'rgba(204, 174, 210, 0.23)',
+        default: 'rgba(246, 250, 255, 0.8)',
       },
       error: {
         main: '#f71a05',
@@ -29,7 +29,7 @@ export const lightTheme = {
       },
     },
     typography: {
-        fontFamily: 'Quicksand',
+        fontFamily: 'Roboto',
         fontSize: 16,
         fontWeightLight: 200,
         fontWeightRegular: 400,

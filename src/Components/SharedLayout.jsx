@@ -10,7 +10,7 @@ import { NavBar2 } from './Navbar2';
 
 export default function SharedLayout() {
     return(
-        <Box sx={{display:'block', minHeight:'100vw'}}>
+        <Box sx={{display:'block', height:'100vp', width:'100vp'}}>
             <NavBar2/>
             <Outlet />
         </Box>
