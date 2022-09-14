@@ -1,5 +1,5 @@
 import React from "react";
-import health from '../health.png';
+import health from '../healthTrans.png';
 import { Container, Typography } from "@mui/material";
 import { useTranslation } from "react-i18next";
 

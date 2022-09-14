@@ -1,8 +1,9 @@
-import { Button, Container } from '@mui/material';
+import { Button, Container, Typography } from '@mui/material';
 import { Box } from '@mui/system';
 import * as React from 'react';
 import { useTranslation } from 'react-i18next';
 import { Link } from 'react-router-dom';
+import tea from "./teaTrans.png";
 
 
 export default function MainPage() {
@@ -14,11 +15,12 @@ export default function MainPage() {
 
   return (
     <>
-      <Container sx={{width:'100%',alignItems:"cente\r"}}>
-        <h1>{t('main_page.visitor', {number_visits})}</h1>
-        <h2>{t('main_page.honor')}</h2>
-        <p>{t('main_page.hydrate')}</p>
-        <h2>{t('main_page.know')}</h2>
+      <Container sx={{ paddingTop:"40px", backgroundImage:`url(${tea})`,height:'100vh', width:'100vp', backgroundRepeat:'space', alignItems:"center"}}>
+        <Typography sx={{fontSize:"100px", fontWeight:"bold", textAlign:'center'}}>{t('main_page.visitor', {number_visits})}</Typography>
+        <Typography sx={{fontSize:"17px", textAlign:'center'}}>{t('main_page.honor')}</Typography>
+        <br/>
+        <Typography sx={{fontSize:"55px", textAlign:'center'}}>{t('main_page.hydrate')}</Typography>
+        <Typography sx={{paddingTop:"20px", fontSize:"18px", fontWeight:"bold", textAlign:'center'}}>{t('main_page.know')}</Typography>
       </Container>
       </>
   );
