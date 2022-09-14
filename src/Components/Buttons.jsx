@@ -1,13 +1,14 @@
-import { Button } from "@mui/material";
+import { Button, Box } from "@mui/material";
 import { Link } from "react-router-dom";
 import brain from './brains.png';
 
 
 export const HomeButton = () => {
     return(
-        <Link to="/">
-            <Button sx={{backgroundColor:"red", image:{brain}, height:'20px', width:"20px", margin:'5px'}}/>
-        </Link>
-
+        <Box sx={{padding:'30px'}}>
+            <Link to="/">
+                <img src={brain} height="50px" width="50px" padding="20px"/>
+            </Link>
+         </Box>
     )
 }

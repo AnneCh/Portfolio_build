@@ -1,5 +1,4 @@
-import { Button, Container, Typography } from '@mui/material';
-import { Box } from '@mui/system';
+import { Button, Container, Typography, Box } from '@mui/material';
 import * as React from 'react';
 import { useTranslation } from 'react-i18next';
 import { Link } from 'react-router-dom';
@@ -21,6 +20,14 @@ export default function MainPage() {
         <br/>
         <Typography sx={{fontSize:"55px", textAlign:'center'}}>{t('main_page.hydrate')}</Typography>
         <Typography sx={{paddingTop:"20px", fontSize:"18px", fontWeight:"bold", textAlign:'center'}}>{t('main_page.know')}</Typography>
+        <Box>
+          <Link to="/MainMul">
+              <Button key="Entrepreneur"/>
+          </Link>
+          <Link to="/MainDev">
+            <Button key='Developer' />
+          </Link>
+        </Box>
       </Container>
       </>
   );
@@ -38,22 +45,5 @@ class visitors extends React.Component {
   render() { 
   }
 }
-
-
-
-      <Box sx={{alignItems:"center"}}>
-        <Link to="/MainDev">
-          <Button size="large">Web3 Programmer</Button>
-        </Link>
-        <Link to="/MainMul">
-          <Button size="large">Entrepreneur</Button>
-        </Link>
-        <Link to="/Studies">
-          <Button size="large">Studies</Button>
-        </Link>
-        <Link to="/WhatElse">
-          <Button size="large">Other interests</Button>
-        </Link>
-      </Box>
 
 **/

@@ -9,16 +9,14 @@ import {
   Box, 
   Menu,
   Button,
-  MenuItem,
   IconButton, 
   createTheme,
   CssBaseline,
   ThemeProvider,
   ToggleButton,
   Typography,
-  Tabs,
-  Tab,
-  ListItem} from '@mui/material';
+  Tab
+} from '@mui/material';
 import MenuIcon from "@mui/icons-material/Menu";
 
 import { MaterialUISwitch as NightToggle} from "./Styles/Switch.jsx";
@@ -97,10 +95,10 @@ export function NavBar2() {
               vertical:"bottom",
               horizontal:"left"
             }}
-            keepMounted transformOrigin={{vertical:"top", horizontal:"left",}}
+            keepMounted transformOrigin={{vertical:"top", horizontal:"left"}}
             open={Boolean(anchorElNav)}
             onClose={handleCloseNavMenu}
-            sx={{display:{xs:'block', md:'none'},}}
+            sx={{display:{xs:'block', md:'none'}, padding:"20px"}}
             >
               <HomeButton/>
               <ToggleButton onClick={() => changeLanguage('en')}>en</ToggleButton>
@@ -110,11 +108,11 @@ export function NavBar2() {
                     {label}
                   </Button>
                   ))}
-                  <NightToggle onChange={toggleMode} align="center"/>
+                  <NightToggle onChange={toggleMode}/>
               </Menu>
             </Box>
             <Box sx={{ flexGrow: 2, display: {xs: 'none', md:'flex'}}}>
-              <HomeButton/>
+              <HomeButton />
             <ToggleButton className="toggle" onClick={() => changeLanguage('en')}>en</ToggleButton>
             <ToggleButton onClick={() => changeLanguage('fr')}>fr</ToggleButton>
               {pages3.map((label, to) => (
@@ -122,7 +120,7 @@ export function NavBar2() {
                   {label}
                 </Button>
               ))}
-              <NightToggle onChange={toggleMode} align="center"/>
+              <NightToggle onChange={toggleMode}/>
             </Box> 
           </Toolbar>
         </AppBar>
