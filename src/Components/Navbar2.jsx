@@ -37,11 +37,11 @@ export function NavBar2() {
 
   const pages3 = [
     <>
-      <Tab label={t('navbar.dev')} component={Link} to="/MainDev" />
-      <Tab label={t('navbar.mbm')} component={Link} to="/MainMul" />
-      <Tab label={t('navbar.studies')} component={Link} to="/Studies" />
-      <Tab label={t('navbar.else')} component={Link} to="/WhatElse" />
-      <Tab label={t('navbar.contact')} component={Link} to="/Contact" />
+      <Tab sx={{width:"100vh"}} label={t('navbar.dev')} component={Link} to="/MainDev" />
+      <Tab sx={{width:"100vh"}} label={t('navbar.mbm')} component={Link} to="/MainMul" />
+      <Tab sx={{width:"100vh"}} label={t('navbar.studies')} component={Link} to="/Studies" />
+      <Tab sx={{width:"100vh"}} label={t('navbar.else')} component={Link} to="/WhatElse" />
+      <Tab sx={{width:"100vh"}} label={t('navbar.contact')} component={Link} to="/Contact" />
     </>
   ]
 
@@ -104,8 +104,8 @@ export function NavBar2() {
               <ToggleButton onClick={() => changeLanguage('en')}>en</ToggleButton>
               <ToggleButton onClick={() => changeLanguage('fr')}>fr</ToggleButton>
                 {pages3.map((label, to) => (
-                  <Button key={label} to={to} onClick={handleCloseNavMenu}>
-                    {label}
+                  <Button key={label} to={to} onClick={handleCloseNavMenu} sx={{color:"white"}}>
+                        <div display="flex" alignItems="flex">{label}</div>
                   </Button>
                   ))}
                   <NightToggle onChange={toggleMode}/>
@@ -116,7 +116,7 @@ export function NavBar2() {
             <ToggleButton className="toggle" onClick={() => changeLanguage('en')}>en</ToggleButton>
             <ToggleButton onClick={() => changeLanguage('fr')}>fr</ToggleButton>
               {pages3.map((label, to) => (
-                <Button key={label} to={to} onClick={handleCloseNavMenu} sx={{color:'white', display:'block'}}>
+                <Button key={label} to={to} onClick={handleCloseNavMenu} sx={{color:'white'}}>
                   {label}
                 </Button>
               ))}
