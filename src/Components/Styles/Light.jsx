@@ -57,7 +57,8 @@ export const lightTheme = {
       MuiPaper:{
         styleOverrides: {
           root:{
-            background: red, //not working
+            background: 'rgb(193, 186, 212)', //not working
+            color:'rgb(193, 186, 212)',
           }
         }
       },
@@ -66,7 +67,7 @@ export const lightTheme = {
           root: {
             width:"100%",
             textDecoration:'none', // kinda working, still underlined!
-            color:'rgba(204, 174, 210, 0.23)', //WORKING
+            color:'black', //WORKING
           },
       },
       MuiButtonBase:{

@@ -18,7 +18,7 @@ export const darkTheme = {
       },
       background: {
         default: 'rgba(33,5,55,0.51)',
-        paper: 'rgba(4,4,41,0.98)',
+        //paper: 'rgba(4,4,41,0.98)',
       },
       error: {
         main: '#f71a05',
@@ -81,10 +81,23 @@ export const darkTheme = {
           }
         },
       },
-      MuiCard: {
+      MuiCardHeader: {
         styleOverrides: { //not working
           root:{
-            color: 'rgba(202,163,228,0.8)',
+            backgroundColor: 'rgba(128,102,168,0.91)',
+            display: "flex",
+            transition: "0.3s",
+            boxShadow: "0 8px 40px -12px rgba(0,0,0,0.3)",
+              "&:hover": {
+                boxShadow: "0 16px 70px -12.125px rgba(0,0,0,0.3)"
+              }
+            }
+        }
+      },
+      MuiCardContent: {
+        styleOverrides: { //not working
+          root:{
+            backgroundColor: 'rgba(128,102,168,0.91)',
             display: "flex",
             transition: "0.3s",
             boxShadow: "0 8px 40px -12px rgba(0,0,0,0.3)",

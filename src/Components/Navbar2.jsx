@@ -98,13 +98,13 @@ export function NavBar2() {
             keepMounted transformOrigin={{vertical:"top", horizontal:"left"}}
             open={Boolean(anchorElNav)}
             onClose={handleCloseNavMenu}
-            sx={{display:{xs:'block', md:'none'}, padding:"20px"}}
+            sx={{display:{xs:'block', md:'none'}, padding:"20px", alignItems:"center"}}
             >
               <HomeButton/>
               <ToggleButton onClick={() => changeLanguage('en')}>en</ToggleButton>
               <ToggleButton onClick={() => changeLanguage('fr')}>fr</ToggleButton>
                 {pages3.map((label, to) => (
-                  <Button key={label} to={to} onClick={handleCloseNavMenu} sx={{color:"white"}}>
+                  <Button key={label} to={to} onClick={handleCloseNavMenu} sx={{color:'secondary'}}>
                         <div display="flex" alignItems="flex">{label}</div>
                   </Button>
                   ))}
@@ -116,7 +116,7 @@ export function NavBar2() {
             <ToggleButton className="toggle" onClick={() => changeLanguage('en')}>en</ToggleButton>
             <ToggleButton onClick={() => changeLanguage('fr')}>fr</ToggleButton>
               {pages3.map((label, to) => (
-                <Button key={label} to={to} onClick={handleCloseNavMenu} sx={{color:'white'}}>
+                <Button sx={{color:'secondary'}} key={label} to={to} onClick={handleCloseNavMenu}>
                   {label}
                 </Button>
               ))}
