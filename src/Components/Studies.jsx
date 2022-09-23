@@ -25,11 +25,6 @@ function Studies() {
                 <h2>{t('studies.master')}</h2>
 
             </Paper>
-            <Container>
-                <Link to="/">
-                    <Button>*-*</Button>
-                </Link>
-            </Container>
         </Container>
     )
 }

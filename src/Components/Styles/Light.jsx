@@ -88,19 +88,19 @@ export const lightTheme = {
           },
         },
       },
-      MuiToolbar: {
-        styleOverrides: { // NOW WORKING
-          root: {
-            width:"100%",
-            display:"flex",
-            background:red, //'rgba(204, 174, 210, 0.23)'
-            position: 'static',
-            minHeight: '86px',
-            alignItems: 'space-between',
-            padding: '50px 10px',
-          }
-        }
-      },
+      // MuiToolbar: {
+      //   styleOverrides: { // NOW WORKING
+      //     root: {
+      //       width:"100%",
+      //       display:"flex",
+      //       background:red, //'rgba(204, 174, 210, 0.23)'
+      //       position: 'static',
+      //       minHeight: '86px',
+      //       alignItems: 'space-between',
+      //       padding: '50px 10px',
+      //     }
+      //   }
+      // },
       MuiCardContent: {
         styleOverrides: {
             root:{

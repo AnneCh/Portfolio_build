@@ -45,6 +45,15 @@ export function NavBar2() {
     </>
   ]
 
+  const pages = [
+    <>
+      <Tab sx={{width:"50vp"}} label={t('navbar.dev')} component={Link} to="/MainDev" />
+      <Tab sx={{width:"50vp"}} label={t('navbar.mbm')} component={Link} to="/MainMul" />
+      <Tab sx={{width:"50vp"}} label={t('navbar.studies')} component={Link} to="/Studies" />
+      <Tab sx={{width:"50vp"}} label={t('navbar.else')} component={Link} to="/WhatElse" />
+      <Tab sx={{width:"50vp"}} label={t('navbar.contact')} component={Link} to="/Contact" />
+    </>
+  ]
 
   //dark or light mode
   const [mode, setMode] = useState("light");
@@ -75,52 +84,55 @@ export function NavBar2() {
 
     <ThemeProvider theme={theme}>
     <CssBaseline enableColorScheme />
-      <Box sx={{flexGrow:1, marginBotton: 3}}>
+      <Box sx={{flexGrow:1, marginBotton: 2}}>
         <AppBar position="sticky">
-          <Toolbar>
-          <Box sx={{flexGrow: 2, display: {xs:"flex", md:"none"}}}>
-            <IconButton
-            size="large"
-            aria-label="menu"
-            aria-controls="menu-appbar"
-            aria-haspopup="true"
-            onClick={handleOpenNavMenu}
-            color="inherit"
-            >
-              <MenuIcon/>
-            </IconButton>
-            <Menu id="menu-appbar"
-            anchorEl={anchorElNav}
-            anchorOrigin={{
-              vertical:"bottom",
-              horizontal:"left"
-            }}
-            keepMounted transformOrigin={{vertical:"top", horizontal:"left"}}
-            open={Boolean(anchorElNav)}
-            onClose={handleCloseNavMenu}
-            sx={{display:{xs:'block', md:'none'}, padding:"20px", alignItems:"center"}}
-            >
+          <Toolbar disableRipple sx={{maxWidth:'100%'}}>
+            <Box sx={{flexGrow: 2, display: {xs:"flex", md:"none"}}}>
+              <IconButton
+              size="large"
+              aria-label="menu"
+              aria-controls="menu-appbar"
+              aria-haspopup="true"
+              onClick={handleOpenNavMenu}
+              color="inherit"                            
+              >
+                <MenuIcon/>
+              </IconButton>
+              <Menu id="menu-appbar"
+              anchorEl={anchorElNav}
+              anchorOrigin={{
+                vertical:"bottom",
+                horizontal:"left"
+              }}
+              keepMounted transformOrigin={{vertical:"top", horizontal:"left"}}
+              open={Boolean(anchorElNav)}
+              onClose={handleCloseNavMenu}
+              sx={{display:{xs:'block', md:'none'}, padding:"20px", alignItems:"center"}}
+              >
               <HomeButton/>
               <ToggleButton onClick={() => changeLanguage('en')}>en</ToggleButton>
               <ToggleButton onClick={() => changeLanguage('fr')}>fr</ToggleButton>
                 {pages3.map((label, to) => (
                   <Button key={label} to={to} onClick={handleCloseNavMenu} sx={{color:'secondary'}}>
-                        <div display="flex" alignItems="flex">{label}</div>
+                        <div display="flex" alignItems="flex-col">{label}</div>
                   </Button>
                   ))}
                   <NightToggle onChange={toggleMode}/>
               </Menu>
             </Box>
-            <Box sx={{ flexGrow: 2, display: {xs: 'none', md:'flex'}}}>
+
+            <Box sx={{ flexGrow: 1, display: {xs: 'none', md:'flex'}}}>
               <HomeButton />
-            <ToggleButton className="toggle" onClick={() => changeLanguage('en')}>en</ToggleButton>
-            <ToggleButton onClick={() => changeLanguage('fr')}>fr</ToggleButton>
-              {pages3.map((label, to) => (
-                <Button sx={{color:'secondary'}} key={label} to={to} onClick={handleCloseNavMenu}>
-                  {label}
-                </Button>
-              ))}
-              <NightToggle onChange={toggleMode}/>
+              <ToggleButton className="toggle" onClick={() => changeLanguage('en')}>en</ToggleButton>
+              <ToggleButton onClick={() => changeLanguage('fr')}>fr</ToggleButton>
+                {pages.map((label, to) => (
+                  <Button sx={{color:'secondary'}} key={label} to={to} onClick={handleCloseNavMenu}>
+                    {label}
+                  </Button>
+                ))}
+              <Box paddingTop={5} paddingRight={3}>
+                <NightToggle onChange={toggleMode}/>
+              </Box>
             </Box> 
           </Toolbar>
         </AppBar>
