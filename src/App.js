@@ -11,29 +11,10 @@ import WhyBlockchain from './Components/WhyBlockchain'
 import HealthInside from './Components/Cards/Insides/HealthCard_inside'
 import MartialInside from './Components/Cards/Insides/Martial_inside'
 import MusicInside from './Components/Cards/Insides/Music_inside'
-import PopUp from './Components/PopUp'
-import { useState, useEffect } from 'react'
-import { useTranslation } from 'react-i18next'
-import { Typography } from '@mui/material'
 
 export default function App() {
-  const { t } = useTranslation()
-  const [windowPopup, setWindowPopup] = useState(false)
-
-  useEffect(() => {
-    setTimeout(() => {
-      setWindowPopup(true)
-    }, 500)
-  }, [])
-
   return (
     <>
-      <PopUp trigger={windowPopup} setTrigger={setWindowPopup}>
-        <Typography sx={{ fontSize: '80px' }}>
-          {t('warning.construction')}
-        </Typography>
-        <Typography sx={{ fontSize: '40px' }}>{t('warning.thanks')}</Typography>
-      </PopUp>
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<SharedLayout />}>
