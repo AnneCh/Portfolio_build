@@ -34,15 +34,15 @@ export default function MainPage() {
         <Typography sx={{fontSize:"17px", textAlign:'center'}}>{t('main_page.honor')}</Typography>
         <br/>
         <Typography sx={{fontSize:"55px", textAlign:'center'}}>{t('main_page.hydrate')}</Typography>
-        <Typography sx={{paddingTop:"20px", fontSize:"18px", fontWeight:"bold", textAlign:'center'}}>{t('main_page.know')}</Typography>
-        <Box>
+        {/* <Typography sx={{paddingTop:"20px", fontSize:"18px", fontWeight:"bold", textAlign:'center'}}>{t('main_page.know')}</Typography> */}
+        {/* <Box>
           <Link to="/MainMul">
               <Button sx={{width:'60px'}} key="Entrepreneur"></Button>
           </Link>
           <Link to="/MainDev">
             <Button key='Developer' />
           </Link>
-        </Box>
+        </Box> */}
       </Container>
       </>
   );

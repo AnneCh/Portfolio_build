@@ -2,7 +2,7 @@ import React from "react";
 import { Link} from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import { Container, Button, Box, Card } from '@mui/material';
-
+import Projects from "./Projects";
 // Introduce quickly why blockchain developer with option to read more about it (links to an 
 //additional page where I'll either write or make a video of why I chose it
 
@@ -20,10 +20,10 @@ function MainDev() {
     const { t } = useTranslation()
 
     return (
-        // <Container>
-        //     <Card/>
-        // </Container>
         <>
+        {/* <Container>
+            <Projects/>
+        </Container> */}
         <Container sx={{display:"flex", padding:"20px", width:"100%"}}>
             <Box sx={{xs:12, md:6, lg:4, paddingTop:"20px", paddingLeft:"50px"}}>
                 <h1><BoldText>BlockChain Developer</BoldText></h1>
