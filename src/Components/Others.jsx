@@ -12,15 +12,16 @@ function Others() {
         <Card
         img={item.image}
         title={item.title}
-        description={item.description}
         more={item.link}
         />
     )
   })
   return (
-    <Box sx={{textAlign:'center', margin:8, fontSize:30}}>
+    <Box sx={{textAlign:'center', margin:8,fontSize:30}}>
       <h3>{t('what_else.intro')}</h3>
-        {others}
+        <Box sx={{paddingLeft:10, margin:8}}>
+          {others}<br/>
+        </Box>
     </Box>
   );
 }

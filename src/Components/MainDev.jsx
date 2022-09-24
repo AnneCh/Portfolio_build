@@ -1,7 +1,7 @@
 import React from "react";
 import { Link} from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
-import { Container, Button, Box } from '@mui/material';
+import { Container, Button, Box, Card } from '@mui/material';
 
 // Introduce quickly why blockchain developer with option to read more about it (links to an 
 //additional page where I'll either write or make a video of why I chose it
@@ -20,15 +20,25 @@ function MainDev() {
     const { t } = useTranslation()
 
     return (
-        <Container sx={{display:"flex"}}>
-            <Box>
+        // <Container>
+        //     <Card/>
+        // </Container>
+        <>
+        <Container sx={{display:"flex", padding:"20px", width:"100%"}}>
+            <Box sx={{xs:12, md:6, lg:4, paddingTop:"20px", paddingLeft:"50px"}}>
                 <h1><BoldText>BlockChain Developer</BoldText></h1>
                 <p>{t('main_dev.p1')}</p>
                 <p>{t('main_dev.p2')}</p>
                 <p>{t('main_dev.p3')}</p>
                 <Link to="/WhyBlockchain"><Button>(Read more..)</Button></Link>
             </Box>
-            <Box sx={{paddingLeft:"20px", paddingRight:"20px", width:"auto"}}>
+            <Box sx={{xs:12, md:6, lg:4, paddingLeft:"50px", paddingTop:"20px"}}>                
+                <h2>{t('main_dev.update')}</h2>
+                <p>{t('main_dev.list17')}</p>
+            </Box>
+        </Container>
+        <Container>
+            <Box sx={{xs:12, md:6, lg:4, paddingLeft:"50px", paddingTop:"20px"}}>
                 <h2>{t('main_dev.goals_title')}</h2>
                 <p>{t('main_dev.goals')}</p>
                 <p>{t('main_dev.goal1')}</p>
@@ -50,12 +60,8 @@ function MainDev() {
                 <p>{t('main_dev.list15')}</p>
                 <p>{t('main_dev.list16')}</p>
             </Box>
-            <Box>                
-                <h2>{t('main_dev.update')}</h2>
-                <p>{t('main_dev.list17')}</p>
-            </Box>
         </Container>
-        
+        </>
     )
 }
 

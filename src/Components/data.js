@@ -1,6 +1,3 @@
-import { useTranslation } from 'react-i18next'
-import health from './Cards/health.png'
-
 export const projects = [
   {
     title: 'Well, Here you are!',
@@ -37,20 +34,20 @@ export const projects = [
 export const topics = [
   {
     image: '/health.png',
-    title: '.',
-    description: '.',
+    title: 'Health - Santé',
+    description: '',
     link: '/HealthCard_inside',
   },
   {
     image: '/yinyang.png',
-    title: '.',
-    description: '.',
+    title: 'Martial Arts - Arts Martiaux',
+    description: '',
     link: '/Martial_Inside',
   },
   {
     image: '/music_notes.png',
-    title: '.',
-    description: '.',
+    title: 'Music - Musique',
+    description: '',
     link: '/Music_Inside',
   },
   // {

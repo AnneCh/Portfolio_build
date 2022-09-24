@@ -7,9 +7,8 @@ import { Card, CardActions, CardContent, CardMedia, Button, Typography, Divider}
 import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 
-export default function Health(props) {
+export default function CardTemplate(props) {
 const { t } = useTranslation()
-
 
   return (
     <Card sx={{display:'inline-block', alignContent:'space-between'}}>
