@@ -4,8 +4,9 @@ export const projects = [
     title: 'React',
     subtitle: 'Detailled Portfolio',
     description: 'Portfolio creation process documented',
-    image: '',
+    image: '/images/git.png',
     link: 'https://github.com/AnneCh/Portfolio_build',
+    finished: false,
   },
   {
     id: 1,
@@ -14,6 +15,7 @@ export const projects = [
     description: 'Creation of an NFT Marketplace',
     image: '/images/mars.png',
     link: 'https://github.com/AnneCh/Portfolio_build',
+    finished: false,
   },
   {
     id: 2,
@@ -22,14 +24,16 @@ export const projects = [
     description: 'A simple page displaying mapped objects',
     image: '/images/travels.png',
     link: 'https://travels-journal.vercel.app/',
+    finished: true,
   },
   {
     id: 3,
     title: 'Solidity, JavaScript',
     subtitle: 'Crypto Bot',
     description: "I'll make it, some day.",
-    image: '',
+    image: '/images/git.png',
     link: 'https://github.com/AnneCh/Project',
+    finished: false,
   },
   {
     id: 4,
@@ -38,6 +42,16 @@ export const projects = [
     description: 'Token Farm Lesson with interface',
     image: '/images/staking.png',
     link: 'https://token-farm-tan.vercel.app/',
+    finished: true,
+  },
+  {
+    id: 5,
+    title: 'React',
+    subtitle: 'Digital Business Card',
+    description: 'One of my first React projects',
+    image: '/images/bc.png',
+    link: 'https://digitalbc.vercel.app/ct',
+    finished: true,
   },
 ]
 
