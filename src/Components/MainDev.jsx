@@ -14,7 +14,10 @@ function MainDev() {
     const project = projects.map((item) => {
         return(
             <Template
+            key={item.id}
             image={item.image}
+            subtitle={item.subtitle}
+            description={item.description}
             title={item.title}
             more={item.link}
             />
@@ -37,12 +40,12 @@ function MainDev() {
                 <p>{t('main_dev.list17')}</p>
             </Box>
         </Container>
-        {/* <Box sx={{textAlign:'center', margin:8,fontSize:30}}>
+        <Box sx={{textAlign:'center', margin:8,fontSize:30}}>
             <h3>{t('main_dev.projects')}</h3>
             <Box sx={{paddingLeft:10, margin:8}}>
                 {project}<br/>
             </Box>
-        </Box> */}
+        </Box>
         <Container>
             <Box sx={{xs:12, md:6, lg:4, paddingLeft:"50px", paddingTop:"20px"}}>
                 <h2>{t('main_dev.goals_title')}</h2>

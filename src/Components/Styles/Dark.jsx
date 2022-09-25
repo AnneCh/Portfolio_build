@@ -107,6 +107,14 @@ export const darkTheme = {
             }
         }
       },
+      MuiSwitch:{
+        styleOverrides: {
+          root: {
+            padding:"20px",
+            marginTop:"30px"
+          },
+        },
+      },
     },
     spacing:2,
 }
