@@ -14,7 +14,7 @@ export const projects = [
     subtitle: 'NFT MarsKetplace',
     description: 'Creation of an NFT Marketplace',
     image: '/images/mars.png',
-    link: 'https://github.com/AnneCh/Portfolio_build',
+    link: 'https://github.com/AnneCh/MarsKetplace',
     finished: false,
   },
   {

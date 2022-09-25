@@ -15,7 +15,7 @@
     "contact": "Contact"
   },
   "main_dev": {
-    "projects": "Projects done so far",
+    "projects": "Projects",
     "lang": "Languages",
     "p1": "I started discovering an attraction for systems after learning sound engineering through my company. Coding had been on my mind for a while, I had been following tutorials and certifications through FreeCodeCamp and The Odin Project, but it was just toe-dipping and never serious.",
     "p2": "As I gained maturity and experience in my endeavors, the Covid Time started and I lost 95% of my income. As weeks went by and more restrictive measures went enforced, my team and I  put everything on the table and decided that it was time for a change. I went back on that old idea of coding, and started doing basic google searches about what languages to start with, what kinds of jobs I could be getting, what were the basics to cover and which kinds of specialties are there for me to choose from. ",
@@ -35,7 +35,7 @@
     "list9": "Through the continuous study of those first languages and first delve into a totally new environment, my original list evolved. As I gained a deeper understanding of the systems, I started understanding the guiding principles behind reliable systems, as well as how engineers think and create programming languages.",
     "list10": "=> I wanted to know more on security and systems’ vulnerabilities, and started a learning path on Try Hack Me.",
     "list11": "=> I thought it would also be a good thing to know how to participate to the decentralization of Ethereum’s network by running my own node. I chose to go with Nethermind and deepen my understanding of Ethereum.",
-    "list12": "After completing several tutorials {{{include list}}}, I finally arrived at the place where I needed to start coding my own dApp.",
+    "list12": "After completing several tutorials, I finally arrived at the place where I needed to start coding my own dApp.",
     "list13": "I chose to go for Decentralized Finance, as I am, as many other human beings, aiming at financial freedom for my family, and firmly believe that passive incomes are one of the best ways to obtain it.",
     "list14": "I started coding to build a trading robot based on flashloan and arbitrage principles; but I quickly understood that I had bitten on more that I could chew.",
     "list15": "At the end of June 2022, another newbie like me contacted me, wanting to build a project with me as he thought my flashloan/arbitrage project was interesting and wanted to expand his portfolio, and mine with it. After talking about it, we decided to build a platform (testnet only) that would sell a few NFTs, inspired by a tutorial from Patrick Collins for FreeCodeCamp.",
