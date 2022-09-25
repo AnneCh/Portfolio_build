@@ -3,7 +3,7 @@ import { Link} from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import { Container, Button, Box } from '@mui/material';
 import Template from './ProjectTemplate';
-import {projects} from './data.js'
+import {projects, tools} from './data.js'
 
 function BoldText({children}) {
     return <span style={{fontWeight: 'bold'}}>{children}</span>;
@@ -24,6 +24,14 @@ function MainDev() {
         )
       })
 
+    const toolList = tools.map((tool) => {
+        return(
+            <ul display="flex">
+                <li>{tool}</li>
+            </ul>
+        )
+    })
+
     return (
         <>
 
@@ -33,7 +41,7 @@ function MainDev() {
                 <p>{t('main_dev.p1')}</p>
                 <p>{t('main_dev.p2')}</p>
                 <p>{t('main_dev.p3')}</p>
-                <Link to="/WhyBlockchain"><Button>(Read more..)</Button></Link>
+                <Link to="/WhyBlockchain"><Button>{t('cards.more')}</Button></Link>
             </Box>
             <Box sx={{xs:12, md:6, lg:4, paddingLeft:"50px", paddingTop:"20px"}}>                
                 <h2>{t('main_dev.update')}</h2>
@@ -69,6 +77,9 @@ function MainDev() {
                 <p>{t('main_dev.list15')}</p>
                 <p>{t('main_dev.list16')}</p>
             </Box>
+            {/* <Box>
+            {toolList}
+            </Box> */}
         </Container>
         </>
     )
