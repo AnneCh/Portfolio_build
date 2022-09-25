@@ -33,18 +33,21 @@ export const projects = [
 
 export const topics = [
   {
+    id: 0,
     image: '/health.png',
     title: 'Health - Santé',
     description: '',
     link: '/HealthCard_inside',
   },
   {
+    id: 1,
     image: '/yinyang.png',
     title: 'Martial Arts - Arts Martiaux',
     description: '',
     link: '/Martial_Inside',
   },
   {
+    id: 2,
     image: '/music_notes.png',
     title: 'Music - Musique',
     description: '',

@@ -11,18 +11,18 @@ export default function ProjectTemplate(props) {
   return (
     <Card sx={{display:'inline-block', alignContent:'space-between'}}>
       <CardMedia
-        component="img"
-        src={props.img}
+        component="image"
+        src={props.image}
         alt="/"
         sx={{height:'80px', width:'80px', padding:'10px'}}
       />
       <CardContent >
         <Typography sx={{padding:'10px'}} gutterBottom>{props.title}</Typography>
-        <Typography sx={{padding:'10px'}} variant="body2" color="text.secondary">{props.description}</Typography>
+        <Typography sx={{padding:'10px'}}>{props.description}</Typography>
       </CardContent>
       <Divider light />
       <CardActions>
-        <Link to={props.link}>
+        <Link to={props.more}>
           <Button sx={{padding:'20px'}}size="small">{t('cards.more')}</Button>
         </Link>
       </CardActions>

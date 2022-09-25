@@ -1,16 +1,9 @@
 import React from "react";
 import { Link} from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
-import { Container, Button, Box, Card } from '@mui/material';
-import Projects from "./Projects";
-// Introduce quickly why blockchain developer with option to read more about it (links to an 
-//additional page where I'll either write or make a video of why I chose it
-
-// Then list languages that I'm learning 
-
-// Then A few (3) images or boxes that link to the major projects I'm undertaking (github)
-
-// then a link to WhatElse and one to the Multimedia part and Contact 
+import { Container, Button, Box } from '@mui/material';
+import Template from './ProjectTemplate';
+import {projects} from './data.js'
 
 function BoldText({children}) {
     return <span style={{fontWeight: 'bold'}}>{children}</span>;
@@ -18,12 +11,19 @@ function BoldText({children}) {
 
 function MainDev() {
     const { t } = useTranslation()
+    const project = projects.map((item) => {
+        return(
+            <Template
+            image={item.image}
+            title={item.title}
+            more={item.link}
+            />
+        )
+      })
 
     return (
         <>
-        {/* <Container>
-            <Projects/>
-        </Container> */}
+
         <Container sx={{display:"flex", padding:"20px", width:"100%"}}>
             <Box sx={{xs:12, md:6, lg:4, paddingTop:"20px", paddingLeft:"50px"}}>
                 <h1><BoldText>BlockChain Developer</BoldText></h1>
@@ -37,6 +37,12 @@ function MainDev() {
                 <p>{t('main_dev.list17')}</p>
             </Box>
         </Container>
+        {/* <Box sx={{textAlign:'center', margin:8,fontSize:30}}>
+            <h3>{t('main_dev.projects')}</h3>
+            <Box sx={{paddingLeft:10, margin:8}}>
+                {project}<br/>
+            </Box>
+        </Box> */}
         <Container>
             <Box sx={{xs:12, md:6, lg:4, paddingLeft:"50px", paddingTop:"20px"}}>
                 <h2>{t('main_dev.goals_title')}</h2>
