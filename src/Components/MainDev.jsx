@@ -57,25 +57,25 @@ function MainDev() {
         <Container>
             <Box sx={{xs:12, md:6, lg:4, paddingLeft:"50px", paddingTop:"20px"}}>
                 <h2>{t('main_dev.goals_title')}</h2>
-                <p>{t('main_dev.goals')}</p>
-                <p>{t('main_dev.goal1')}</p>
-                <p>{t('main_dev.goal2')}</p>
-                <p>{t('main_dev.list1')}</p>
-                <p>{t('main_dev.list2')}</p>
-                <p>{t('main_dev.list3')}</p>
-                <p>{t('main_dev.list4')}</p>
-                <p>{t('main_dev.list5')}</p>
-                <p>{t('main_dev.list6')}</p>
-                <p>{t('main_dev.list7')}</p>
-                <p>{t('main_dev.list8')}</p>
-                <p>{t('main_dev.list9')}</p>
-                <p>{t('main_dev.list10')}</p>
-                <p>{t('main_dev.list11')}</p>
-                <p>{t('main_dev.list12')}</p>
-                <p>{t('main_dev.list13')}</p>
-                <p>{t('main_dev.list14')}</p>
-                <p>{t('main_dev.list15')}</p>
-                <p>{t('main_dev.list16')}</p>
+                <Typography>{t('main_dev.goals')}</Typography>
+                <Typography>{t('main_dev.goal1')}</Typography>
+                <Typography>{t('main_dev.goal2')}</Typography>
+                <Typography>{t('main_dev.list1')}</Typography>
+                <Typography>{t('main_dev.list2')}</Typography>
+                <Typography>{t('main_dev.list3')}</Typography>
+                <Typography>{t('main_dev.list4')}</Typography>
+                <Typography>{t('main_dev.list5')}</Typography>
+                <Typography>{t('main_dev.list6')}</Typography>
+                <Typography>{t('main_dev.list7')}</Typography>
+                <Typography>{t('main_dev.list8')}</Typography>
+                <Typography>{t('main_dev.list9')}</Typography>
+                <Typography>{t('main_dev.list10')}</Typography>
+                <Typography>{t('main_dev.list11')}</Typography>
+                <Typography>{t('main_dev.list12')}</Typography>
+                <Typography>{t('main_dev.list13')}</Typography>
+                <Typography>{t('main_dev.list14')}</Typography>
+                <Typography>{t('main_dev.list15')}</Typography>
+                <Typography>{t('main_dev.list16')}</Typography>
             </Box>
             {/* <Box>
             {toolList}
