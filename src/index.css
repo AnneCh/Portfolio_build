@@ -13,15 +13,15 @@ code {
 
 .boxtools{
   height:20vh;
-  width:fit-content;
-  max-width:min-content;
+  width:min-content;
   display: block;
   align-items: center;
   animation: Scroll 20s linear infinite;
-
 }
 .toolist{
   white-space: nowrap;
+  width:auto;
+  max-width: fit-content;
   font-size: 100px;
 }
 
