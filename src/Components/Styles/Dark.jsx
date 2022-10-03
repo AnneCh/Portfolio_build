@@ -40,7 +40,7 @@ export const darkTheme = {
       fontWeightMedium: 500,
       fontWeightBold: 800,
       overline: {
-        fontFamily: 'Droid Sans',
+        fontFamily: 'Quicksand',
       },
     },
     direction: 'rtl',

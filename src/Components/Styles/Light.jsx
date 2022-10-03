@@ -29,14 +29,14 @@ export const lightTheme = {
       },
     },
     typography: {
-        fontFamily: 'Roboto',
+        fontFamily: 'Quicksand',
         fontSize: 16,
         fontWeightLight: 200,
         fontWeightRegular: 400,
         fontWeightMedium: 500,
         fontWeightBold: 800,
         overline: {
-          fontFamily: 'Droid Sans',
+          fontFamily: 'Quicksand',
         },
       },
     direction: 'rtl',
