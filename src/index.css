@@ -12,13 +12,12 @@ code {
 }
 
 .boxtools{
-  margin:0;
-  padding:0;
   height:20vh;
-  max-width:100%;
-  display: flex;
+  width:fit-content;
+  max-width:min-content;
+  display: block;
   align-items: center;
-  animation: Scroll 10s linear infinite;
+  animation: Scroll 20s linear infinite;
 
 }
 .toolist{

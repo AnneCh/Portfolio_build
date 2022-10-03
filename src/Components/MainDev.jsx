@@ -28,7 +28,7 @@ function MainDev() {
     const toolList = tools.map((tool) => {
         return(
             <span className="toolist"> {tool} ~ </span>
-        )
+            )
     })
 
     return (
