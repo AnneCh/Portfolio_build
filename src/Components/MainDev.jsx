@@ -1,7 +1,7 @@
 import React from "react";
 import { Link} from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
-import { Container, Button, Box } from '@mui/material';
+import { Container, Button, Box, Typography } from '@mui/material';
 import Template from './ProjectTemplate';
 import {projects, tools} from './data.js'
 
@@ -34,7 +34,6 @@ function MainDev() {
 
     return (
         <>
-
         <Container sx={{display:"flex", padding:"20px", width:"100%"}}>
             <Box sx={{xs:12, md:6, lg:4, paddingTop:"20px", paddingLeft:"50px"}}>
                 <h1><BoldText>BlockChain Developer</BoldText></h1>
@@ -77,9 +76,9 @@ function MainDev() {
                 <Typography>{t('main_dev.list15')}</Typography>
                 <Typography>{t('main_dev.list16')}</Typography>
             </Box>
-            {/* <Box>
+            <Box sx={{display:"block"}}>
             {toolList}
-            </Box> */}
+            </Box>
         </Container>
         </>
     )

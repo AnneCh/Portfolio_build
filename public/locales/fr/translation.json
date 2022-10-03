@@ -5,7 +5,7 @@
   },
   "accents": "é à è ù â ê î ô û ç",
   "main_page": {
-    "visitor": "Bonjour, invité(e) #{{number_visits}}, et bienvenue.",
+    "visitor": "Bonjour nouvel invité(e), et bienvenue.",
     "honor": "C'est un honneur de savoir que mon profil vous intéresse.",
     "hydrate": "Mettez-vous à votre aise et veillez à rester hydraté(e). ",
     "know": "Que souhaitez-vous découvrir sur moi ?",
