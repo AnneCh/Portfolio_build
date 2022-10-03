@@ -3,7 +3,8 @@ import { Link} from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import { Container, Button, Box, Typography } from '@mui/material';
 import Template from './ProjectTemplate';
-import {projects, tools} from './data.js'
+import {projects, tools} from './data.js';
+import '../index.css';
 
 function BoldText({children}) {
     return <span style={{fontWeight: 'bold'}}>{children}</span>;
@@ -26,9 +27,7 @@ function MainDev() {
 
     const toolList = tools.map((tool) => {
         return(
-            <ul display="flex">
-                <li>{tool}</li>
-            </ul>
+            <span className="toolist"> {tool} ~ </span>
         )
     })
 
@@ -54,6 +53,9 @@ function MainDev() {
             </Box>
         </Box>
         <Container>
+            <Box className="boxtools">
+                {toolList}
+            </Box>
             <Box sx={{xs:12, md:6, lg:4, paddingLeft:"50px", paddingTop:"20px"}}>
                 <h2>{t('main_dev.goals_title')}</h2>
                 <Typography>{t('main_dev.goals')}</Typography>
@@ -75,9 +77,6 @@ function MainDev() {
                 <Typography>{t('main_dev.list14')}</Typography>
                 <Typography>{t('main_dev.list15')}</Typography>
                 <Typography>{t('main_dev.list16')}</Typography>
-            </Box>
-            <Box sx={{display:"block"}}>
-            {toolList}
             </Box>
         </Container>
         </>

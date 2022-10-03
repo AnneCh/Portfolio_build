@@ -8,6 +8,29 @@ body {
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  font-family: 'Quicksand'
+}
+
+.boxtools{
+  margin:0;
+  padding:0;
+  height:20vh;
+  max-width:100%;
+  display: flex;
+  align-items: center;
+  animation: Scroll 10s linear infinite;
+
+}
+.toolist{
+  white-space: nowrap;
+  font-size: 100px;
+}
+
+@keyframes Scroll {
+  0% {
+    transform: translateX(0%);
+  }
+  100%{
+    transform: translateX(-100%);
+  }
 }
