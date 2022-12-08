@@ -21,6 +21,7 @@ function MainDev() {
             description={item.description}
             title={item.title}
             more={item.link}
+            finished={item.finished}
             />
         )
       })

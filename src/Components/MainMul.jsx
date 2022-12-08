@@ -13,7 +13,9 @@ function MainMul() {
             <Typography>{t("main_mul.then")}</Typography><br/>
             <Typography sx={{textAlign:'right',fontSize:18, fontWeight:"bold"}}>{t("main_mul.sound")}</Typography><br/>
             <Typography sx={{textAlign:'center',fontSize:20}}>{t("main_mul.invest")}</Typography>
+           
             <ImageList/>
+            
             <Typography>{t("main_mul.DJ")}</Typography><br/>
             <Typography>{t("main_mul.kevin")}</Typography><br/>
             <Typography>{t("main_mul.moving")}</Typography><br/>

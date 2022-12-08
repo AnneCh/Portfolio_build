@@ -1,7 +1,7 @@
 export const projects = [
   {
     id: 0,
-    title: 'React',
+    title: 'ReactJS',
     subtitle: 'Detailled Portfolio',
     description: 'Portfolio creation process documented',
     image: '/images/git.png',
@@ -19,21 +19,21 @@ export const projects = [
   },
   {
     id: 2,
-    title: 'React',
+    title: 'ReactJS',
+    subtitle: 'Meme Generator',
+    description: 'Creating memes with JavaScript',
+    image: '/images/meme.png',
+    link: 'https://meme-gen-amber.vercel.app/',
+    finished: false,
+  },
+  {
+    id: 3,
+    title: 'ReactJS',
     subtitle: 'Travel Journal',
     description: 'A simple page displaying mapped objects',
     image: '/images/travels.png',
     link: 'https://travels-journal.vercel.app/',
     finished: true,
-  },
-  {
-    id: 3,
-    title: 'Solidity, JavaScript',
-    subtitle: 'Crypto Bot',
-    description: "I'll make it, some day.",
-    image: '/images/git.png',
-    link: 'https://github.com/AnneCh/Project',
-    finished: false,
   },
   {
     id: 4,
@@ -46,12 +46,21 @@ export const projects = [
   },
   {
     id: 5,
-    title: 'React',
+    title: 'ReactJS',
     subtitle: 'Digital Business Card',
     description: 'One of my first React projects',
     image: '/images/bc.png',
     link: 'https://digitalbc.vercel.app/ct',
     finished: true,
+  },
+  {
+    id: 6,
+    title: 'Solidity, JavaScript',
+    subtitle: 'Crypto Bot',
+    description: "I'll make it, some day.",
+    image: '/images/git.png',
+    link: 'https://github.com/AnneCh/Project',
+    finished: false,
   },
 ]
 
