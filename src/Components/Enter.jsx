@@ -1,52 +1,73 @@
-import { Button, Container, Typography, Box } from '@mui/material';
+import {Container, Typography, Box } from '@mui/material';
 import * as React from 'react';
 import { useTranslation } from 'react-i18next';
-import tea from "./teaTrans.png";
-import { useEffect, useState } from 'react';
-import PopUp from './PopUp';
+import Avatar from '@mui/material/Avatar';
+import gear from './brains.png';
+
+const ImageTextComponent = ({ imageUrl, text }) => (
+  <Box 
+    sx={{ 
+      display: 'flex', 
+      alignItems: 'center',
+      gap: 10 // adjust the gap between the image and text
+    }}
+  >
+    <Avatar 
+      src={imageUrl} 
+      alt="image description"
+      sx={{ 
+        width: 450, // adjust size as needed
+        height: 450 // adjust size as needed
+      }}
+    />
+    <Typography variant="body1" fontSize={'150%'}>{text}</Typography>
+  </Box>
+);
+
+const ImageTextRevert = ({ imageUrl, text }) => (
+  <Box 
+    sx={{ 
+      display: 'flex', 
+      alignItems: 'center',
+      gap: 10 // adjust the gap between the image and text
+    }}
+  >
+    <Typography variant="body1" fontSize={'150%'}>{text}</Typography>
+    <Avatar 
+      src={imageUrl} 
+      alt="image description"
+      sx={{ 
+        width: 450, // adjust size as needed
+        height: 450 // adjust size as needed
+      }}
+    />
+  </Box>
+);
 
 
 export default function MainPage() {
   const { t } = useTranslation()
 
-  // find how to keep track and return the visits of this page => google analytics extension
-  useEffect(() => {
-    setTimeout(() => {
-      setWindowPopup(true)
-    }, 500)
-  }, [])
-  const [windowPopup, setWindowPopup] = useState(false)
-
-  
   return (
     <>
-      <PopUp trigger={windowPopup} setTrigger={setWindowPopup}>
-        <Typography sx={{ fontSize: '80px' }}>
-          {t('warning.construction')}
-        </Typography>
-        <Typography sx={{ fontSize: '40px' }}>{t('warning.thanks')}</Typography>
-      </PopUp>
-      <Container sx={{ paddingTop:"40px", backgroundImage:`url(${tea})`,height:'100vh', width:'100vp', backgroundRepeat:'space', alignItems:"center"}}>
-        <Typography sx={{fontSize:"100px", fontWeight:"bold", textAlign:'center'}}>{t('main_page.visitor')}</Typography>
-        <Typography sx={{fontSize:"17px", textAlign:'center'}}>{t('main_page.honor')}</Typography>
+      <Container sx={{ paddingTop:"40px"}}>
+        <Typography sx={{fontSize:"80px", fontWeight:"bold", textAlign:'center'}}>{t('main_page.visitor')}</Typography>
         <br/>
-        <Typography sx={{fontSize:"55px", textAlign:'center'}}>{t('main_page.hydrate')}</Typography>
+        <Typography sx={{fontSize:"45px", textAlign:'center'}}>{t('main_page.hydrate')}</Typography>
+        <Typography sx={{fontSize:"20px", textAlign:'center'}}>{t('main_page.weird')}</Typography><Typography sx={{fontSize:"20px", fontStyle:'italic', textAlign:'center'}}>{t('main_page.think')}</Typography>
+        <ImageTextComponent imageUrl={gear} text="This is Jim. He's the Autist Artist of our network and he likes to hit things."/>
+        <ImageTextRevert imageUrl={gear} text="This is Kevin. He excels at learning, improving and teaching. English has no secret for him."/>
+        <ImageTextComponent imageUrl={gear} text="This is Anne. She started MBM, knows 3 languages and is helping found two Web3 projects."/>
+      </Container>
+      <Container>
+
       </Container>
       </>
   );
 }
 
-/* create a function or event emitted that, when the visitor clicks on one of the links,
-the Enter page disappears
-
-
-/* create class to welcome the visitor by their number of visitors on my portfolio so far
-
-class visitors extends React.Component {
-  1. find how to keep track of visits
-  2. then how to display the number of the visitor who's just loaded my page
-  render() { 
-  }
-}
-
-**/
+/* 
+find a way to display an image next to a few lines of words, like
+"we believe in skills synergy"
+"our skills are varied yet complementary to offer related services than the one you came to us for."
+*/

@@ -14,18 +14,15 @@ import {
   CssBaseline,
   ThemeProvider,
   ToggleButton,
-  Typography,
   Tab
 } from '@mui/material';
 import MenuIcon from "@mui/icons-material/Menu";
 
 import { MaterialUISwitch as NightToggle} from "./Styles/Switch.jsx";
 import { HomeButton } from "./Buttons";
-
-
 import { darkTheme } from './Styles/Dark.jsx';
 import { lightTheme } from './Styles/Light.jsx';
-
+import yt from "./yt.png"
 
 
 export function NavBar2() {
@@ -35,22 +32,9 @@ export function NavBar2() {
     i18n.changeLanguage(lng);
   }
 
-  const pages3 = [
-    <>
-      <Tab sx={{width:"100vh"}} label={t('navbar.dev')} component={Link} to="/MainDev" />
-      <Tab sx={{width:"100vh"}} label={t('navbar.mbm')} component={Link} to="/MainMul" />
-      <Tab sx={{width:"100vh"}} label={t('navbar.studies')} component={Link} to="/Studies" />
-      <Tab sx={{width:"100vh"}} label={t('navbar.else')} component={Link} to="/WhatElse" />
-      <Tab sx={{width:"100vh"}} label={t('navbar.contact')} component={Link} to="/Contact" />
-    </>
-  ]
-
   const pages = [
     <>
-      <Tab sx={{width:"50vp"}} label={t('navbar.dev')} component={Link} to="/MainDev" />
       <Tab sx={{width:"50vp"}} label={t('navbar.mbm')} component={Link} to="/MainMul" />
-      <Tab sx={{width:"50vp"}} label={t('navbar.studies')} component={Link} to="/Studies" />
-      <Tab sx={{width:"50vp"}} label={t('navbar.else')} component={Link} to="/WhatElse" />
       <Tab sx={{width:"50vp"}} label={t('navbar.contact')} component={Link} to="/Contact" />
     </>
   ]
@@ -112,7 +96,7 @@ export function NavBar2() {
               <HomeButton/>
               <ToggleButton onClick={() => changeLanguage('en')}>en</ToggleButton>
               <ToggleButton onClick={() => changeLanguage('fr')}>fr</ToggleButton>
-                {pages3.map((label, to) => (
+                {pages.map((label, to) => (
                   <Button key={label} to={to} onClick={handleCloseNavMenu} sx={{color:'secondary'}}>
                         <div display="flex" alignItems="flex-col">{label}</div>
                   </Button>

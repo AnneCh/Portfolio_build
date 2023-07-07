@@ -33,3 +33,13 @@ code {
     transform: translateX(-100%);
   }
 }
+
+.MuiContainer-root {
+  width: 100%;
+  margin-left: 2px;
+}
+
+.MuiTypography-body1 {
+  font-size: 1.2rem; /* adjust as needed */
+  font-family: cursive;
+}
