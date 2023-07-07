@@ -22,7 +22,7 @@ import { MaterialUISwitch as NightToggle} from "./Styles/Switch.jsx";
 import { HomeButton } from "./Buttons";
 import { darkTheme } from './Styles/Dark.jsx';
 import { lightTheme } from './Styles/Light.jsx';
-
+import yt from "./yt.png"
 
 
 export function NavBar2() {

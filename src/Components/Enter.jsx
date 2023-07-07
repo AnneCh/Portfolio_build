@@ -9,22 +9,40 @@ const ImageTextComponent = ({ imageUrl, text }) => (
     sx={{ 
       display: 'flex', 
       alignItems: 'center',
-      gap: 4 // adjust the gap between the image and text
+      gap: 10 // adjust the gap between the image and text
     }}
   >
     <Avatar 
       src={imageUrl} 
       alt="image description"
       sx={{ 
-        width: 500, // adjust size as needed
-        height: 500 // adjust size as needed
+        width: 450, // adjust size as needed
+        height: 450 // adjust size as needed
       }}
     />
-    <Typography variant="body1">{text}</Typography>
+    <Typography variant="body1" fontSize={'150%'}>{text}</Typography>
   </Box>
 );
 
-
+const ImageTextRevert = ({ imageUrl, text }) => (
+  <Box 
+    sx={{ 
+      display: 'flex', 
+      alignItems: 'center',
+      gap: 10 // adjust the gap between the image and text
+    }}
+  >
+    <Typography variant="body1" fontSize={'150%'}>{text}</Typography>
+    <Avatar 
+      src={imageUrl} 
+      alt="image description"
+      sx={{ 
+        width: 450, // adjust size as needed
+        height: 450 // adjust size as needed
+      }}
+    />
+  </Box>
+);
 
 
 export default function MainPage() {
@@ -32,12 +50,17 @@ export default function MainPage() {
 
   return (
     <>
-      <Container sx={{ paddingTop:"40px",height:'100vh', width:'100vp', backgroundRepeat:'space', alignItems:"center"}}>
+      <Container sx={{ paddingTop:"40px"}}>
         <Typography sx={{fontSize:"80px", fontWeight:"bold", textAlign:'center'}}>{t('main_page.visitor')}</Typography>
-        <Typography sx={{fontSize:"20px", textAlign:'center',fontStyle:'italic'}}>{t('main_page.weird')}</Typography><Typography sx={{fontSize:"20px", textAlign:'center'}}>{t('main_page.think')}</Typography>
         <br/>
         <Typography sx={{fontSize:"45px", textAlign:'center'}}>{t('main_page.hydrate')}</Typography>
-        <ImageTextComponent imageUrl={gear} text="This is Jim. He's the Autist Artist of our network."/>
+        <Typography sx={{fontSize:"20px", textAlign:'center'}}>{t('main_page.weird')}</Typography><Typography sx={{fontSize:"20px", fontStyle:'italic', textAlign:'center'}}>{t('main_page.think')}</Typography>
+        <ImageTextComponent imageUrl={gear} text="This is Jim. He's the Autist Artist of our network and he likes to hit things."/>
+        <ImageTextRevert imageUrl={gear} text="This is Kevin. He excels at learning, improving and teaching. English has no secret for him."/>
+        <ImageTextComponent imageUrl={gear} text="This is Anne. She started MBM, knows 3 languages and is helping found two Web3 projects."/>
+      </Container>
+      <Container>
+
       </Container>
       </>
   );
