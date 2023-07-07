@@ -5,29 +5,30 @@ import { Link } from "react-router-dom";
 
 export default function Contact() {
   
-  const [name, setName] = React.useState("");
-  const [email, setEmail] = React.useState("");
-  const [message, setMessage] = React.useState("");
-  const { t } = useTranslation()
+  // const [name, setName] = React.useState("");
+  // const [email, setEmail] = React.useState("");
+  // const [message, setMessage] = React.useState("");
 
-  function encode(data) {
-    return Object.keys(data)
-      .map(
-        (key) => encodeURIComponent(key) + "=" + encodeURIComponent(data[key])
-      )
-      .join("&");
-  }
-// NOT WORKING
-  function handleSubmit(e) {
-    e.preventDefault();
-    fetch("/", {
-      method: "POST",
-      headers: { "Content-Type": "application/x-www-form-urlencoded" },
-      body: encode({ "form-name": "contact", name, email, message }),
-    })
-      .then(() => alert("Message sent!"))
-      .catch((error) => alert(error));
-  }
+//   function encode(data) {
+//     return Object.keys(data)
+//       .map(
+//         (key) => encodeURIComponent(key) + "=" + encodeURIComponent(data[key])
+//       )
+//       .join("&");
+//   }
+// // NOT WORKING
+//   function handleSubmit(e) {
+//     e.preventDefault();
+//     fetch("/", {
+//       method: "POST",
+//       headers: { "Content-Type": "application/x-www-form-urlencoded" },
+//       body: encode({ "form-name": "contact", name, email, message }),
+//     })
+//       .then(() => alert("Message sent!"))
+//       .catch((error) => alert(error));
+//   }
+
+const { t } = useTranslation()
 
   return (
     <section id="contact" className="relative">
@@ -39,7 +40,15 @@ export default function Contact() {
                 EMAIL
               </h2>
               <a className="text-indigo-400 leading-relaxed">
-                chretien.an@gmail.com
+                mindbridge.media.group@gmail.com
+              </a>
+            </div>
+            <div className="lg:w-1/2 px-6 mt-4 lg:mt-0">
+              <h2 className="title-font font-semibold text-white tracking-widest text-xs">
+                Phone
+              </h2>
+              <a className="text-indigo-400 leading-relaxed">
+                +381 0628329589
               </a>
             </div>
           </div>

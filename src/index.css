@@ -33,3 +33,8 @@ code {
     transform: translateX(-100%);
   }
 }
+
+.MuiContainer-root {
+  width: 100%;
+  margin-left: 2px;
+}
