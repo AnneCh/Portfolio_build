@@ -16,8 +16,8 @@ const ImageTextComponent = ({ imageUrl, text }) => (
       src={imageUrl} 
       alt="image description"
       sx={{ 
-        width: 450, // adjust size as needed
-        height: 450 // adjust size as needed
+        width: 350, // adjust size as needed
+        height: 350 // adjust size as needed
       }}
     />
     <Typography variant="body1" fontSize={'150%'}>{text}</Typography>
@@ -37,8 +37,8 @@ const ImageTextRevert = ({ imageUrl, text }) => (
       src={imageUrl} 
       alt="image description"
       sx={{ 
-        width: 450, // adjust size as needed
-        height: 450 // adjust size as needed
+        width: 350, // adjust size as needed
+        height: 350 // adjust size as needed
       }}
     />
   </Box>
@@ -55,9 +55,9 @@ export default function MainPage() {
         <br/>
         <Typography sx={{fontSize:"45px", textAlign:'center'}}>{t('main_page.hydrate')}</Typography>
         <Typography sx={{fontSize:"20px", textAlign:'center'}}>{t('main_page.weird')}</Typography><Typography sx={{fontSize:"20px", fontStyle:'italic', textAlign:'center'}}>{t('main_page.think')}</Typography>
-        <ImageTextComponent imageUrl={gear} text="This is Jim. He's the Autist Artist of our network and he likes to hit things."/>
+        <ImageTextComponent imageUrl={gear} text="This is Jim. He's the Genius Autist Artist of our network and he likes to hit things, but mostly drums."/>
         <ImageTextRevert imageUrl={gear} text="This is Kevin. He excels at learning, improving and teaching. English has no secret for him."/>
-        <ImageTextComponent imageUrl={gear} text="This is Anne. She started MBM, knows 3 languages and is helping found two Web3 projects."/>
+        <ImageTextComponent imageUrl={gear} text="This is Anne. She instigated this network, knows 3 languages, built this page and enjoys Web3."/>
       </Container>
       <Container>
 
