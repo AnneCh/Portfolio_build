@@ -31,6 +31,10 @@
   },
   "navbar": {
     "mbm": "Entrepreneurship",
+    "writing": "Redaction & Translations",
+    "events": "Events",
+    "others": "Other Services",
+    "about": "About",
     "contact": "Contact"
   },
   "error": "Uuups, sorry buddy, can't get that for ya."
