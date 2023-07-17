@@ -13,8 +13,7 @@ import {
   createTheme,
   CssBaseline,
   ThemeProvider,
-  ToggleButton,
-  Tab
+  ToggleButton
 } from '@mui/material';
 import MenuIcon from "@mui/icons-material/Menu";
 
@@ -23,6 +22,7 @@ import { HomeButton } from "./Buttons";
 import { darkTheme } from './Styles/Dark.jsx';
 import { lightTheme } from './Styles/Light.jsx';
 import MenuBurger from "./MenuBurger";
+import banner from './zhite.png'
 
 
 export function NavBar2() {
@@ -32,15 +32,8 @@ export function NavBar2() {
     i18n.changeLanguage(lng);
   }
 
-  const pages = [
-    <>
-      <Tab sx={{width:"50vp"}} label={t('navbar.mbm')} component={Link} to="/MainMul" />
-      <Tab sx={{width:"50vp"}} label={t('navbar.contact')} component={Link} to="/Contact" />
-    </>
-  ]
-
   //dark or light mode
-  const [mode, setMode] = useState("light");
+  const [mode, setMode] = useState("dark");
   const toggleMode = () => {
     // if the theme is not light, then set it to dark
     if (mode === 'light') {
@@ -51,7 +44,7 @@ export function NavBar2() {
     }
   }
   const theme = useMemo(
-  () => createTheme(mode === "light" ? lightTheme : darkTheme),
+  () => createTheme(mode === "dark" ? darkTheme : lightTheme),
   [mode]
   )
 
@@ -69,7 +62,7 @@ export function NavBar2() {
     <ThemeProvider theme={theme}>
     <CssBaseline enableColorScheme />
       <Box sx={{flexGrow:1, marginBotton: 2}}>
-        <AppBar position="sticky">
+        <AppBar position="sticky" display="flex" alignItems="center">
           <Toolbar disableRipple sx={{maxWidth:'100%'}}>
           <MenuBurger/>
             <Box sx={{flexGrow: 2, display: {xs:"flex", md:"none"}}}>
@@ -95,26 +88,20 @@ export function NavBar2() {
               sx={{display:{xs:'block', md:'none'}, padding:"20px", alignItems:"center"}}
               >
               <HomeButton/>
-              <ToggleButton onClick={() => changeLanguage('en')}>en</ToggleButton>
-              <ToggleButton onClick={() => changeLanguage('fr')}>fr</ToggleButton>
-                {pages.map((label, to) => (
-                  <Button key={label} to={to} onClick={handleCloseNavMenu} sx={{color:'secondary'}}>
-                        <div display="flex" alignItems="flex-col">{label}</div>
-                  </Button>
-                  ))}
+              <MenuBurger/>
+              {/* <ToggleButton onClick={() => changeLanguage('en')}>en</ToggleButton>
+              <ToggleButton onClick={() => changeLanguage('fr')}>fr</ToggleButton> */}
+
                   <NightToggle onChange={toggleMode}/>
               </Menu>
             </Box>
 
             <Box sx={{ flexGrow: 1, display: {xs: 'none', md:'flex'}}}>
               <HomeButton />
-              <ToggleButton className="toggle" onClick={() => changeLanguage('en')}>en</ToggleButton>
-              <ToggleButton onClick={() => changeLanguage('fr')}>fr</ToggleButton>
-                {pages.map((label, to) => (
-                  <Button sx={{color:'secondary'}} key={label} to={to} onClick={handleCloseNavMenu}>
-                    {label}
-                  </Button>
-                ))}
+              {/* <ToggleButton className="toggle" onClick={() => changeLanguage('en')}>en</ToggleButton>
+              <ToggleButton onClick={() => changeLanguage('fr')}>fr</ToggleButton> */}
+              <img src={banner} style={{ height: '200px', margin: '0 auto'}}/>
+
               <Box paddingTop={5} paddingRight={3}>
                 <NightToggle onChange={toggleMode}/>
               </Box>

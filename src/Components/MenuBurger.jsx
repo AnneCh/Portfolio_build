@@ -28,8 +28,8 @@ const MenuBurger = () => {
         { text: t('navbar.mbm'), link: '/MainMul' },
         { text: t('navbar.writing'), link: '/' },
         { text: t('navbar.events'), link: '/' },
-        { text: t('navbar.others'), link: '/' },
-        { text: t('navbar.about'), link: '/' },
+        { text: t('navbar.others'), link: '/Others' },
+        { text: t('navbar.about'), link: '/About' },
         { text: t('navbar.contact'), link: '/Contact' },
       ].map((item) => (
         <ListItem  key={item.text} component={Link} to={item.link}>

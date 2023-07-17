@@ -2,3 +2,12 @@ Today, let's try to place the burger menu
 For now the menu does not lead to any page as I have yet to create theme
 
 Menu successfully created, link added to the Contact page
+
+Added the logo
+
+Changed the light/dark mode default to make sure it starts with dark mode
+
+Added logo as main page button
+
+- need to fix the margins in the navbar 
+- need to upload the correct pictures - ours 

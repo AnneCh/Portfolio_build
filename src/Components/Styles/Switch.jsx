@@ -2,6 +2,9 @@ import { styled } from '@mui/material/styles';
 import Switch from '@mui/material/Switch';
 
 export const MaterialUISwitch = styled(Switch)(({ theme }) => ({
+  palette: {
+    mode: 'dark'
+  },
   width: 62,
   height: 34,
   padding: 8,
