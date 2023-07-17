@@ -22,7 +22,7 @@ import { MaterialUISwitch as NightToggle} from "./Styles/Switch.jsx";
 import { HomeButton } from "./Buttons";
 import { darkTheme } from './Styles/Dark.jsx';
 import { lightTheme } from './Styles/Light.jsx';
-import yt from "./yt.png"
+import MenuBurger from "./MenuBurger";
 
 
 export function NavBar2() {
@@ -71,6 +71,7 @@ export function NavBar2() {
       <Box sx={{flexGrow:1, marginBotton: 2}}>
         <AppBar position="sticky">
           <Toolbar disableRipple sx={{maxWidth:'100%'}}>
+          <MenuBurger/>
             <Box sx={{flexGrow: 2, display: {xs:"flex", md:"none"}}}>
               <IconButton
               size="large"

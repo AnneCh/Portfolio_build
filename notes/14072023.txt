@@ -14,4 +14,3 @@ I have to:
 - integrate a burger menu (drawer?)
 - replace the pictures for us
 - work on the miro board to create an animation that will sum up our journey until now
-- 
