@@ -25,7 +25,6 @@ const MenuBurger = () => {
     >
  <List>
       {[
-        { text: t('navbar.mbm'), link: '/MainMul' },
         { text: t('navbar.writing'), link: '/' },
         { text: t('navbar.events'), link: '/' },
         { text: t('navbar.others'), link: '/Others' },
