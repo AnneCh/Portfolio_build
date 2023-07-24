@@ -2,15 +2,23 @@
 
   "main_page": {
     "visitor": "Welcome to our network",
-    "weird": "From copywriting to voice-overs, translations and equipment rental services for musicians.",
-    "think": "...and some more.",
-    "hydrate": "Our services depend on the skills of the individuals below.",
+    "weird": "",
+    "think": "",
+    "hydrate": "",
     "know": "What would you like to know about?",
     "dev": "Developer",
     "mbm": "Entrepreneurship",
     "studies": "Education",
     "else": "Stuff",
-    "contact": "Contact"
+    "contact": "Contact",
+    "jim": "This is Jim. He's the Genius Autist Artist of our network and he likes to hit things... mostly drums.",
+    "kevin": "This is Kevin. He excels at learning, improving and teaching. English has no secret for him.",
+    "anne": "This is Anne. She kick-started this network, speaks several languages, built this page and enjoys Web3."
+  },
+  "writing": {
+    "pro":"Our team has been trained in writing professional documents in English for more than a decade now.",
+    "diverse": "White Papers, reports, blogs and podcasts, but also website copies and even AI training, we adapt to your needs with a high level of proficiency and dedication.",
+    "mindset":"We have a problem-solving mindset. We work in transparent manners, with care for details without compromising the big picture."
   },
   "main_mul": {
     "title": "MindBridge Media, for artists and venues",
@@ -31,6 +39,10 @@
   },
   "navbar": {
     "mbm": "Entrepreneurship",
+    "writing": "Redaction & Translations",
+    "events": "Events",
+    "others": "Other Services",
+    "about": "About",
     "contact": "Contact"
   },
   "error": "Uuups, sorry buddy, can't get that for ya."

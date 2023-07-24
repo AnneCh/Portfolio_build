@@ -5,44 +5,6 @@
   },
   "accents": "é à è ù â ê î ô û ç",
   "main_page": {
-    "visitor": "Bonjour nouvel invité(e), et bienvenue.",
-    "honor": "C'est un honneur de savoir que mon profil vous intéresse.",
-    "hydrate": "Mettez-vous à votre aise et veillez à rester hydraté(e). ",
-    "know": "Que souhaitez-vous découvrir sur moi ?",
-    "dev": "Développeur",
-    "mbm": "Entrepreuneriat",
-    "studies": "Education",
-    "else": "Autres",
-    "contact": "Contact"
-  },
-  "main_dev": {
-    "projects": "Projets réalisés - en anglais seulement",
-    "lang": "Langages",
-    "p1": "Je me suis découvert une attraction pour l’ingénieurie de systèmes à travers mon entreprise vers 2018. J’avais envisagé aborder la programmation, coder des sites internet plus précisément,  j’avais seulement approché quelques tutoriels et certifications comme Free Code Camp et The Odin Project, mais sans assiduité.",
-    "p2": "Alors que je gagnais en maturité et en expérience dans mes projets, l’Epoque Covid a commencé et j’ai rapidement perdu 95% de mes revenus. Les mesures se renforçaient au fil des semaines, mon équipe et moi-même décidâmes de mettre cartes sur table et voir si nos actions nous permettraient de nous adapter à la crise en cours, ou si nous devions changer de tactique. Changement de tactique fut le  vote final, notre décision fut d’accroitre notre capacité à générer des revenus en ligne. Je suis revenue sur l’idée de coder, j'ai commencé par des recherches basiques sur les différents types de languages, sur quoi me focaliser, quels types de débouchés, quelles sont les bases que je devrai couvrir et quels types de spécialisations y a-t-il à partir de ces bases.",
-    "p3": "J’étais en plein milieu de ces recherches, quand nous avons eu l’opportunité de partir du Cambodge. Nous avons dû prendre une série de décisions rapidement, ou, comment, quand. Mon conjoint et moi-meme sommes partis de Phnom Penh le 13 avril 2021. Le 14, nous apprenions via les réseaux sociaux, que la capitale était maintenant en lockdown complet, avec des restrictions sévères. Le 16, mon conjoint a fait un AVC (duquel il s’est presque totalement remis). Après avoir finalisé notre installation, j’ai pu avoir l’opportunité de me focaliser sérieusement sur le code.",
-    "goals_title": "Outils pour Objectifs",
-    "goals": "Au fil des années, j’ai découvert que la façon dont je pouvais approcher la maitrise de quelque chose de nouveau, était tout d’abord d’acquérir une bonne compréhension des éléments qui se rapportent au sujet. Je découvre son environnement, les interactions qui se produisent, les rôles et schémas qui se définissent progressivement; tout cela me permet alors potentiellement d’identifier une structure spécifique ou de potentielles faiblesses.",
-    "goal1": "Cela m’aide à maximiser ma capacité d’apprentissage du sujet dont je souhaite maitriser les spécialités pour pouvoir ensuite expérimenter à travers le nouvel outil acquis.",
-    "goal2": "Cela me paraissait donc logique d’appliquer ce même procédé aux technologies de la blockchain dont je souhaite maitriser les outils.",
-    "list1": "J’ai donc commencé mes recherches, fait une liste évolutive des choses qui semblaient nécessaires pour comprendre ce nouvel environnement dans lequel je me lançais…",
-    "list2": "=> Y-a-t-il un jargon particulier ? => Le comprendre",
-    "list3": "=> Quels types d’échanges peuvent s’effectuer sur les blockchains, et comment fonctionnent ces dernières.",
-    "list4": "=> Les échanges sur la blockchain se traduisent par des contrats => choix de language peu varié, j’ai choisi Solidity, que je choisis également comme domaine de spécialisation.",
-    "list5": "=> Les actions entre la blockchain et ses utilisateurs se passent via des scripts => choix de JavaScript, avec également comme but d’apprendre Python.",
-    "list6": "=> Les interfaces sont soit rendues via HTML et CSS, soit dérivent de ces languages via l’utilisation de frameworks, et sont des bases à connaitre. J’ai donc suivi des cours pour maitriser les bases de ces deux languages.",
-    "list7": "=> Ce choix s’est par la suite muté en apprentissage du framework ReactJS, pour lequel les bases en HTML, CSS et JavaScript me sont précieuses.",
-    "list8": "=> Ces programmes ne peuvent opérer sans machines, acquérir une compréhension basique de l’évolution de nos outils et des systèmes en réseaux me semblait indispensable.",
-    "list9": "L’étude des bases de ces premiers points m’a permis de faire évoluer ma liste de départ. Au fut et à mesure que j’acquerrais de nouvelles connaissances, je commençais à entrevoir les principes en jeu, ainsi que la façon de penser des ingénieurs à l’origine de ces programmes et languages de programmation.",
-    "list10": "=> J’ai souhaité en savoir plus sur la sécurité, la vulnérabilité des systèmes en réseau, des systèmes décentralisés et ai choisi de commencer un apprentissage sur Try Hack Me.",
-    "list11": "=> Savoir comment déployer mon propre node et participer à la décentralisation des échanges semblait être une compétence de base, j’ai donc choisi de suivre Nethermind et d’approfondir ma compréhension d’Ethereum",
-    "list12": "Après avoir suivi plusieurs tutoriels, je suis enfin arrivée au moment fatidique de créer ma propre dApp.",
-    "list13": "J’ai choisi de partir sur la finance décentralisée; malgré un manque de connaissances en investissements, je comprenais que sur le long terme, les opportunités de revenus passifs (qui reste, à mes yeux, l’un des buts ultimes de l’humain, en terme de sécurité financière) passeraient par des ‘DeFi Apps’ et je souhaitais en savoir plus.",
-    "list14": "J’ai commencé mon projet de robot basé sur des flashloans et opportunités d’arbitrage, mais me suis vite heurté a la réalité : un peu trop ambitieux, le projet, pour mon faible niveau d’expérience dans le domaine.",
-    "list15": "Fin juin 2022, j’ai été contactée par un autre débutant dans le domaine du web3, pour un projet en duo, pour faire grandir nos portfolios respectifs. Après avoir débattu sur le type de projet, nous avons choisi de travailler sur une plateforme qui vendrait de faux NFT (déploiement sur testnet seulement) en suivant un exemple spécifique issu de la série de tutoriels de Patrick Collins pour FreeCodeCamp {{link}}.",
-    "list16": "En parallèle, je développe mon expérience avec ReactJS en créant ce CV digital.",
-    "update": "Update : Août 2022",
-    "list17": "Je partage donc mon temps d’apprentissage entre la réalisation du projet NFT en partenariat, la création de ce CV, des cours sur JavaScript (Udemy), la documentation des outils utilisés, Try Hack Me, ainsi que des exercises de logique pour développer ma capacité de réflexion et de logique."
   },
   "main_mul": {
     "title": "Mindbridge Media, pour artistes et venues.",
@@ -61,70 +23,13 @@
     "skill2": "J’ai aussi appris à analyser et comprendre mon environnement rapidement ; par exemple, comment est-ce que ces murs en verre vont affecter la reflexion du son ?",
     "skill3": "J’ai développé ma capacité à lire les expressions faciales et anticiper les besoins des musiciens. N’étant pas toujours en mesure d’entendre les requetes des artistes sur scene, j’ai du apprendre à déchiffrer leurs gestes, en identifiant rapidement la demande selon ce que je déchiffrais et ce que je savais du musicien. Par exemple, la requete d’un batteur va probablement etre par rapport à la (contre)basse ou au chanteur/guitare lead. Je me suis rapidement améliorée et ai réussi à devenir un lien efficace entre les attentes des gérants de l’événement, les besoins des artistes et le droit au public à une performance de bonne qualité sonore."
   },
-  "studies": {
-    "studies": "Etudes",
-    "highschool": "Lycée",
-    "hs1": "Au lycée, j’étais une bonne élève, notes au dessus de la moyenne, voire excellentes dans certaines disciplines, sans jamais investir trop d’efforts. J’excellais en langues étrangères et souhaitais poursuivre dans cette direction, sans savoir si me spécialiser dans l’enseignement, la traduction/interprétation, ou poursuivre une carrière dans le commerce international. J’ai cherché les options qui pourraient me permettre de poursuivre une base d’éducation large et me donner un peu plus de temps pour évaluer les possibilités. Après l’obtention de mon Baccalauréat, j’ai donc intégré l’Université Catholique de l’Ouest pour une license en langues étrangères.",
-    "hs2": "La totalité des universités publiques autour de ma ville natale offeraient des licenses de langues traditionnelles, comprenant une langue principale, une seconde langue étudiée avec un nombre d’heures considérablement réduit par rapport à la langue principale, et, parfois, une troisième langue.",
-    "hs3": "Quand j’ai découvert qu’à Angers, à environ 2h30 de ma ville natale de Normandie, on proposait une license de langues avec presqu’autant d’heures de cours de la langue principale et langue secondaire, avec la possibilité de prendre une 3e langue optionnelle, j’ai rapidement évalué les coûts et avec ma mère, avons trouvé une solution pour payer mes études. J’ai donc intégré La Catho d’Angers en septembre 2009.",
-    "university": "Université",
-    "license": "License",
-    "lic1": "Mes années de license furent intéressantes et positives dans l’ensemble, sous tous les aspects. Apprendre une troisième langue, l’arabe, m’a permis d’approcher et analyser le language sous une autre perspective; malheureusement, avec le recul, je me rends compte que j’aurais pu investir bien plus d’efforts que je ne l’ai fait à l’époque...",
-    "lic2": "La plupart des cours dispensés pendant la license avaient pour but d’approfondir notre compréhension des structures linguistiques, idiomes, particularités spécifiques à certains domaines (littérature classique, traduction techniques, études de médias anglophones et hispanophones). Ces cours étaient majoritairement donnés dans la langue cible, avec quelques interventions en français quand nécessaire. Tout était fait pour nous immerser le plus possible dans la culture/langue que nous étudiions. Mais la cerise sur le gateau, était l’option de passer un semestre à l’étranger lors de notre dernière année de license.",
-    "lic3": "J’ai eu la chance d’être envoyée exactement où je souhaitais aller, à Buenos Aires en Argentine. Je partageais mon temps entre les cours à la Pontificia Universidad Catolica (histoire argentine, marketing, cours d’approfondissement de la langue espagnole, entre autres) validés à la fin du semestre, et l’exploration du pays, voyager, apprendre à vivre à l’argentine, entre maté et cours de tango.",
-    "lic4": "J’ai beaucoup apprécié cette première immersion totale et regrette ne pas avoir pu passer plus de temps en Amérique du Sud… Peut-être qu’un jour...!",
-    "master": "Master",
-    "intro": ""
-  },
-  "what_else": {
-    "intro": "En dehors du web3 et de l'entrepreneuriat, voici quelques autres sujets qui m'intéressent."
-  },
   "navbar": {
-    "dev": "Développeur",
-    "mbm": "Entrepreuneriat",
-    "studies": "Education",
-    "else": "Autres",
+    "mbm": "Entrepreneurship",
+    "writing": "Rédaction & Traductions",
+    "events": "Evénements",
+    "other": "Autres Services",
+    "about": "A Propos",
     "contact": "Contact"
   },
-  "why_blockchain": {
-    "title": "Développeur Blockchain",
-    "why": "Vous vous demandez peut-être pourquoi avoir choisi le secteur des blockchains...",
-    "p1": "A travers mes différentes expériences de vie, j'ai choisi de chercher des alternatives aux systèmes dans lesquels j'ai été élevée. Je n'étais plus convaincue que les systèmes en place depuis des décennies soient les fondations d'un terrain favorable pour que je puisse m'épanouir et aider ceux qui comptent pour moi.",
-    "p1bis": "Quand j'ai commencé à entendre parler du concept Blockchain et du Bitcoin, j'étais dubitative, comme beaucoup. Dans les média traditionnels, leur image n'était pas si positive.",
-    "p2": "Puis, plus je me suis renseignée sur ce qui se passait, plus je réalisais que les principes sur lesquels les blockchains évoluent sont alignés avec les miens. Je me suis surprise à penser que, oui, peut-être que baser les interactions digitales et transactions sur des blockchains pourrait vraiment permettre un monde un peu plus juste, quand il s'agit des échanges humains.",
-    "p3": "Plus je me renseignais, plus j'avais envie de faire partie de ce changement qui s'opérait autour de moi à échelle globale. Ne pouvant pas me permettre d'intégrer le marché des blockchains en tant qu'investisseur, j'ai décidé de me mettre en quete d'acquérir les compétences nécessaires pour participer à la création de systèmes décentralisés.",
-    "p4": "Plus j'apprends, plus je me rends compte de l'étendue des possibilités que cette nouvelle facon d'approcher les transactions digitales représente. C'est juste génial !!",
-    "p5": "Je veux faire partie de mouvements qui voient les faiblesses de nos anciens systèmes se transformer en forces, prouver que l'humanité peut apprendre de ses erreurs et s'adapter, encore une fois. Que la transparence et l'immuabilité des protocoles décentralisés puissent être utilisés à bon escient pour créer un espace digital plus cohérent face aux progrès mais aussi face aux challenges. Nous avons essayé les pouvoirs centralisés, donnons maintenant leur chance à des manières différentes de gouverner.",
-    "p6": "Je veux faire partie des communautés qui promouvront les notions de gouvernance, de réelle participation collective, de transparence complète des ressources et revenus au niveau politique. Si je ne peux pas encore investir financièrement dans les projets qui structureront les systèmes de demain, alors je souhaite y investir mon temps et mon énergie."
-  },
-  "error": "Ooups, désolée, je n'ai pas l'impression de pouvoir accéder à votre demande...",
-  "cards": {
-    "martial": {
-      "h1": "Arts Martiaux",
-      "description": "Ou l'art d'apprendre à utiliser mon corps et découvrir ses capacités...",
-      "inside1": "Mais d'où m'est venu le désir d'apprendre les arts martiaux, vous demandez-vous peut-être ?",
-      "inside2": "Je dirais qu'ils ouvrent ma conscience à un jeu de logique et d'appréciation de situations spécifiques qui me sont inconnus...",
-      "inside3": "Je trouve le concept global très motivant et intéressant."
-    },
-    "health": {
-      "h1": "Santé",
-      "description": "Recherches sur le système hormonal, la nourriture, l'environnement et comment renforcer mon système immunitaire.",
-      "health1": "Je partage, avec mon épou, le souhait de me rapprocher le plus possible de mon potentiel humain. Il nous fût très vite apparent que nos santés respectives ne nous permettaient d’en atteindre qu’une partie assez faible.",
-      "health2": "Une santé en péril garantissant un cerveau moins productif, je me suis naturellement vue poussée, au fil des années, à m’instruire en cherchant plusieurs solutions à ses cotés pour maximiser nos santés.",
-      "health3": "Pour définir le terrain et commencer mes recherches, je souhaitais premièrement savoir sur quel(s) système(s), parmi les différents systèmes du corps humain, je devais me concentrer.",
-      "health4": "Et la réponse fut, quasiment tous ! Du système digestif au système endocrinien, en passant par le système hormonal et le système immunitaire, tout est lié.",
-      "health5": "En approchant la compréhension des phénomènes allergiques, des inflammations chroniques (musculaires, des articulations), des calculs biliaires ainsi que les désordres du système nerveux, je me suis rendue compte que rien ne peut être altéré sans qu'un autre élément change également.",
-      "health6": "D’un autre côté, avec mon entreprise de location de matériel audio et ingénieurie du son, est venue la responsabilité du transport et installation des hauts-parleurs, qui pouvait atteindre la moitié de mon poids, et je devais aussi me tenir debout pendant des heures sans pause.",
-      "health7": "Souffrant d’une scoliose entrainant des maux de dos depuis l’enfance, il me fallait renforcer mon corps et commencer à comprendre l’importance d’une posture impeccable et comment y parvenir. Ce voyage de découvertes de ma santé m’a mené à tester différentes façons de m’alimenter, parfois extrêmes, dans l’espoir de trouver un équilibre qui convienne aux attentes de mon corps selon mon environnement.",
-      "health8": "Plus j’en apprends sur les systèmes du corps humain, plus je comprends les corrélations entre les différents types de déséquilibres hormonaux et notre alimentation, médicaments préventifs et désordres immunitaires à vie, ainsi que l’importance de certains facteurs clefs.",
-      "health9": "",
-      "health10": ""
-    },
-    "music": {
-      "h1": "Musique",
-      "description": "Du solfège à la batterie, au métier de DJ, en passant par le piano... et pas forcément dans cet ordre.",
-      "music1": ""
-    },
-    "more": "Continuer..."
-  }
+  "error": "Ooups, désolée, je n'ai pas l'impression de pouvoir accéder à votre demande..."
 }

@@ -1,0 +1,16 @@
+I've realized that I accidently deleted the main branch where my entire online CV was hosted.... I'm gutted.
+
+So now, no choice but to work on this project that I had for a long time, which was to finally create some legitimacy to the business I started in 2017.
+Giving birth to a webpage for MindBridgeMedia.
+
+I decided to approach it through the human lens that unites our team. We are coworkers, but started as friends. Making money out of skills that we could combine together was a result of years of talking and trying things out.
+I started by renting out Jim's equipment while Kevin was still teaching English. Then, while I learned the basics of sound engineering and got my first gigs, Kevin started learning sound engineering too, so he could second me if needed.
+Jim was already a performer, percussionist and MC, so we worked on gigs together.
+
+I could use some kind of drawing animation, integrated to the "About" page, which would recreate the parcours of our company and why we offer the services that we do.
+After a bit of research, it looks like making an animation will be complex or costly, so I may have to settle for a short video of a miro board, which I have started doing in order to get my thoughts in order as well.
+
+I have to:
+- integrate a burger menu (drawer?)
+- replace the pictures for us
+- work on the miro board to create an animation that will sum up our journey until now

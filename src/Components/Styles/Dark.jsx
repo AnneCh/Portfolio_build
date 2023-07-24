@@ -17,7 +17,7 @@ export const darkTheme = {
         main: '#b9a45e',
       },
       background: {
-        default: 'rgba(33,5,55,0.51)',
+        default: 'rgba(33,29,45,0.51)',
         //paper: 'rgba(4,4,41,0.98)',
       },
       error: {
