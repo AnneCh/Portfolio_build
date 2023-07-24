@@ -25,8 +25,8 @@ const MenuBurger = () => {
     >
  <List>
       {[
-        { text: t('navbar.writing'), link: '/' },
-        { text: t('navbar.events'), link: '/' },
+        { text: t('navbar.writing'), link: '/Writing' },
+        { text: t('navbar.events'), link: '/Events' },
         { text: t('navbar.others'), link: '/Others' },
         { text: t('navbar.about'), link: '/About' },
         { text: t('navbar.contact'), link: '/Contact' },

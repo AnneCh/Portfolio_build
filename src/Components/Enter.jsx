@@ -5,6 +5,8 @@ import Avatar from '@mui/material/Avatar';
 import jim from './jim.png';
 import kevin from './kevin.png';
 import anne from './anne.png';
+import { Link } from 'react-router-dom'
+import Anne from './Anne'
 
 const ImageTextComponent = ({ imageUrl, text }) => (
   <Box 
@@ -57,9 +59,9 @@ export default function MainPage() {
         <br/>
         <Typography sx={{fontSize:"45px", textAlign:'center'}}>{t('main_page.hydrate')}</Typography>
         <Typography sx={{fontSize:"20px", textAlign:'center'}}>{t('main_page.weird')}</Typography><Typography sx={{fontSize:"20px", fontStyle:'italic', textAlign:'center'}}>{t('main_page.think')}</Typography>
-        <ImageTextComponent imageUrl={jim} text={t('main_page.jim')}/>
-        <ImageTextRevert imageUrl={kevin} text={t('main_page.kevin')}/>
-        <ImageTextComponent imageUrl={anne} text={t('main_page.anne')}/>
+        <Link to='/Jim' style={{ textDecoration: 'none' }}><ImageTextComponent imageUrl={jim} text={t('main_page.jim')}/></Link>
+        <Link to='/Kevin' style={{ textDecoration: 'none' }}>  <ImageTextRevert imageUrl={kevin} text={t('main_page.kevin')}/></Link>
+        <Link to='/Anne' style={{ textDecoration: 'none' }}><ImageTextComponent imageUrl={anne} text={t('main_page.anne')}/></Link>
       </Container>
       <Container>
 
