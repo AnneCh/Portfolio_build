@@ -20,6 +20,14 @@
     "diverse": "White Papers, reports, blogs and podcasts, but also website copies and even AI training, we adapt to your needs with a high level of proficiency and dedication.",
     "mindset":"We have a problem-solving mindset. We work in transparent manners, with care for details without compromising the big picture."
   },
+  "events":{
+    "MC":"MC",
+    "Musicians":"Musicians, solo and bands",
+    "DJ": "DJs",
+    "Rentals": "Music equipment rentals",
+    "Sound": "Sound engineering",
+    "Photography":"Event photography"
+  },
   "main_mul": {
     "title": "MindBridge Media, for artists and venues",
     "history": "In february 2017, I met my husband, musician recently expatriated to Cambodia. He had come with hundreds of kilos of sound system and instruments which he had been buying over the years. In June 2017, I had reached the end of my contract with the NGO I had to come to Cambodia to work for, and for a couple of months, I followed him in his concerts.",
