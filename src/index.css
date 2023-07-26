@@ -11,13 +11,13 @@ code {
   font-family: 'Quicksand'
 }
 
-.boxtools{
+/* .boxtools{
   height:20vh;
   width:min-content;
   display: block;
   align-items: center;
   animation: Scroll 20s linear infinite;
-}
+} */
 .toolist{
   white-space: nowrap;
   width:auto;
@@ -34,10 +34,10 @@ code {
   }
 }
 
-.MuiContainer-root {
+/* .MuiContainer-root {
   width: 100%;
   margin-left: 2px;
-}
+} */
 
 .MuiTypography-body1 {
   font-size: 1.2rem; /* adjust as needed */
