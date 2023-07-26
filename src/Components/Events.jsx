@@ -1,7 +1,7 @@
-import { Box, Grid, Card, CardMedia, Typography, ImageListItem } from '@mui/material';
+import { Box, Grid, Card, Typography, ImageListItem } from '@mui/material';
 import React from "react";
 import { useTranslation } from 'react-i18next';
-
+import { Link } from 'react-router-dom';
 
 /*
 MC
@@ -22,32 +22,38 @@ const services = [
   {
     img:'/music.jpg',
     to:'/music.jpg',
-    textKey: 'MC',
+    textKey: 'events.MC',
+    extraText: 'events.mc'
   },
   {
     img:'/music7.jpg',
     to:'/music7.jpg',
-    textKey: 'DJ',
+    textKey: 'events.DJ',
+    extraText: 'events.dj'
   },
   {
     img: '/music6.jpg',
     to:'/music6.jpg',
-    textKey: 'Rentals',
+    textKey: 'events.Rentals',
+    extraText: 'events.rentals'
   },
   {
-    img: '/music3.jpg',
-    to:'/music3.jpg',
+    img: '/music9.jpg',
+    to:'/music9.jpg',
     textKey: 'Sound',
+    extraText: 'events.sound'
   },
   {
     img: '/music4.jpg',
     to:'/music4.jpg',
-    textKey: 'Musicians',
+    textKey: 'events.Musicians',
+    extraText: 'events.musicians'
   },
   {
-    img: '/photo1.jpg',
-    to:'/photo1.jpg',
-    textKey: 'Photography',
+    img: '/music3.jpg',
+    to:'/music3.jpg',
+    textKey: 'events.Photography',
+    extraText: 'events.photo'
   },
 
 ];
@@ -64,21 +70,28 @@ function Events() {
         {services.map((service, index) => (
           <Grid item xs={12} sm={6} md={4} key={index}>
             <a href={service.to}>
+            <Box sx={{ width: 600, height: 400, backgroundColor: 'lightgrey'}}>
             <ImageListItem key={service.img}>
               <img
-                src={`${service.img}?w=161&fit=crop&auto=format`}
-                srcSet={`${service.img}?w=161&fit=crop&auto=format&dpr=2 2x`}
+                src={`${service.img}`}
+                srcSet={`${service.img}`}
                 alt={service.textKey}
                 loading="lazy"
+                style={{ width: '100%', height: '100%', objectFit: 'cover', objectPosition: 'center' }}
               />
             </ImageListItem>
+            </Box>
             </a>
-            <Card>
-              <Typography variant="h6">{t(service.textKey)}</Typography>
+            <Card sx={{width: 600, backgroundColor: 'lightgrey'}}>
+              <Typography variant="h4">{t(service.textKey)}</Typography>
+              <Typography variant="h6">{t(service.extraText)}</Typography>
             </Card>
           </Grid>
         ))}
       </Grid>
+      <Box sx={{marginTop:"1.5rem"}}>
+        <Link to="/contact">{t('events.touch')}</Link>{t('events.quote')}
+      </Box>
     </Box>
   );
 }

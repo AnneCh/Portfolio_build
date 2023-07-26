@@ -21,13 +21,21 @@
     "mindset":"We have a problem-solving mindset. We work in transparent manners, with care for details without compromising the big picture."
   },
   "events":{
-    "MC":"MC",
-    "Musicians":"Musicians, solo and bands",
+    "MC":"Master of Ceremonies",
+    "mc": "We provide an experienced Master of Ceremonies to keep your audience entertained and engaged.",
+    "Musicians":"Musicians",
+    "musicians":"Solo musicians, full bands, let us know your style, we'll get your back.",
     "DJ": "DJs",
+    "dj":"Open format, House, Techno, whatever you're into, we will keep your audience dancing!",
     "Rentals": "Music equipment rentals",
+    "rentals":"Microphones, speakers, guitars, drum kits and even turntables, our team will pick the best for your event.",
+    "sound" : "Sound technicians, consulting on sound systems and echnical installations for individuals and companies.",
     "Sound": "Sound engineering",
-    "Photography":"Event photography",
-    "Intro": "Evolving in the realm of music, we have been investing in acquiring versatile equipment of quality and refining our skills as performers and technicians."
+    "Photography":"Photography",
+    "photo": "Event photography, concerts, gatherings of all kinds - edits of pictures and videos.",
+    "Intro": "Evolving in the realm of music, we have been investing in acquiring versatile equipment of quality and refining our skills as performers and technicians.",
+    "touch": "Get in touch",
+    "quote": " to get a quote for your event."
   },
   "main_mul": {
     "title": "MindBridge Media, for artists and venues",
