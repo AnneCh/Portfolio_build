@@ -2,6 +2,7 @@ import React from "react";
 import { useTranslation } from 'react-i18next'
 import { Button } from '@mui/material/';
 import { Link } from "react-router-dom";
+import BackButton from "./BackButton";
 
 export default function Contact() {
   
@@ -32,6 +33,7 @@ const { t } = useTranslation()
 
   return (
     <section id="contact" className="relative">
+      <BackButton/>
       <div className="container px-5 py-10 mx-auto flex sm:flex-nowrap flex-wrap">
       <div className="bg-gray-900 relative flex flex-wrap py-6 rounded shadow-md">
 

@@ -2,6 +2,7 @@ import { Box, Grid, Card, Typography, ImageListItem } from '@mui/material';
 import React from "react";
 import { useTranslation } from 'react-i18next';
 import { Link } from 'react-router-dom';
+import BackButton from "./BackButton";
 
 /*
 MC
@@ -63,6 +64,7 @@ function Events() {
 
   return (
     <Box sx={{ textAlign: 'center', margin: 8, fontSize: 30 }}>
+      <BackButton/>
       <Typography sx={{marginBottom:"1.5rem", fontSize:"2rem"}}>
       {t('events.Intro')}
       </Typography>

@@ -1,12 +1,14 @@
 import { Container, Typography } from "@mui/material";
 import React from "react";
 import { useTranslation } from 'react-i18next';
+import { ArrowBack } from "@mui/icons-material";
 
 function Writing() {
   const { t } = useTranslation()
 
   return (
     <Container sx={{textAlign:'center', margin:'auto', marginTop:'4rem',}} maxWidth={false}>
+      <ArrowBack/>
       <Typography sx={{fontSize:"2rem"}}>{t('writing.pro')}</Typography><br/>
       <Typography sx={{fontSize:"4rem"}}>{t('writing.diverse')}</Typography><br/><br/>
       <Typography sx={{fontSize:"3rem"}}>{t('writing.mindset')}</Typography>

@@ -1,6 +1,8 @@
 import { Box, Grid, Paper, Typography, Button } from '@mui/material';
 import React from 'react';
 import { useTranslation } from 'react-i18next';
+import BackButton from "./BackButton";
+
 
 const services = [
   {
@@ -30,6 +32,7 @@ function Others() {
 
   return (
     <Box sx={{ textAlign: 'center', margin: 'auto', marginTop: '4rem' }}>
+      <BackButton/>
       <Grid container spacing={3}>
         {services.map((service, index) => (
           <Grid item xs={12} sx={{ width: '100%' }} key={index}>
