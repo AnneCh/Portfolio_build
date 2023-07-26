@@ -1,4 +1,4 @@
-import { Box, Button, Grid, Paper, Typography } from '@mui/material';
+import { Box, Grid, Paper, Typography, Button } from '@mui/material';
 import React from 'react';
 import { useTranslation } from 'react-i18next';
 
@@ -6,14 +6,14 @@ const services = [
   {
     title: 'others.Consulting',
     description: 'others.consulting',
-   },
+  },
   {
     title: 'others.Photo',
     description: 'others.photo',
-    },
+  },
   {
     title: 'others.Websites',
-    description: 'others.website',
+    description: 'others.websites',
   },
   {
     title: 'others.Autism',
@@ -22,18 +22,17 @@ const services = [
   {
     title: 'others.MMA',
     description: 'others.mma',
-     },
-  // Add more services...
+  },
 ];
 
 function Others() {
   const { t } = useTranslation();
 
   return (
-    <Box sx={{ textAlign: 'center', margin: 'auto', marginTop: '4rem' }} maxWidth={false}>
-      <Grid container spacing={3} sx={{width:'100%'}}>
+    <Box sx={{ textAlign: 'center', margin: 'auto', marginTop: '4rem' }}>
+      <Grid container spacing={3}>
         {services.map((service, index) => (
-          <Grid item xs={12} md={12} key={index}>
+          <Grid item xs={12} sx={{ width: '100%' }} key={index}>
             <Paper elevation={index % 2 === 0 ? 1 : 12} sx={{ padding: 3 }}>
               <Typography variant="h5" gutterBottom>
                 {t(service.title)}
@@ -45,6 +44,9 @@ function Others() {
           </Grid>
         ))}
       </Grid>
+      <Button sx={{marginTop:"1.2rem"}}variant="contained" color="primary" href="/contact">
+        {t('others.contact')}
+    </Button>
     </Box>
   );
 }
