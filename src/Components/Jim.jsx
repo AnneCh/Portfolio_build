@@ -1,35 +1,63 @@
+import { Box, Typography, Grid, Paper } from '@mui/material';
 import React from 'react';
-import { Box, Typography, Container, Paper, Grid } from '@mui/material';
-import BackButton from "./BackButton";
+import { useTranslation } from 'react-i18next';
+import ReactPlayer from 'react-player/youtube';
+import BackButton from './BackButton';
 
+const traits = [
+  {
+    title: 'tagline',
+    paragraph1: 'trait1.origins',
+    paragraph2: 'trait1.studies',
+  },
+  {
+    title: 'trait2.title',
+    paragraph1: 'trait2.music',
+    paragraph2: 'trait2.ethno',
+  },
+  {
+    title: 'trait3.title',
+    paragraph1: 'trait3.martial',
+    paragraph2: 'trait3.ethno',
+  },
+  {
+    title: 'trait4.title',
+    paragraph1: 'trait4.dao',
+    paragraph2: 'trait3.ethno',
+  },
+  // Add more traits...
+];
 function Jim() {
+  const { t, ready } = useTranslation();
+
+  if (!ready) {
+    return <div>Loading...</div>;  // Or some loading spinner
+  }
+
   return (
-    <Container maxWidth="100%" sx={{ marginTop: '2rem', marginBottom: '2rem' }}>
+    <Box sx={{ textAlign: 'center', margin: 'auto', marginTop: '4rem' }}>
       <BackButton/>
-
-      <Box sx={{ marginBottom: '2rem', textAlign: 'center' }}>
-        <img src="link_to_Jim's_photo" alt="Jim's photo" style={{ width: '100%', objectFit: 'cover' }} />
-        <Typography variant="h3" component="h1">Jim</Typography>
-        <Typography variant="h5" component="h2">Brief introduction about Jim</Typography>
-      </Box>
-
-      <Grid container spacing={4}>
-        {['Trait 1', 'Trait 2', 'Trait 3', 'Trait 4'].map((trait, index) => (
-          <Grid item xs={12} md={6} key={index}>
-            <Paper sx={{ padding: 2, height: '100%', display: 'flex', flexDirection: 'column' }}>
-              <img src={`link_to_image_for_${trait}`} alt={trait} style={{ width: '100%', objectFit: 'cover' }} />
-              <Typography variant="h5" component="h3" gutterBottom>{trait}</Typography>
-              <Typography variant="body1">Description for {trait}</Typography>
+      <Typography variant="h2" gutterBottom>{t('jim.tagline')}</Typography>
+      <Typography variant="h4" component="h1">{t('jim.description')}</Typography>     
+      <Grid container spacing={3}>
+        {traits.map((trait, index) => (
+          <Grid item xs={12} sx={{ width: '100%' }} key={index}>
+            <Paper sx={{ padding: 3, margin: 1 }}>
+            <Typography variant="h5" gutterBottom>
+                {t(`jim.${trait.title}`)}
+              </Typography>
+              <Typography variant="body1" gutterBottom>
+                {t(`jim.${trait.paragraph1}`)}
+              </Typography>
+              <Typography variant="body2" gutterBottom>
+                {t(`jim.${trait.paragraph2}`)}
+              </Typography>
             </Paper>
           </Grid>
         ))}
+        <ReactPlayer url="https://www.youtube.com/watch?v=dQw4w9WgXcQ" />
       </Grid>
-
-      <Box sx={{ marginTop: '2rem', textAlign: 'center' }}>
-        <Typography variant="h4" component="h2" gutterBottom>Jim's Video</Typography>
-        <iframe title="Jim's Video" width="560" height="315" src="https://www.youtube.com/embed/link_to_youtube_video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-      </Box>
-    </Container>
+    </Box>
   );
 }
 

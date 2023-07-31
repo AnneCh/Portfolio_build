@@ -50,7 +50,30 @@
     "MMA": "MMA Coach",
     "mma":"On top of hitting drums, Jim used to fight for a living, and has coached a lot of fighters into the UFC. He uses the logical geometry of our biological bodies to enhance and twist martial art technics, making fighters stronger, faster and more explosive. If you are looking to polish your existing martial art skills, Jim is your man. ",
     "contact":"Contact us today"
-   
+  },
+  "jim":{
+    "tagline":"A Musical and Martial Arts Genius",
+    "description":"Insert description here",
+    "trait1":{
+      "title":"Origins and Diplomas",
+      "origins":"Originally from New Orleans, Jim's peculiar family life brought him to travel the world at a very young age as a performing musician.",
+      "studies":"High-School Graduate at 14, Jim double-majored in college, getting his degrees in Quantuum Physics and Psychology at 19 years old. It's around that age that he ran tests and found out he had Clasical Autism and ??? ."
+    },
+    "trait2":{
+      "title":"Music in the Soul",
+      "music":"Influenced by his family -his cousins are the Neville Brothers- he started playing percussions at a very young age, was a music teacher replacent during college and toured with a lot of bands until the late 2000s.",
+      "ethno":"Ethnomusicologist - is the term that actually defines what Jim is as a musician."
+    },
+    "trait3": {
+      "title":"Logic & Geometry for Martial Arts",
+      "martial":"",
+      "":""
+    },
+    "trait4": {
+      "title":"Daoist Adept",
+      "dao":"",
+      "":""
+    }
   },
   "navbar": {
     "mbm": "Entrepreneurship",
