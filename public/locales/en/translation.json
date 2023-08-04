@@ -66,13 +66,13 @@
     },
     "trait3": {
       "title":"Logic & Geometry for Martial Arts",
-      "martial":"",
-      "":""
+      "martial":"His acute sense of reality and analysis of pattern repetitions make Jim an excellent Martial Artist. His overall style is inspired from 'list' .",
+      "arts":"He's coached fighters on high level, getting them ready before, during, and after their UFC careers."
     },
     "trait4": {
       "title":"Daoist Adept",
-      "dao":"",
-      "":""
+      "dao":"The ancient Dao philosophy is one that brought Jim to many life realizations.",
+      "adept":""
     }
   },
   "navbar": {

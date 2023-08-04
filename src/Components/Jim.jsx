@@ -18,12 +18,12 @@ const traits = [
   {
     title: 'trait3.title',
     paragraph1: 'trait3.martial',
-    paragraph2: 'trait3.ethno',
+    paragraph2: 'trait3.arts',
   },
   {
     title: 'trait4.title',
     paragraph1: 'trait4.dao',
-    paragraph2: 'trait3.ethno',
+    paragraph2: 'trait4.adept',
   },
   // Add more traits...
 ];
