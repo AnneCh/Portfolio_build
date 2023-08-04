@@ -1,6 +1,9 @@
 import { Box } from "@mui/material";
 import React from "react";
 import { useTranslation } from 'react-i18next';
+import BackButton from "./BackButton";
+<BackButton/>
+
 
 function Anne() {
   const { t } = useTranslation()

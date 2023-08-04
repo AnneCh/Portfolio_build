@@ -12,7 +12,7 @@
     "else": "Stuff",
     "contact": "Contact",
     "jim": "This is Jim. He's the Genius Autist Artist of our network and he likes to hit things... mostly drums.",
-    "kevin": "This is Kevin. He excels at learning, improving and teaching. English has no secret for him.",
+    "kevin": "This is Kevin. He excels at learning, improving and teaching. English holds no secret for him.",
     "anne": "This is Anne. She kick-started this network, speaks several languages, built this page and enjoys Web3."
   },
   "writing": {
@@ -20,22 +20,60 @@
     "diverse": "White Papers, reports, blogs and podcasts, but also website copies and even AI training, we adapt to your needs with a high level of proficiency and dedication.",
     "mindset":"We have a problem-solving mindset. We work in transparent manners, with care for details without compromising the big picture."
   },
-  "main_mul": {
-    "title": "MindBridge Media, for artists and venues",
-    "history": "In february 2017, I met my husband, musician recently expatriated to Cambodia. He had come with hundreds of kilos of sound system and instruments which he had been buying over the years. In June 2017, I had reached the end of my contract with the NGO I had to come to Cambodia to work for, and for a couple of months, I followed him in his concerts.",
-    "start": "I started by taking pictures during shows, and got a few contracts thanks to them, which kick-started my decision to work as an independent.",
-    "then": "I was mostly focusing on photography, until one day, after a concert my husband was playing at, I was talking to a musician who was interested in using my husband’s microphones for a couple of gigs. Mu husband agreed that I’d use his equipment as long as I’d learn how to use it, which I eagerly agreed to. I decided to talk to more musicians, and quickly find out that there was a demand for music equipment in Phnom Penh. A couple of months into this small business, I decided to expand my rental offer by learning sound technique.",
-    "sound": "I followed a team of two sound technicians through different events in Phnom Penh, until they left me handle a weekly gig by myself. My husband also shared his experience with me and taught me. Through these teachings and experience, I became a much appreciated sound technician, and provided quality equipment and services, alone or as part of a team.",
-    "invest": "I reinvested most of my earnings in new equipment, most of it being shipped from Europe, and quickly increased my ability to provide several sound systems; I was collaborating with other sound providers on bigger events as well, and kept learning on site.",
-    "DJ": "As I got more sensitive and aware of sounds and musics, I started learning how to be a Disk Jockey  and did a few shows, the most recent one being at the 2021 Exit Festival, in Novi Sad, the first European festival to resume post-madness. Now I mostly focus on other domains and keep DJing for fun. Yet I keep increasing my musical knowledge to bridge the gaps I have with professionals who have worked in the industry for years, in the hopes of being a performing musicians one day.",
-    "kevin": "Outside of the experience I gained from learning sound engineering and running my own multi-services company, I also was my husband’s agent. We also trained a DJ and sound technician, who progressively turned into our co-founder and accountant. Thanks to his own skills, we added copy-writing to the list of services we offer (English only).",
-    "presence": "All my business in Cambodia was done through real-life networking, I really didn’t have to advertise much, so you won’t find a website or properly maintained social media accounts. I posted pictures and videos on our facebook page with the aim of sharing them with the musicians and venues, more than to promote our work.",
-    "moving": "Moving to Serbia in the middle of covid had us wait 1 year and 2 months for our equipment to arrive. At the moment of writing these words, we still have to disinfect and test every single piece of electronic and instruments, give them some TLC. So we haven’t been working as much since we moved. I am focusing on coding while opening our network to local musicians, so that my husband progressively gets back on playing on a regular basis.",
-    "skills": "What have I learned from this experience?",
-    "skill1": "Renting sound equipment, I owed it to myself, at some point, to start learning about electricity, how to control those electrical signals to produce the best sound, what affects quality of sounds etc.",
-    "skill1.1": "I followed some classes to learn more about eletricity, circuits and how their composition impacts sound quality. Understanding electrical frequencies and which sounds they are associated to helped me become a better live sound technician and editor.",
-    "skill2": "I also had to understand my surroundings better, for example, how are those two glass walls around the stage going to affect the speakers’ sound reflection?",
-    "skill3": "I developed a better reading of people’s facial expressions and analysis of their potential needs; not being able to always hear an artist’s request on stage, I had to both be able to understand his gestures/facial expressions, and quickly try to identify the potential request, according to what I could hear, but also what he, as the <insert here type of musician> of the band, could be requesting. A drummer may need more bass and lead voice/guitar, a singer usually request more of their own voice, etc. I got much better at anticipating requests and learned to be a proper filter/interface between the expectations of the venue, the artists’ needs and the crowd’s rightful right for quality."
+  "events":{
+    "MC":"Master of Ceremonies",
+    "mc": "We provide an experienced Master of Ceremonies to keep your audience entertained and engaged.",
+    "Musicians":"Musicians",
+    "musicians":"Solo musicians, full bands, let us know your style, we'll get your back.",
+    "DJ": "DJs",
+    "dj":"Open format, House, Techno, whatever you're into, we will keep your audience dancing!",
+    "Rentals": "Music equipment rentals",
+    "rentals":"Microphones, speakers, guitars, drum kits and even turntables, our team will pick the best for your event.",
+    "sound" : "Sound technicians, consulting on sound systems and echnical installations for individuals and companies.",
+    "Sound": "Sound engineering",
+    "Photography":"Photography",
+    "photo": "Event photography, concerts, gatherings of all kinds - edits of pictures and videos.",
+    "Intro": "Evolving in the realm of music, we have been investing in acquiring versatile equipment of quality and refining our skills as performers and technicians.",
+    "touch": "Get in touch",
+    "quote": " to get a quote for your event."
+  },
+  "others": {
+    "Consulting":"Audio Consulting",
+    "consulting":"You are looking for the best pair of headphones but you can't spend the time listening to reviews and figure out what's best according to your budget? No worries, we can do that for you.",
+    "Photo":"Photo & Video",
+    "photo":"If you have projects of photo and video editing, object removal, podcast montages or just a sound track to cut, we're here for you.",
+    "Websites":"Static Pages",
+    "websites":"Looking for a website like this one, or have minor websites work to get done? Well, we can ALSO do that.",
+    "Autism":"Autism Consulting",
+    "jim":"Jim",
+    "autism":"Jim used to run an center for autistic kids and has helped a tremendous number of families deal better with the difficulties of raising a kid with autism. If you find yourself in this case, get in touch with us.",
+    "MMA": "MMA Coach",
+    "mma":"On top of hitting drums, Jim used to fight for a living, and has coached a lot of fighters into the UFC. He uses the logical geometry of our biological bodies to enhance and twist martial art technics, making fighters stronger, faster and more explosive. If you are looking to polish your existing martial art skills, Jim is your man. ",
+    "contact":"Contact us today"
+  },
+  "jim":{
+    "tagline":"A Musical and Martial Arts Genius",
+    "description":"Insert description here",
+    "trait1":{
+      "title":"Origins and Diplomas",
+      "origins":"Originally from New Orleans, Jim's peculiar family life brought him to travel the world at a very young age as a performing musician.",
+      "studies":"High-School Graduate at 14, Jim double-majored in college, getting his degrees in Quantuum Physics and Psychology at 19 years old. It's around that age that he ran tests and found out he had Clasical Autism and ??? ."
+    },
+    "trait2":{
+      "title":"Music in the Soul",
+      "music":"Influenced by his family -his cousins are the Neville Brothers- he started playing percussions at a very young age, was a music teacher replacent during college and toured with a lot of bands until the late 2000s.",
+      "ethno":"Ethnomusicologist - is the term that actually defines what Jim is as a musician."
+    },
+    "trait3": {
+      "title":"Logic & Geometry for Martial Arts",
+      "martial":"His acute sense of reality and analysis of pattern repetitions make Jim an excellent Martial Artist. His overall style is inspired from 'list' .",
+      "arts":"He's coached fighters on high level, getting them ready before, during, and after their UFC careers."
+    },
+    "trait4": {
+      "title":"Daoist Adept",
+      "dao":"The ancient Dao philosophy is one that brought Jim to many life realizations.",
+      "adept":""
+    }
   },
   "navbar": {
     "mbm": "Entrepreneurship",

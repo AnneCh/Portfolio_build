@@ -13,7 +13,7 @@ code {
 
 .boxtools{
   height:20vh;
-  width:min-content;
+  width:100%;
   display: block;
   align-items: center;
   animation: Scroll 20s linear infinite;
