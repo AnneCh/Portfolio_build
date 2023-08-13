@@ -2,6 +2,7 @@ import { Box, Typography, Grid, Paper } from '@mui/material';
 import React from 'react';
 import { useTranslation } from 'react-i18next';
 import BackButton from './BackButton';
+import ReactPlayer from 'react-player/youtube';
 
 const traits = [
   {
@@ -11,13 +12,13 @@ const traits = [
   },
   {
     title: 'trait2.title',
-    paragraph1: 'trait2.music',
-    paragraph2: 'trait2.ethno',
+    paragraph1: 'trait2.skills',
+    paragraph2: 'trait2.audio',
   },
   {
     title: 'trait3.title',
-    paragraph1: 'trait3.martial',
-    paragraph2: 'trait3.arts',
+    paragraph1: 'trait3.engineer',
+    paragraph2: 'trait3.project',
   },
   {
     title: 'trait4.title',
@@ -54,6 +55,9 @@ function Anne() {
             </Paper>
           </Grid>
         ))}
+          <Grid item xs={12} sx={{ marginTop: '1.5rem', marginBottom: '1rem', display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
+          <a href="https://www.youtube.com/channel/UCeYO5sVjNzlFtJqPWA6jTYg" target="blank">DJ MonChi - YouTube</a>
+        </Grid>
       </Grid>
     </Box>
   );

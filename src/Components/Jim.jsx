@@ -55,7 +55,10 @@ function Jim() {
             </Paper>
           </Grid>
         ))}
-        <ReactPlayer url="https://www.youtube.com/watch?v=dQw4w9WgXcQ" />
+        <Grid item xs={12} sx={{ marginTop: '1.5rem', marginBottom: '1rem', display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
+          <Typography variant="h6" gutterBottom>{t('jim.videoTitle')}</Typography>
+          <ReactPlayer url="https://www.youtube.com/watch?v=52Vxo_f4IhA" />
+        </Grid>
       </Grid>
     </Box>
   );

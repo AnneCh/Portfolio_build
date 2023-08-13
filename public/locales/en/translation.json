@@ -53,7 +53,7 @@
   },
   "anne":{
     "tagline":"The Swiss Army Knife of the group",
-    "description":"Insert description here",
+    "description":"",
     "trait1":{
       "title":"Origins and Diplomas",
       "origins":"Passionated with foreign languages from a young age, Anne graduated from a Master's Degree in Cross Cultural Communication and Business Strategies... which she used by not working in big companies like a lot of her classmates.",
@@ -67,17 +67,18 @@
     "trait3": {
       "title":"A taste for Engineering",
       "engineer":"Learning the ins and outs of sound technics motivated Anne to dig into the sleeping engineering side of her. As Covid hit, new plans emerged, new languages to learn.",
-      "project":"This time, Anne started learning HTML, CSS, JavaScript and Solidity, with the goal of understanding the web3 world under the technical lens."
+      "project":"This time, Anne started learning HTML, CSS, JavaScript and Solidity, with the goal of understanding the web3 world under the technical lens. She made this website using React JS."
     },
     "trait4": {
-      "title":"",
-      "1":"",
-      "2":""
-    }
+      "title":"DAOs and writing",
+      "dao":"Recently, she joined 2 launching DAOs as a founding member. One of those groups is focused on launching a podcast -of which she edits raw footage- while the other one creates written content on Tokenomics.",
+      "adept":"At the same time, she seconds Kevin in copywriting and editing missions, all in all helping her grow her communication skills."
+    },
+    "videoTitle":"Her DJ Youtube page"
   },
   "Kevin":{
     "tagline":"",
-    "description":"Insert description here",
+    "description":"",
     "trait1":{
       "title":"",
       "origins":"",
@@ -106,7 +107,8 @@
       "title":"Daoist Adept",
       "dao":"The ancient Dao philosophy is one that brought Jim to many life realizations.",
       "adept":""
-    }
+    },
+   "videoTitle":"Jim and Bagua, Diamond Moon Festival performance"
   },
   "navbar": {
     "mbm": "Entrepreneurship",
