@@ -3,17 +3,8 @@ import React from "react";
 import { useTranslation } from 'react-i18next';
 import { Link } from 'react-router-dom';
 import BackButton from "./BackButton";
+import styled from 'styled-components';
 
-/*
-MC
-DJ
-Rentals
-Sound Engineering
-Consulting
-Photography
-
-Have some kind of box for each with two lines maximum for each section, and a picture, similar to the main page 
-*/
 
 
 // HAVE TO IMPORT IMAGES - decide which ones first
@@ -58,6 +49,14 @@ const services = [
   },
 
 ];
+const StyledLink = styled(Link)`
+  text-decoration: none;
+  color: inherit;
+
+  &:hover {
+    text-decoration: none;
+  }
+`;
 
 function Events() {
   const { t } = useTranslation();
@@ -70,25 +69,46 @@ function Events() {
       </Typography>
       <Grid container spacing={4}>
         {services.map((service, index) => (
+          <div key={index}>
           <Grid item xs={12} sm={6} md={4} key={index}>
             <a href={service.to}>
-            <Box sx={{ width: 600, height: 400, backgroundColor: 'lightgrey'}}>
-            <ImageListItem key={service.img}>
-              <img
-                src={`${service.img}`}
-                srcSet={`${service.img}`}
-                alt={service.textKey}
-                loading="lazy"
-                style={{ width: '100%', height: '100%', objectFit: 'cover', objectPosition: 'center' }}
-              />
-            </ImageListItem>
-            </Box>
+              <Box sx={{ width: 600, height: 400, backgroundColor: 'lightgrey'}}>
+                <ImageListItem key={service.img} style={{ position: 'relative' }}>
+                  <img
+                      src={`${service.img}`}
+                      srcSet={`${service.img}`}
+                      alt={service.textKey}
+                      loading="lazy"
+                      style={{
+                          width: '100%',
+                          height: '100%',
+                          objectFit: 'cover',
+                          objectPosition: 'center'
+                      }}
+                  />
+                  <div style={{
+                      position: 'absolute',
+                      top: 0,
+                      left: 0,
+                      width: '100%',
+                      height: '100%',
+                      backgroundColor: 'rgba(0, 0, 0, 0.3)',  // Change 0.3 to adjust the darkness
+                      pointerEvents: 'none'  // Ensure that the overlay doesn't interfere with any potential interactions with the image
+                  }}></div>
+                </ImageListItem>
+              </Box>
             </a>
-            <Card sx={{width: 600, backgroundColor: 'lightgrey'}}>
+            <StyledLink to="/contact" underline="none">
+              <Card sx={{width: 600, backgroundColor: 'lightgrey'}}>
               <Typography variant="h4">{t(service.textKey)}</Typography>
-              <Typography variant="h6">{t(service.extraText)}</Typography>
-            </Card>
+              <Typography variant="h6">
+                {t(service.extraText)}
+                {index === 5 && <a href="https://www.youtube.com/@ThePolymathExperience" target="_blank" rel="noopener noreferrer">🎵</a>}
+              </Typography>
+              </Card>
+            </StyledLink>
           </Grid>
+        </div>
         ))}
       </Grid>
       <Box sx={{marginTop:"1.5rem"}}>

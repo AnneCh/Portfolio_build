@@ -24,15 +24,15 @@
     "MC":"Master of Ceremonies",
     "mc": "We provide an experienced Master of Ceremonies to keep your audience entertained and engaged.",
     "Musicians":"Musicians",
-    "musicians":"Solo musicians, full bands, let us know your style, we'll get your back.",
+    "musicians":"Solo musicians, full bands, let us know your style, we have your back.",
     "DJ": "DJs",
-    "dj":"Open format, House, Techno, whatever you're into, we will keep your audience dancing!",
+    "dj":"Open format, House, Techno, whatever you're into, we will keep you dancing!",
     "Rentals": "Music equipment rentals",
     "rentals":"Microphones, speakers, guitars, drum kits and even turntables, our team will pick the best for your event.",
-    "sound" : "Sound technicians, consulting on sound systems and echnical installations for individuals and companies.",
+    "sound" : "Sound technicians, consulting on sound systems and technical installations for individuals and companies.",
     "Sound": "Sound engineering",
-    "Photography":"Photography",
-    "photo": "Event photography, concerts, gatherings of all kinds - edits of pictures and videos.",
+    "Photography":"Photo & Video",
+    "photo": "Event photography, concerts, gatherings of all kinds - recording and editing of podcasts.",
     "Intro": "Evolving in the realm of music, we have been investing in acquiring versatile equipment of quality and refining our skills as performers and technicians.",
     "touch": "Get in touch",
     "quote": " to get a quote for your event."
@@ -76,18 +76,9 @@
     },
     "videoTitle":"Her DJ Youtube page"
   },
-  "Kevin":{
-    "tagline":"",
-    "description":"",
-    "trait1":{
-      "title":"",
-      "origins":"",
-      "studies":""
-    }
-  },
   "jim":{
     "tagline":"A Musical and Martial Arts Genius",
-    "description":"Insert description here",
+    "description":"",
     "trait1":{
       "title":"Origins and Diplomas",
       "origins":"Originally from New Orleans, Jim's peculiar family life brought him to travel the world at a very young age as a performing musician.",
