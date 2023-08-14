@@ -24,15 +24,15 @@
     "MC":"Master of Ceremonies",
     "mc": "We provide an experienced Master of Ceremonies to keep your audience entertained and engaged.",
     "Musicians":"Musicians",
-    "musicians":"Solo musicians, full bands, let us know your style, we'll get your back.",
+    "musicians":"Solo musicians, full bands, let us know your style, we have your back.",
     "DJ": "DJs",
-    "dj":"Open format, House, Techno, whatever you're into, we will keep your audience dancing!",
+    "dj":"Open format, House, Techno, whatever you're into, we will keep you dancing!",
     "Rentals": "Music equipment rentals",
     "rentals":"Microphones, speakers, guitars, drum kits and even turntables, our team will pick the best for your event.",
-    "sound" : "Sound technicians, consulting on sound systems and echnical installations for individuals and companies.",
+    "sound" : "Sound technicians, consulting on sound systems and technical installations for individuals and companies.",
     "Sound": "Sound engineering",
-    "Photography":"Photography",
-    "photo": "Event photography, concerts, gatherings of all kinds - edits of pictures and videos.",
+    "Photography":"Photo & Video",
+    "photo": "Event photography, concerts, gatherings of all kinds - recording and editing of podcasts.",
     "Intro": "Evolving in the realm of music, we have been investing in acquiring versatile equipment of quality and refining our skills as performers and technicians.",
     "touch": "Get in touch",
     "quote": " to get a quote for your event."
@@ -48,12 +48,37 @@
     "jim":"Jim",
     "autism":"Jim used to run an center for autistic kids and has helped a tremendous number of families deal better with the difficulties of raising a kid with autism. If you find yourself in this case, get in touch with us.",
     "MMA": "MMA Coach",
-    "mma":"On top of hitting drums, Jim used to fight for a living, and has coached a lot of fighters into the UFC. He uses the logical geometry of our biological bodies to enhance and twist martial art technics, making fighters stronger, faster and more explosive. If you are looking to polish your existing martial art skills, Jim is your man. ",
+    "mma":"On top of hitting drums, Jim used to fight for a living, and has coached a lot of fighters, some of them went into the UFC. He uses the logical geometry of our biological bodies to enhance and twist martial art technics, making fighters stronger, faster and more explosive. If you are looking to polish your existing martial art skills, Jim is your man. ",
     "contact":"Contact us today"
+  },
+  "anne":{
+    "tagline":"The Swiss Army Knife of the group",
+    "description":"",
+    "trait1":{
+      "title":"Origins and Diplomas",
+      "origins":"Passionated with foreign languages from a young age, Anne graduated from a Master's Degree in Cross Cultural Communication and Business Strategies... which she used by not working in big companies like a lot of her classmates.",
+      "studies":"Instead, she used her education to travel and learn from entrepreneurs, which lead her to start working for herself in 2017."
+    },
+    "trait2":{
+      "title":"The start of Mindbridge Media",
+      "skills":"Starting with photography, a passion she cultivated alongside languages, Anne followed Jim in his concerts and started getting paid for the pictures she was taking.",
+      "audio":"This endeavour turned into a full multimedia business; as she was renting out Jim's music equipment and reinvesting the profits into new equipment, she was taught by Jim to run sound systems as well as DJing. Soon, Mindbridge Media was offering full set up, sound reinforcement during shows, booking of musicians and DJs, DJ and MC services, as well as event photography and video."
+    },
+    "trait3": {
+      "title":"A taste for Engineering",
+      "engineer":"Learning the ins and outs of sound technics motivated Anne to dig into the sleeping engineering side of her. As Covid hit, new plans emerged, new languages to learn.",
+      "project":"This time, Anne started learning HTML, CSS, JavaScript and Solidity, with the goal of understanding the web3 world under the technical lens. She made this website using React JS."
+    },
+    "trait4": {
+      "title":"DAOs and writing",
+      "dao":"Recently, she joined 2 launching DAOs as a founding member. One of those groups is focused on launching a podcast -of which she edits raw footage- while the other one creates written content on Tokenomics.",
+      "adept":"At the same time, she seconds Kevin in copywriting and editing missions, all in all helping her grow her communication skills."
+    },
+    "videoTitle":"Her DJ Youtube page"
   },
   "jim":{
     "tagline":"A Musical and Martial Arts Genius",
-    "description":"Insert description here",
+    "description":"",
     "trait1":{
       "title":"Origins and Diplomas",
       "origins":"Originally from New Orleans, Jim's peculiar family life brought him to travel the world at a very young age as a performing musician.",
@@ -73,7 +98,8 @@
       "title":"Daoist Adept",
       "dao":"The ancient Dao philosophy is one that brought Jim to many life realizations.",
       "adept":""
-    }
+    },
+   "videoTitle":"Jim and Bagua, Diamond Moon Festival performance"
   },
   "navbar": {
     "mbm": "Entrepreneurship",

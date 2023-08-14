@@ -3,22 +3,9 @@ import React from "react";
 import { useTranslation } from 'react-i18next';
 import { Link } from 'react-router-dom';
 import BackButton from "./BackButton";
+import styled from 'styled-components';
 
-/*
-MC
-DJ
-Rentals
-Sound Engineering
-Consulting
-Photography
-
-Have some kind of box for each with two lines maximum for each section, and a picture, similar to the main page 
-*/
-
-
-// HAVE TO IMPORT IMAGES - decide which ones first
-// e.g., import mcImage from './path-to-your-images/mcImage.jpg';
-
+// list of services we offer related to music/multimedia
 const services = [
   {
     img:'/music.jpg',
@@ -58,43 +45,71 @@ const services = [
   },
 
 ];
+const StyledLink = styled(Link)`
+  text-decoration: none;
+  color: inherit;
+
+  &:hover {
+    text-decoration: none;
+  }
+`;
 
 function Events() {
   const { t } = useTranslation();
 
   return (
     <Box sx={{ textAlign: 'center', margin: 8, fontSize: 30 }}>
-      <BackButton/>
-      <Typography sx={{marginBottom:"1.5rem", fontSize:"2rem"}}>
-      {t('events.Intro')}
-      </Typography>
-      <Grid container spacing={4}>
+    <BackButton/>
+    <Typography sx={{ marginBottom: "1.5rem", fontSize: "2rem" }}>
+        {t('events.Intro')}
+    </Typography>
+    <Grid container spacing={2} justifyContent="center" alignItems="center">
         {services.map((service, index) => (
-          <Grid item xs={12} sm={6} md={4} key={index}>
-            <a href={service.to}>
-            <Box sx={{ width: 600, height: 400, backgroundColor: 'lightgrey'}}>
-            <ImageListItem key={service.img}>
-              <img
-                src={`${service.img}`}
-                srcSet={`${service.img}`}
-                alt={service.textKey}
-                loading="lazy"
-                style={{ width: '100%', height: '100%', objectFit: 'cover', objectPosition: 'center' }}
-              />
-            </ImageListItem>
-            </Box>
-            </a>
-            <Card sx={{width: 600, backgroundColor: 'lightgrey'}}>
-              <Typography variant="h4">{t(service.textKey)}</Typography>
-              <Typography variant="h6">{t(service.extraText)}</Typography>
-            </Card>
-          </Grid>
+            <Grid item xs={12} sm={6} md={4} key={index}>
+                <a href={service.to}>
+                    <Box sx={{ maxWidth: '100%', height: 400, backgroundColor: 'lightgrey' }}>
+                        <ImageListItem style={{ position: 'relative' }}>
+                            <img
+                                src={`${service.img}`}
+                                srcSet={`${service.img}`}
+                                alt={service.textKey}
+                                loading="lazy"
+                                style={{
+                                    width: '100%',
+                                    height: '100%',
+                                    objectFit: 'cover',
+                                    objectPosition: 'center'
+                                }}
+                            />
+                            <div style={{
+                                position: 'absolute',
+                                top: 0,
+                                left: 0,
+                                width: '100%',
+                                height: '100%',
+                                backgroundColor: 'rgba(0, 0, 0, 0.3)',
+                                pointerEvents: 'none'
+                            }}></div>
+                        </ImageListItem>
+                    </Box>
+                </a>
+                    <Card sx={{ maxWidth: '100%', backgroundColor: 'lightgrey' }}>
+                      <StyledLink to="/contact" underline="none">
+                        <Typography variant="h4">{t(service.textKey)}</Typography>
+                        </StyledLink>
+                        <Typography variant="h6">
+                            {t(service.extraText)}
+                            {index === 5 && <a href="https://www.youtube.com/@ThePolymathExperience" target="_blank" rel="noopener noreferrer">🎥</a>}
+                        </Typography>
+                    </Card>
+            </Grid>
         ))}
-      </Grid>
-      <Box sx={{marginTop:"1.5rem"}}>
+    </Grid>
+    <Box sx={{ marginTop: "1.5rem" }}>
         <Link to="/contact">{t('events.touch')}</Link>{t('events.quote')}
-      </Box>
     </Box>
+</Box>
+
   );
 }
 

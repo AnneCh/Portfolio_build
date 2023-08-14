@@ -1,0 +1,12 @@
+14th august
+
+- deleted Kevin page to include an external link to the website he's built for himself
+- cleaned translation file  
+- added links to event page
+- cleaned style event page
+
+
+To do:
+- Re do contact page: include relevant social media profile links, github, etc  
+- find a good way to include a link to services in the first page, before or on the same level as our profiles... 
+- improve  writing page, include report on consensus

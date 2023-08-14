@@ -8,7 +8,6 @@ import Error from './Components/Error'
 import About from './Components/About'
 import Others from './Components/Others'
 import Anne from './Components/Anne'
-import Kevin from './Components/Kevin'
 import Jim from './Components/Jim'
 
 export default function App() {
@@ -25,7 +24,6 @@ export default function App() {
             <Route path="/Contact" element={<Contact />} />
             <Route path="*" element={<Error />} />
             <Route path="/Anne" element={<Anne />} />
-            <Route path="/Kevin" element={<Kevin />} />
             <Route path="/Jim" element={<Jim />} />
             <Route path="/" element={<MainPage />} />
           </Route>
