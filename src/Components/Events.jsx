@@ -103,7 +103,7 @@ function Events() {
               <Typography variant="h4">{t(service.textKey)}</Typography>
               <Typography variant="h6">
                 {t(service.extraText)}
-                {index === 5 && <a href="https://www.youtube.com/@ThePolymathExperience" target="_blank" rel="noopener noreferrer">🎵</a>}
+                {index === 5 && <a href="https://www.youtube.com/@ThePolymathExperience" target="_blank" rel="noopener noreferrer">🎥</a>}
               </Typography>
               </Card>
             </StyledLink>
