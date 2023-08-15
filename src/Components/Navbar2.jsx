@@ -6,19 +6,17 @@ import {
   AppBar, 
   Toolbar,
   Box, 
-  Menu,
-  IconButton, 
   createTheme,
   CssBaseline,
   ThemeProvider,
 } from '@mui/material';
-import MenuIcon from "@mui/icons-material/Menu";
 import { MaterialUISwitch as NightToggle} from "./Styles/Switch.jsx";
 import { HomeButton } from "./Buttons";
 import { darkTheme } from './Styles/Dark.jsx';
 import { lightTheme } from './Styles/Light.jsx';
 import MenuBurger from "./MenuBurger";
 import banner from './zhite.png'
+import { Link } from "react-router-dom";
 
 
 export function NavBar2() {
@@ -81,7 +79,7 @@ export function NavBar2() {
             {/* Spacer to push image to center */}
             <Box sx={{ flexGrow: 1 }} />
             <Box>
-              <img src={banner} alt="Banner" style={{ height: '200px' }} />
+              <Link to="/#"><img src={banner} alt="Banner" style={{ height: '200px' }} /></Link>
             </Box>
             {/* Another Spacer to balance out the left-side width */}
             <Box sx={{ flexGrow: 1 }} />

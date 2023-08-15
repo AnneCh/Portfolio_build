@@ -5,45 +5,95 @@ import Avatar from '@mui/material/Avatar';
 import jim from './jim.png';
 import kevin from './kevin.png';
 import anne from './anne.png';
-import { Link } from 'react-router-dom'
+import { Link } from 'react-router-dom';
 
-const ImageTextComponent = ({ imageUrl, text }) => (
+import IconButton from '@mui/material/IconButton';
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import TwitterIcon from '@mui/icons-material/Twitter';
+import YouTubeIcon from '@mui/icons-material/YouTube';
+
+
+const SocialMediaIcons = ({ linkedin, twitter, youtube }) => (
   <Box 
     sx={{ 
       display: 'flex', 
+      justifyContent: 'center',
       alignItems: 'center',
-      gap: 10 // adjust the gap between the image and text
+      gap: 2
     }}
   >
-    <Avatar 
-      src={imageUrl} 
-      alt="image description"
-      sx={{ 
-        width: 350, // adjust size as needed
-        height: 350 // adjust size as needed
-      }}
-    />
-    <Typography variant="body1" fontSize={'150%'}>{text}</Typography>
+    <IconButton href={linkedin} target="_blank" aria-label="LinkedIn">
+      <LinkedInIcon />
+    </IconButton>
+    <IconButton href={twitter} target="_blank" aria-label="Twitter">
+      <TwitterIcon />
+    </IconButton>
+    <IconButton href={youtube} target="_blank" aria-label="YouTube">
+      <YouTubeIcon />
+    </IconButton>
   </Box>
 );
 
-const ImageTextRevert = ({ imageUrl, text }) => (
-  <Box 
+
+
+const ImageTextComponent = ({ imageUrl, text, linkedin, twitter, youtube }) => (
+<Box 
     sx={{ 
       display: 'flex', 
+      flexDirection: 'column',
       alignItems: 'center',
-      gap: 10 // adjust the gap between the image and text
+      gap: 2
     }}
   >
-    <Typography variant="body1" fontSize={'150%'}>{text}</Typography>
-    <Avatar 
-      src={imageUrl} 
-      alt="image description"
+    <Box 
       sx={{ 
-        width: 350, // adjust size as needed
-        height: 350 // adjust size as needed
+        display: 'flex', 
+        alignItems: 'center',
+        gap: 10
       }}
-    />
+    >
+      <Avatar 
+        src={imageUrl} 
+        alt="image description"
+        sx={{ 
+          width: 350,
+          height: 350
+        }}
+      />
+      <Typography variant="body1" fontSize={'150%'}>{text}</Typography>
+    </Box>
+    <SocialMediaIcons linkedin={linkedin} twitter={twitter} youtube={youtube} />
+  </Box>
+);
+
+
+const ImageTextRevert = ({ imageUrl, text, linkedin, twitter, youtube }) => (
+<Box 
+    sx={{ 
+      display: 'flex', 
+      flexDirection: 'column',
+      alignItems: 'center',
+      gap: 10
+    }}
+  >
+    <Box 
+      sx={{ 
+        display: 'flex', 
+        alignItems: 'center',
+        gap: 10
+      }}
+    >
+      <Typography variant="body1" fontSize={'150%'}>{text}</Typography>
+      <Avatar 
+        src={imageUrl} 
+        alt="image description"
+        sx={{ 
+          width: 350,
+          height: 350
+        }}
+      />
+    </Box>
+    <SocialMediaIcons linkedin={linkedin} twitter={twitter} youtube={youtube} />
   </Box>
 );
 
@@ -69,8 +119,4 @@ export default function MainPage() {
   );
 }
 
-/* 
-find a way to display an image next to a few lines of words, like
-"we believe in skills synergy"
-"our skills are varied yet complementary to offer related services than the one you came to us for."
-*/
+

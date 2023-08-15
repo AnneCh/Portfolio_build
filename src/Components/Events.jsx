@@ -66,51 +66,45 @@ function Events() {
     <Grid container spacing={2} justifyContent="center" alignItems="center">
         {services.map((service, index) => (
             <Grid item xs={12} sm={6} md={4} key={index}>
-                <a href={service.to}>
-                    <Box sx={{ maxWidth: '100%', height: 400, backgroundColor: 'lightgrey' }}>
-                        <ImageListItem style={{ position: 'relative' }}>
-                            <img
-                                src={`${service.img}`}
-                                srcSet={`${service.img}`}
-                                alt={service.textKey}
-                                loading="lazy"
-                                style={{
-                                    width: '100%',
-                                    height: '100%',
-                                    objectFit: 'cover',
-                                    objectPosition: 'center'
-                                }}
-                            />
-                            <div style={{
-                                position: 'absolute',
-                                top: 0,
-                                left: 0,
-                                width: '100%',
-                                height: '100%',
-                                backgroundColor: 'rgba(0, 0, 0, 0.3)',
-                                pointerEvents: 'none'
-                            }}></div>
-                        </ImageListItem>
-                    </Box>
-                </a>
-                    <Card sx={{ maxWidth: '100%', backgroundColor: 'lightgrey' }}>
-                      <StyledLink to="/contact" underline="none">
+                <Box sx={{ position: 'relative', maxWidth: '100%', height: 400, backgroundColor: 'lightgrey', overflow: 'hidden' }}>
+                    <img
+                        src={`${service.img}`}
+                        alt={service.textKey}
+                        loading="lazy"
+                        style={{
+                            width: '100%',
+                            height: '100%',
+                            objectFit: 'cover',
+                            objectPosition: 'center'
+                        }}
+                    />
+                    <div style={{
+                        position: 'absolute',
+                        top: 0,
+                        left: 0,
+                        width: '100%',
+                        height: '100%',
+                        backgroundColor: 'rgba(0, 0, 0, 0.3)',
+                        pointerEvents: 'none'
+                    }}></div>
+                </Box>
+                <Card sx={{ marginTop: 2, maxWidth: '100%', backgroundColor: 'lightgrey' }}>
+                    <StyledLink to="/contact">
                         <Typography variant="h4">{t(service.textKey)}</Typography>
-                        </StyledLink>
-                        <Typography variant="h6">
-                            {t(service.extraText)}
-                            {index === 5 && <a href="https://www.youtube.com/@ThePolymathExperience" target="_blank" rel="noopener noreferrer">🎥</a>}
-                        </Typography>
-                    </Card>
+                    </StyledLink>
+                    <Typography variant="h6">
+                        {t(service.extraText)}
+                        {index === 5 && <a href="https://www.youtube.com/@ThePolymathExperience" target="_blank" rel="noopener noreferrer">🎥</a>}
+                    </Typography>
+                </Card>
             </Grid>
         ))}
     </Grid>
-    <Box sx={{ marginTop: "1.5rem" }}>
+    <Box sx={{ marginTop: "1.5rem", textAlign: 'left' }}>
         <Link to="/contact">{t('events.touch')}</Link>{t('events.quote')}
     </Box>
 </Box>
-
-  );
+);
 }
 
 
