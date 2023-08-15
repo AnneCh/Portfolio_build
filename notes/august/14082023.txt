@@ -11,4 +11,4 @@ To do:
 - find a good way to include a link to services in the first page, before or on the same level as our profiles... 
 - improve  writing page, include report on consensus
 
-=> make the event page responsive and the bozes relative to their text, depending on which screen we look at it, some texts are nto visible 
+=> make the event page responsive and the boxes relative to their text, depending on which screen we look at it, some texts are nto visible 

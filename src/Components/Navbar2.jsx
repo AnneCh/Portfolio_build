@@ -2,21 +2,17 @@ import i18n from "../i18n";
 import React from "react";
 import { useState, useMemo } from 'react';
 import { useTranslation } from 'react-i18next';
-import {Link} from 'react-router-dom';
 import { 
   AppBar, 
   Toolbar,
   Box, 
   Menu,
-  Button,
   IconButton, 
   createTheme,
   CssBaseline,
   ThemeProvider,
-  ToggleButton
 } from '@mui/material';
 import MenuIcon from "@mui/icons-material/Menu";
-
 import { MaterialUISwitch as NightToggle} from "./Styles/Switch.jsx";
 import { HomeButton } from "./Buttons";
 import { darkTheme } from './Styles/Dark.jsx';
@@ -57,58 +53,44 @@ export function NavBar2() {
     setAnchorElNav(null)
   }
 
-  return(
-
+  return (
     <ThemeProvider theme={theme}>
-    <CssBaseline enableColorScheme />
-      <Box sx={{flexGrow:1, marginBotton: 2}}>
-        <AppBar position="sticky" display="flex" alignItems="center">
-          <Toolbar disableRipple sx={{maxWidth:'100%'}}>
-          <MenuBurger/>
-            <Box sx={{flexGrow: 2, display: {xs:"flex", md:"none"}}}>
-              <IconButton
-              size="large"
-              aria-label="menu"
-              aria-controls="menu-appbar"
-              aria-haspopup="true"
-              onClick={handleOpenNavMenu}
-              color="inherit"                            
-              >
-                <MenuIcon/>
-              </IconButton>
-              <Menu id="menu-appbar"
-              anchorEl={anchorElNav}
-              anchorOrigin={{
-                vertical:"bottom",
-                horizontal:"left"
-              }}
-              keepMounted transformOrigin={{vertical:"top", horizontal:"left"}}
-              open={Boolean(anchorElNav)}
-              onClose={handleCloseNavMenu}
-              sx={{display:{xs:'block', md:'none'}, padding:"20px", alignItems:"center"}}
-              >
-              <HomeButton/>
-              <MenuBurger/>
-              {/* <ToggleButton onClick={() => changeLanguage('en')}>en</ToggleButton>
-              <ToggleButton onClick={() => changeLanguage('fr')}>fr</ToggleButton> */}
-
-                  <NightToggle onChange={toggleMode}/>
-              </Menu>
-            </Box>
-
-            <Box sx={{ flexGrow: 1, display: {xs: 'none', md:'flex'}}}>
+      <CssBaseline enableColorScheme />
+      <Box sx={{ flexGrow: 1, marginBottom: 2 }}>
+        <AppBar position="sticky">
+          <Toolbar disableRipple sx={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', maxWidth: '100%' }}>
+            <Box sx={{ display: 'flex', alignItems: 'center' }}>
+              <MenuBurger 
+                id="menu-appbar"
+                anchorEl={anchorElNav}
+                anchorOrigin={{ vertical: "bottom", horizontal: "left" }}
+                keepMounted 
+                transformOrigin={{ vertical: "top", horizontal: "left" }}
+                open={Boolean(anchorElNav)}
+                onClose={handleCloseNavMenu}
+                sx={{ padding: "20px", alignItems: "center" }}
+              />
               <HomeButton />
-              {/* <ToggleButton className="toggle" onClick={() => changeLanguage('en')}>en</ToggleButton>
-              <ToggleButton onClick={() => changeLanguage('fr')}>fr</ToggleButton> */}
-              <img src={banner} style={{ height: '200px', margin: '0 auto'}}/>
-
-              <Box paddingTop={5} paddingRight={3}>
-                <NightToggle onChange={toggleMode}/>
+              <Box sx={{ pl: 2 }}>
+                <NightToggle onChange={toggleMode} />
               </Box>
-            </Box> 
+            </Box>
+            {/* <ToggleButton onClick={() => changeLanguage('en')}>en</ToggleButton>
+            <ToggleButton onClick={() => changeLanguage('fr')}>fr</ToggleButton> */}
+            
+            {/* Spacer to push image to center */}
+            <Box sx={{ flexGrow: 1 }} />
+            <Box>
+              <img src={banner} alt="Banner" style={{ height: '200px' }} />
+            </Box>
+            {/* Another Spacer to balance out the left-side width */}
+            <Box sx={{ flexGrow: 1 }} />
+  
           </Toolbar>
         </AppBar>
       </Box>
     </ThemeProvider>
   )
 }
+
+

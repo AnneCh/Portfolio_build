@@ -1,0 +1,2 @@
+-fixed position of return arrow
+- recentered navbar 
