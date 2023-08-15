@@ -1,0 +1,4 @@
+-fixed position of return arrow
+- recentered navbar 
+- fixed display on Events page
+- working on the Enter page to add social media icons
