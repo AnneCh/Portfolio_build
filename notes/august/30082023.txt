@@ -1,0 +1,15 @@
+mmmh..
+Taking some time off of this project allowed me to see weaknesses in the design and presentation.
+I want to redo the navbar and the main page so people can see quickly what we offer, who we are and what they can access
+(brainstorm starting)
+
+I want to keep the logo to the left: it should send the user to the main page when clicking on it
+Keep the night toggle
+Keep the image of title (see about redoing it)
+Remove the visible sandwich menu visible at all times
+
+Then, right underneath the main navbar there could be a second navbar, inheriting the colors of the main navbar, which would be the actual menu.
+This one would basically display what is available now on the main side burger menu: Redaction&translations, Events, Other Services, About, Contact
+I'd like that menu to be looking like tabs, with the one selected to be highlighted (with a shadow and slightly lighter color)
+On small screens and phones, both new navbars/menus will need to be collapsed into esthetically pleasing full width tabs, with the main navbar being only icons while the second navbar would take the entire width and attention of the user.
+
