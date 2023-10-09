@@ -1,0 +1,4 @@
+I've had to take some time off to work on more pressing issues.
+But that gave my brain some time to think, especially around the main page. It may be better if we showcase specific skills as the first impression.
+
+Visually, I want it to be fluid, with shapes like bubbles that would appear as the viewer scrolls down, giving information about what we offer as services.

@@ -9,86 +9,68 @@ import {
   createTheme,
   CssBaseline,
   ThemeProvider,
+  Tabs,
+  Tab
 } from '@mui/material';
 import { MaterialUISwitch as NightToggle} from "./Styles/Switch.jsx";
-import { HomeButton } from "./Buttons";
 import { darkTheme } from './Styles/Dark.jsx';
 import { lightTheme } from './Styles/Light.jsx';
-import MenuBurger from "./MenuBurger";
-import banner from './zhite.png'
-import { Link } from "react-router-dom";
-
+import banner from './zhite.png';
+import { Link, useLocation } from "react-router-dom";
 
 export function NavBar2() {
-  //translation
-  const { t } = useTranslation()
-  const changeLanguage = (lng) => {
-    i18n.changeLanguage(lng);
-  }
+  // translation
+  const { t } = useTranslation();
+  const location = useLocation();
 
-  //dark or light mode
+  // dark or light mode
   const [mode, setMode] = useState("dark");
   const toggleMode = () => {
-    // if the theme is not light, then set it to dark
-    if (mode === 'light') {
-        setMode('dark');
-    // otherwise, it should be light
-    } else {
-        setMode('light');
-    }
-  }
+    setMode(mode === 'light' ? 'dark' : 'light');
+  };
   const theme = useMemo(
-  () => createTheme(mode === "dark" ? darkTheme : lightTheme),
-  [mode]
-  )
-
-  //to change the navbar list into a burger icon
-  const [anchorElNav, setAnchorElNav] = useState(null)
-  const handleOpenNavMenu = (event) => {
-    setAnchorElNav(event.currentTarget);
-  }
-  const handleCloseNavMenu = () => {
-    setAnchorElNav(null)
-  }
+    () => createTheme(mode === "dark" ? darkTheme : lightTheme),
+    [mode]
+  );
 
   return (
     <ThemeProvider theme={theme}>
       <CssBaseline enableColorScheme />
       <Box sx={{ flexGrow: 1, marginBottom: 2 }}>
         <AppBar position="sticky">
+          {/* Main Toolbar */}
           <Toolbar disableRipple sx={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', maxWidth: '100%' }}>
-            <Box sx={{ display: 'flex', alignItems: 'center' }}>
-              <MenuBurger 
-                id="menu-appbar"
-                anchorEl={anchorElNav}
-                anchorOrigin={{ vertical: "bottom", horizontal: "left" }}
-                keepMounted 
-                transformOrigin={{ vertical: "top", horizontal: "left" }}
-                open={Boolean(anchorElNav)}
-                onClose={handleCloseNavMenu}
-                sx={{ padding: "20px", alignItems: "center" }}
-              />
-              <HomeButton />
-              <Box sx={{ pl: 2 }}>
-                <NightToggle onChange={toggleMode} />
-              </Box>
-            </Box>
-            {/* <ToggleButton onClick={() => changeLanguage('en')}>en</ToggleButton>
-            <ToggleButton onClick={() => changeLanguage('fr')}>fr</ToggleButton> */}
             
-            {/* Spacer to push image to center */}
-            <Box sx={{ flexGrow: 1 }} />
-            <Box>
-              <Link to="/#"><img src={banner} alt="Banner" style={{ height: '200px' }} /></Link>
+            {/* Logo and NightToggle */}
+            <Box sx={{ display: 'flex', alignItems: 'center', justifyContent: 'center', width: '100%' }}>
+                <Link to="/">
+                <img src={banner} alt="Banner" style={{ height: '200px' }} />
+                </Link>
+                <Box sx={{ pl: 2 }}>
+                <NightToggle onChange={toggleMode} />
+                </Box>
             </Box>
-            {/* Another Spacer to balance out the left-side width */}
-            <Box sx={{ flexGrow: 1 }} />
-  
+          </Toolbar>
+
+          {/* Tabs Toolbar */}
+          <Toolbar>
+            <Tabs value={location.pathname} variant="fullWidth" centered>
+              <Tab label={t('navbar.writing')} component={Link} to="/Writing" sx={activeTabStyle} />
+              <Tab label={t('navbar.events')} component={Link} to="/Events" sx={activeTabStyle} />
+              <Tab label={t('navbar.others')} component={Link} to="/Others" sx={activeTabStyle} />
+              <Tab label={t('navbar.about')} component={Link} to="/About" sx={activeTabStyle} />
+              <Tab label={t('navbar.contact')} component={Link} to="/Contact" sx={activeTabStyle} />
+            </Tabs>
           </Toolbar>
         </AppBar>
       </Box>
     </ThemeProvider>
-  )
+  );
 }
 
-
+const activeTabStyle = {
+  '&.Mui-selected': {
+    backgroundColor: 'rgba(255,255,255,0.2)',
+    boxShadow: '0px 2px 5px rgba(0,0,0,0.1)'
+  }
+};
