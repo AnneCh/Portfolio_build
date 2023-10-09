@@ -11,9 +11,9 @@
     "studies": "Education",
     "else": "Stuff",
     "contact": "Contact",
-    "jim": "This is Jim. He's the Genius Autist Artist of our network and he likes to hit things... mostly drums.",
-    "kevin": "This is Kevin. He excels at learning, improving and teaching. English holds no secret for him.",
-    "anne": "This is Anne. She kick-started this network, speaks several languages, built this page and enjoys Web3."
+    "jim": "This is Jim. He's the Genius Autist Artist of our network. He likes to hit things. Mostly drums and kicking pads. He's worked all over the world and enjoys sharing his experiences.",
+    "kevin": "This is Kevin. The English language holds no secret for him. He excels at writing, teaching and adapting to new requirements. He's also a DJ and a bass player.",
+    "anne": "This is Anne. She kick-started this network and is on the ground for events and management in general. She does the media stuff, built this page and digs the Web3 space."
   },
   "writing": {
     "pro":"Our team has been trained in writing professional documents in English for more than a decade now.",
@@ -23,8 +23,8 @@
   "events":{
     "MC":"Master of Ceremonies",
     "mc": "We provide an experienced Master of Ceremonies to keep your audience entertained and engaged.",
-    "Musicians":"Musicians",
-    "musicians":"Solo musicians, full bands, let us know your style, we have your back.",
+    "Musicians":"Recording Space",
+    "musicians":"Looking for a quiet space to record your music? Come to us, we got you covered.",
     "DJ": "DJs",
     "dj":"Open format, House, Techno, whatever you're into, we will keep you dancing!",
     "Rentals": "Music equipment rentals",
@@ -49,6 +49,17 @@
     "autism":"Jim used to run an center for autistic kids and has helped a tremendous number of families deal better with the difficulties of raising a kid with autism. If you find yourself in this case, get in touch with us.",
     "MMA": "MMA Coach",
     "mma":"On top of hitting drums, Jim used to fight for a living, and has coached a lot of fighters, some of them went into the UFC. He uses the logical geometry of our biological bodies to enhance and twist martial art technics, making fighters stronger, faster and more explosive. If you are looking to polish your existing martial art skills, Jim is your man. ",
+    "contact":"Contact us today"
+  },
+  "main": {
+    "Copywriting":"Writing, Editing, Copywriting",
+    "copywriting":"Redaction of articles, whitepapers, reports, website edition, in English and French",
+    "Equipment":"Music Equipment",
+    "equipment":"Rental of music equipment for concerts, as well a recording space",
+    "Edition":"Sound, video and picture edition",
+    "edition":"Content creation, curation and edition - podcasts, videos, shorts and clips creation",
+    "More":"...and a few other things",
+    "more":"We have also gathered other skills that we have been/are occasionally paid for. Check them out! ",
     "contact":"Contact us today"
   },
   "anne":{
